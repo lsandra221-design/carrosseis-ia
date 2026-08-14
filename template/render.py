@@ -21,7 +21,11 @@ def main():
 
     pngs = []
     with sync_playwright() as p:
-        browser = p.chromium.launch()
+        launch_kwargs = {}
+        preinstalled = "/opt/pw-browsers/chromium"
+        if os.path.exists(preinstalled):
+            launch_kwargs["executable_path"] = preinstalled
+        browser = p.chromium.launch(**launch_kwargs)
         page = browser.new_page(viewport={"width": 1080, "height": 1080}, device_scale_factor=2)
         page.goto("file:///" + html.replace("\\", "/"))
         page.wait_for_timeout(500)
