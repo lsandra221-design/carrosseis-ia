@@ -1,0 +1,1748 @@
+Marco referencial de
+
+competências em IA
+
+para professores
+
+Agenda UNESCO – líder mundial em educação
+
+Global de Educação 2030 A educação é a principal prioridade da UNESCO,
+
+A UNESCO, no papel de agência especializada das Nações porque é um direito humano básico e o pilar para a
+
+Unidas para a educação, está encarregada de liderar e paz e desenvolvimento sustentável. A UNESCO é a
+
+coordenar a Agenda 2030 para a Educação, a qual faz parte agência especializada das Nações Unidas para a
+
+de um movimento global para erradicar a pobreza por meio educação e fornece liderança mundial e regional
+
+de 17 Objetivos de Desenvolvimento Sustentável (ODS) até para impulsionar o progresso, fortalecendo a
+
+2030\. A educação, essencial para o cumprimento de todos resiliência e a capacidade dos sistemas nacionais
+
+esses objetivos, tem seu próprio ODS, o de número 4, que de atender a todos os estudantes. A UNESCO
+
+visa a “assegurar a educação inclusiva, equitativa e de enfrenta os desafios globais contemporâneos por
+
+qualidade, e promover oportunidades de aprendizagem ao meio da aprendizagem transformadora, com foco
+
+longo da vida para todas e todos”. O Marco de Ação da especial na igualdade de gênero e na África, em
+
+Educação 2030 fornece orientações para a implementação todas as ações.
+
+desses ambiciosos objetivos e compromissos.
+
+Publicado em 2025 pela Organização das Nações Unidas para a Educação, a Ciência e a Cultura, 7, place de Fontenoy, 75007 Paris 07 SP, França, e pela Representação da UNESCO no Brasil, SAUS Qd. 5 – Bloco H – Lote 6, Ed. CNPq/IBICT/UNESCO – 9º andar, Brasília – DF – 70070-912, Brasil.
+
+© UNESCO 2025 ISBN 978-65-86603-49-1
+
+Esta publicação está disponível em acesso livre ao abrigo da licença Attribution-ShareAlike 3.0 IGO (CC-BY-SA 3.0 IGO) (https://creativecommons.org/licenses/by-sa/3.0/igo/deed.pt). Ao utilizar o conteúdo da presente publicação, os usuários aceitam os termos de uso do Repositório UNESCO de acesso livre (https://www.unesco.org/pt/open-access/cc-sa).
+
+Esta licença aplica-se exclusivamente aos textos. Para uso de imagens, é necessário pedir permissão prévia. As publicações da UNESCO são de livre acesso e todas são disponibilizadas online, sem custos, pelo repositório de documentos da UNESCO. As imagens marcadas com um asterisco (\*) não se enquadram na licença CC-BY-SA e não podem ser usadas ou reproduzidas sem a permissão prévia dos detentores dos direitos autorais.
+
+Título original: AI competency framework for teachers Publicado em 2024 pela Organização das Nações Unidas para a Educação, a Ciência e a Cultura (UNESCO).
+
+As indicações de nomes e a apresentação do material ao longo desta publicação não implicam a manifestação de qualquer opinião por parte da UNESCO a respeito da condição jurídica, nome ou soberania de qualquer país, território, cidade, região ou de suas autoridades, tampouco da delimitação de suas fronteiras ou limites.
+
+As ideias e as opiniões expressas nesta publicação são as dos autores e não refletem obrigatoriamente as da UNESCO nem comprometem a Organização.
+
+Créditos da versão original:
+
+Créditos da capa: scart/Shutterstock.com\*
+
+Créditos da versão em português:
+
+Coordenação técnica da Representação da UNESCO no Brasil: Marlova Jovchelovitch Noleto, Diretora e Representante Maria Rebeca Otero Gomes, Coordenadora do Setor de Educação Maria Rehder, Oficial de Projeto
+
+Tradução: Central de Traduções & Global Languages Revisão técnica: Daniela Costa, Leonardo Melo Lins, Lúcia de Toledo F. Bueno e Luiza Carvalho, do Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação (Cetic.br); e Setor de Educação da Representação da UNESCO no Brasil Revisão gramatical e ortográfica: Gustavo Scheffer Revisão editorial e diagramação: Unidade de Publicações da Representação da UNESCO no Brasil
+
+Publicado pela UNESCO
+
+B R E V E R E S U M O
+
+Orientar os professores sobre o uso adequado e o uso indevido de IA na educação
+
+A IA processa informações abrangentes, gera novos conteúdos e ajuda na tomada de decisões por meio de análises preditivas. Na educação, a IA transformou a relação tradicional entre professor e estudante em uma dinâmica entre professor, a IA e o estudante.
+
+Essa mudança requer um reexame das funções dos professores e das competências de que precisam na era da IA. No entanto, poucos países definiram essas competências ou desenvolveram programas nacionais para formar professores em IA, deixando muitos educadores sem orientação adequada.
+
+O “Marco referencial de competências em IA para professores” aborda essa lacuna definindo os conhecimentos, as habilidades e os valores que os
+
+referenciais desenvolvido países apenas professores. Até 2022, tinham de sete marcos IA para professores devem dominar na era da IA. Desenvolvida com princípios de proteção dos direitos dos professores, aprimoramento da autonomia humana e promoção da sustentabilidade, a publicação descreve 15 competências em cinco dimensões: “mentalidade centrada no ser humano”, “ética da IA”, “fundamentos e aplicações de IA”, “pedagogia de IA” e “IA para o desenvolvimento profissional”. Essas competências são categorizadas em três níveis de progressão: Adquirir, Aprofundar e Criar.
+
+Como uma referência mundial, este recurso orienta o desenvolvimento de marcos referenciais nacionais de competências em IA, informa programas de formação de professores e ajuda a idealizar parâmetros de avaliação. Também fornece estratégias para que os professores construam conhecimento sobre IA, apliquem princípios éticos e apoiem seu crescimento profissional.
+
+“Uma vez que as guerras se iniciam nas mentes de homens e mulheres, é nas mentes dos homens e das mulheres que devem ser construídas as defesas da paz”.
+
+Esclarecimento: Para facilitar a leitura e devido à especificidade da língua portuguesa, adotam-se nesta publicação os termos no masculino. Assim, embora alguns termos sejam escritos no masculino, eles referem-se igualmente ao feminino. É importante destacar que a UNESCO mantém entre suas prioridades a promoção de uma linguagem livre de viés sexista em todas as suas atividades e ações.
+
+Marco referencial de
+
+competências em IA
+
+para professores
+
+Agradecimentos
+
+Sob a liderança de Stefania Giannini, diretora-geral adjunta de Educação, e a orientação de Sobhi Tawil, diretor da Divisão de Futuro da Aprendizagem e Inovação da UNESCO, a elaboração da publicação foi liderada por Fengchun Miao, chefe da Unidade de Tecnologia e IA na Educação.
+
+O marco referencial foi elaborado por Fengchun Miao, chefe da Unidade de Tecnologia e IA em Educação da UNESCO, e Mutlu Cukurova, professor de Aprendizagem e Inteligência Artificial da University College London. O desenvolvimento do marco foi apoiado por um grupo de especialistas internacionais que incluiu: Shafika Isaacs, pesquisadora associada da Universidade de Joanesburgo; Colin de la Higuera, coordenador da Cátedra UNESCO em Tecnologias para a Formação de Professores com Recursos Educacionais Abertos na Universidade de Nantes; Lidija Kralj, analista de Educação na EduConLK; Qin Ni, professor associado da Universidade de Estudos Internacionais de Xangai; Ki-Sang Song, professor da Universidade Nacional de Educação da Coreia; e Ilkka Tuomi, cientista chefe da Mean Processing Ltd.
+
+Agradecemos aos seguintes especialistas pela revisão por pares do manuscrito: Kaushal Kumar Bhagat, professor assistente do Instituto Indiano de Tecnologia de Kharagpur; Daniela Costa, coordenadora de projetos do Cetic.br; Ke Gong, presidente da Federação Mundial de Organizações de Engenharia (WFEO); Ana Laura Martinez, líder da área de Cooperação Técnica do Cetic.br; Sara Ratner, diretora de pesquisa da Universidade de Oxford; John Shaw-Taylor, presidente da UNESCO em IA e professor de Estatística Computacional e Aprendizado de Máquina da University College London; e Antonia Wulff, coordenadora da Unidade de Educação e Emprego da Education International.
+
+Agradecemos também aos seguintes colegas da UNESCO por contribuírem para o processo de revisão: Andrea Detmer, consultora do Escritório Executivo do Setor de Cultura; Temechegn Engida, diretora oficial nacional do Instituto Internacional da UNESCO para Capacitação na África; Amal Kasry, chefe da Seção de Ciências Básicas, Pesquisa, Inovação e Engenharia; Karalyn Monteil, chefe da Unidade de Programas e Relacionamento com Partes Interessadas no Setor de Cultura; Saurabh Roy, oficial sênior de Projetos da Seção de Desenvolvimento de Professores, Divisão de Políticas e Sistemas de Aprendizagem ao Longo da Vida; Arianna Valentini, consultora do Instituto Internacional de Ensino Superior na América Latina e no Caribe; Benjamin Vergel De Dios, consultor em TIC na Educação, Seção de Inovação Educacional e Desenvolvimento de Competências no Escritório da UNESCO em Bangkok; Soichiro Yasukawa, chefe da Unidade de Redução de Risco de Desastres no Setor de Ciências Naturais; Martiale Kana Zebaze, especialista sênior do Programa de Ciência, Tecnologia e Inovação no Escritório da UNESCO em Harare; bem como Jaco Du Toit, chefe, e Zeynep Varoglu, especialista do Programa, na Seção de Acesso Universal à Informação e Inclusão Digital no Setor de Comunicação e Informação.
+
+Agradecimentos especiais a Luisa Ferrara, na Unidade de Tecnologia e IA na Educação dentro da Divisão de Futuro da Aprendizagem e Inovação, pela gestão de contribuições de especialistas, bem como pela coordenação da redação e da revisão do manuscrito. Fideliz Apilado, Laicia Gagnier, Samuel Grimonprez, Glen Hertelendy, Michela Pagano e Xianglei Zheng, da mesma unidade, também apoiaram a produção desta publicação.
+
+A gratidão também é estendida a Jenny Webster, pela edição e revisão do texto.
+
+Por fim, a UNESCO gostaria de agradecer ao Tomorrow Advancing Life (TAL) Education Group, da China, por apoiar generosamente este projeto de publicação e, de forma mais ampla, por promover o potencial da inteligência artificial para o futuro da educação.
+
+Lista de tabelas
+
+Tabela 1. Estrutura de alto nível do marco referencial de competências em IA: aspectos e níveis de progressão .......................................................23
+
+Tabela 2. Blocos de competências, objetivos e exemplos para o nível de progressão 1. Adquirir................................................................30
+
+Tabela 3. Blocos de competências, objetivos e exemplos para o nível de progressão 2. Aprofundar ..........................................................36
+
+Tabela 4. Blocos de competências, objetivos e exemplos para o nível de progressão 3. Criar......................................................................43
+
+Tabela 5. Um exemplo de design de ferramentas de avaliação com base no MRCP-IA..............57
+
+Lista de quadros
+
+Quadro 1. Regulamentos sobre IA: elementos-chave de responsabilidades para várias partes interessadas........................................................51
+
+Quadro 2. Estratégia Nacional para Inteligência Artificial da Coreia do Sul .......................53
+
+Quadro 3. Exemplos de marcos referenciais não governamentais de competências em IA para professores ................................................55
+
+Quadro 4. Exemplos de programas de formação e apoio em IA para professores .............56
+
+Lista de siglas e abreviações
+
+IA Inteligência artificial / Artificial Intelligence
+
+AI4K12 Inteligência artificial para a educação básica
+
+Artificial Intelligence for Kindergarten through 12th grade
+
+AI4T IA para professores / Artificial Intelligence for Teachers
+
+CFT Marco referencial de competências para professores (MRCP)
+
+Competency Framework for Teachers
+
+EI Educação Internacional / International Education
+
+GDPR General Data Protection Regulation
+
+(Regulamento Geral de Proteção de Dados)
+
+ICT-CFT Marco referencial em TIC para professores
+
+ICT competency framework for teachers
+
+LMS Sistema de gestão de aprendizagem / Learning management system
+
+ME Ministério da Educação / Ministry of Education
+
+MOOC Curso online massivo e aberto / Massive open online course
+
+MRCP-IA Marco referencial de competências em IA para professores
+
+AI competency framework for teachers
+
+NETS Norma Nacional de Tecnologia Educacional
+
+National Educational Technology Standart
+
+OA Objetivo de aprendizagem / Learning objective
+
+OC Objetivo curricular / Curricular goal
+
+TIC Tecnologia da informação e comunicação
+
+Information and communication technology
+
+TI Tecnologia da informação / Information technology
+
+UE União Europeia / European Union
+
+UNESCO Organização das Nações Unidas para a Educação, a Ciência e a Cultura
+
+United Nations Educational, Scientific and Cultural Organization
+
+Marco referencial de competências em IA para professores – Sumário
+
+8Sumário Apresentação.......................................................................................................................11
+
+Capítulo 1. Introdução.........................................................................................................12 1.1 Por que um marco referencial de competências em IA?........................................................12 1.2 Objetivo e público-alvo ........................................................................................................13 1.3 Alinhamento com o marco referencial de competências em TIC para professores ................13 1.4 Avanços tecnológicos em IA e implicações para as competências do professor....................14
+
+Capítulo 2. Princípios-chave ................................................................................................16 2.1 Garantir futuros digitais inclusivos........................................................................................16 2.2 Uma abordagem centrada no ser humano para a IA.............................................................17
+
+2.3 Proteger os direitos dos professores e (re)definir iterativamente os seus papéis . . . . . . . . . . . . . . . . . . .18 2.4 Promover a IA confiável e ambientalmente sustentável para a educação .............................19 2.5 Garantir a aplicabilidade para todos os professores e refletir a evolução digital....................19 2.6 Aprendizagem profissional ao longo da vida para professores .............................................20
+
+Capítulo 3. Estrutura do “Marco referencial de competências em IA para professores” ...........22 3.1 Dimensões do MRCP-IA ........................................................................................................22 3.2 Aspectos do MRCP-IA ...........................................................................................................24 3.2.1 Aspecto 1. Mentalidade centrada no ser humano.........................................................24 3.2.2 Aspecto 2. Ética da IA ...................................................................................................24 3.2.3 Aspecto 3. Fundamentos e aplicações de IA ................................................................24 3.2.4 Aspecto 4. Pedagogia de IA .........................................................................................25 3.2.5 Aspecto 5. IA para o desenvolvimento profissional.......................................................25
+
+3.3 Níveis de progressão do MRCP-IA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .25 3.3.1 Nível de progressão 1. Adquirir.....................................................................................26 3.3.2 Nível de progressão 2. Aprofundar ...............................................................................27 3.3.3 Nível de progressão 3. Criar ..........................................................................................28
+
+Capítulo 4. As especificações do MRCP-IA..............................................................................30 Nível de progressão 1. Adquirir......................................................................................................30 Nível de progressão 2. Aprofundar ................................................................................................36 Nível de progressão 3. Criar ...........................................................................................................42
+
+Marco referencial de competências em IA para professores – Sumário Capítulo 5. Estratégias de implementação sugeridas.............................................................50 5.1 Regular a IA e garantir ferramentas de IA confiáveis para a educação...................................50 5.2 Construir políticas e condições facilitadoras para o uso de IA na educação ..........................52 5.3 Formular e adotar marcos referenciais locais de competência em IA para professores..........54 5.4 Desenvolver e otimizar programas de formação e apoio em competências em IA................55 5.5 Desenvolver ferramentas contextuais de avaliação de desempenho....................................56 5.6 Conclusão.............................................................................................................................58
+
+Referências ..........................................................................................................................59
+
+9
+
+Apresentação
+
+A rápida ascensão dos sistemas de inteligência artificial (IA) está gerando profundas implicações para o ensino e a aprendizagem, particularmente no que diz respeito ao papel dos professores e às competências necessárias para navegar no cenário tecnológico em constante evolução. O uso de IA na educação está levantando questões fundamentais sobre a autonomia do professor e sua capacidade de determinar como e quando fazer uso criterioso dessa tecnologia.
+
+Os professores precisam urgentemente ser capacitados para entender melhor as dimensões técnicas, éticas e pedagógicas da IA. Até 2022, no entanto, apenas sete países haviam desenvolvido um marco referencial de IA ou um programa de desenvolvimento profissional para professores.
+
+Este novo e vital marco referencial de competências em IA da UNESCO para professores permite que os países preencham essa lacuna. A primeira referência mundial desse tipo foi projetada para informar o desenvolvimento de diretrizes nacionais de competências em IA e programas de formação profissional para professores, garantindo que eles promovam a educação como um bem público.
+
+O marco referencial se alinha à missão da UNESCO, defendendo uma abordagem centrada no ser humano, integrando as competências em IA para professores com princípios vinculados aos direitos humanos e à responsabilidade humana. Dessa forma, o referencial responde ao apelo urgente do relatório da UNESCO de 2021, “Reimaginar nossos futuros juntos: um novo contrato social para a educação”, para ajudar a transformar a relação da humanidade com a tecnologia.
+
+A publicação se baseia em outros trabalhos da UNESCO na área, como “Marco referencial de competências em IA para estudantes”, “AI and education: guidance for policy-makers” e a publicação mais recente, “Guia para a IA generativa na educação e na pesquisa”. O texto reflete as contribuições de uma ampla gama de partes interessadas, com base nas percepções dos Estados-membros da UNESCO sobre o desenvolvimento e a implementação de currículos escolares de IA, na experiência de um grupo de trabalho internacional, em quatro encontros internacionais de consulta e várias rodadas de consultas online.
+
+O “Marco referencial de competências em IA para professores” foi desenvolvido de mãos dadas com um marco referencial de competências para estudantes. Espero que essas duas referências capacitem professores e estudantes a moldar o futuro digital inclusivo e sustentável que queremos.
+
+Em um mundo caracterizado pela crescente complexidade e incerteza, é responsabilidade coletiva garantir que a educação continue sendo o espaço central para a transformação de nossos futuros compartilhados.
+
+Stefania Giannini Diretora-geral adjunta da UNESCO para a Educação
+
+© UNESCO
+
+Marco referencial de competências em IA para professores – Apresentação 11
+
+Marco referencial de competências em IA para professores – Capítulo 1. Introdução
+
+Capítulo 1. Introdução
+
+1.1 Por que um marco referencial de competências em IA?
+
+Existem implicações significativas da inteligência artificial (IA) para a educação, o ensino e a aprendizagem, bem como para os papéis e as competências dos professores. De fato, a IA pode processar grandes quantidades de informações e textos muito além de qualquer capacidade humana, também produzir novos conteúdos em toda a gama de representações simbólicas do pensamento humano, identificar padrões em dados apresentados em vários formatos e facilitar a tomada de decisões humanas por meio de análises preditivas. As práticas emergentes no uso de IA na educação demonstram claramente o seu potencial para permitir novas formas de ensino, aprendizagem e gestão da educação, bem como melhorar as experiências de aprendizagem e apoiar as tarefas dos professores.
+
+No entanto, a IA pode representar riscos significativos para os estudantes, a comunidade docente, os sistemas educacionais e a sociedade em geral. A IA pode ameaçar a autonomia humana, intensificar a mudança climática, violar a privacidade dos dados, aprofundar desigualdades e exclusões sistêmicas de longa data e, ainda, levar a novas formas de discriminação. Na educação, a IA pode reduzir os processos de ensino e aprendizagem a cálculos e tarefas automatizadas, por meios que desvalorizam o papel e a influência dos professores e que enfraquecem suas relações com os estudantes. Ela pode restringir a educação apenas àquilo que a IA pode processar, modelar e entregar. Por fim, também pode agravar a escassez mundial de professores qualificados 12por meio de gastos desproporcionais em tecnologia em detrimento do investimento no desenvolvimento da capacidade humana.
+
+O uso de IA na educação, portanto, requer uma consideração cuidadosa, incluindo uma análise dos papéis em evolução que os professores precisam desempenhar e das competências exigidas para fazer uso ético e eficaz de IA. Os professores são os principais usuários de IA na educação e espera-se que sejam os projetistas e facilitadores da aprendizagem dos estudantes por meio da IA, os guardiões da prática segura e ética em ambientes educacionais mediados pela IA e que atuem como modelos para a aprendizagem ao longo da vida sobre IA. Para assumir essas responsabilidades, os professores precisam ser apoiados, a fim de desenvolver suas capacidades em alavancar os benefícios potenciais da IA, ao mesmo tempo em que mitigam riscos relacionados a esses recursos em ambientes educacionais e na sociedade em geral.
+
+As autoridades educacionais nacionais precisam rever e redefinir dinamicamente os papéis dos professores e as competências necessárias, fortalecer as instituições de formação e estabelecer programas adequados de desenvolvimento profissional para prepará- los para trabalhar com IA de maneira eficaz e ética. No entanto, de acordo com uma pesquisa recente (UNESCO, 2023b), apenas sete países havia desenvolvido diretrizes ou programas de IA para professores em 2022. Isso pode ser explicado, em grande parte, pela falta de conhecimento sobre como definir os papéis e as competências dos professores no contexto das crescentes interações humano-IA nas práticas educacionais e pedagógicas.
+
+Marco referencial de competências em IA para professores – Capítulo 1. IntroduçãoEste marco referencial (MRCP-IA) destina-se a abordagem centrada no ser humano na adoção apoiar o desenvolvimento de competências
+
+de IA na educação. Os objetivos específicos em IA entre os professores para fortalecer
+
+do MRCP-IA são oferecer uma referência que suas capacidades no uso dessas ferramentas
+
+ajude a moldar marcos de competências em IA tecnológicas em práticas de ensino, de maneira
+
+nos níveis nacional, estadual e institucional, ou segura, eficaz e ética. O marco se baseia em
+
+em programas de formação para professores; uma abordagem centrada no ser humano,
+
+fornecer uma estrutura operacional aos em prol do conhecimento, do discernimento
+
+profissionais que atuam na formação de e das habilidades necessárias para um uso
+
+professores para a idealização (design) e o efetivo. Este texto sustenta que, embora a
+
+planejamento de cursos sobre IA; bem como IA ofereça oportunidades para apoiar os
+
+estabelecer uma matriz de monitoramento professores tanto no ensino quanto na gestão
+
+para a avaliação das competências em IA dos dos processos de aprendizagem, as interações
+
+professores e da aprendizagem profissional significativas entre professores e estudantes
+
+em relação ao uso de IA. Como tal, o marco e a prosperidade humana (human flourishing)
+
+é projetado para formuladores de políticas, devem permanecer no centro da experiência
+
+fornecedores de formação para professores, educacional. Os professores não devem e não
+
+sindicatos, líderes escolares, professores e podem ser substituídos pela tecnologia – é
+
+especialistas em educação. fundamental salvaguardar os direitos dos professores e garantir condições de trabalho adequadas para eles no contexto do crescente uso de IA no sistema educacional, no local de trabalho e na sociedade em geral.
+
+13 1.3 Alinhamento com o marco referencial de competências de TIC para professores
+
+O MRCP-IA está alinhado e complementa o 1.2 Objetivo e público-alvo
+
+“UNESCO ICT competency framework for teachers” (ICT CFT) (UNESCO, 2018), que O MRCP-IA tem como público-alvo os
+
+continua a ser relevante para apoiar os professores que precisam aplicar a IA para
+
+professores a aumentar suas capacidades de facilitar a aprendizagem nas principais
+
+ensino e aprendizagem profissional com as áreas temáticas. Ele não foi projetado para
+
+tecnologias de informação e comunicação (TIC) professores especializados e encarregados
+
+e as tecnologias digitais. de ensinar conhecimentos e habilidades avançadas de IA. Embora os cinco aspectos e os três níveis de domínio do MRCP-IA apresentados a seguir possam fornecer uma base para definir as competências dos professores de IA, sua profundidade e sua amplitude precisam ser refinadas de acordo com as demandas de nível superior exigidas no ensino de IA como uma disciplina específica.
+
+A estrutura do MRCP-IA, conforme apresentado no Capítulo 3, segue a estrutura do ICT CFT. Ambos os referenciais são sustentados por uma visão que objetiva empoderar os professores com as competências necessárias para aproveitar adequadamente a tecnologia na educação. Os dois marcos referenciais compartilham uma arquitetura comum, com uma abordagem abrangente para o O MRCP-IA foi projetado para orientar a
+
+desenvolvimento profissional dos professores aprendizagem e o desenvolvimento profissional
+
+nas etapas de formação inicial e continuada proativo contínuo dos professores para uma
+
+de professores, garantindo assim a progressão
+
+Marco referencial de competências em IA para professores – Capítulo 1. Introdução
+
+contínua e a integração prática das ferramentas de TIC e IA. Ao espelhar a abordagem integral do ICT CFT em sua organização, o MRCP-IA também sugere os ambientes tecnológicos e políticos facilitadores necessários para um apoio eficaz à aprendizagem profissional contínua dos professores. Esses ambientes facilitadores incluem acesso inclusivo à conectividade e ao conteúdo, políticas centradas no ser humano, currículo e sistemas de avaliação pertinentes, apoio intersetorial aos professores e envolvimento com as comunidades de ensino.
+
+1.4 Avanços tecnológicos em
+
+IA e implicações para as competências do professor
+
+O MRCP-IA está alinhado com o ICT CFT, mas o supera ao considerar, para as competências dos professores, as implicações dos avanços tecnológicos que ocorreram desde que as gerações anteriores de ferramentas de TIC foram adotadas pelas tecnologias de IA.
+
+Na sua forma mais básica, o que torna a IA distinta de outras tecnologias digitais é a sua capacidade de imitar o comportamento humano. Essa característica única desafia a autonomia humana. De fato, enquanto as gerações anteriores de ferramentas de TIC se concentravam mais em facilitar tarefas rotineiras, as ferramentas de IA tendem a substituir a tomada de decisões humanas, com base em previsões de padrões extraídos da análise de dados extensivos de exemplos passados. Consequentemente, existe o risco de que a dependência excessiva de IA possa levar à atrofia das competências essenciais dos professores. Esse potencial da IA para usurpar a capacidade autônoma de tomada de decisão dos docentes exige uma ênfase mais forte na autonomia do professor e em uma mentalidade centrada no ser humano que 14possa ajudar a garantir que o uso de IA sirva ao desenvolvimento da capacidade humana.
+
+A mineração de dados para treinamento de sistemas de IA ameaça a privacidade dos dados pessoais. As gerações anteriores de ferramentas de TIC foram projetadas para transferir ou compartilhar informações e tendem a permanecer responsivas à operação manual das ferramentas pelos usuários. Em contraste, a mineração de dados que atua por trás do design de plataformas de IA envolve ativamente a exploração de dados pessoais, muitas vezes sem consentimento. Além disso, a regra comercial tácita por trás dos provedores de sistemas de IA induz os usuários a renunciar a um certo grau de privacidade ao se registrarem para usufruírem dos “benefícios” dos serviços de IA. Embora as gerações anteriores de ferramentas de TIC tenham levantado algumas preocupações éticas em torno da privacidade e da segurança, a abordagem agressiva do design e da prestação de serviços de IA desencadeou riscos mais profundos e pode aprofundar as desigualdades sociais. Esse avanço tecnológico mais fundamental e controverso aumenta a urgência de desenvolver capacidades entre os professores para compreender as questões éticas relacionadas à interação com várias ferramentas de IA em sua prática pedagógica, a fim de garantir o uso seguro e responsável entre os estudantes.
+
+Em seus métodos atuais de geração de resultados, é mais provável que o conteúdo originado por IA seja estocástico. As gerações anteriores de ferramentas de TIC tendiam a ser deterministas, com as mesmas entradas sempre levando aos mesmos resultados. As ferramentas recentes de IA, por outro lado, têm maior probabilidade de serem estocásticas na geração de resultados ou previsões, pois as mesmas entradas podem levar a resultados diferentes. O conteúdo gerado pela IA é, portanto, potencialmente menos confiável,
+
+Marco referencial de competências em IA para professores – Capítulo 1. Introduçãoespecialmente para o ensino de conhecimento setores. A IA generativa, em particular, fornece factual e conceitual. Dada a opacidade da “caixa
+
+modelos de base que podem apoiar o avanço preta” por trás dos métodos utilizados na IA,
+
+do treinamento de modelos de IA de domínio os professores precisam entender como a IA
+
+específico (domain-specific models) e a é treinada e como ela funciona. Eles também
+
+customização de ferramentas personalizadas. precisam da capacidade de examinar com
+
+Como resultado de sua adaptabilidade mais pensamento crítico a precisão dos resultados
+
+dinâmica, a tecnologia de IA tem o potencial de IA e desenvolver metodologias pedagógicas
+
+de alterar modelos de negócios, bem como apropriadas para orientar o uso de conteúdo
+
+práticas sociais e pessoais. Tendo em vista os sintetizado por IA no ensino e na aprendizagem.
+
+potenciais transformadores da IA, é importante
+
+Os sistemas de IA são adaptáveis a diversos espaços problemáticos. Como resultado, eles oferecem modelos de base (foundation models) de uso geral que têm o potencial de impulsionar a transformação em vários
+
+15 orientar os professores a entender seu impacto social e as responsabilidades da cidadania nas sociedades emergentes de IA, além de motivá- los e apoiá-los por meio da aprendizagem profissional contínua.
+
+Marco referencial de competências em IA para professores – Capítulo 2. Princípios-chave
+
+Capítulo 2. Princípios-chave
+
+2.1 Garantir futuros
+
+digitais inclusivos
+
+A garantia de futuros digitais equitativos e inclusivos na era da IA deve estar fundamentada em uma sólida base humana e social. Os professores são os principais utilizadores de IA na educação e os principais mediadores para garantir a redefinição e o equilíbrio adequados na evolução gradual da relação entre humanos e tecnologia, em geral, e entre conhecimento e aprendizagem, em particular. O MRCP-IA, portanto, visa ajudar os professores a decifrar os valores e as atitudes fundamentais das múltiplas camadas e múltiplas perspectivas em relação à interação humano-IA, começando com quatro princípios principais:
+
+∎ Desmistificar a IA (Debunking IA
+
+hype).1 O design e o uso de IA são conduzidos por humanos. Aqueles que criam sistemas e ferramentas de IA podem determinar se – e em que medida – serão dotados de potenciais emancipatórios para proteger e melhorar as capacidades humanas ou, pelo contrário, se serão incorporados com objetivos maliciosos e/ou preconceitos não intencionais que violam os direitos humanos e minam a autonomia e a capacidade humanas. Os professores precisam ter a capacidade crítica de avaliar os potenciais impactos positivos e negativos da IA. Eles precisam estar cientes de que apenas o design intencionalmente ético (“ética desde o design”) e a implementação bem regulamentada
+
+1 NT: Debunking AI Hype significa desconstruir os discursos exagerados em torno da suposta capacidade da inteli-
+
+gência artificial, ou desmistificar a IA. 16de IA podem realmente promover as capacidades humanas, a inclusão e a sustentabilidade.
+
+∎ Entender as ameaças inerentes ao
+
+design da IA. Os atuais caminhos e modelos algorítmicos de IA apresentam desafios agudos aos direitos humanos e à privacidade. Além disso, o conteúdo gerado por IA vem minando o conhecimento, as culturas e as línguas indígenas. Os professores precisam entender como os sistemas de IA são projetados e como os modelos de IA funcionam, a fim de serem capazes de proteger a autonomia humana, a diversidade linguística e cultural e o conhecimento indígena.
+
+∎ Garantir que os valores humanos e
+
+sociais prevaleçam. Os algoritmos orientados para o lucro também enfraquecem os valores sociais e a coesão, promovendo o isolamento dos indivíduos do mundo real e dos outros. Valores de empatia, altruísmo, justiça, compaixão intercultural e solidariedade são essenciais para a coesão social e para defender a nossa humanidade comum. IA e outras tecnologias digitais não devem desencorajar as pessoas a manter contato com os outros e com o mundo real, bem como devem respeitar os direitos a formas de viver e conhecer além dos espaços digitais.
+
+Marco referencial de competências em IA para professores – Capítulo 2. Princípios-chave ∎ Direcionar a IA para o
+
+por humanos e a eles deve ser atribuída a desenvolvimento da capacidade
+
+responsabilidade por tais atividades. humana. O uso de IA na educação sem a devida orientação pedagógica pode fragilizar o desenvolvimento intelectual dos estudantes. O objetivo de usar IA na educação deve ir além de apenas fornecer acesso à informação e respostas padronizadas, caminhando em direção ao enriquecimento da investigação, do desenvolvimento intelectual e da capacitação.
+
+17 A implementação de uma abordagem centrada no ser humano exige que reguladores, fornecedores de IA e instituições sejam corresponsáveis pela governança antes de exigir que os professores apliquem os princípios pertinentes à sua profissão. Nesse contexto, enfatizando as mentalidades dos professores e a ética de IA, o MRCP-IA amplia esses princípios por meio dos aspectos descritos a seguir:
+
+∎ Promover o uso de IA pelos
+
+2.2 Uma abordagem centrada no ser humano para a IA
+
+professores com responsabilidade humana. As responsabilidades éticas e legais para desenvolver e
+
+É fundamental, para a IA na educação, uma abordagem centrada no ser humano, a qual promove princípios éticos e práticos fundamentais para ajudar a regular e orientar as práticas de todas as partes interessadas ao longo de todo o ciclo de vida dos sistemas de IA. Esses princípios centrados no ser humano em relação ao uso de IA na educação foram articulados iterativamente por meio da Recomendação sobre a Ética da Inteligência Artificial (UNESCO, 2022b), bem como por várias ferramentas de orientação de políticas, incluindo o “Consenso de Beijing sobre a inteligência artificial e a educação” (UNESCO, 2019) e os documentos “AI and education: guidance for policy-makers” (UNESCO, 2022a) e “Guia para a IA generativa na educação e na pesquisa” (UNESCO, 2023a). A abordagem abrange quatro princípios fundamentais: o desenvolvimento e o uso de
+
+usar a IA devem ser atribuídas aos indivíduos. No contexto específico das competências em IA para professores, esse princípio de responsabilidade humana implica que as ferramentas de IA não devem substituir a responsabilidade legítima dos professores na educação. Os professores devem permanecer responsáveis pelas decisões pedagógicas no uso de IA no ensino e na facilitação de seus usos pelos estudantes. Para que os professores sejam responsáveis no nível prático, uma pré-condição é que os formuladores de políticas públicas, as instituições de formação de professores e as escolas assumam a responsabilidade de preparar e apoiar os professores no uso adequado da IA.
+
+IA devem estar a serviço do fortalecimento
+
+∎ Promover a inclusão. A exclusão das capacidades humanas, bem como do
+
+estrutural e a discriminação são desenvolvimento sustentável; o acesso e a
+
+frequentemente incorporadas ao implementação da IA devem ser equitativos
+
+design e ao uso de IA. Os professores e inclusivos; os modelos de IA em uso devem
+
+devem estar atentos a possíveis vieses ser explicáveis, seguros e não causar danos; e,
+
+algorítmicos. No âmbito das suas finalmente, a seleção, o uso e o monitoramento
+
+funções, os professores precisam do impacto da IA devem ser controlados
+
+garantir que a IA seja usada de forma
+
+Marco referencial de competências em IA para professores – Capítulo 2. Princípios-chave
+
+18
+
+inclusiva por e para todos os estudantes,
+
+2.3 Proteger os direitos dos independentemente de gênero, etnia, professores e (re)definir capacidades, nível socioeconômico
+
+iterativamente os seus papéis ou status migratório. Os professores também devem ser apoiados para
+
+Para defender os valores sociais e a promover a inclusão social e o
+
+responsabilidade na era da IA, também é pluralismo cultural ao explorar a IA.
+
+essencial reconhecer a indispensabilidade da interação e da colaboração entre professores e ∎ Reconhecer o direito dos usuários
+
+estudantes como sendo o cerne da educação. As de questionar a explicabilidade das
+
+ferramentas de IA nunca devem ser projetadas ferramentas de IA. Os modelos de
+
+para substituir a responsabilidade legítima dos IA usados para gerar respostas que
+
+professores na educação. Ao introduzir a IA na parecem confiáveis ou convincentes
+
+educação, devem ser estabelecidas proteções podem não ser explicáveis e podem estar
+
+legais para proteger os direitos dos professores, repletos de riscos ocultos. O MRCP-IA
+
+e compromissos financeiros de longo prazo equipa os professores com competências
+
+precisam ser feitos – como recursos vitais e conhecimentos adequados ao escopo
+
+para a adaptação à era da IA –, para garantir o das suas responsabilidades pedagógicas,
+
+acesso inclusivo dos professores a ambientes para compreender e avaliar de forma
+
+tecnológicos e ferramentas básicas de IA. crítica as ferramentas de IA, incluindo a sua explicabilidade e segurança. Isso pode possibilitar que os professores compreendam como a IA chega a determinadas conclusões, possibilitando avaliar seu uso com pensamento crítico e intervir quando necessário.
+
+Dado o potencial que a IA tem para transformar o ensino e a aprendizagem, os formuladores de políticas devem revisar urgentemente e (re) definir iterativamente os papéis dos professores e as competências necessárias. São necessários programas adequados de formação para preparar os professores para atuar em ambientes cada vez ∎ Compreender e monitorar o impacto
+
+mais ricos em IA. Com as capacidades emergentes controlado por humanos da IA. Os
+
+das ferramentas de IA para auxiliar os ciclos de professores precisam estar cientes de
+
+decisão e geração de conteúdo, a interação que a IA é liderada por humanos e que
+
+entre professores e estudantes está se tornando as decisões dos designers têm impactos
+
+triangular, já que os sistemas de IA estão, cada nos direitos humanos, na dignidade e no
+
+vez mais, mediando a preparação, o ensino, a bem-estar social e ambiental. O MRCP-IA
+
+aprendizagem e a avaliação. Os professores, destina-se a desenvolver o conhecimento
+
+portanto, precisam ser apoiados para atuar como dos professores sobre a intenção de
+
+produtores colaborativos de conhecimento e design por trás das ferramentas de
+
+como guias para a cidadania na era da IA. Para IA e promover a sua capacidade de
+
+ajudar os professores a explorar e assumir essas aproveitar os benefícios da IA enquanto
+
+novas funções, o MRCP-IA foi projetado para controlam, no âmbito de sua função,
+
+alimentar a consciência centrada no ser humano os possíveis impactos adversos das
+
+sobre os impactos sociais da IA, bem como sua aplicações de IA na aprendizagem e no
+
+capacidade de se adaptar e acomodar a natureza bem-estar dos estudantes.
+
+evolutiva da IA na educação.
+
+Marco referencial de competências em IA para professores – Capítulo 2. Princípios-chave 2.4 Promover a IA confiável e
+
+∎ Validação da IA confiável para fins ambientalmente sustentável educacionais. Um mecanismo de para a educação
+
+validação rigoroso também deve ser projetado para validar sistemas de IA que É imperativo validar a segurança e a
+
+sejam inerentemente confiáveis e seguros confiabilidade dos sistemas de IA na educação
+
+para fins educacionais, inclusive para antes de responsabilizar os professores pelo
+
+estudantes com deficiência. Esses sistemas cumprimento dos princípios éticos. Um
+
+de IA devem estar livres de intenções princípio de “ética desde o design” deve ser
+
+maliciosas e/ou consequências prejudiciais, obrigatório, por meio da validação rigorosa
+
+devem ser robustos e resilientes à das ferramentas de IA nos níveis nacional e/
+
+manipulação e capazes de proteger ou institucional antes de serem adotadas
+
+a privacidade e os dados pessoais em ambientes educacionais. Essa validação
+
+sensíveis dos estudantes. A adequação prévia e a lista de ferramentas de IA confiáveis
+
+à idade e a utilidade pedagógica das aprovadas para educação podem liberar os
+
+ferramentas de IA também devem ser professores de serem responsabilizados pela
+
+examinadas e validadas antes de serem governança ética, para além de seu papel e/
+
+adotadas em escala. ou capacidades. Alinhado com os valores fundamentais anteriormente mencionados,
+
+∎ Design e desenvolvimento com
+
+o procedimento de validação deve anexar
+
+responsabilidade humana.
+
+prioridades aos seguintes princípios:
+
+as instituições de ensino e os
+
+∎ Obrigatoriedade do princípio de “não causar danos”. A validação deve tornar obrigatório o princípio de “não causar danos” e a exigência de que todas as
+
+fornecedores de tecnologia devem ser responsabilizados pela transparência e pela explicabilidade do desempenho, dos resultados e dos impactos da IA.
+
+ferramentas de IA usadas na educação tenham sido projetadas com uma
+
+2.5 Garantir a aplicabilidade para compreensão clara de seus impactos todos os professores e refletir potenciais nos direitos humanos, na
+
+a evolução digital dignidade, na segurança, no bem-estar social e na sustentabilidade ambiental.
+
+O acesso à IA e a alfabetização para o seu uso podem ser considerados parte dos direitos básicos ∎ Priorização de ferramentas de
+
+na era da IA, sendo que a competência em IA está IA ecologicamente corretas. O
+
+se tornando um dos pré-requisitos para a profissão princípio de “não causar danos” deve
+
+docente. O MRCP-IA é, portanto, projetado para ser enfatizar os custos ambientais da IA,
+
+inclusivo e universalmente aplicável para todos os particularmente a maneira como seu
+
+professores, em diversos contextos educacionais, ciclo de vida e cadeia de valor podem
+
+reconhecendo os diferentes níveis de experiência prejudicar o meio ambiente e agravar a
+
+digital que eles podem possuir. O marco crise climática. Essa compreensão das
+
+referencial descreve uma abordagem progressiva emissões de carbono da IA é essencial
+
+para o planejamento de programas de formação para os professores e é fundamental
+
+que podem ajudar todos os professores – para a conscientização de seus
+
+incluindo aqueles sem conhecimento prévio de estudantes sobre a mudança climática.
+
+19
+
+Marco referencial de competências em IA para professores – Capítulo 2. Princípios-chave
+
+20 IA – a gradualmente avançar dos níveis básicos
+
+2.6 Aprendizagem profissional para os mais avançados de compreensão e ao longo da vida para domínio de habilidades.
+
+professores
+
+O marco referencial pretende ser um padrão universalmente aplicável para a especificação de competências nacionais/ locais de IA, bem como para o planejamento de currículos, programas de formação e para garantir ambientes facilitadores básicos. Estes devem garantir que todos os professores, independentemente do seu nível
+
+O desenvolvimento do professor deve ser considerado como uma jornada contínua e vitalícia de crescimento profissional que abrange toda a sua carreira e experiência de vida. O MRCP-IA defende a seguinte abordagem integral para apoiar a aprendizagem contínua dos professores:
+
+de habilidades, tenham a oportunidade de
+
+∎ Navegar pela progressão pessoal por avançar na compreensão e na aplicação de
+
+meio de competências transferíveis. tecnologias localmente e financeiramente
+
+Dada a rápida ampliação das tecnologias acessíveis, desde soluções desconectadas e de
+
+de IA, as complexidades das questões baixa tecnologia até ambientes ricos em IA.
+
+éticas correspondentes e os desafios
+
+A natureza dinâmica da tecnologia digital e os saltos tecnológicos das gerações anteriores de ferramentas de TIC para a tecnologia de IA devem ser levados em conta. Consequentemente, o marco referencial oferece orientações e recursos que permitem que os professores transitem de forma confiante do uso de gerações anteriores de tecnologias digitais para sistemas e ferramentas de IA mais recentes.
+
+da integração de IA na pedagogia, os professores devem ser auxiliados a aprimorar progressivamente suas competências em IA. O MRCP-IA descreve competências em vários níveis para orientar essa progressão e sugere metodologias de treinamento para ajudar os professores a permanecerem familiarizados com as tecnologias emergentes, suas implicações mais amplas para a pedagogia, a ética e o Dadas as novas questões éticas desencadeadas
+
+impacto social. pela IA e as oportunidades potencialmente transformadoras que a IA pode proporcionar, é fundamental dotar os professores com a mentalidade centrada no ser humano, com comportamentos éticos, conhecimento conceitual e habilidades de aplicação necessários para fazer uso de IA para melhorar a aprendizagem dos estudantes e seu próprio desenvolvimento profissional. O marco referencial foi projetado para promover competências transferíveis em todos os contextos de aprendizagem, incluindo a capacidade de responder efetivamente à
+
+∎ Orientar a reflexão contínua e a melhoria do desempenho prático. A aprendizagem ao longo da vida implica uma reflexão consistente e o aprimoramento da própria prática. O MRCP-IA propõe revisões de exemplos de planos de aula, reflexão sobre conhecimentos e práticas próprios dos professores e internalização de valores e conhecimentos. Além disso, incentiva os professores a iterar ciclos de planejamento (design), implementação, reflexão e replanejamento (redesign) das aulas.
+
+rápida atualização das tecnologias de IA e suas graduais implicações para a educação.
+
+Marco referencial de competências em IA para professores – Capítulo 2. Princípios-chave ∎ Otimizar os programas de formação
+
+∎ Adaptar as políticas para apoiar a e apoio. A aprendizagem profissional,
+
+aprendizagem profissional ao longo da ao longo da vida, demanda formação
+
+vida. Políticas direcionadas e estratégias e apoio coerentes. O MRCP-IA
+
+de incentivo são essenciais para manter defende a otimização institucional
+
+a motivação dos professores em de programas de formação pré-
+
+buscar a aprendizagem profissional ao serviço, em serviço e continuada,
+
+longo da vida. As políticas de gestão para facilitar a aprendizagem dos
+
+docente devem alocar tempo e recursos professores em diferentes estágios
+
+suficientes para que os professores se de suas carreiras. Enfatiza ainda a
+
+envolvam em atividades de formação criação e manutenção de comunidades
+
+e desenvolvimento profissional, bem de desenvolvimento profissional e
+
+como reconhecer ou recompensar capacitação organizacional, defende
+
+seu desempenho no uso responsável o aperfeiçoamento entre pares e a
+
+e inovador da IA. Além disso, amplos aprendizagem ágil em resposta à
+
+sistemas curriculares e de avaliação evolução das tecnologias de IA, bem
+
+precisam ser adaptados para permitir como promove uma abordagem
+
+espaço para que professores realizem centrada no ser humano na educação.
+
+testes de ferramentas de IA validadas e de novas metodologias pedagógicas. Também é necessário verificar se os métodos de avaliação atuais limitam excessivamente o aproveitamento dos potenciais da IA para a educação centrados no ser humano e, em caso afirmativo, determinar como eles podem ser reformados.
+
+21
+
+Marco referencial de competências em IA para professores – Capítulo 3
+
+Capítulo 3. Estrutura do “Marco referencial
+
+de com petências em IA para professores”
+
+3.1 Dimensões do MRCP-IA
+
+O “Marco referencial de competências em IA para professores” é apresentado por meio de uma matriz bidimensional: cinco aspectos de competência que evoluem em três níveis de progressão, formando 15 blocos, conforme mostrado na Tabela 1.
+
+A primeira dimensão compreende os cinco aspectos da competência em IA, mostrados na coluna mais à esquerda da citada tabela. Os aspectos de competência representam os elementos-chave interligados – conhecimento, habilidades, valores e atitudes – que os professores precisam desenvolver para integrar a IA de forma eficaz e ética em suas práticas de ensino, na facilitação da aprendizagem e no desenvolvimento profissional. Esses cinco aspectos, que constam mais detalhados a seguir, na próxima seção, são: “mentalidade centrada no ser humano”, “ética da IA”, “fundamentos e aplicações de IA”, “pedagogia de IA” e “IA para o desenvolvimento profissional”. Embora cada aspecto represente um elemento constituinte único de competência em IA, os aspectos estão relacionados entre si, pois são complementares, interdependentes e sinérgicos. Seu relacionamento contribui para o crescimento coeso da competência em IA.
+
+∎ O aspecto da “mentalidade centrada
+
+no ser humano” define os valores e a orientação atitudinal em relação às interações humano-IA que os professores precisam estimular. 22∎ A “ética da IA” delineia princípios éticos essenciais, regulamentos, leis institucionais e regras éticas práticas que os professores precisam compreender, aplicar e ajudar a adaptar.
+
+∎ O aspecto de “fundamentos e aplicações
+
+de IA” especifica o conhecimento conceitual e as habilidades transferíveis que os professores precisam entender e aplicar na seleção, aplicação e personalização criativa de ferramentas de IA para atender a ambientes de ensino e aprendizagem assistidos por IA e centrados no estudante.
+
+∎ O aspecto “pedagogia de IA” propõe um
+
+conjunto de competências necessárias para a integração da IA-pedagogia com propósito e de forma eficaz. Isso abrange a capacidade de validar e selecionar ferramentas de IA adequadas e integrá- las em estratégias pedagógicas para apoiar a preparação das aulas, o ensino, a aprendizagem, a socialização, o cuidado social e a avaliação da aprendizagem.
+
+∎ O aspecto “IA para o desenvolvimento
+
+profissional” descreve as competências que os professores precisam desenvolver para usar a IA adequadamente na condução de sua aprendizagem profissional ao longo da vida, apoiando o desenvolvimento profissional colaborativo e explorando a transformação profissional.
+
+Marco referencial de competências em IA para professores – Capítulo 3 A segunda dimensão do MRCP-IA, mostrada
+
+Adquirir, que define o conjunto essencial de no topo da Tabela 1, é a progressão estruturada
+
+competências em IA que todos os professores do desenvolvimento de competências. As
+
+precisam para avaliar, selecionar e usar ferramentas etapas de progressão representam os níveis
+
+de IA adequadamente na educação; Aprofundar, que os professores poderiam desenvolver ao
+
+que especifica competências intermediárias longo do tempo em todos os cinco aspectos
+
+necessárias para desenvolver estratégias de competência como parte integrante da
+
+pedagógicas significativas que integrem a IA; competência de IA. O marco referencial reconhece
+
+e Criar, que define competências avançadas que o desenvolvimento de competências é um
+
+necessárias para a configuração criativa de processo complexo e dependente do contexto,
+
+sistemas de IA e o uso inovador da IA na educação. que não é hierárquico nem linear. No entanto, o marco de referência serve como um guia para a trajetória de progressão do professor, enfatizando e delineando os resultados desejados em cada nível por aspecto, em vez de estabelecer etapas rígidas e prescritas pelas quais os professores devem passar. Os três níveis de progressão são:
+
+Ao cruzar esses três níveis com os cinco aspectos da competência, o MRCP-IA define 15 blocos de competências. Esses blocos são projetados para apoiar todos os professores – desde aqueles sem qualquer conhecimento sobre IA até aqueles com maior grau de competência e experiência em IA.
+
+Tabela 1. Estrutura de alto nível do marco referencial de competências em IA: aspectos e níveis de progressão
+
+Aspectos Adquirir 23
+
+Progressão
+
+Aprofundar Criar
+
+1\. Mentalidade centrada
+
+no ser humano Autonomia humana Responsabilidade
+
+humana Responsabilidade social
+
+2\. Ética da IA Princípios éticos Uso seguro e
+
+responsável
+
+Criação conjunta de regras éticas
+
+3\. Fundamentos e aplicações de IA
+
+Técnicas e aplicações Habilidades básicas de IA
+
+aplicações de
+
+Criação com IA
+
+4\. Pedagogia de IA Ensino assistido por IA Integração IA-
+
+pedagogia
+
+Transformação pedagógica aprimorada por IA
+
+5\. IA para o desenvolvimento
+
+profissional
+
+IA que permite a
+
+IA para melhorar
+
+IA para apoiar a aprendizagem profissional
+
+a aprendizagem
+
+transformação ao longo da vida
+
+organizacional
+
+profissional
+
+O MRCP-IA propõe um conjunto de competências para as quais os professores precisam estar preparados para fazer um uso adequado de IA na educação. No entanto, o uso eficaz e ético da IA na educação depende de vários fatores,
+
+incluindo – mas não se limitando a isso – o acesso à infraestrutura digital e à internet em particular; à disponibilidade de recursos de IA; aos regulamentos sobre segurança e privacidade de dados; à orientação e aos incentivos de políticas; e às oportunidades
+
+Marco referencial de competências em IA para professores – Capítulo 3
+
+de desenvolvimento profissional. Também depende das características de confiabilidade e de desempenho das ferramentas de IA que são adotadas em escala e suas implicações para as cargas de trabalho dos professores. Todos esses fatores – e, potencialmente, ainda outros – também afetariam a extensão em que a competência de IA dos professores pode ser praticada, observada e avançada. As estratégias para implementar condições facilitadoras relevantes são discutidas no Capítulo 5.
+
+3.2 Aspectos do MRCP-IA
+
+Os cinco aspectos do MRCP-IA destinam-se a cobrir domínios essenciais das competências e refletir suas relações complementares. Quando os programas de treinamento são projetados para ajudar os professores a progredir de Adquirir para Criar, todos os cinco aspectos devem ser direcionados e integrados como parte do desenvolvimento de competências esperado. Os principais componentes dos cinco aspectos estão resumidos a seguir.
+
+3.2.1 Aspecto 1. Mentalidade centrada no ser humano
+
+A “mentalidade centrada no ser humano” define os valores e as atitudes críticas que os professores precisam desenvolver em relação às interações humano-IA com base nos princípios supramencionados. Esse aspecto incentiva os professores a sempre colocar os direitos humanos e as necessidades de desenvolvimento humano como foco da IA na educação. Os professores são incentivados a cultivar metodologias críticas para avaliar os benefícios e riscos da IA, garantindo ao mesmo tempo a autonomia e a responsabilidade humana, e entendendo o impacto social e as implicações para a cidadania na era da IA. 243.2.2 Aspecto 2. Ética da IA “Ética da IA” delineia valores éticos essenciais, princípios, regulamentos, leis institucionais e regras práticas que os professores precisam entender e aplicar, extraídos do corpo de conhecimentos em rápida ampliação sobre a ética da IA e suas implicações para a educação. Esse aspecto define a compreensão progressivamente mais profunda dos professores sobre a ética fundamental da IA, as habilidades para fazer uso seguro e responsável de IA, e as competências abrangentes para participar da adaptação das regras éticas.
+
+3.2.3 Aspecto 3. Fundamentos e aplicações de IA
+
+O aspecto “fundamentos e aplicações de IA” especifica o conhecimento conceitual e as habilidades operacionais transferíveis que os professores precisam entender e aplicar para apoiar a seleção, a aplicação e a personalização criativa de ferramentas de IA, para construir ambientes de ensino e aprendizagem assistidos por IA centrados no estudante. Espera-se que os professores obtenham compreensão apropriada da definição de IA, conhecimento básico sobre como a IA funciona, bem como sobre as principais categorias de tecnologias de IA. Também é necessário compreender as habilidades necessárias para avaliar a adequação e as limitações das ferramentas de IA, com base em necessidades inerentes em domínios e contextos específicos, e as habilidades para operar ferramentas validadas para tarefas do mundo real. O presente aspecto envolve ainda a aquisição progressiva de habilidades para adaptar ou personalizar ferramentas de IA na construção de ambientes de aprendizagem centrados no ser humano e adequados à idade.
+
+Marco referencial de competências em IA para professores – Capítulo 3 3.2.4 Aspecto 4. Pedagogia de IA
+
+Progressivamente, espera-se que os professores aprimorem sua capacidade de A “pedagogia de IA” propõe um conjunto de
+
+adaptação e criação ao usar ferramentas de IA e competências necessárias para a integração
+
+analisar dados para apoiar o desenvolvimento intencional e efetiva da IA-pedagogia,
+
+profissional transformador. contemplando competências abrangentes para validar e selecionar ferramentas apropriadas de IA e integrá-las com métodos pedagógicos para apoiar a preparação de aulas, o ensino, a aprendizagem, a socialização, os cuidados sociais e a avaliação da aprendizagem. Esse aspecto estabelece que os professores precisam desenvolver a capacidade de avaliar com pensamento crítico quando e como usar a IA no ensino e na aprendizagem de maneira ética e centrada no ser humano, bem como planejar e implementar práticas inclusivas de ensino e aprendizagem assistidas por IA. Progressivamente, os professores precisam melhorar sua capacidade de adaptar de forma crítica e explorar criativamente práticas inovadoras no contexto do avanço das capacidades de iterações de IA emergentes.
+
+Esses cinco aspectos estão entrelaçados e são complementares, não estão isolados. Em geral, o ensino eficaz (com ou sem IA) requer uma abordagem integral que integre várias competências. Por exemplo, a capacidade de um professor de aplicar a pedagogia da IA é influenciada por sua compreensão dos fundamentos da IA, sua consciência sobre a orientação política da IA e seu compromisso com o desenvolvimento profissional contínuo. Da mesma forma, sua capacidade de navegar pelos dilemas éticos da IA é informada por sua compreensão dos fundamentos de IA e suas experiências na aplicação de IA na educação. A proficiência em uma área pode aumentar a proficiência em outra. De fato, uma compreensão mais profunda dos fundamentos da IA pode melhorar a capacidade do professor de aplicar princípios pedagógicos
+
+3.2.5 Aspecto 5. IA para o desenvolvimento profissional
+
+e éticos relacionados à IA, e o desenvolvimento profissional contínuo constrói a compreensão do professor sobre todos esses aspectos. O aspecto “IA para o desenvolvimento profissional” descreve as competências emergentes que os professores precisam desenvolver para usar a IA no impulsionamento
+
+3.3 Níveis de progressão do MRCP-IA
+
+de sua própria aprendizagem profissional
+
+Os níveis de progressão do MRCP-IA são ao longo da vida e no desenvolvimento
+
+projetados para ajudar a avaliar as competências profissional colaborativo, com o objetivo
+
+em IA dos professores e para definir os objetivos de transformar sua prática de ensino. Em
+
+de aprendizagem profissional esperados. resposta ao rápido desenvolvimento da IA, os
+
+Teoricamente, a formação e o apoio no nível professores precisam de orientação sobre como
+
+Adquirir enfocam professores com conhecimento continuar seu desenvolvimento profissional
+
+ou habilidades em IA limitados ou inexistentes. em ambientes educacionais caracterizados
+
+De fato, todos os professores devem ter pela crescente interação humano-IA. Isso inclui
+
+oportunidades de acessar esse nível de formação a capacidade de alavancar a IA para avaliar as
+
+ou orientação para adquirir o conjunto mais necessidades de aprendizagem profissional e
+
+fundamental de competências especificado no alimentar a motivação para a aprendizagem
+
+marco referencial. Em outras palavras, o primeiro ao longo da vida e a colaboração profissional.
+
+nível visa promover a alfabetização básica em IA
+
+25
+
+Marco referencial de competências em IA para professores – Capítulo 3
+
+para professores. O nível Aprofundar tem como alvo professores que já têm algum conhecimento em IA e alguma experiência em usá-la na educação. Este nível visa apoiar os professores a se envolverem mais profundamente com as ferramentas de IA, a fim de maximizar sua capacidade de aprimorar as práticas de ensino e aprendizagem. O terceiro nível, Criar, é direcionado a professores que têm fortes conhecimentos e habilidades em IA, bem como uma rica experiência no uso de IA na educação. Este nível visa promover professores especialistas que tenham competências para explorar a aplicação ética e pedagogicamente sólida e transformadora da IA no ensino e na aprendizagem.
+
+Os três níveis de progressão constituem um roteiro de desenvolvimento profissional para os professores “a ser montado”. Ele compara meticulosamente o ponto de partida dos professores e delineia o próximo nível de objetivos de aprendizagem e, assim, mapeia a dificuldade e a amplitude dos programas de formação. Ao usar o MRCP-IA como um marco de referência para avaliar as competências do professor, vale a pena ter em mente que cada nível é transversal a todos os cinco aspectos da competência (conforme mostrado na Tabela 1). Espera-se que a progressão em um aspecto influencie o desenvolvimento em outro, refletindo a natureza complementar, interdependente e sinérgica anteriormente mencionada dos cinco aspectos. É necessário notar, no entanto, que a progressão dos professores provavelmente não seguirá uma sequência síncrona em todos os cinco aspectos. Por exemplo, um professor pode demonstrar competência em fundamentos de IA no nível Aprofundar, enquanto ainda trabalha na ética no nível Adquirir. As ferramentas de diagnóstico para avaliar as competências individuais de IA dos professores devem, consequentemente, ser projetadas para mapear seus pontos fortes e fracos em cada um dos aspectos e personalizar as prioridades de treinamento e os caminhos de aprendizagem. 263.3.1 Nível de progressão 1. Adquirir Adquirir, nível inicial de uso prático da IA, é um nível rudimentar de aprendizagem, o qual abrange o conjunto essencial de competências em IA demandadas a todos os professores para avaliar, selecionar e explorar ferramentas de IA de forma eficaz e ética em sua prática. Neste nível, os professores embarcam na aquisição e utilização dos conhecimentos e das habilidades mais fundamentais para usar a IA. Espera-se que aprendam a reconhecer os benefícios e riscos associados à IA na educação, sustentados por uma compreensão dos direitos humanos, da justiça social e dos valores humanísticos. Também se deve esperar que os professores ganhem consciência dos princípios éticos essenciais relacionados à IA, reconhecendo sua natureza liderada pelo ser humano e o papel crítico que os seres humanos desempenham em seu desenvolvimento. Além disso, nesta fase, os professores devem estar equipados para aplicar técnicas básicas de IA e aplicações acessíveis localmente. Espera-se, ainda, que os professores promovam uma apreciação de como a IA pode potencialmente reforçar ou diminuir a qualidade do ensino. Esse nível fundamental de alfabetização em IA também prepara o terreno para que os educadores integrem a IA em seu desenvolvimento profissional.
+
+Em geral, esse nível de competências em IA para cada um pode ser resumido como um conjunto de “alfabetização em IA para professores”. Apoiados por formação e orientação apropriados, espera-se que todos os participantes sejam capazes de:
+
+1\. Cultivar uma compreensão crítica de
+
+que a IA é liderada por humanos e que as decisões corporativas e individuais dos criadores de IA têm um impacto profundo na autonomia e nos direitos humanos. Esse entendimento crítico implica uma consciência da importância da autonomia humana ao avaliar e usar ferramentas de IA.
+
+Marco referencial de competências em IA para professores – Capítulo 3 2. Desenvolver uma compreensão básica
+
+professores defendam a equidade, a inclusão das questões éticas típicas relacionadas
+
+e a diversidade, e entendam como as decisões à IA e às interações entre humano-
+
+de design de IA afetam o uso ético. Além IA no que se refere à proteção dos direitos humanos, aos dados pessoais, à autonomia humana e à diversidade linguística e cultural, bem como defender a inclusão e a sustentabilidade ambiental. 3. Adquirir conhecimentos básicos
+
+sobre o que é a tecnologia de IA e como os modelos de IA são treinados, conhecimentos associados sobre dados e algoritmos, as principais categorias de
+
+27 disso, neste nível, os professores devem ter as habilidades para identificar, avaliar, selecionar e aplicar ferramentas de IA para melhorar as práticas de ensino e aprendizagem. Eles também devem ser hábeis em incorporar estratégias pedagógicas centradas no ser humano e usar a IA para enriquecer seu desenvolvimento profissional e a aprendizagem entre pares dentro de suas organizações. tecnologias de IA e exemplos de cada uma, bem como a capacidade básica de avaliar a adequação de ferramentas específicas de IA para a educação e usar
+
+Espera-se que os professores que atingiram este nível de domínio de competências em IA sejam capazes de:
+
+ferramentas de IA validadas.
+
+1\. Demonstrar uma compreensão
+
+4\. Identificar e aproveitar os benefícios
+
+pedagógicos das ferramentas de IA para facilitar o planejamento, o ensino e a avaliação de aulas específicas sobre o tema, mitigando os riscos. 5. Explorar o uso de ferramentas de IA
+
+para aprimorar seu desenvolvimento profissional e práticas reflexivas, avaliar as necessidades de aprendizagem e personalizar sua trajetória de aprendizagem no cenário educacional em rápida evolução.
+
+aprofundada da responsabilidade humana e da determinação humana na implementação e no uso adequados de IA. Isso implica uma mentalidade crítica sobre a capacidade da IA em facilitar os ciclos de decisão entre humano-IA, bem como sobre alegações exageradas sobre o uso de IA para substituir os humanos na tomada de decisões de alto risco na educação. 2. Internalizar regras éticas essenciais para o uso seguro e responsável da IA, incluindo o respeito à privacidade dos dados, direitos de propriedade
+
+3.3.2 Nível de progressão 2.
+
+intelectual, bem como outras disposições legais, e adotar essa perspectiva ética ao Aprofundar
+
+avaliar e usar na educação ferramentas
+
+No nível Aprofundar da competência em IA, espera-se que os professores demonstrem proficiência na integração da IA às práticas educacionais com foco na responsabilidade
+
+de IA, dados e conteúdo gerado por IA. 3. Operar com eficiência as ferramentas
+
+de IA adotadas em ambientes educacionais, aprofundando o conhecimento e a compreensão – em humana, além de garantir o uso seguro e
+
+uma perspectiva ética – sobre várias responsável das ferramentas de IA. Isso implica
+
+categorias de tecnologias de IA, bem aderir às políticas nacionais e locais, defender
+
+como sobre dados e algoritmos, a segurança, a privacidade e os direitos das
+
+uma vez que sejam relevantes para partes interessadas, bem como avaliar com
+
+as responsabilidades de ensino e as pensamento crítico as ferramentas de IA
+
+competências básicas.
+
+quanto às implicações éticas. Espera-se que os
+
+Marco referencial de competências em IA para professores – Capítulo 3
+
+28
+
+4\. Integrar adequadamente a IA
+
+no planejamento e na realização de práticas de ensino centradas no estudante, para promover o envolvimento, apoiar a aprendizagem diferenciada e melhorar as interações professor-estudante, com o objetivo de promover a empatia, o pensamento crítico e as habilidades de resolução de problemas dos estudantes. 5. Utilizar com confiança ferramentas
+
+de IA para participação personalizada em comunidades de aprendizagem profissional colaborativa, aproveitando- as para compartilhar recursos, participar de aprendizagem entre pares e contribuir para a adaptação dinâmica.
+
+3.3.3 Nível de progressão 3. Criar
+
+No nível Criar de competência em IA, os professores demonstram uma compreensão crítica do impacto social da IA e de suas responsabilidades como cidadãos. Espera- se que contribuam para o planejamento de políticas sobre IA na educação e/ou a criação conjunta de padrões éticos para o uso de ferramentas de IA. Os professores neste nível devem ser capazes de combinar ou modificar conjuntos de ferramentas (toolkits) de IA de código aberto, ou possíveis de serem personalizados, para desenvolver soluções personalizadas para os desafios educacionais em contextos locais. Isso se estende à avaliação crítica do papel da IA nos processos de ensino e aprendizagem e à exploração de atividades pedagógicas aprimoradas por IA que podem potencialmente permitir opções de aprendizagem abertas para os estudantes. Além disso, os professores devem ser capazes de usar IA para apoiar seu próprio desenvolvimento profissional contínuo e/ou transformador, e sintetizar ferramentas de IA para atender às necessidades em evolução de suas comunidades profissionais.
+
+Espera-se que os professores que atingiram este nível de domínio sejam capazes de:
+
+1\. Participar ativamente e contribuir para
+
+a construção de sociedades inclusivas de IA guiadas por uma compreensão crítica das implicações da IA para as normas sociais e promover o design e o uso de IA para o aprimoramento do bem-estar humano, a inclusão e a justiça social. 2. Defender a ética em IA por meio de
+
+argumentação crítica e empática, liderando discussões e ações que abordem preocupações éticas, socioculturais e ambientais, desde o design até o uso de IA, e contribuam para a criação conjunta de padrões éticos para as práticas de IA na educação. 3. Personalizar ou modificar
+
+proficientemente as ferramentas de IA, aplicando conhecimentos e habilidades conceituais aprimorados para criar ambientes de aprendizagem inclusivos assistidos por IA, e enfrentar desafios mais amplos em contextos educacionais. 4. Avaliar de forma crítica o impacto da
+
+IA no ensino, na aprendizagem e na avaliação; planejar e facilitar cenários de aprendizagem imersivos em IA para apoiar a aprendizagem interdisciplinar ou específica sobre o tema, o pensamento crítico e a resolução de problemas entre os estudantes; alavancar dados e contribuições para explorar continuamente a inovação pedagógica centrada no estudante. 5. Personalizar e modificar ferramentas de
+
+IA para aprimorar seu desenvolvimento profissional, testar e validar continuamente estratégias sobre o uso eficaz da IA para atender às suas próprias necessidades transformadoras de desenvolvimento profissional, assim como as de sua comunidade.
+
+Marco referencial de competências em IA para professores – Capítulo 4. As especificações do MRCP-IA
+
+Capítulo 4. As especificações do MRCP-IA
+
+Este capítulo fornece especificações detalhadas sobre os objetivos curriculares e os objetivos de aprendizagem esperados que os programas de formação ou apoio de professores podem conceber para cada um dos 15 blocos de competências. Tais metas e objetivos são ainda ilustrados por exemplos de atividades que os professores devem realizar em vários contextos, inclusive em práticas de ensino específicas e/ou interdisciplinares. 304.1 Nível de progressão 1. Adquirir O objetivo curricular geral no nível Adquirir é apoiar todos os professores a alcançar um nível básico de competência ou alfabetização em IA exigido pela profissão docente em contextos variados. As metas, os objetivos de aprendizagem e os exemplos de atividades a seguir fornecem clareza sobre o que cada bloco de competências implica.
+
+Tabela 2. Blocos de competências, objetivos e exemplos para o nível de progressão 1. Adquirir
+
+COMPETÊNCIA DO PROFESSOR
+
+1.1 Autonomia humana.
+
+• Os professores têm a compreensão crítica de que a IA é liderada por humanos e que as decisões corporativas e individuais dos criadores de IA têm um impacto profundo na autonomia e nos direitos humanos, e estão cientes da importância da autonomia humana ao avaliar e usar ferramentas de IA.
+
+OBJETIVOS CURRICULARES (OC) (Programas de formação e de apoio aos professores devem...)
+
+• OC1.1.1 Promover o pensamento crítico sobre IA, estimulando os professores a discutir e ter perspectivas sobre o dilema dos benefícios oferecidos pela IA versus os riscos de diminuir a autonomia e a autonomia humana; usar ferramentas específicas de IA como exemplos para apoiar os professores a examinar com pensamento crítico os benefícios, as limitações e os riscos da IA em ambientes educacionais locais e no que diz respeito às suas próprias responsabilidades.
+
+• OC1.1.2 Ilustrar as principais etapas do ciclo de vida dos sistemas de IA e orientar os professores a entender como as decisões corporativas e individuais dos criadores podem influenciar o impacto da IA.
+
+• OC1.1.3 Destacar como a dependência excessiva da IA pode prejudicar as habilidades de pensamento e a autonomia humana.
+
+• OC1.1.4 Oferecer dicas básicas de práticas de escrita para ajudar a proteger a autonomia humana ao usar IA na educação, com foco específico em estudantes com deficiência.
+
+OBJETIVOS DE APRENDIZAGEM (OA) (Os professores podem...)
+
+• OA1.1.1 Refletir com espírito crítico sobre os benefícios, as limitações e os riscos das ferramentas específicas de IA em seus ambientes educacionais locais e nas áreas e nos níveis de ensino em que são utilizadas.
+
+• OA1.1.2 Demonstrar consciência de que a IA é liderada por humanos e que as decisões corporativas e individuais dos criadores de IA influenciam os impactos nos direitos humanos, na autonomia humana, nas vidas individuais e nas sociedades.
+
+Marco referencial de competências em IA para professores – Capítulo 4. As especificações do MRCP-IA • OA1.1.3 Descrever o papel dos seres humanos nas etapas básicas envolvidas no desenvolvimento de IA, desde a coleta e o processamento de dados, passando pelo desenvolvimento de algoritmos e funcionalidades de um sistema de IA, até a implementação e o uso de ferramentas de IA.
+
+• OA1.1.4 Compreender a necessidade de empreender medidas básicas para proteger a autonomia humana em etapas-chave relacionadas ao desenvolvimento e ao uso de sistemas de IA, garantindo o respeito à propriedade de dados, à coleta de dados com consentimento, à rotulagem e à limpeza de dados antiviés, algoritmos de IA livres de discriminação e funções e interfaces fáceis de usar.
+
+ATIVIDADES CONTEXTUAIS (Os professores podem demonstrar as seguintes mudanças de atitude ou de comportamento)
+
+• Desmistificar a IA. Examinar de forma crítica o discurso em torno de ferramentas concretas de IA por meio da análise básica de risco-benefício e destacando o papel central dos humanos no uso de ferramentas de IA.
+
+• Entender porque algumas ferramentas de IA devem ser banidas. Demonstrar uma compreensão básica do motivo pelo qual algumas ferramentas de IA devem ser proibidas, dado o seu potencial para diminuir a autonomia humana e ameaçar os direitos humanos.
+
+• Destacar os riscos. Listar as possíveis maneiras pelas quais a autonomia de professores e estudantes pode ser prejudicada por certas ferramentas de IA, como é o caso, por exemplo, do uso de grandes modelos de linguagem para redação.
+
+• Saber o que fazer e o que não fazer. Escrever dicas diárias para promover a autonomia humana ao usar a IA no ensino e incentivar a autonomia estudantil em atividades que envolvem aproveitar e avaliar a IA.
+
+COMPETÊNCIA DO PROFESSOR
+
+2.1 Princípios éticos.
+
+• Os professores têm uma compreensão básica das questões éticas em torno da IA e dos princípios necessários para interações éticas humano-IA, incluindo proteção dos direitos humanos, autonomia humana, promoção da diversidade linguística e cultural, inclusão e sustentabilidade ambiental.
+
+OBJETIVOS CURRICULARES (OC) (Programas de formação e de apoio aos professores devem...)
+
+• OC2.1.1 Abordar discussões éticas por meio de um exame crítico de casos de uso de ferramentas de IA na educação.
+
+• OC2.1.2 Facilitar a compreensão dos princípios éticos essenciais por meio de um exame dos casos de uso relacionados a cada um dos princípios éticos fundamentais. Orientar os professores a entender por que esses princípios são essenciais e os motivos pelos quais negligenciá-los pode causar danos. Esses princípios estão encapsulados nos seis subtópicos a seguir: “não causar dano”; proporcionalidade; não discriminação; sustentabilidade; determinação humana na interação humano-IA; e transparência e explicabilidade.
+
+• OC2.1.3 Construir uma associação entre princípios e padrões éticos por meio de exemplos de regulamentos locais, nacionais ou internacionais sobre a ética em IA; discutir as implicações para os indivíduos e explicar como os princípios éticos fundamentais são contextualizados em estruturas regulatórias locais ou nacionais.
+
+• OC2.1.4 Defender a inclusão no uso de IA e orientar os professores a discutir os riscos que ferramentas específicas de IA podem representar para a inclusão e a equidade, inclusive em contextos educacionais, com especial atenção aos estudantes que têm deficiências e/ou são de grupos marginalizados; orientar os professores a discutir como esses riscos podem ser mitigados no nível individual.
+
+OBJETIVOS DE APRENDIZAGEM (OA) (Os professores podem...)
+
+• OA2.1.1 Exemplificar discussões éticas fundamentais no uso de ferramentas concretas de IA, e fazê-lo com base nas perspectivas sobre autonomia humana, segurança, privacidade e relevância linguística e cultural.
+
+31
+
+Marco referencial de competências em IA para professores – Capítulo 4. As especificações do MRCP-IA
+
+32 • OA2.1.2 Explicar os princípios éticos fundamentais (conforme listados no OC2.1.2) e internalizá-los por meio de sua seleção pessoal e uso de IA.
+
+• OA2.1.3 Combinar os principais artigos de regulações com princípios éticos e entender suas implicações para a educação.
+
+• OA2.1.4 Priorizar ações para minimizar o impacto negativo da IA na equidade e na inclusão ao usar ferramentas de IA na educação, com especial atenção aos estudantes que têm deficiência e/ou são de grupos marginalizados.
+
+ATIVIDADES CONTEXTUAIS (Os professores podem demonstrar as seguintes mudanças de atitude ou de comportamento)
+
+• “Adoção de perspectiva” em dilemas éticos. Adotar uma perspectiva ética sobre o uso de IA nas escolas, com base na compreensão dos múltiplos dilemas que representam para a privacidade, a autonomia humana, a equidade, a inclusão, as culturas e línguas locais e a mudança climática.
+
+• Mapeamento de conhecimento de princípios éticos. Aplicar ferramentas básicas de mapeamento de conhecimento (como planilhas em papel ou aplicações digitais de mapeamento de conceitos) para visualizar as conexões entre os diferentes princípios fundamentais, as respostas a discussões associadas, sua correspondência com as regulações e exemplos de ferramentas de IA usadas nas escolas.
+
+• Observação pessoal das regulações locais. Observar se os regulamentos locais de IA acompanham as iterações das tecnologias de IA e avaliar os regulamentos aplicáveis, combinando-os com princípios éticos e contextos locais.
+
+• Vieses das ferramentas de IA. Estar atento(a) aos vieses das ferramentas de IA usadas nas escolas e seu potencial para excluir ou marginalizar pessoas com deficiência e estudantes de grupos vulneráveis; relatar os riscos aos gerentes institucionais ou aos órgãos responsáveis.
+
+COMPETÊNCIA DO PROFESSOR
+
+3.1 Técnicas e aplicações básicas de IA..
+
+• Espera-se que os professores adquiram conhecimento conceitual básico sobre IA, incluindo: a definição de IA, conhecimento básico sobre como os modelos de IA são treinados e sobre dados e algoritmos; principais categorias de tecnologias de IA e exemplos de cada uma. Espera-se ainda que os professores desenvolvam a capacidade de examinar a adequação de ferramentas específicas de IA para a educação e operar ferramentas de IA validadas.
+
+OBJETIVOS CURRICULARES (OC) (Programas de formação e de apoio aos professores devem...)
+
+• OC3.1.1 Adaptar o nível de dificuldade do conhecimento conceitual básico sobre IA de acordo com as responsabilidades dos professores e a experiência anterior com IA, ilustrar como uma ferramenta específica de IA é desenvolvida com base em dados e algoritmos e explicar os métodos básicos usados pelas ferramentas de IA para processar dados e gerar seus resultados.
+
+• OC3.1.2 Apoiar a utilização prática de ferramentas de IA que sejam relevantes para as responsabilidades dos professores, com o objetivo de ampliar a compreensão básica de como essas ferramentas funcionam; orientá-los a experimentar diferentes tipos de ferramentas de IA e ajudá-los a entender os avanços tecnológicos da IA em relação às gerações anteriores de ferramentas de TIC, bem como os recursos funcionais de diferentes categorias de ferramentas de IA.
+
+• OC3.1.3 Apoiar os usuários no teste de ferramentas de IA, introduzindo um método elementar de análise da confiabilidade e da adequação de ferramentas específicas de IA para contextos locais. Envolver os professores na experimentação do método.
+
+• OC3.1.4 Apoiar os professores a estabelecer sua própria coleção de ferramentas de IA, começando por recomendar ferramentas exemplares básicas e orientando-os a selecionar a IA confiável e relevante para suas necessidades e contextos locais, com particular atenção às ferramentas de código aberto.
+
+Marco referencial de competências em IA para professores – Capítulo 4. As especificações do MRCP-IA OBJETIVOS DE APRENDIZAGEM (OA) (Os professores podem...)
+
+• OA3.1.1 Demonstrar conhecimento conceitual apropriado às suas competências e responsabilidades sobre como os sistemas de IA são desenvolvidos usando dados, algoritmos e arquitetura de computação; adquirir compreensão e habilidades relevantes sobre dados, algoritmos e programação; e exemplificar as principais etapas, incluindo escopo de problemas, design, treinamento, testes, implementação, feedback e iteração.
+
+• OA3.1.2 Exemplificar o que a IA é e o que ela não é, as principais categorias de técnicas e tecnologias de IA, os novos recursos que a IA poderia atualizar em comparação com as gerações anteriores de ferramentas de TIC e as principais funções de várias categorias de ferramentas de IA.
+
+• OA3.1.3 Localizar e operar ferramentas de IA que são necessárias para o seu trabalho diário em contextos locais.
+
+• OA3.1.4 Explicar a importância de avaliar as ferramentas de IA para garantir sua acessibilidade, inclusão e confiabilidade; realizar análises básicas da adequação de ferramentas específicas de IA para educação em contextos locais, com especial atenção ao impacto sobre os estudantes com deficiência.
+
+• OA3.1.5 Começar a consolidar uma coleção pessoal de ferramentas de IA confiáveis que são necessárias para a vida e o trabalho e relevantes para a língua e a cultura locais. Investigar até que ponto as ferramentas de IA de código aberto relevantes localmente estão disponíveis ou não.
+
+ATIVIDADES CONTEXTUAIS (Os professores podem demonstrar as seguintes mudanças de atitude ou de comportamento)
+
+• Mapeamento conceitual de como a IA funciona. Começar a desenhar e atualizar iterativamente mapas conceituais, em papel ou digitais, mostrando como os sistemas de IA são desenvolvidos e o fluxo de trabalho da tomada de decisões sobre ferramentas específicas de IA usadas na educação.
+
+• Extensão e aprimoramento de habilidades. Ampliar o conhecimento sobre ferramentas de IA que sejam relevantes para as responsabilidades dos professores. Ajudar a melhorar a fluência e a amplitude das habilidades operacionais que já possuem ou desenvolver novas habilidades.
+
+• “Bússola de navegação” para seleção de ferramentas de IA. Discernir quais ferramentas estão usando IA e quais não estão, bem como as vantagens e limitações comparativas básicas das ferramentas de TIC e ferramentas de IA usadas em contextos locais.
+
+• Coleta de ferramentas de IA apropriadas. Cooperar com outros professores e gestores escolares para avaliar a adequação de ferramentas específicas que estão sendo usadas ou recomendadas por provedores de IA e discutir se elas devem ser adotadas; coletar ferramentas de IA validadas, compartilhar ferramentas de código aberto e começar a organizar uma coleção de ferramentas de IA confiáveis.
+
+COMPETÊNCIA DO PROFESSOR
+
+4.1 Ensino assistido por IA.
+
+• Espera-se que os professores sejam capazes de identificar e aproveitar os benefícios pedagógicos das ferramentas de IA para facilitar o planejamento de aulas de disciplinas específicas, o ensino e a avaliação, ao mesmo tempo que mitigam os riscos.
+
+OBJETIVOS CURRICULARES (OC) (Programas de formação e de apoio aos professores devem...)
+
+• OCG4.1.1 Organizar análises de aulas com base em vídeos exemplares de professores usando ferramentas de IA em sala de aula; facilitar a compreensão dos professores sobre a adequação dessas ferramentas, incluindo sua eficácia, relação com métodos pedagógicos e efeitos na inclusão de estudantes com diferentes habilidades; além disso, orientar a autorreflexão dos professores sobre as lições mediadas por IA que eles desenvolveram e implementaram.
+
+• OC4.1.2 Incentivar os professores a estarem atentos à pesquisa acadêmica sobre o uso de IA para apoiar atividades pedagógicas, expondo-os a uma seleção de estudos e relatórios com base em evidências sobre as vantagens e desvantagens das atividades de ensino assistidas por IA.
+
+33
+
+Marco referencial de competências em IA para professores – Capítulo 4. As especificações do MRCP-IA
+
+34 • OC4.1.3 Facilitar a transferência de conhecimentos e habilidades fundamentais sobre IA para o ensino, apresentando ferramentas de IA localmente acessíveis e validadas que sejam relevantes para os contextos e as responsabilidades locais dos professores, incluindo sistemas de IA implantados institucionalmente; usar as ferramentas para orientar os professores a aplicar seus conhecimentos conceituais e habilidades operacionais aos usos práticos das ferramentas de IA no ensino; orientar os professores a aprender a procurar e validar ferramentas de IA educacionais apropriadas.
+
+• OC4.1.4 Facilitar a validação pedagógica da IA e do design instrucional no ensino assistido por IA; recordar e fortalecer a compreensão dos professores sobre metodologias pedagógicas de domínio específico e métodos básicos de design instrucional (por exemplo, interação humano-agente proposta pela “Orientação da UNESCO para IA generativa em educação e pesquisa”); orientar os professores a conduzir a prática do ciclo de ensino projeto-implementação-reflexão, incluindo a avaliação da adequação da IA para apoiar as áreas disciplinares em que atuam, em níveis específicos de ensino, tomando decisões sobre se a IA deve ser usada e quais ferramentas podem ser apropriadas, projetando e implementando atividades de ensino assistidas por IA, incluindo a preparação de materiais didáticos, a entrega, a avaliação e o suporte aos estudantes com deficiência, e a condução de reflexão sobre o design e a implementação da lição de acordo com o OC4.1.1.
+
+OBJETIVOS DE APRENDIZAGEM (OA) (Os professores podem...)
+
+• OA4.1.1 Demonstrar familiaridade com uma mentalidade centrada no ser humano, com princípios éticos, metodologias pedagógicas apropriadas ao domínio e conhecimento conceitual sobre IA para analisar lições de amostra e explicar suas decisões sobre se a IA deve ser usada, quais ferramentas devem ser usadas e por quê.
+
+• OA4.1.2 Exemplificar as principais categorias de sistemas e aplicações de IA projetadas para auxiliar o ensino, a aprendizagem e a avaliação, demonstrando familiaridade com seu potencial e suas limitações.
+
+• OA4.1.3 Demonstrar familiaridade com o uso de métodos básicos de design instrucional para orientar as decisões sobre se e quando usar a IA e quais ferramentas podem ser apropriadas; preparar e implementar com confiança o ensino e a avaliação assistidos por IA e apoiar estudantes com deficiência.
+
+• OA4.1.4 Encontrar e usar ferramentas básicas de IA educacional e/ou operar sistemas de IA implantados institucionalmente.
+
+ATIVIDADES CONTEXTUAIS (Os professores podem demonstrar as seguintes mudanças de atitude ou de comportamento)
+
+• A partir das necessidades básicas de ensino. Delinear necessidades básicas na elaboração e na implementação da avaliação de ensino e aprendizagem. Começar com as necessidades básicas como o primeiro princípio para entender se uma ferramenta específica de IA é apropriada – até que ponto ela atende, agrega valor relevante ou se ajusta a tais necessidades em questão?
+
+• Aprendizagem pelo ciclo iterativo de “design-implementação-reflexão”. Aprender e melhorar gradualmente a capacidade de desenvolver e ofertar ensino assistido por IA apropriado por meio de um ciclo iterativo de análise de exemplos de planos de aula, e implementação de seus próprios planos de aula e da avaliação ou reflexão sobre essa implementação.
+
+• Avaliar a eficácia em relação às necessidades. Obter experiência antecipada das limitações, dos riscos e dos benefícios da IA para ensino e aprendizagem, com base nos resultados do uso real da IA para atender às necessidades de ensino e até que ponto a IA pode alcançar os resultados esperados.
+
+COMPETÊNCIA DO PROFESSOR
+
+5.1 Possibilitar a aprendizagem profissional ao longo da vida.
+
+• Espera-se que os professores sejam capazes de explorar o uso de ferramentas de IA para melhorar seu desenvolvimento profissional e suas práticas reflexivas, avaliar suas necessidades de aprendizagem e personalizar seus caminhos de aprendizagem em um cenário educacional em rápida evolução.
+
+Marco referencial de competências em IA para professores – Capítulo 4. As especificações do MRCP-IA OBJETIVOS CURRICULARES (OC) (Programas de formação e de apoio aos professores devem...)
+
+• OC5.1.1 Estimular a motivação dos professores para a aprendizagem profissional ao longo da vida na era da IA, envolvendo os professores na discussão sobre as implicações educacionais do rápido desenvolvimento da IA, os novos papéis que os professores precisam desempenhar em ambientes ricos em IA e as novas competências que precisam desenvolver; apoiar os professores a entender o valor de se tornar um aprendiz profissional ao longo da vida na era da IA, ciente de que seus direitos e sua autonomia devem ser protegidos.
+
+• OC5.1.2 Orientar a autoavaliação sobre a prontidão de IA dos professores e identificar lacunas de competência usando instrumentos de autoavaliação em papel ou assistidos por IA.
+
+• OC5.1.3 Aumentar a conscientização sobre a IA voltada para o professor, apresentando aos professores ferramentas gerais e específicas de IA que podem ser usadas para apoiar seu desenvolvimento profissional, com atenção especial aos professores com deficiência e/ou que trabalham com estudantes com deficiência; ajudar os professores a aprender a encontrar e usar ferramentas de IA para enriquecer sua aprendizagem profissional.
+
+• OC5.1.4 Facilitar o aproveitamento da IA para a aprendizagem profissional – por exemplo, orientando os professores a entender como as plataformas de recomendação de conteúdo identificam os interesses dos professores por meio de suas contribuições e recomendam recursos de mentoria (coaching) entre pares e/ou de treinamento; ajudar os professores a compreender os riscos que os vieses de dados e a discriminação algorítmica representam e como a dependência de bolhas informacionais manipuladas por IA pode levar à atrofia de suas competências.
+
+OBJETIVOS DE APRENDIZAGEM (OA) (Os professores podem...)
+
+• OA5.1.1 Descrever a evolução dos direitos dos professores, condições de trabalho, qualificações e competências exigidas na era da IA e em contextos locais; explicar por que é importante ser um aprendiz ao longo da vida sobre IA e seu uso na educação.
+
+• OA5.1.2 Exemplificar os novos conhecimentos, habilidades e valores exigidos pela profissão docente em contextos locais na era da IA e avaliar a lacuna entre seus próprios conhecimentos e experiências em IA e as competências em IA necessárias.
+
+• OA5.1.3 Listar várias ferramentas de IA, incluindo ferramentas de código aberto localmente relevantes que podem ser usadas ou reaproveitadas para apoiar a autoavaliação, as práticas reflexivas e a aprendizagem profissional, com especial atenção para permitir a acessibilidade para professores com deficiência.
+
+• OA5.1.4 Localizar e aplicar ferramentas de IA voltadas para o professor que sejam acessíveis e relevantes para responder às necessidades de autoavaliação e aprendizagem profissional pessoal sobre conhecimentos disciplinares, habilidades pedagógicas e aprendizagem entre pares.
+
+ATIVIDADES CONTEXTUAIS (Os professores podem demonstrar as seguintes mudanças de atitude ou de comportamento)
+
+• Conscientização sobre os direitos e as obrigações básicas dos professores na era da IA. Delinear os direitos que devem ser protegidos, as condições básicas de trabalho e as orientações ou oportunidades de formação que devem ser fornecidas aos professores na era da IA, bem como suas principais responsabilidades de desenvolvimento profissional para garantir o uso ético e eficaz da IA na educação.
+
+• Autoavaliação da prontidão para o ensino na era da IA. Realizar avaliações de suas próprias lacunas de preparo e competências e elaborar possíveis roteiros para o desenvolvimento profissional, a fim de desenvolver sua capacidade de ensino ético e eficaz assistido por IA.
+
+• Uso dirigido por humanos da IA para abrir horizontes de aprendizagem profissional. Adquirir experiência e habilidades para usar as mídias sociais assistidas por IA para gerar novas ideias e recomendar contatos de outros educadores que compartilhem interesses profissionais semelhantes e/ou possam servir como tutores ou mentores. Aprender a detectar e mitigar os efeitos negativos das bolhas informacionais manipuladas por IA.
+
+35
+
+Marco referencial de competências em IA para professores – Capítulo 4. As especificações do MRCP-IA
+
+4.2 Nível de progressão 2.
+
+Aprofundar
+
+O objetivo curricular geral no nível Aprofundar é apoiar os professores a se tornarem professores totalmente competentes em IA ou que dominam o seu uso. Eles devem demonstrar perspectivas centradas no ser humano em suas análises e decisões, comportamentos eticamente sólidos, 36compreensão conceitual aprofundada da IA e capacidade de aplicar a IA para apoiar atividades pedagógicas e aprendizagem profissional. As seguintes metas, os objetivos de aprendizagem e os exemplos de atividades especificam quais tópicos essenciais podem ser abordados, como o treinamento pode ser organizado e quais comportamentos os professores podem demonstrar após atingir cada bloco de competência.
+
+Tabela 3. Blocos de competências, objetivos e exemplos para o nível de progressão 2: Aprofundar
+
+COMPETÊNCIA DO PROFESSOR
+
+1.2 Responsabilidade humana.
+
+• Os professores podem demonstrar uma compreensão aprofundada da responsabilidade e da determinação humanas na implementação e no uso adequados da IA, bem como uma capacidade crítica de avaliar as capacidades da IA em facilitar os ciclos de decisão entre humano-IA e afirmações exageradas sobre o uso de IA para substituir os humanos na tomada de decisões de alto risco na educação.
+
+OBJETIVOS CURRICULARES (OC) (Programas de formação e de apoio aos professores devem...)
+
+• OC1.2.1 Aprofundar a compreensão dos professores sobre os riscos relacionados à ausência de responsabilização humana, por meio do exame de casos de uso de IA para ciclos de decisão na gestão educacional, na avaliação, nas estratégias de ensino e nas interações dos estudantes com a IA, enriquecendo e consolidando seus pontos de vista sobre a importância da responsabilização humana como parte central de todo o ciclo de vida da IA.
+
+• OC1.2.2 Desenvolver o entendimento de que a responsabilidade humana é uma obrigação legal, incentivando os professores a debater se os seres humanos ou a IA devem assumir a responsabilidade em ciclos de decisão assistidos por IA; orientar os professores a realizar revisões sobre como as estruturas regulatórias locais e internacionais definem a responsabilidade humana no design da IA e na prestação de serviços de IA, inclusive na educação.
+
+• OC1.2.3 Construir associações entre a responsabilidade humana e os direitos dos professores, destacando as mudanças nos papéis e nas responsabilidades dos professores, enfatizando que o papel central dos professores não é replicável e que suas responsabilidades e autonomia não podem ser usurpadas pela IA; apoiar os professores a revisar se as políticas locais protegem os direitos e a responsabilidade dos professores na era da IA.
+
+• OC1.2.4 Desvendar os riscos relacionados à ausência de responsabilização dos usuários, incentivando os professores a examinar as limitações explicáveis de ferramentas específicas de IA (tais como que a IA não pode entender o mundo real ou fazer julgamentos sobre valores), bem como as alucinações inexplicáveis, as respostas incorretas e as deturpações de fatos na geração atual de ferramentas de IA; discutir os riscos que a IA representa para a aprendizagem dos estudantes, especialmente para aqueles com deficiência (enfraquecendo seu desenvolvimento intelectual, suas habilidades de pensamento crítico, suas interações humanas, a construção de conhecimentos e a capacidade de formular e expressar opiniões independentes).
+
+OBJETIVOS DE APRENDIZAGEM (OA) (Os professores podem...)
+
+• OA1.2.1 Entender que a responsabilidade humana nos ciclos de decisão entre humano-IA é uma obrigação legal.
+
+• OA1.2.2 Aplicar estruturas regulatórias locais e/ou internacionais para examinar se o projeto ou o uso de uma ferramenta de IA específica diminui a responsabilidade humana.
+
+Marco referencial de competências em IA para professores – Capítulo 4. As especificações do MRCP-IA • OA1.2.3 Fazer referência a políticas internacionais ou locais para defender a responsabilidade dos professores no uso de IA na educação e demonstrar resistência ao uso de resultados e previsões de IA para usurpar as decisões dos professores humanos e os processos de pensamento dos estudantes, a construção de conhecimento e a autoexpressão.
+
+• OA1.2.4 Demonstrar a responsabilidade dos professores nos ciclos de decisão, inclusive ao determinar a adequação das ferramentas de IA no ensino, desenvolver metodologias pedagógicas adequadas à idade e fornecer a interação humana necessária para incentivar processos de aprendizagem autônomos, com apoio específico para pessoas com necessidades específicas.
+
+ATIVIDADES CONTEXTUAIS (Os professores podem demonstrar as seguintes mudanças de atitude ou de comportamento)
+
+• A responsabilidade humana em ciclos de decisão assistidos por IA é uma obrigação legal. Desenhar um mapa conceitual dos principais responsáveis e seus papéis no design, na implementação e no uso de IA na educação, e delinear suas responsabilidades humanas.
+
+• A responsabilidade e os direitos dos professores não podem ser usurpados pela IA. Elaborar um relatório sobre os regulamentos mais relevantes, as instituições responsáveis e os procedimentos que podem proteger os direitos e a responsabilidade dos professores ao adotar a IA na educação.
+
+• A responsabilidade dos professores é uma garantia humana para usos éticos e eficazes da IA na educação. Desenhar um mapa conceitual sobre os papéis viáveis que os professores podem desempenhar na validação e seleção de ferramentas apropriadas de IA, projetando metodologias pedagógicas, impulsionando a interação humana, facilitando o uso de IA pelos estudantes e apoiando estudantes com habilidades diversas.
+
+COMPETÊNCIA DO PROFESSOR
+
+2.2 Uso seguro e responsável.
+
+• Espera-se que os professores sejam capazes de internalizar regras éticas essenciais para o uso seguro e responsável da IA, incluindo o respeito à privacidade de dados, direitos de propriedade intelectual e outras estruturas jurídicas; e também, com frequência, incorporar essas perspectivas éticas em avaliações e usos de ferramentas de IA, de dados e de conteúdo gerado por IA na educação.
+
+OBJETIVOS CURRICULARES (OC) (Programas de formação e de apoio aos professores devem...)
+
+• OC2.2.1 Aprofundar a compreensão dos professores sobre as principais ameaças à segurança da IA nas fases de design e utilização, por meio da análise de cenários de casos sobre riscos típicos ou incidentes frequentes de segurança da IA com base em duas dimensões: uma abrangendo a “segurança desde o design” e a “segurança desde a utilização”, e a outra abrangendo a segurança institucional e pessoal da IA.
+
+• OC2.2.2 Facilitar análises de deveres legais típicos ao usar IA e das consequências de violá-los – isso inclui leis que proíbem o uso de conteúdo protegido por direitos autorais sem consentimento, a violação da privacidade por meio da divulgação de dados pessoais, a disseminação de desinformação ou de informação errada, a promoção de discurso de ódio e o envolvimento em discriminação online ampliada por IA ou bullying contra pessoas com deficiência ou grupos vulneráveis; orientar os professores a discutir estudos de caso para aprofundar sua compreensão das consequências sociais e legais do uso irresponsável da IA.
+
+• OC2.2.3 Apoiar os professores a construir a associação entre a conformidade com os regulamentos sobre o uso seguro e responsável da IA e seus contextos locais e responsabilidades de trabalho, apoiar os professores a pesquisar e encontrar exemplos de regulações internacionais relevantes para os contextos locais, bem como organizar os professores para conduzir a elaboração prática de suas próprias regras institucionais – de sala de aula e/ou pessoais – para o uso seguro e responsável da IA, adaptando as regulações internacionais aos seus contextos particulares.
+
+37
+
+Marco referencial de competências em IA para professores – Capítulo 4. As especificações do MRCP-IA
+
+38 OBJETIVOS DE APRENDIZAGEM (OA) (Os professores podem...)
+
+• OA2.2.1 Explicar questões típicas relacionadas à segurança da IA, tanto em nível institucional quanto pessoal, e demonstrar uma compreensão profunda das várias razões por trás da segurança da IA, incluindo: “segurança desde o design”, “segurança desde o uso”, propriedade de dados, soberania de dados, privacidade de dados, direito de se recusar a renunciar à privacidade pessoal para provedores de serviços de IA, evitando a divulgação de dados pessoais detalhados para gerar resultados de IA e evitando vieses de dados e algorítmicos.
+
+• OA2.2.2 Demonstrar familiaridade com os regulamentos aplicáveis localmente para proteger a privacidade dos dados e garantir a segurança da IA; revisar os potenciais riscos éticos de ferramentas específicas de IA na educação e sugerir estratégias de mitigação.
+
+• OA2.2.3 Implementar medidas para que os professores salvaguardem a privacidade de seus próprios dados e dos de seus estudantes, garantindo que seus dados sejam coletados, usados, compartilhados, arquivados e excluídos com o seu consentimento; tomar conhecimento de riscos ocultos, particularmente para estudantes com deficiência.
+
+• OA2.2.4 Aplicar diretrizes para garantir o uso responsável da IA por professores e estudantes em conformidade com princípios éticos, tais como: respeitar os direitos autorais dos outros e proteger os seus próprios, mitigar preconceitos, combater desinformação (deepfakes) e discurso de ódio amplificado por IA e proteger a si mesmos e seus estudantes – especialmente aqueles com deficiência – de bullying e discriminação manipulados por IA.
+
+ATIVIDADES CONTEXTUAIS (Os professores podem demonstrar as seguintes mudanças de atitude ou de comportamento)
+
+• Rastreador de segurança de IA pessoal. Desenhar e atualizar um mapa conceitual de questões típicas de segurança de IA, incidentes frequentes e suas principais causas; possíveis ameaças a instituições e indivíduos, especialmente aqueles com deficiência; e medidas de mitigação nos níveis escolar e pessoal com base em estudos de caso.
+
+• Lista de coleções pessoais de ferramentas de IA para educação. Revisar a segurança de suas coleções pessoais de ferramentas de IA, analisando os proprietários, a ética do design, as fontes de dados, os algoritmos, a acessibilidade inclusiva e as opções de funcionalidade de cada ferramenta para descobrir seus propósitos subjacentes, possíveis vieses e nível de risco. Trabalhar com colegas e gestores escolares para melhorar os métodos de avaliação ética das ferramentas de IA.
+
+• Atualizar iterativamente a lista de prós e contras. Observar e avaliar casos de uso de IA de alto risco e irresponsável nas escolas e atualizar iterativamente a lista de prós e contras para professores e estudantes; explicar aos estudantes os princípios éticos e legais relevantes para o uso responsável da IA e as consequências pessoais da violação de regulamentos locais ou internacionais.
+
+COMPETÊNCIA DO PROFESSOR
+
+3.2 Habilidades de aplicação.
+
+• Espera-se que os professores sejam capazes de operar com eficiência as ferramentas de IA adotadas em ambientes educacionais; aprofundar seu conhecimento de várias categorias de tecnologias de IA e suas habilidades práticas em relação a dados e algoritmos que sejam apropriados para ensinar responsabilidades e competências básicas, ao mesmo tempo que infundem princípios éticos relevantes na prática.
+
+OBJETIVOS CURRICULARES (OC) (Programas de formação e de apoio aos professores devem...)
+
+• OC3.2.1 Enriquecer as experiências de “operação e comparação” de ferramentas típicas de IA, apoiando os professores a ganhar experiência nas principais funções e aprender habilidades operacionais dessas ferramentas; orientá-los a analisar as semelhanças e as diferenças de técnicas comuns de IA (por exemplo, IA simbólica, preditiva e generativa), bem como suas implicações para a educação.
+
+Marco referencial de competências em IA para professores – Capítulo 4. As especificações do MRCP-IA • OC3.2.2 Oferecer estruturas consistentes de construção de conhecimento conceitual, facilitando a aprendizagem dos professores baseada em pesquisa, inclusive sobre como um sistema de IA selecionado (tal como um grande modelo de linguagem) é treinado e testado e quais modelos, algoritmos e conjuntos de dados típicos são usados para o treinamento.
+
+• OC3.2.3 Apoiar a aprendizagem baseada em problemas sobre habilidades operacionais em dados, algoritmos e codificação. Com base no conhecimento prévio e nas responsabilidades de trabalho dos professores, desenvolver situações-problema típicas para facilitar a aquisição de conhecimentos e de habilidades operacionais dos professores em relação a dados, algoritmos e codificação, bem como sua capacidade de usá-los para desenvolver aplicações de IA.
+
+• OC3.2.4 Oferecer práticas para avaliar a “ética desde o design” das ferramentas de IA. Organizar os professores para revisar e modificar um conjunto específico de critérios ou um instrumento usado para avaliar aspectos-chave da “ética desde o design”, bem como facilitar o uso pelos professores de critérios ou instrumentos adaptados para avaliar, nas ferramentas de IA selecionadas, questões relacionadas à segurança de dados, à privacidade de dados, à segurança dos usuários e à acessibilidade para pessoas com diferentes habilidades, bem como a vieses em dados e algoritmos (incluindo discriminação de gênero), danos potenciais para grupos vulneráveis etc.
+
+OBJETIVOS DE APRENDIZAGEM (OA) (Os professores podem...)
+
+• OA3.2.1 Operar com eficiência as ferramentas de IA comumente usadas na vida cotidiana e na educação; exemplificar as técnicas típicas usadas por essas ferramentas e explicar suas implicações para a educação.
+
+• OA3.2.2 Representar visualmente como os sistemas de IA selecionados funcionam, incluindo como eles são treinados e testados, bem como os modelos, algoritmos e conjuntos de dados típicos usados.
+
+• OA3.2.3 Demonstrar conhecimento transferível sobre dados, algoritmos e codificação e aplicá-lo para resolver problemas apropriados às suas habilidades e ao âmbito de sua função.
+
+• OA3.2.4 Aplicar com pensamento crítico os conhecimentos e as habilidades relacionados a dados, treinamento, algoritmos e modelos de IA para avaliar a ética enraizada no projeto de ferramentas de IA.
+
+ATIVIDADES CONTEXTUAIS (Os professores podem demonstrar as seguintes mudanças de atitude ou de comportamento)
+
+• Usos hábeis de ferramentas de IA nas escolas. Com base em uma compreensão aprofundada das vantagens e limitações de diferentes categorias de tecnologias de IA, operar habilmente ferramentas de IA amplamente utilizadas.
+
+• “Know-how” ilustrado sobre categorias típicas de ferramentas de IA. Desenhar um mapa conceitual ou fluxo de trabalho ilustrado para explicar como os sistemas de IA selecionados são treinados e como funcionam.
+
+• Facilitar a aprendizagem dos estudantes sobre dados, algoritmos e codificação. Oportunizar aos estudantes ou aos pares que estão no nível iniciante a aquisição de conhecimentos e habilidades relacionados a dados, algoritmos e codificação.
+
+• Denúncia informada em ética desde o design. Praticar a compreensão sobre como a IA é treinada e demonstrar capacidade para investigar preconceitos de gênero e discriminação contra pessoas com deficiência ou grupos vulneráveis, que podem estar enraizados em conjuntos de dados, rotulagem de dados, algoritmos e métodos de treinamento. Revelar e relatar quaisquer descobertas baseadas em evidências sobre vieses ou riscos éticos.
+
+COMPETÊNCIA DO PROFESSOR
+
+4.2 Integração IA-pedagogia.
+
+• Os professores são capazes de integrar habilmente a IA no planejamento e na realização de práticas de aprendizagem centradas no estudante para promover o envolvimento, apoiar a aprendizagem diferenciada e melhorar as interações professor-estudante, com o objetivo de promover a empatia, bem como o pensamento crítico e as habilidades de resolução de problemas entre os estudantes.
+
+39
+
+Marco referencial de competências em IA para professores – Capítulo 4. As especificações do MRCP-IA
+
+40 OBJETIVOS CURRICULARES (OC) (Programas de formação e de apoio aos professores devem...)
+
+• OC4.2.1 Desenvolver e organizar estratégias de aprendizagem com base em vídeos de exemplos de práticas de aprendizagem aprimoradas por IA; apoiar os professores a analisar o impacto da IA nos processos de aprendizagem, na interação professor-estudante, nos resultados de aprendizagem acadêmica, bem como na aprendizagem social e emocional; desenvolver a compreensão dos professores sobre o design de aprendizagem, a adequação das ferramentas de IA e seus usos e a inclusão para estudantes com habilidades variadas; facilitar a autorreflexão dos professores sobre as atividades de aprendizagem assistidas por IA que eles desenvolveram ou facilitaram.
+
+• OC4.2.2 Aprofundar a compreensão sobre o impacto da IA, incentivando os professores a discutir relatórios de pesquisa selecionados ou realizar estudos de ação em torno dos impactos da IA nos processos de autonomia, pensamento e aprendizagem dos estudantes, nas interações com professores, nos resultados acadêmicos e em sua aprendizagem socioemocional, entre outros tópicos-chave. Além disso, orientar os professores a entender os benefícios e os riscos das atividades de aprendizagem assistidas por IA.
+
+• OC4.2.3 Apoiar a implementação integrada de conhecimentos e habilidades fundamentais sobre IA para atender às necessidades de ensino, aprendizagem e avaliação; quando aplicável, orientar os professores a aplicar princípios pedagógicos para revisar as principais funções dos sistemas integrados de aprendizagem assistida por IA adotados pelas escolas.
+
+• OC4.2.4 Apoiar a transferência do design instrucional para o design de aprendizagem no contexto da validação e do uso pedagógico da IA; organizar práticas para os professores desenvolverem e facilitarem atividades de aprendizagem assistidas por IA com base na consideração abrangente dos usos da IA na preparação de recursos de aprendizagem, processos de pensamento e aprendizagem, interações humanas, monitoramento e avaliação de desempenho; apoiar a reflexão baseada na prática e o replanejamento com base em ciclos iterativos de design de aprendizagem, implementação de aulas práticas, além de reflexão e replanejamento.
+
+OBJETIVOS DE APRENDIZAGEM (OA) (Os professores podem...)
+
+• OA4.2.1 Integrar adequadamente princípios éticos, metodologias pedagógicas centradas no estudante e perspectivas interdisciplinares sobre os objetivos de aprendizagem em suas práticas de design de aprendizagem; isso pode variar desde a avaliação e a combinação de ferramentas de IA e seu design de ensino, aprendizagem e avaliação, até o planejamento das interações professor-estudante e facilitação da aprendizagem.
+
+• OA4.2.2 Avaliar de forma crítica se várias categorias de IA ou ferramentas específicas apresentam vantagens em auxiliar o co-design de microcurrículos ou cursos, aprimorando o ensino centrado no estudante, auxiliando na avaliação formativa, monitorando processos de aprendizagem, aconselhando sobre o envolvimento personalizado do estudante e facilitando a interação humana aumentada; nos casos em que as vantagens da IA podem ser validadas, misturar ferramentas e recursos de IA em práticas pedagógicas centradas no estudante para aprimorar o pensamento, a compreensão, a aplicação de conhecimentos e habilidades, as interações sociais apropriadas e a orientação de valor dos estudantes.
+
+• OA4.2.3 Examinar de forma crítica a adequação do uso de uma aplicação específica de IA ou de um sistema integrado de aprendizagem assistido por IA (por exemplo, LMS) na avaliação de aprendizagem formativa e exames de alta participação; quando tiver vantagens claras, misturar habilmente as ferramentas apropriadas para facilitar o projeto e a gestão de avaliações formativas assistidas por IA e ciclos de decisão responsáveis por humanos para reforçar os resultados de aprendizagem, o desenvolvimento intelectual e o progresso psicométrico dos estudantes.
+
+ATIVIDADES CONTEXTUAIS (Os professores podem demonstrar as seguintes mudanças de atitude ou de comportamento)
+
+• Mapeamento de ferramentas de IA e habilidades de aplicação. Atualizar ou ampliar o mapa conceitual das ferramentas de IA para refletir as principais características de várias categorias de ferramentas de IA, avaliar sua disponibilidade pedagógica para atividades educacionais centradas no estudante e refletir sobre a progressão e as necessidades de maior qualificação.
+
+Marco referencial de competências em IA para professores – Capítulo 4. As especificações do MRCP-IA • Percepções sobre suposições pedagógicas por trás das ferramentas de IA. Cooperar com colegas ou especialistas para examinar se o projeto de sistemas gerais de IA considera as implicações pedagógicas e quais são essas implicações pedagógicas para diferentes categorias de IA; entender e explicar os principais pressupostos pedagógicos que sustentam uma determinada ferramenta ou sistema educacional de IA.
+
+• Desenvolver e facilitar o uso de IA pelos estudantes para o pensamento de ordem superior e a aprendizagem socioemocional. Desenvolver atividades de ensino e aprendizagem centradas no estudante com base em ferramentas educacionais validadas de IA e facilitar o uso de IA pelos estudantes para apoiar o pensamento de ordem superior e as colaborações, bem como a aprendizagem social e emocional.
+
+• Avaliações assistidas por IA com responsabilidade humana. Desmascarar os mitos em torno do uso de IA para automatizar o design, a gestão e a classificação das avaliações, examinando os riscos da IA em usurpar a responsabilidade humana ao fornecer feedback e tomar decisões sobre os resultados de aprendizagem dos estudantes. Considerar as limitações no sistema educacional local em relação às estruturas de avaliação e analisar possíveis compensações entre os benefícios e riscos potenciais do uso de IA na avaliação somativa e nos exames. Ser persistente em garantir a responsabilidade humana nas decisões sobre os resultados de aprendizagem e evitar o uso de IA para fazer julgamentos e previsões sobre o desenvolvimento social, ético e psicométrico dos estudantes.
+
+COMPETÊNCIA DO PROFESSOR
+
+5.2 IA para melhorar a aprendizagem organizacional.
+
+• Os professores são capazes de utilizar com confiança as ferramentas de IA para uma participação personalizada em comunidades de aprendizagem profissional colaborativa, aproveitando-as para partilhar recursos, participar na aprendizagem entre pares e contribuir para a adaptação dinâmica.
+
+OBJETIVOS CURRICULARES (OC) (Programas de formação e de apoio aos professores devem...)
+
+• OC5.2.1 Incitar a motivação contínua para a aprendizagem e a colaboração profissional, apoiando os professores a realizar pesquisas e discutir estudos de caso sobre como os professores com domínio adaptam seus papéis e práticas pedagógicas em ambientes ricos em IA, aprofundando sua compreensão do equilíbrio entre o papel fundamentalmente humano dos professores e as obrigações de desenvolver competências em IA.
+
+• OC5.2.2 Facilitar a ampliação do conhecimento sobre ferramentas de IA para o desenvolvimento profissional, introduzindo ferramentas emergentes acessíveis localmente e promovendo outras que incluam provisões para professores com deficiência e/ou que trabalhem com estudantes com deficiência.
+
+• OC5.2.3 Aprofundar as habilidades operacionais dos professores no uso da análise de dados para apoiar a aprendizagem profissional; orientar os professores a transferir e atualizar seus conhecimentos e suas habilidades no uso de dados para rastrear e analisar o processo de desenvolvimento profissional, inclusive no que diz respeito ao conhecimento disciplinar, à pedagogia e ao desempenho prático para facilitar os autodiagnósticos informados por dados e a adaptação dos caminhos de aprendizagem.
+
+• OC5.2.4 Ofertar atividades práticas de avaliação de questões éticas mais profundas associadas ao uso de sistemas de IA para aprendizagem profissional; apoiar os professores a aplicar seus conhecimentos e habilidades em “ética desde o design” para analisar os riscos de algoritmos de IA em plataformas de mídia social, plataformas de recomendação de conteúdo e ferramentas de IA voltadas para professores no que diz respeito a prejudicar os direitos humanos dos professores, à privacidade de dados e à aprendizagem e à colaboração profissionais; recomendar diretrizes para o uso eficaz de plataformas de IA para encontrar recursos e comunidades de prática relevantes para facilitar a aprendizagem entre pares.
+
+OBJETIVOS DE APRENDIZAGEM (OA) (Os professores podem...)
+
+• OA5.2.1 Analisar de forma crítica seus papéis no design e na implementação do uso de IA pelos estudantes em suas próprias práticas pedagógicas, aprofundando a compreensão sobre o equilíbrio entre seu papel fundamentalmente humano e as obrigações de desenvolver continuamente as competências em IA.
+
+41
+
+Marco referencial de competências em IA para professores – Capítulo 4. As especificações do MRCP-IA
+
+• OA5.2.2 Aplicar conhecimentos e habilidades fundamentais sobre dados usando ferramentas de IA para rastrear e analisar seu próprio desenvolvimento profissional, incluindo conhecimentos disciplinares, conhecimento pedagógico e habilidades práticas para facilitar autodiagnósticos informados por dados e planejamento autônomo de sua trajetória profissional.
+
+• OA5.2.3 Ampliar conhecimentos e habilidades sobre o uso de IA, especialmente ferramentas emergentes, para seu próprio desenvolvimento profissional; promover o uso de ferramentas de IA que apoiem professores com deficiência ou que trabalhem com estudantes com deficiência, incluindo o uso de ferramentas de código aberto localmente relevantes que possam ser reaproveitadas para apoiar o desenvolvimento profissional dos professores.
+
+• OA5.2.4 Avaliar os riscos éticos dos algoritmos de IA por trás de plataformas de mídia social e ferramentas especializadas no que se refere aos direitos humanos dos professores, à privacidade de dados e à aprendizagem profissional; desenvolver e implementar diretrizes para o uso eficaz de plataformas de IA para encontrar recursos relevantes e comunidades de prática para facilitar a aprendizagem entre pares.
+
+ATIVIDADES CONTEXTUAIS (Os professores podem demonstrar as seguintes mudanças de atitude ou de comportamento)
+
+• Aprimoramento autônomo e mentoria entre pares. Acompanhar as tecnologias emergentes de IA e suas implicações para a educação em contextos locais, para se capacitar e se requalificar autonomamente e apoiando os pares para fazer o mesmo.
+
+• Usar análises de dados para desenvolvimento profissional autorregulado. Aplicar seus conhecimentos e habilidades em dados, algoritmos e modelos de IA para elaborar análises dos próprios conhecimentos e habilidades profissionais dos professores; identificar com precisão as lacunas e ajudá-los a regular suas próprias atividades de desenvolvimento profissional.
+
+• Simulações generativas de IA para desenvolvimento profissional. Utilizar ferramentas generativas de IA existentes ou personalizar novas para criar uma mentoria de IA que simule cenários específicos de desenvolvimento profissional para que os professores possam praticar e obter feedback – os exemplos podem incluir lidar com uma aula difícil, treinamento sobre regulações locais ou uma simulação de estudantes com dificuldades.
+
+• Usos controlados por humanos da IA para desenvolvimento profissional colaborativo. Descobrir riscos éticos das plataformas manipuladas por IA e implementar medidas preventivas para evitar impactos negativos. Desenvolver atividades controladas por humanos para aproveitar plataformas ou ferramentas de IA para definir o escopo de recursos ou fornecer mentoria online em apoio ao desenvolvimento profissional colaborativo.
+
+4.3 Nível de progressão 3. Criar
+
+O objetivo curricular no nível Criar é capacitar professores que tenham conhecimentos e competências sólidos em IA para se tornarem professores especialistas e agentes de mudança. Eles devem ser capazes de usar a IA de forma inovadora para a educação e se envolver com as comunidades 42 para explorar como ela pode impulsionar a
+
+transformação desejada das práticas de ensino e aprendizagem. As especificações a seguir destacam o caráter exploratório do nível Criar, definindo principais competências, objetivos de aprendizagem mensuráveis e atividades exemplares.
+
+Marco referencial de competências em IA para professores – Capítulo 4. As especificações do MRCP-IA Tabela 4. Blocos de competências, objetivos e exemplos para o nível de progressão 3: Criar
+
+COMPETÊNCIA DO PROFESSOR
+
+1.3 Responsabilidade social.
+
+• Os professores são capazes de participar ativamente e contribuir para a construção de sociedades inclusivas de IA, guiadas por uma compreensão crítica das implicações da IA para as normas sociais, promovendo o design e o uso de IA para o aprimoramento do bem-estar humano, da inclusão e da justiça social.
+
+OBJETIVOS CURRICULARES (OC) (Programas de formação e de apoio aos professores devem...)
+
+• OC1.3.1 Promover uma compreensão crítica sobre a importância de proteger o bem-estar social e emocional da manipulação da IA orientada comercialmente; organizar debates ou aprendizagem baseada em pesquisa para professores sobre como as empresas de IA geram lucros reforçando o vício e o isolamento individual, promovendo o individualismo, o egoísmo e o ranqueamento das identidades sociais; orientar os professores a formar uma compreensão dinâmica e multifacetada em prol da garantia dos direitos humanos para todos e da promoção da justiça social faz parte dos pilares da ética da IA, assim como motivá-los a formular e compartilhar críticas sobre a importância de contrabalançar os interesses comerciais com o bem-estar socioemocional dos seres humanos e a saúde das espécies não humanas em todo o planeta.
+
+• OC1.3.2 Ofertar oportunidades para reimaginar sociedades de IA seguras, inclusivas e justas; organizar workshops, discussões em grupo e atividades colaborativas para que os professores contemplem como pode ser uma ordem social inclusiva, justa e favorável ao clima para a era da IA, quais ameaças a IA pode representar para essas normas sociais e quais pactos ou regulamentos estão disponíveis ou devem ser desenvolvidos.
+
+• OC1.3.3 Incentivar a internalização das responsabilidades sociais como cidadãos em uma sociedade da IA, organizando workshops práticos para definir a cidadania na era da IA, incentivando os professores a explorar como suas responsabilidades legais e sociais podem evoluir e discutindo maneiras de defender e fortalecer os principais direitos e as obrigações sociais que os cidadãos na era da IA precisam assumir.
+
+OBJETIVOS DE APRENDIZAGEM (OA) (Os professores podem...)
+
+• OA1.3.1 Avaliar de forma crítica e refletir sobre as implicações da IA para a sociedade em geral, particularmente como ela pode afetar a educação, o trabalho, a interação interpessoal e as conexões humanas entre si e com o meio ambiente.
+
+• OA1.3.2 Contribuir ativamente para a formação de políticas relacionadas à IA na educação em nível institucional, local e/ou nacional, incluindo como alavancar os benefícios da IA e mitigar seus riscos sociais e educacionais.
+
+• OA1.3.3 Personalizar e atualizar as responsabilidades sociais e cívicas na era da IA e promover o desenvolvimento de tais qualidades de cidadania por meio da educação.
+
+ATIVIDADES CONTEXTUAIS (Os professores podem demonstrar as seguintes mudanças de atitude ou de comportamento)
+
+• Vozes dos professores sobre o bem-estar humano e planetário na era da IA. Escrever artigos de reflexão, ensaios ou postagens online sobre como os provedores de IA voltados para o lucro ameaçam o bem-estar social e emocional dos seres humanos e o bem-estar planetário com base em estudos de caso do mundo real ou sínteses de resultados de pesquisas e as implicações para a educação.
+
+• Reflexão e promoção de relações sociais centradas no ser humano e na coesão social. Escrever blogs ou defender diálogos sobre como podem ser as relações sociais e a coesão social desejáveis na era da IA, as barreiras tecnológicas e econômicas à construção das relações humanas e da ordem social, bem como listar os pactos mundiais e locais que estão sendo desenvolvidos para levar às sociedades que queremos.
+
+• Direitos, obrigações e responsabilidades da cidadania na era da IA. Envolver-se na discussão, consultoria ou contribuição para a elaboração de políticas que definam os direitos, as obrigações e as responsabilidades dos cidadãos na era da IA.
+
+43
+
+Marco referencial de competências em IA para professores – Capítulo 4. As especificações do MRCP-IA
+
+44 COMPETÊNCIA DO PROFESSOR 2.3 Criação conjunta de regras éticas.
+
+• Os professores são capazes de defender a “ética de IA” por meio de argumentos críticos, liderando discussões e ações que abordam preocupações éticas, socioculturais e ambientais no design e no uso de IA, contribuindo para a criação conjunta de regras éticas para as práticas de IA na educação.
+
+OBJETIVOS CURRICULARES (OC) (Programas de formação e de apoio aos professores devem...)
+
+• OC2.3.1 Promover a investigação sobre o impacto social da IA, organizando revisões baseadas em pesquisa dos professores sobre o impacto social de ferramentas selecionadas de IA; incentivar os professores a participar e avaliar como essas ferramentas afetam as economias locais, a justiça social e a mudança climática, bem como o risco de agravar a discriminação e a exclusão de certas comunidades linguísticas e culturais ou grupos com necessidades específicas; organizar diálogos ou debates com base nos resultados.
+
+• OC2.3.2 Aprimorar o exame crítico de manuais do usuário existentes, publicados pelos provedores de IA, convidando os professores a avaliar ferramentas selecionadas sobre o seu risco potencial em marginalizar pessoas com deficiência, amplificar a discriminação social e ameaçar a diversidade linguística e cultural; comparar as manuais do usuário com a probabilidade de impactos negativos; coletar feedback e redigir notas de feedback sobre como revisar os manuais do usuário.
+
+• OC2.3.3 Atualizar o conhecimento sobre ética e habilidades de IA para orientar novas iterações de regras e padrões éticos; orientar os professores a buscar e revisar negociações multissetoriais por trás da adoção de regulamentos sobre IA (como a negociação por trás da Lei de IA da Europa); simular debates entre várias partes interessadas sobre como revisar uma estrutura regulatória selecionada com base nas perspectivas de responsáveis políticos, órgãos reguladores, advogados, pesquisadores, empresas de IA e adultos, crianças e instituições que usam ferramentas de IA; redigir um memorando de entendimento ou disputa compartilhada.
+
+OBJETIVOS DE APRENDIZAGEM (OA) (Os professores podem...)
+
+• OA2.3.1 Analisar de forma crítica o impacto social da IA com base nas perspectivas mundial e local e obter percepções sobre o impacto potencial das tecnologias emergentes de IA na equidade social, na inclusão, na diversidade linguística e cultural, segurança institucional e individual, desenvolvimento intelectual e social das crianças, bem como no bem-estar planetário.
+
+• OA2.3.2 Avaliar a adequação e suficiência do manual do usuário de uma ferramenta de IA específica em relação aos riscos éticos enraizados em seu projeto, às potenciais discussões sociais causadas por seu uso e formular recomendações para remediar ou melhorar a orientação apropriadamente.
+
+• OA2.3.3 Solidificar a visão de que as regulações sobre a “ética de IA” devem ser elaboradas por e para as partes humanas interessadas; defender e participar dos diálogos, desenvolvimento ou iteração adicional de estruturas ou diretrizes regulatórias locais – ou institucionais – que promovam ética no projeto, validação, adoção, implementação e aplicação da IA.
+
+ATIVIDADES CONTEXTUAIS (Os professores podem demonstrar as seguintes mudanças de atitude ou de comportamento)
+
+• Visão mundial localizada sobre o impacto social da IA. Analisar de maneira abrangente o impacto social da IA nos direitos humanos, no desenvolvimento individual, na atividade econômica, na justiça social e no bem-estar planetário; traduzir a visão mundial em implicações locais para investigar os efeitos da IA na sociedade.
+
+• Destacar lacunas éticas na orientação dos usuários. Auditar as alegações feitas pelos provedores de ferramentas de IA selecionadas e os termos declarados na orientação de seus usuários em relação a uma lista completa de riscos e impactos sociais. Monitorar possíveis ameaças ou danos aos usuários, especialmente crianças, estudantes com deficiência e grupos vulneráveis. Assumir a responsabilidade de relatar isso e registrar reclamações com provedores e reguladores (por exemplo, autoridades de proteção de dados).
+
+Marco referencial de competências em IA para professores – Capítulo 4. As especificações do MRCP-IA • Professores com domínio como defensores da “ética de IA”. Desempenhar papéis ativos no lançamento de campanhas de conscientização sobre a “ética de IA”, interpretar princípios éticos, compartilhar conhecimento sobre regulações relevantes, promover diálogos sobre a segurança da IA e trabalhar com as comunidades para revisar as regulações existentes e/ou desenvolver novos padrões éticos.
+
+• Desenvolver em conjunto os protótipos éticos de ferramentas de IA para educação. Lançar um projeto hipotético de desenvolvimento de IA e convidar a colaboração interdisciplinar sobre ele, reunindo professores, estudantes e tecnólogos para desenhar uma ferramenta de IA ética em conjunto que atenda a uma necessidade educacional específica.
+
+COMPETÊNCIA DO PROFESSOR
+
+3.3 Criar com IA.
+
+• Os professores são capazes de personalizar ou modificar ferramentas de IA de maneira proficiente, aplicando conhecimento conceitual aprimorado e habilidades operacionais para criar ambientes de aprendizagem inclusivos assistidos por IA e enfrentar desafios mais amplos em contextos educacionais.
+
+OBJETIVOS CURRICULARES (OC) (Programas de formação e de apoio aos professores devem...)
+
+• OC3.3.1 Estimular a adaptabilidade e a criatividade na personalização de ferramentas de IA; apoiar os professores a integrar habilidades em dados, algoritmos, programação e modelos de IA para personalizar ou desenvolver ferramentas para enfrentar desafios na educação, com foco nas necessidades de pessoas com diferentes habilidades e proteger a diversidade linguística e cultural em contextos locais.
+
+• OC3.3.2 Promover visões críticas sobre IA de código aberto, apoiando os professores a aprofundar visões críticas sobre as vantagens, limitações e riscos do código aberto em comparação com ferramentas comerciais de IA; apoiar os professores a aprender como revisar, adaptar e/ou iterar ferramentas de IA de código aberto.
+
+• OC3.3.3 Simular e praticar adaptabilidade e criatividade na criação conjunta de ferramentas de IA por meio de aprendizagem baseada em projetos. Desenvolver e facilitar práticas de aprendizagem baseadas em projetos para estimular os professores a aprender a adaptar modelos/ferramentas comerciais de IA acessíveis e disponíveis, ferramentas semiacabadas e/ou conjuntos de ferramentas (toolkits) de código aberto para montar ou criar novas ferramentas de IA para resolver problemas do mundo real com base em abordagens centradas no ser humano e éticas; melhorar a adaptabilidade, resiliência e capacidade dos professores de esclarecer ambiguidades, superar obstáculos e assumir riscos ao resolver problemas autênticos complexos.
+
+• OC3.3.4 Apoiar os professores a incorporar valores, conhecimentos e habilidades em repositórios existentes de ferramentas educacionais de IA; ofertar oportunidades práticas para os professores examinarem a adequação ética e pedagógica das ferramentas e atualizar iterativamente o repositório de ferramentas de IA para as escolas.
+
+OBJETIVOS DE APRENDIZAGEM (OA) (Os professores podem...)
+
+• OA3.3.1 Demonstrar conhecimento e habilidades no projeto de sistemas de IA no nível de professores especialistas, bem como competências abrangentes para analisar as limitações de sistemas de IA selecionados na resolução de problemas do mundo real em contextos educacionais locais.
+
+• OA3.3.2 Aplicar conhecimentos e habilidades apropriados em dados, algoritmos, programação e modelos de IA para personalizar e/ou montar ferramentas de IA existentes ou modelos de IA semiacabados para criar ferramentas de IA ou ajustar sistemas de IA de código aberto para criar soluções relevantes e acessíveis para configurações locais e casos de usos específicos.
+
+• OA3.3.3 Revisar ou definir critérios para o teste abrangente de uma ferramenta de IA autocriada, para fins de otimização e iteração adicional da ferramenta.
+
+• OA3.3.4 Contribuir para um repositório novo ou existente de ferramentas de IA criadas pelo usuário ou adaptadas com base nas necessidades pessoais e institucionais e promover o foco apenas na utilização das ferramentas mais apropriadas para a educação.
+
+45
+
+Marco referencial de competências em IA para professores – Capítulo 4. As especificações do MRCP-IA
+
+46 ATIVIDADES CONTEXTUAIS (Os professores podem demonstrar as seguintes mudanças de atitude ou de comportamento)
+
+• Impulsionar o design de ferramentas de IA para inclusão. Colaborar com uma comunidade de cocriadores para adicionar funções às ferramentas de IA existentes ou desenvolver novas para facilitar a acessibilidade, visando a disponibilidade de IA ou plataformas digitais de aprendizagem para pessoas com deficiência. Desenvolver ferramentas de IA para apoiar a detecção de acessibilidade inclusiva entre plataformas de IA amplamente utilizadas.
+
+• Promover a criação em conjunto de ferramentas de IA para apoiar ações favoráveis ao clima. Em conjunto, criar ferramentas de IA ou organizar hackathons para facilitar que os estudantes projetem ferramentas de IA que promovam a educação climática ou ações favoráveis ao clima (por exemplo, ferramentas de IA para rastrear as emissões de carbono causadas por plataformas de IA selecionadas ou monitorar o consumo de energia das escolas).
+
+• Coordenação da construção e uso de repositórios de ferramentas educacionais de IA. Apoiar a criação de um repositório de ferramentas de IA confiáveis e autocriadas selecionadas para educação que possam ser compartilhadas em espaços web escolares ou publicamente (por exemplo, no GitHub). Quando apropriado, assumir as funções de multiplicadores de conhecimentos sobre IA na escola para fornecer formação para outros professores para apoiar o uso do repositório.
+
+COMPETÊNCIA DO PROFESSOR
+
+4.3 Inovação pedagógica aprimorada por IA.
+
+• Os professores são capazes de: avaliar com pensamento crítico o impacto da IA no ensino, na aprendizagem e na avaliação; planejar e facilitar cenários de aprendizagem imersos em IA para apoiar a aprendizagem interdisciplinar ou específica dos estudantes, o pensamento crítico e a resolução de problemas; e alavancar dados e feedback para explorar continuamente a inovação pedagógica centrada no estudante.
+
+OBJETIVOS CURRICULARES (OC) (Programas de formação e de apoio aos professores devem...)
+
+• OC4.3.1 Inspirar ideias sobre possíveis cenários em que a IA é usada para o desenvolvimento dos estudantes; desenvolver e organizar análises de cenários com base em vídeos exemplares de opções de aprendizagem aberta aprimoradas por IA, como práticas de criação conjunta e aprendizagem baseada em questionamentos e projetos; facilitar a revisão dos professores sobre sua prontidão em termos de competências, recursos e avaliação de IA; capacitar os professores a estruturar ideias viáveis sobre práticas inovadoras de aprendizagem aberta e criativa que possam ser habilitadas pelo uso de IA.
+
+• OC4.3.2 Apoiar as percepções dos professores sobre a interação entre os princípios pedagógicos e as transformações pedagógicas que a IA poderia desencadear; facilitar a deliberação dos professores sobre questões fundamentais, como quais valores fundamentais na educação não devem ser prejudicados pelo uso de IA (por exemplo, proteger os direitos humanos, a inclusão e as relações sociais dos estudantes), quais princípios pedagógicos básicos devem ser mantidos para orientar o uso de IA na educação (por exemplo, promover o desenvolvimento intelectual dos estudantes, estimular a criatividade, encorajar a construção de opiniões plurais e ideias inovadoras e promover habilidades sociais e emocionais) e como a IA pode perturbar ou transformar as metodologias pedagógicas.
+
+• OC4.3.3 Apoiar a improvisação de habilidades para criar novas ferramentas de IA ou ampliar as existentes; ofertar aos professores oportunidades para melhorar sua compreensão de ferramentas validadas, incluindo sistemas institucionais de IA para educação, e para montar ou criar ferramentas de IA em conjunto para apoiar e avaliar a aprendizagem, a criatividade, a inovação etc.
+
+• OC4.3.4 Incubar a transferência do projeto de aprendizagem para o projeto de cenário. Organizar atividades práticas por meio das quais os professores possam planejar em conjunto práticas curriculares ou cenários interativos humano- IA para explorar quando e como a IA poderia ser usada para apoiar o ciclo de adaptação de feedback de avaliação de aprendizagem; analisar os prós e contras de novas interações triangulares de estudantes, professores e sistemas de IA e desenvolver estratégias para alavancar suas vantagens e mitigar seus riscos; ofertar oportunidades para os professores enriquecerem suas habilidades práticas no design e na engenharia de opções de aprendizagem aberta assistidas por IA para estudantes e nutrir as habilidades intelectuais, a criatividade e a curiosidade dos estudantes de ordem superior.
+
+Marco referencial de competências em IA para professores – Capítulo 4. As especificações do MRCP-IA OBJETIVOS DE APRENDIZAGEM (OA) (Os professores podem...)
+
+• OA4.3.1 Examinar com pensamento crítico a interação dinâmica entre o avanço da IA e a evolução das metodologias pedagógicas; utilizar os benefícios genuínos das tecnologias de IA para a realização de objetivos educacionais e identificar possíveis limitações das pedagogias existentes para aproveitar totalmente os potenciais da IA emergente para a educação; desenvolver e conduzir testes com base em evidências de opções de aprendizagem aberta para aproveitar o potencial da IA no apoio à aprendizagem baseada em investigação apropriada à idade, criação de conhecimento, aprendizagem colaborativa baseada em projetos e criatividade ágil.
+
+• OA4.3.2 Montar ferramentas de IA ou criar novas aplicações de IA em conjunto para atender às necessidades de acessibilidade inclusiva, relevância linguística e cultural, necessidades de aprendizagem personalizadas adequadas à capacidade, apoio social, investigação ou aprendizagem baseada em projetos.
+
+• OA4.3.3 Desenvolver adequadamente cenários de aprendizagem aumentada de IA que promovam a investigação de ordem superior, a exploração aberta, a aprendizagem baseada em projetos, o pensamento crítico e as criações conjuntas dos estudantes, garantindo as interações humanas; desenvolver e facilitar o uso de IA pelos estudantes, para que os estudantes tenham controle sobre seus caminhos de aprendizagem, façam escolhas sobre ferramentas de IA e assumam a responsabilidade na tomada de decisões assistidas por IA, garantindo tempo e espaço incorporados para interações e reflexões humanas.
+
+• OA4.3.4 Desenvolver e integrar adequadamente o uso de IA para apoiar a coleta e o uso de dados para sustentar a análise de aprendizagem e o ajuste de estratégias de ensino.
+
+• OA4.3.5 Usar adequadamente a IA para gerar conteúdo em texto, áudio e vídeo para apoiar a criação conjunta de livros didáticos, recursos curriculares ou materiais digitais nacionais ou escolares que devem ser validados pelos desenvolvedores do currículo.
+
+• OA4.3.6 Simplificar o uso de IA para as tarefas administrativas dos professores, tarefas de ensino e aprendizagem, envolvimento com os pais e as comunidades locais.
+
+ATIVIDADES CONTEXTUAIS (Os professores podem demonstrar as seguintes mudanças de atitude ou de comportamento)
+
+• Orientar os usos pedagógicos da IA e, ao mesmo tempo, aproveitar a IA para abrir novos horizontes pedagógicos. Defender princípios pedagógicos centrados no ser humano para orientar o design e os usos da IA nas atividades pedagógicas (proteção dos direitos humanos, autonomia humana, autonomia e pensamento independente dos estudantes, diversidade linguística e cultural, opiniões plurais e expressões plurais). Continuar a desafiar o limite das pedagogias existentes e explorar se as metodologias de ensino e aprendizagem existentes são suficientes para alavancar plenamente os potenciais da IA para a educação. Manter-se a par dos cenários de aprendizagem emergentes que estão sendo habilitados pela IA e examinar se eles são extensões dos métodos pedagógicos existentes ou se representam inovações pedagógicas.
+
+• Interações triangulares de engenharia entre professores, estudantes e IA. Compreender e revisar continuamente como a IA, e a IA generativa, em particular, interagem com professores e estudantes ao longo dos processos de ensino e aprendizagem e até que ponto a IA generativa pode ser incorporada nos processos de pensamento e nos processos de exploração e construção de conhecimento. Navegar nas relações triangulares professor-IA-estudante; projetar, desenvolver e implementar os cenários desejáveis de interações professor- estudante, professor-IA, estudante-IA e professor-IA-estudante.
+
+• IA capacitando estudantes com deficiência. Em conjunto, promover a IA assistiva ou criar ferramentas assistivas de IA e atividades de design para proporcionar oportunidades de empoderamento aos estudantes com deficiência e necessidades específicas, protegendo os direitos humanos e a privacidade.
+
+• Abordagem híbrida humano-IA para o desenvolvimento de recursos curriculares. Envolver-se continuamente no uso de IA para facilitar a revisão da literatura existente e a produção de recursos curriculares inclusivos e acessíveis que combinem materiais de texto, áudio e vídeo; criar e implementar em conjunto um mecanismo de validação responsável por humanos para a produção de recursos curriculares assistida por IA.
+
+47
+
+Marco referencial de competências em IA para professores – Capítulo 4. As especificações do MRCP-IA
+
+COMPETÊNCIA DO PROFESSOR
+
+5.3 IA para apoiar o desenvolvimento profissional.
+
+• Os professores podem personalizar e modificar as ferramentas de IA para melhorar seu desenvolvimento profissional e testar e validar continuamente estratégias sobre o uso eficaz da IA para atender às suas próprias necessidades de desenvolvimento profissional e às de suas comunidades.
+
+OBJETIVOS CURRICULARES (OC) (Programas de formação e de apoio aos professores devem...)
+
+• OC5.3.1 Motivar os professores a serem agentes de mudança, organizando estudos de caso e/ou discussões sobre como professores especialistas poderiam informar e defender a transformação da educação que a IA pode desencadear, promovendo o seu papel como agentes de mudança por meio de exemplos simulados e exercícios interessantes.
+
+• OC5.3.2 Melhorar as habilidades para usar a IA como apoio à aprendizagem profissional institucional; ofertar oportunidades de workshops práticos em que os professores criem ferramentas de IA em conjunto para acompanhar o desenvolvimento profissional de uma determinada instituição ou grupo, com o objetivo de facilitar o monitoramento, o diagnóstico e as recomendações com base em dados sobre a aprendizagem organizacional.
+
+• OC5.3.3 Apoiar os professores na personalização ou montagem de ferramentas de IA para permitir o acesso a oportunidades de desenvolvimento profissional para colegas com deficiência ou necessidades específicas.
+
+• OC5.3.4 Cultivar as qualidades criativas dos usuários de IA para promover a autorrealização e a transformação; convocar oficinas práticas nas quais os professores possam construir comunidades para a criação conjunta de ferramentas de IA; incentivar os professores a se envolverem com as comunidades de prática sobre a questão de como a IA pode ser aproveitada para inspirar a transformação profissional.
+
+OBJETIVOS DE APRENDIZAGEM (OA) (Os professores podem...)
+
+• OA5.3.1 Mostrar compromisso e persistência na criação conjunta e no uso de ferramentas e métodos de IA para cumprir suas responsabilidades profissionais e sociais nas sociedades de IA, visando novas iterações de regras éticas, soluções personalizadas de IA e abordagens pedagógicas transformadoras.
+
+• OA5.3.2 Combinar ferramentas de IA e mentoria humana para facilitar a autorreflexão e avaliação bem informadas, o estabelecimento de metas e a mobilização de conhecimento e mentores humanos para apoiar a transformação pessoal e colaborativa.
+
+• OA5.3.3 Sempre que possível, configurar ou criar soluções de IA para monitorar e avaliar de forma crítica as trajetórias de aprendizagem profissional em toda a organização e combinar IA e outros métodos para coletar e sintetizar feedback construtivo e recomendações acionáveis.
+
+• OA5.3.4 Compreender os papéis da IA para apoiar a autoatualização e personalizar a cidadania na era da IA a partir da perspectiva do papel da atuação docente; contribuir para a criação conjunta de ferramentas de IA pelas comunidades educacionais para apoiar a autoatualização e a transformação profissional dos professores na era da IA.
+
+ATIVIDADES CONTEXTUAIS (Os professores podem demonstrar as seguintes mudanças de atitude ou de comportamento)
+
+• Tutor híbrido humano-IA para professores. Construir ou utilizar conjuntos de ferramentas de IA generativa existentes para personalizar um agente ou mentor assistido por IA para o desenvolvimento profissional dos professores no apoio às atividades, como autoavaliação e diagnóstico, bem como para simular cenários específicos para praticar habilidades e receber feedback (por exemplo, atender às necessidades de estudantes com dificuldades de aprendizagem ou resolver dilemas éticos relacionados ao uso de IA). Usar o agente ou mentor para ajudar seus colegas também.
+
+• Design aprimorado por IA de programas de treinamento. Aproveitar ferramentas de IA para ampliar revisões de programas existentes que sejam relevantes para as necessidades de um grupo específico de professores, ampliar ideias sobre conteúdo e métodos de formação e auxiliar na produção de cursos de formação inclusivamente acessíveis a serem validados por tutores ou facilitadores humanos.
+
+• Comunidades para a criação conjunta de ferramentas de IA, inovações pedagógicas ou regras éticas. Liderar ou participar de equipes de pesquisa colaborativas que trabalham em metodologias pedagógicas inovadoras e/ou comunidades para a criação conjunta de ferramentas de IA confiáveis, acessíveis e inclusivas para educação ou regras éticas atualizadas iterativamente sobre o uso de IA.
+
+Marco referencial de competências em IA para professores – Capítulo 5. Estratégias de implementação sugeridas
+
+Capítulo 5. Estratégias de implementação sugeridas
+
+O MRCP-IA é um marco de referência mundial para professores, responsáveis políticos, provedores de programas de formação de professores e líderes escolares em todo o mundo. Este capítulo vai além da articulação de competências, para oferecer orientação sobre ambientes políticos propícios e outros fatores facilitadores que podem apoiar o uso eficaz da IA pelos professores. Também explora como o MRCP-IA pode ser usado para alcançar os três objetivos principais de orientar o projeto de marcos referenciais de competências específicas de IA em diversos contextos, orientar o projeto e o fornecimento de desenvolvimento profissional de professores em IA e apoiar a articulação de especificações de instrumentos comparativos para a autoavaliação dos professores.
+
+5.1 Regular a IA e garantir ferramentas de IA confiáveis para a educação
+
+A pré-condição para o uso responsável da IA na educação é a aplicação de regulamentos para garantir a confiabilidade das ferramentas de IA e proteger estudantes e professores. Dados os múltiplos riscos relacionados ao uso de IA, deve haver mecanismos em vigor para garantir que quaisquer ferramentas de IA introduzidas em ambientes educacionais sejam confiáveis. Portanto, é extremamente importante validar sistemas ou softwares de IA antes que eles sejam introduzidos nos sistemas educacionais em escala.
+
+O fornecimento de sistemas de IA confiáveis requer um contexto regulatório favorável. Os marcos regulatórios nacionais para IA devem ser desenvolvidos ou reforçados para garantir a segurança e a conformidade ética 50dos sistemas gerais de IA que são amplamente utilizados por estudantes, professores e instituições educacionais. Isso requer o estabelecimento de leis robustas de proteção de dados semelhantes ao Regulamento Geral de Proteção de Dados (GDPR) adotado pela União Europeia (UE) em 2016 (European Union, 2016) e/ou regulamentos específicos para a idealização (design) e prestação de serviços de IA, os quais devem abordar sua adequação para usuários em diferentes idades e com habilidades variadas.
+
+Esses regulamentos também precisam ser revisados e adaptados regularmente para responder a novas questões éticas apresentadas por tecnologias emergentes, como a IA generativa. O regulamento oficial específico sobre IA generativa, emitido na China em julho de 2023, e a Lei de IA da UE, introduzida em março de 2024, são exemplos de esforços recentes para lidar com os novos riscos representados pela IA generativa. De fato, a Lei de IA da UE identifica quatro níveis de risco que os sistemas de IA podem representar para os cidadãos e estipula regulamentos legais para cada um. O primeiro diz respeito aos sistemas de IA que acarretam riscos inaceitáveis e que devem ser banidos. O segundo compreende aplicações de IA que são consideradas de alto risco e que exigem regulamentação rigorosa. A maioria das aplicações de IA para educação se enquadra nessa categoria. A terceira categoria diz respeito aos sistemas de IA que apresentam risco limitado e para os quais são necessárias obrigações específicas de transparência. Finalmente, a última categoria compreende IA de risco mínimo e que pode ser usada livremente. A aplicação de regulamentos com
+
+Marco referencial de competências em IA para professores – Capítulo 5. Estratégias de implementação sugeridasbase no nível de risco requer mecanismos institucionais independentes para a validação de sistemas de IA. Isso é particularmente importante para a educação, pois a maioria das aplicações de IA é considerada de alto risco, exigindo regulamentação rigorosa.
+
+51 Embora os regulamentos sobre sistemas gerais de IA forneçam proteção legal significativa, garantir uma IA confiável para a educação requer mais regulamentos e validação institucional. Isso se aplica tanto aos sistemas gerais de IA, implantados nas escolas em escala, quanto às
+
+Quadro 1. Regulamentos sobre IA: elementos-chave de responsabilidades para várias partes interessadas
+
+O “Guia para a IA generativa na educação e na pesquisa”, publicado pela UNESCO em 2023, recomenda que, para regular adequadamente a IA para garantir a realização de seus benefícios na educação e em outros contextos de desenvolvimento, os regulamentos precisam especificar as responsabilidades de: (1) órgãos reguladores governamentais, (2) provedores de sistemas e serviços de IA, (3) usuários institucionais e (4) usuários individuais. (1) Órgãos reguladores governamentais Esses órgãos devem ser responsáveis pelos seguintes sete elementos e ações principais: coordenação intersetorial por meio de um órgão nacional para liderar uma abordagem de IA para todo o governo; alinhamento dos regulamentos nacionais/locais sobre IA com as disposições legislativas e regulamentares relevantes; garantir o equilíbrio entre a regulamentação necessária da IA generativa e a promoção da inovação em IA; identificação de níveis de risco potencial de IA e especificação de regulamentos em conformidade (consulte a Lei de IA da UE para um exemplo dessa abordagem); proteção da privacidade de dados; definição e aplicação do limite de idade para se envolver em bate-papo não supervisionado com plataformas ou aplicações de IA; e aprimorar a propriedade nacional de dados e conter o risco de pobreza de dados. (2) Fornecedores de sistemas de IA e serviços de IA Os fornecedores de sistemas e serviços de IA devem ser responsabilizados pelas seguintes responsabilidades legais e sociais: garantir a responsabilidade humana por incidentes e questões legais de IA; garantir dados e modelos confiáveis; adotar algoritmos e métodos para a geração de conteúdo não discriminatório; promover a explicabilidade e a transparência dos modelos de IA; rotular adequadamente o conteúdo gerado por IA; cumprir os princípios de segurança e proteção; fornecer especificações sobre o acesso e o uso apropriados de sistemas de IA; reconhecer limitações e prevenir riscos previsíveis; estabelecer mecanismos para reclamações e soluções; e monitorar e relatar o uso ilegal. (3) Usuários institucionais As autoridades educacionais e instituições com responsabilidades para determinar se a IA deve ser adotada e quais tipos de ferramentas de IA devem ser adquiridas devem ser responsáveis por: auditoria institucional de algoritmos, dados e resultados de IA; validação da proporcionalidade e proteção do bem-estar dos usuários; revisão e resposta a impactos de longo prazo; e monitoramento da adequação à idade. (4) Usuários individuais Professores e estudantes individuais têm as seguintes responsabilidades: estar ciente dos termos de referência para o uso de IA; cumprir os princípios éticos ao usar ferramentas de IA; e assumir a responsabilidade pessoal de monitorar e relatar qualquer aplicação ilegal de sistemas ou serviços de IA.
+
+Fonte: UNESCO, 2023a.
+
+Marco referencial de competências em IA para professores – Capítulo 5. Estratégias de implementação sugeridas
+
+ferramentas educacionais que incorporam a tecnologia de IA. Para evitar que a IA cause danos irreversíveis aos estudantes, é imperativo garantir que existam mecanismos para a validação desses sistemas de IA para uso na educação. Isso é particularmente verdadeiro para serviços de IA direcionados a crianças mais novas. A validação independente de softwares e recursos educacionais que integram ferramentas de IA precisa ser garantida antes de serem usados em escolas e outras instituições educacionais.
+
+Os órgãos reguladores devem cooperar com instituições educacionais, sindicatos de professores e associações de pais para definir e aplicar métodos de validação relevantes para ferramentas de IA, inclusive por meio de ensaios, simulações e abordagens centradas no modelo. No mínimo, os critérios de validação devem abranger os seguintes aspectos dos sistemas de IA e seu uso:
+
+\# segurança; \# viés; \# precisão dos resultados; \# responsabilidade humana pela proteção
+
+da privacidade dos dados e pela propriedade legal dos dados; \# explicabilidade dos modelos de IA; \# representatividade linguística e cultural
+
+dos dados usados para treinar os modelos de IA para usuários-alvo; \# adequação para usuários em diferentes idades e com diferentes habilidades; \# coleta e exploração de dados dos usuários; \# modelos de negócios pretendidos; e \# impacto nos direitos dos professores e na
+
+autonomia humana.
+
+Os regulamentos também exigem o envolvimento de várias partes interessadas para considerar as implicações de longo prazo da IA na educação, promovendo uma abordagem centrada no ser humano por meio de debates inclusivos, diálogos de políticas com várias partes interessadas e redação participativa. 525.2 Construir políticas e condições facilitadoras para o uso de IA na educação
+
+Embora seja uma pré-condição necessária, a definição de competências em IA exigidas pelos professores, por si só, não é suficiente para garantir a adoção de práticas assistidas por IA no ensino e na aprendizagem em larga escala. De fato, várias barreiras impedem os professores de encontrar e usar IA, familiarizando-se com ferramentas confiáveis de IA, entendendo como fazer uso responsável da IA e incorporando- as ao ensino e à aprendizagem com base na relevância e na aplicabilidade para áreas temáticas e níveis de escolaridade.
+
+Embora o marco de referência apresentado neste documento considere algumas dessas questões, está além do escopo do MRCP-IA abordar a barreira subjetiva do interesse e da motivação pessoal dos professores. Também está além do escopo deste marco abordar as barreiras econômicas e estruturais da acessibilidade e do acesso à IA, pois ajuda a resolver o desafio de equilibrar a IA entre outras prioridades políticas. Para enfrentar os desafios e superar essas barreiras, os marcos referenciais nacionais de competências em IA para professores precisam ser apoiados por contextos políticos pertinentes que forneçam condições propícias para o uso de IA na educação.
+
+Uma das principais funções das políticas de IA na educação é ajudar as instituições a ponderar sobre a opção de adoção da IA em relação a outras opções e prioridades existentes, antes de promover seu uso para os professores. Um ponto de partida comum para isso é realizar uma análise de custo-benefício para determinar os trade-offs entre o valor prospectivo ainda não comprovado da IA para a educação versus a necessidade urgente de garantir/melhorar outras condições para os estudantes, independentemente da tecnologia. É justo argumentar que, apesar do discurso exagerado da mídia, é improvável
+
+Marco referencial de competências em IA para professores – Capítulo 5. Estratégias de implementação sugeridasQuadro 2. Estratégia Nacional para Inteligência Artificial da Coreia do Sul
+
+A “Estratégia Nacional para IA” (Coreia do Sul, 2019) tem três áreas de foco principais: (1) Estabelecer uma infraestrutura de IA confiável, inclusive para apoiar o talento humano e melhorar a tecnologia; (2) ampliar a utilização da IA para todos os setores industriais e sociais; e (3) responder proativamente às mudanças sociais, incluindo as necessidades do mercado de trabalho. Para apoiar a realização desses objetivos, a estratégia prioriza dois elementos-chave: o fortalecimento dos recursos de software e IA dos professores e a segurança da infraestrutura escolar. No âmbito da principal tarefa de Fortalecimento das Capacidades de Software/IA dos Professores, lançada em 2020, a Coreia do Sul tem apoiado os professores a concluir cursos sobre IA como parte da formação inicial e do recrutamento. Para esse fim, as instituições com responsabilidades na preparação de professores foram apoiadas para aprimorar seus programas: as universidades de educação revisaram o padrão de qualificação de professores para concluir cursos relacionados à IA; as faculdades de educação foram apoiadas para adicionar e integrar conteúdos alusivos à IA no ensino e em cursos relacionados; e as escolas de pós-graduação de educação estabeleceram novos cursos com foco na educação integrada à IA e no apoio aos professores participantes. A iniciativa paralela Renovando o Sistema de Formação de Professores visa flexibilizar os requisitos rígidos de qualificação para professores da educação primária e secundária2. Ao fazer isso, a iniciativa espera incentivar os professores a explorar práticas inovadoras preparadas para o futuro em suas escolas e em outros contextos. Desde 2020, no âmbito do marco referencial de Infraestruturas Escolares Seguras, órgãos governamentais e parceiros têm estabelecido redes sem fio de alta velocidade em, pelo menos, quatro salas de aula em cada escola de educação primária e secundária em todo o país. Além disso, foram implementadas estratégias para promover a oferta de oportunidades educacionais relacionadas à IA em vários níveis e locais além das escolas, bem como para lançar iniciativas tanto para encontrar e incentivar estudantes dotados de IA quanto para garantir oportunidades educacionais para grupos vulneráveis e comunidades rurais.
+
+Fonte: Coreia do Sul, 2019.
+
+que a IA resolva qualquer um dos principais
+
+como um meio para enfrentar os principais problemas enfrentados pelos sistemas
+
+desafios, a autonomia humana, a criatividade educacionais em todo o mundo, como
+
+e a engenhosidade dos professores devem infraestrutura escolar inadequada ou escassez
+
+permanecer no centro. Como parte integrante de professores. Como as escolhas políticas
+
+de sua competência em IA, os professores estratégicas sobre IA na educação têm
+
+devem poder optar por aplicar ferramentas de implicações significativas para o investimento
+
+IA acessíveis ou criar soluções relevantes em financeiro e de recursos humanos, as decisões
+
+conjunto somente depois de determinar que devem ser informadas por pesquisas rigorosas
+
+os benefícios superam claramente os riscos. baseadas em evidências e diálogo com várias partes interessadas. Se a adoção em larga escala da tecnologia de IA na educação é vista
+
+Uma segunda função das políticas de IA na educação é apoiar e motivar os professores a
+
+2 NT: A nomenclatura adotada para os níveis educacionais no Brasil é diferente dos níveis definidos pela
+
+Classificação Internacional Padronizada da Educação (International Standard Classification of Education – ISCED). Essa correspondência pode ser encontrada nas páginas 66-67 do “Glossário de terminologia curricular do UNESCO-IBE” (2016), disponível em: http://unesdoc.unesco.org/ima-ges/0022/002230/223059por.pdf.
+
+53
+
+Marco referencial de competências em IA para professores – Capítulo 5. Estratégias de implementação sugeridas
+
+usar a IA de maneira responsável. As estratégias para motivar os professores podem incluir ações como: reafirmar a importância de desenvolver as competências em IA dos professores em marcos de qualificação profissional; introduzir medidas para mitigar o impacto negativo do uso de IA nas cargas de trabalho e no bem-estar dos professores; fornecer treinamento relevante e bem financiado sobre IA e programas de apoio escolar com base em avaliações de necessidades; reconhecer e promover professores precursores por seus esforços em fazer uso pedagogicamente apropriado de IA em sua prática; e reconhecer a prática inovadora dos professores no uso de IA como parte dos critérios de avaliação de desempenho do ensino.
+
+A terceira função dos marcos de ação de políticas pode ser apoiar os professores a enfrentar a barreira do acesso e da acessibilidade da IA. Para ajudar a garantir o acesso inclusivo aos recursos de IA e permitir que professores e estudantes em diversos contextos locais usem a IA, as medidas políticas incluem a garantia de acesso inclusivo à internet, bem como as ferramentas de IA validadas, confiáveis e acessíveis e outros recursos; atualização de infraestrutura digital obsoleta ou disfuncional; e garantia de acesso gratuito ou acessível a aplicações e hardware, inclusive por meio do envolvimento com a academia e o setor privado.
+
+5.3 Formular e adotar marcos referenciais locais de competência em IA para
+
+professores
+
+O MRCP-IA é projetado para ser fundamental na orientação do projeto de marcos referenciais de competências em IA nacionais ou institucionais para professores. Sua estrutura e suas especificações destinam-se a ser 54localizadas e adaptadas ao grau específico de prontidão digital e aos níveis de competência existentes entre os professores de um país, uma localidade ou uma organização.
+
+A formulação desses marcos localizados requer uma abordagem integral envolvendo vários estágios. O ponto de partida é uma avaliação completa da prontidão de IA em termos das ferramentas disponíveis para estudantes e professores, bem como dos níveis médios atuais de competência em IA entre os professores. Isso seria seguido por uma avaliação das lacunas entre a definição de competências em IA que o governo ou as instituições pretendem desenvolver para todos os professores e o que é proposto nos programas de formação e apoio de professores existentes. Por fim, os principais aspectos e níveis de domínio para marcos referenciais de competências em IA localizadas precisariam ser articulados.
+
+Esses marcos localizados devem ser projetados em alinhamento com a competência digital existente e/ou marcos gerais de qualificação profissional para professores. Quando apropriado, os marcos locais de IA devem ter certos efeitos vinculativos para certificações nacionais ou institucionais. Para maximizar a relevância dos marcos referenciais de competências em IA nacionais/locais para os professores, o planejamento (design) e a implementação de marcos e programas associados devem se basear em uma abordagem governamental coordenada. Atualmente, raramente este é o caso, no qual o desenvolvimento de marcos de competências em IA para professores é frequentemente impulsionado por institutos acadêmicos, empresas comerciais e organizações regionais ou internacionais. Se quisermos garantir o uso eficaz, significativo e sustentável da IA na educação, os marcos referenciais de competência dos professores precisam ser desenvolvidos e endossados pelos órgãos governamentais.
+
+Marco referencial de competências em IA para professores – Capítulo 5. Estratégias de implementação sugeridasQuadro 3. Exemplos de marcos referenciais não
+
+governamentais de competências em IA para professores
+
+O AI4T3 é um projeto Erasmus+ K3 financiado pela Comissão Europeia, desenvolvido em colaboração com França, Irlanda, Itália, Luxemburgo e Eslovênia. Lançado em 2021, visa contribuir para a formação em IA na educação com base em três categorias de competências em IA: (1) “Ensino sobre IA” abrange competências em IA relevantes para todos os cidadãos, principalmente extraídas do marco referencial de competências digitais da UE existente, DigComp2.2; (2) “Ensino com IA” abrange competências em IA especificamente para professores e extrai orientação das diretrizes éticas da Comissão Europeia de 2022 sobre o uso de inteligência artificial (IA) e dados no ensino e na aprendizagem para educadores; e (3) “Ensino sobre IA” abrange competências para orientar a formação de estudantes sobre os fundamentos da IA, incluindo habilidades digitais básicas, pensamento computacional, habilidades matemáticas e aplicações de IA, os quais são principalmente extraídos do marco referencial do AI4K12, cinco grandes ideias para a educação em IA (European Union, 2023).
+
+Na Coreia do Sul, os esforços feitos pela Aliança de Educação em IA e pelo Laboratório de Políticas fornecem outro exemplo de um marco referencial para aprimorar as competências digitais e de IA dos professores. Este marco abrange três domínios: IA e fundamentos digitais; implementação de IA e educação digital; e desenvolvimento profissional.4 Esses três domínios são divididos nas seguintes oito competências: utilização de IA e tecnologias digitais; prática de IA e ética digital; análise de contexto educacional utilizando IA e tecnologias digitais; design instrucional utilizando IA e tecnologias digitais; desenvolvimento de recursos educacionais usando IA e tecnologias digitais; implementação de lições usando IA e tecnologias digitais; avaliação e reflexão educacional usando IA; e tecnologias digitais e desenvolvimento profissional. Indicadores comportamentais são definidos para cada uma dessas competências, para auxiliar no design de ferramentas de avaliação que podem ajudar a medir os níveis de IA e competência digital entre os professores.
+
+5.4 Desenvolver e otimizar
+
+métodos de formação relevantes para os programas de formação e domínios e níveis dos formandos e propor apoio em competências em IA
+
+abordagens práticas para a organização dos programas de formação e coaching. O MRCP-IA fornece um marco operacional para a idealização (design) e o planejamento de cursos de formação e programas de apoio para professores. Em especial, as especificações detalhadas dos “objetivos curriculares” apresentadas no Capítulo 4 destinam-se a enquadrar os principais elementos de conhecimento, habilidades e valores que os programas de formação de cada bloco de competências podem abranger, sugerir
+
+Esses programas e as orientações associadas para professores precisam ser planejados ao longo das principais etapas da carreira dos professores e das jornadas de desenvolvimento profissional ao longo da vida. Isso inclui formação pré-serviço e em serviço, apoio escolar e envolvimento com mentoria de pares e comunidades de prática. O MRCP-IA pode informar o projeto em todos esses estágios, garantindo que eles sejam consistentes
+
+3 Ver https://www.ai4t.eu. 4 Mais informações sobre o projeto AI Education Alliance and Policy Lab (AIEDAP) estão disponíveis em https://aiedap.or.kr.
+
+55
+
+Marco referencial de competências em IA para professores – Capítulo 5. Estratégias de implementação sugeridas
+
+com as competências necessárias, além de serem flexíveis o suficiente para se adaptar às necessidades e aos contextos exclusivos de ambientes educacionais específicos. O MRCP-IA pode, por exemplo, orientar o desenvolvimento, a revisão e a atualização de programas de pré-serviço em instituições de formação de professores e universidades para garantir que os professores recém-formados estejam bem preparados para implantar ferramentas de IA e metodologias pedagógicas relevantes. O planejamento ou a adaptação de programas de formação de professores em serviço deve,
+
+5 Ver https://www.ai4t.eu/teacher-training. 6 Ver https://learn.aisingapore.org/educators. 56naturalmente, basear-se em programas de formação pré-serviço. Os programas de apoio escolar também podem usar o marco para adaptar oportunidades de aprendizagem e desenvolvimento contínuos que sejam diretamente relevantes para as necessidades específicas de determinados grupos de professores. Além disso, as iniciativas de mentoria entre pares, incluindo comunidades de práticas offline e online, podem utilizar o MRCP-IA para planejar os resultados de aprendizagem e monitorar o progresso em um ambiente de aprendizagem profissional colaborativo.
+
+Quadro 4. Exemplos de programas de formação e apoio em IA para professores
+
+O programa AI4T, da UE, tem um curso online aberto e massivo (MOOC) específico elaborado para melhorar as competências em IA dos professores.5 Esse MOOC possui quatro módulos: (1) “IA na educação” fornece uma introdução geral; (2) “O que se entende por IA” oferece conteúdo sobre fundamentos e aplicações de IA; (3) “Como a IA funciona” explora os aspectos técnicos da IA e da ética; e (4) “IA a nosso serviço como professores” apresenta material sobre a mentalidade e a ética centradas no ser humano da IA. Embora o foco principal do MOOC sejam as fundações de IA, ele também aborda questões de autonomia humana, cobrindo os riscos da tomada de decisões baseadas em IA, a importância de manter os professores informados, bem como questões éticas. Como se trata de um MOOC, naturalmente é limitado em termos de oportunidades de aprendizagem ativa para os professores e não é adaptado às suas necessidades específicas. A abordagem de Singapura envolve oferecer uma plataforma dedicada para o desenvolvimento de competências em IA. O Governo de Singapura lançou a iniciativa “AI Singapore” em 2017, reunindo instituições de pesquisa sediadas em Singapura e empresas de IA para realizar pesquisas, gerar conhecimento, criar ferramentas e desenvolver talentos no campo da IA. A plataforma6 permite que os professores acessem ferramentas e modelos de IA, oportunizando que desenvolvam competências relevantes para seus contextos educacionais. Também oferece cursos no estilo MOOC com forte ênfase no envolvimento da comunidade. O conteúdo é centrado principalmente em fundamentos e aplicações de IA e questões técnicas, como prompts, ciência de dados e uso de ferramentas específicas.
+
+5.5 Desenvolver ferramentas contextuais de avaliação
+
+de desempenho
+
+O MRCP-IA também pode servir como guia para elaborar critérios contextualmente relevantes
+
+para apoiar a avaliação institucional das competências em IA dos professores ou o projeto de ferramentas de autoavaliação. A especificação detalhada das competências em IA no Capítulo 4 serve para informar a construção de ferramentas de avaliação, fornecendo um perfil estruturado
+
+Marco referencial de competências em IA para professores – Capítulo 5. Estratégias de implementação sugeridasdas habilidades de IA dos professores, orientações
+
+dentro das especificações, e podem ser atitudinais e desempenhos comportamentais
+
+referenciados para desenvolver métodos e em ambientes educacionais em vários níveis – de
+
+itens de avaliação que são relevantes para a Adquirir a Criar. Essas tabelas de especificações
+
+natureza específica do domínio e os grupos- podem ser adaptadas para fins de avaliação.
+
+alvo de professores. A Tabela 5 ilustra como a Mais especificamente, exemplos concretos
+
+especificação para a competência “mentalidade de metodologias de treinamento e resultados
+
+centrada no ser humano”, no primeiro nível esperados estão incorporados aos objetivos
+
+de progressão, pode ser referenciada para curriculares e aos objetivos de aprendizagem
+
+desenvolver ferramentas de avaliação.
+
+Tabela 5. Um exemplo de design de ferramentas de avaliação com base no MRCP-IA
+
+COMPETÊNCIA DO PROFESSOR
+
+Autonomia humana.
+
+• Os professores têm a compreensão crítica de que a IA é liderada por humanos e que as decisões dos criadores de IA, sejam corporativos ou individuais, têm um impacto profundo na autonomia e nos direitos humanos; os professores estão cientes da importância da autonomia humana ao avaliar e usar ferramentas de IA.
+
+Adaptar os seguintes objetivos de aprendizagem de acordo com o conhecimento prévio e as responsabilidades de trabalho do grupo-alvo de professores
+
+• OA1.1.1 Refletir com espírito crítico sobre os benefícios, as limitações e os riscos de ferramentas específicas de IA em seus ambientes educacionais locais, áreas temáticas e níveis de ensino.
+
+• OA1.1.2 Demonstrar consciência de que a IA é liderada por humanos e que as decisões corporativas ou individuais dos criadores de IA podem afetar os direitos humanos, a autonomia humana, as vidas individuais e as sociedades.
+
+• OA1.1.3 Descrever o papel dos seres humanos nas etapas básicas envolvidas no desenvolvimento da IA, desde a coleta e o processamento de dados, bem como o projeto de algoritmos e de funcionalidades de um sistema de IA, até a implementação e o uso de ferramentas de IA.
+
+• OA1.1.4 Compreender a necessidade de usar medidas básicas para proteger a autonomia humana nas principais etapas em relação ao projeto e ao uso de sistemas de IA, garantindo o respeito à propriedade dos dados, o consentimento como base da coleta de dados, a rotulagem e limpeza de dados antiviés, algoritmos de IA livres de discriminação e funções e interfaces fáceis de usar.
+
+Desenvolver métodos de avaliação e itens relevantes para o domínio de competência e o nível de domínio esperado
+
+• Escrever um ensaio para apresentar suas opiniões sobre os benefícios, as limitações e os riscos do uso do reconhecimento facial (ou a função de autocorreção da IA generativa, ou outra ferramenta comum de IA) na educação.
+
+• Criar um cartaz ou uma apresentação digital sobre como as decisões individuais e corporativas dos criadores de IA podem afetar os direitos e a autonomia de professores e estudantes.
+
+• Exemplificar uma ferramenta de IA que deve ser banida de acordo com a Lei de IA da UE e explicar o porquê (European Union, 2016).
+
+• Elaborar uma lista de dicas diárias para promover o uso autônomo da IA pelos professores e incentivar a autonomia estudantil.
+
+Critérios de classificação para desempenho e competências latentes
+
+(A serem especificados de acordo com os objetivos de aprendizagem adaptados e o tipo de itens de avaliação)
+
+57
+
+Marco referencial de competências em IA para professores – Capítulo 5. Estratégias de implementação sugeridas
+
+5.6 Conclusão
+
+O MRCP-IA destina-se a afirmar os papéis críticos dos professores na garantia da adoção ética e eficaz da IA na educação. Também visa informar os responsáveis políticos, os provedores de programas de formação de professores, as equipes das instituições dedicadas à formação de professores, os líderes escolares e os próprios professores sobre a evolução dinâmica das competências que a transição da educação na era da IA pode exigir. Por meio do lançamento do MRCP-IA, a UNESCO apela aos seus Estados-membros para que acelerem o desenvolvimento de marcos referenciais nacionais de competências em IA e o fornecimento de programas de formação de professores em apoio à aprendizagem profissional ao longo da vida.
+
+Dada a natureza da IA como uma tecnologia de uso geral com o potencial de transformar drasticamente os modelos de negócios em vários setores econômicos e seu rápido avanço em ritmo exponencial, é provável que o desenvolvimento adicional da IA e seu impacto na educação superem as iterações do MRCP-IA. Enquanto isso, o crescente interesse e os ensaios da IA na educação gerarão uma infinidade de abordagens para o uso de IA 58na educação e para a aplicação do MRCP-IA em particular. Em resposta a esses desafios, a UNESCO considera o MRCP-IA como um “padrão de referência mestre”, em vez de um plano (blueprint) prescritivo de conhecimento e habilidades de IA. Ele foi projetado para ajudar a elaborar (design) marcos referenciais nacionais, estaduais e/ou institucionais que possam refletir os avanços tecnológicos ao longo do tempo e as necessidades de mudança em contextos locais diversos e variados. A UNESCO recomenda, portanto, que o MRCP- IA possa ser usado como uma ferramenta de orientação abrangente e um roteiro aberto por responsáveis políticos e desenvolvedores de programas de treinamento para ajustar continuamente a definição de competências em IA e inspirar metodologias inovadoras de desenvolvimento de capacidades.
+
+Esta é a primeira edição do marco referencial de competências em IA para professores. Espera-se que seja atualizado com base em uma abordagem participativa. As partes interessadas envolvidas no desenvolvimento profissional dos professores são encorajadas a se envolver e a partilhar as suas experiências com educadores de pares e com a UNESCO, com vista a criar em conjunto as iterações subsequentes deste marco.
+
+Marco referencial de competências em IA para professores – ReferênciasReferências
+
+European Commission. Ethical guidelines on the
+
+República Popular da China. Ministério da use of artificial intelligence (AI) and data in teaching
+
+Educação. 教育部关于发布《教师数字素养》教育行 and learning for educators. Brussels, Publications
+
+业标准的通知 \[Norma do Setor Educacional sobre Office of the European Union, 2022. https://data.
+
+Alfabetização Digital de Professores\]. Beijing, 2022. europa.eu/doi/10.2766/153756.
+
+(em chinês). http://www.moe.gov.cn/srcsite/A16/
+
+European Commission. Laying down harmonised
+
+s3342/202302/t20230214\_1044634.html.
+
+rules on artificial intelligence (Artificial Intelligence
+
+UNESCO. AI and education: guidance for policy- Act) and amending certain union legislative acts.
+
+makers. Paris, 2022a. https://unesdoc.unesco.org/ Brussels, 2024. https://artificialintelligenceact.eu.
+
+ark:/48223/pf0000376709.
+
+European Union. Regulation (EU) 2016/679 of the
+
+UNESCO. Consenso de Beijing sobre a inteligência European Parliament and of the Council of 27 April
+
+artificial e a educação. Paris; Brasília, 2019. https:// 2016 on the protection of natural persons with
+
+unesdoc.unesco.org/ark:/48223/pf0000368303. regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation). Brussels, Official Journal of the European Union,
+
+UNESCO. Guia para a IA generativa na educação e na pesquisa. Paris, 2023a. https://unesdoc.unesco. org/ark:/48223/pf0000386693. 2016. http://data.europa.eu/eli/reg/2016/679/oj.
+
+UNESCO. Recomendação sobre a Ética da European Union. Teachers’ competences. Brussels, 2023. (Briefing report, 1). https://www.ai4t.eu/
+
+Inteligência Artificial. Paris; Brasília, 2022b. https:// unesdoc.unesco.org/ark:/48223/pf0000381137. wp-content/uploads/2023/08/AI-squad-output\_ briefing-report-1.pdf.
+
+UNESCO. Reimaginar nossos futuros juntos: um novo contrato social para a educação. Paris, Coreia do Sul. Ministério da Ciência e TIC. “IT 강국을 넘어 AI 강국으로\!” 범정부 역량을 결집하여
+
+2021\. https://unesdoc.unesco.org/ark:/48223/ pf0000379707. AI 시대 미래 비전과 전략을 담은 ‘AI 국가전략 발표 \[“Além de uma potência de TI, para uma potência de IA\!” Anúncio da “Estratégia Nacional de IA”
+
+UNESCO. Survey for the governmental use of AI as a public good for education. 2023b. Não publicado. contendo a visão e a estratégia para o futuro da era da IA: consolidando as capacidades de todo o governo\]. Sejong-si, Ministério da Ciência e TIC, 2019. (em coreano.). https://doc.
+
+UNESCO. UNESCO ICT Competency Framework for Teachers. Paris, 2018. https://unesdoc.unesco.org/ ark:/48223/pf0000265721. msit.go.kr/SynapDocViewServer/viewer/doc. html?key=3035e1e0a5df4f1a9395b5284512a908.
+
+República Popular da China. Ministério da Educação. 教育部办公厅关于印发《中小学教师信 息技术应用能力标准（试行）》的通知 \[Padrões de Habilidade de Aplicação de Tecnologia da Informação para Professores Escolares\]. Beijing, 2014. (em chinês). http://www.moe.gov.cn/srcsite/ A10/s6991/201405/t20140528\_170123.html.
+
+República Popular da China. Ministério da Educação. 教育部办公厅关于印发《教育移动 互联网应用程序备案管理办法》的通知 \[CACs sobre Cadastro e Gestão de Aplicativos Móveis Educacionais\]. Beijing, 2019. (em chinês). http:// www.moe.gov.cn/srcsite/A16/s3342/201911/ t20191122\_409333.html.
+
+59
+
+AI competency framework for teachers –
+
+Marco referencial de competências
+
+em IA para professores
+
+O “Marco referencial de competências em IA para professores” apresenta a primeira visão mundial de como as competências em IA podem ser definidas e desenvolvidas para o uso ético e eficaz da inteligência artificial no ensino, na aprendizagem e na avaliação.
+
+O marco fornece um plano sobre quais princípios éticos, conhecimentos e habilidades concretos de IA devem ser abordados e como metodologias específicas de domínio podem ser aproveitadas ao desenvolver programas de treinamento de professores.
+
+Enfatiza também que preparar competências em IA em professores é um requisito para o uso efetivo de IA na educação e deve se basear em princípios de inclusão, centralidade da autonomia humana, não discriminação e respeito à diversidade linguística e cultural.
+
+1EDUCAÇÃO DE QUALIDADE
+
+<https://data.europa.eu/doi/10.2766/153756>   
+<https://data.europa.eu/doi/10.2766/153756>   
+<https://artificialintelligenceact.eu>   
+<http://data.europa.eu/eli/reg/2016/679/oj>   
+<http://www.moe.gov.cn/srcsite/A10/s6991/201405/t20140528_170123.html>   
+<http://www.moe.gov.cn/srcsite/A10/s6991/201405/t20140528_170123.html>   
+<http://www.moe.gov.cn/srcsite/A16/s3342/202302/t20230214_1044634.html>   
+<http://www.moe.gov.cn/srcsite/A16/s3342/202302/t20230214_1044634.html>   
+<https://unesdoc.unesco.org/ark:/48223/pf0000376709>   
+<https://unesdoc.unesco.org/ark:/48223/pf0000376709>   
+<https://unesdoc.unesco.org/ark:/48223/pf0000368303>   
+<https://unesdoc.unesco.org/ark:/48223/pf0000368303>   
+<https://unesdoc.unesco.org/ark:/48223/pf0000386693>   
+<https://unesdoc.unesco.org/ark:/48223/pf0000386693>   
+<https://unesdoc.unesco.org/ark:/48223/pf0000381137>   
+<https://unesdoc.unesco.org/ark:/48223/pf0000381137>   
+<https://unesdoc.unesco.org/ark:/48223/pf0000379707>   
+<https://unesdoc.unesco.org/ark:/48223/pf0000379707>   
+<https://unesdoc.unesco.org/ark:/48223/pf0000265721>   
+<https://unesdoc.unesco.org/ark:/48223/pf0000265721>   
