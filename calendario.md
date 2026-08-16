@@ -7,15 +7,15 @@ Estado: `[ ]` por fazer · `[x]` feito. Marcar `[x]` e fazer commit ao concluir.
 | id | ficheiro | extraído? |
 |----|----------|-----------|
 | 1 | 01_professores_competencias.txt | ✅ |
-| 2 | 02_alunos_competencias.txt | ⏳ |
-| 3 | 03_guia_ia_generativa.txt | ⏳ |
-| 4 | 04_iag_basico_secundario.txt | ⏳ |
-| 5 | 05_orientacoes_eticas_educadores.txt | ⏳ |
-| 7 | 07_recomendacao_etica_unesco.txt | ⏳ |
-| 8 | 08_ai_and_education_unesco.txt | ⏳ |
-| 10 | 10_ai_literacy_framework.txt | ⏳ |
-| 11 | 11_jrc_relatorio.txt | ⏳ |
-| 12 | 12_ocde_2026.txt | ⏳ |
+| 2 | 02_alunos_competencias.txt | ✅ |
+| 3 | 03_guia_ia_generativa.txt | ✅ |
+| 4 | 04_iag_basico_secundario.txt | ✅ |
+| 5 | 05_orientacoes_eticas_educadores.txt | ✅ |
+| 7 | 07_recomendacao_etica_unesco.txt | ✅ |
+| 8 | 08_ai_and_education_unesco.txt | ✅ |
+| 10 | 10_ai_literacy_framework.txt | ✅ |
+| 11 | 11_jrc_relatorio.txt | ✅ |
+| 12 | 12_ocde_2026.txt | ✅ |
 
 ## Carrosséis
 | # | Data | Tema | fonte (id) | Tema Sandra | Estado |

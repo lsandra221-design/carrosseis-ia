@@ -1,0 +1,990 @@
+ORIENTAÇÕES ÉTICAS PARA EDUCADORES SOBRE A UTILIZAÇÃO DE INTELIGÊNCIA ARTIFICIAL (IA) E DE DADOS NO ENSINO E NA APRENDIZAGEM 
+
+ORIENTAÇÕES ÉTICAS PARA EDUCADORES SOBRE A UTILIZAÇÃO DE INTELIGÊNCIA ARTIFICIAL (IA) E DE DADOS NO ENSINO E NA APRENDIZAGEM
+
+A Comissão Europeia não é responsável, em caso algum, pelas eventuais consequências da reutilização desta publicação.
+
+Luxemburgo: Serviço das Publicações da União Europeia, 2022
+
+© União Europeia, 2022
+
+A política de reutilização dos documentos da Comissão Europeia é regida pela Decisão 2011/833/UE da Comissão, de 12 de dezembro de 2011, relativa à reutilização de documentos da Comissão (JO L 330 de 14.12.2011, p. 39). Salvo indicação em contrário, a reutilização do presente documento é autorizada ao abrigo da licença «Atribuição 4.0 Internacional (CC BY 4.0)» da Creative Commons (https://creativecommons.org/licenses/by/4.0/). Tal significa que a reutilização é autorizada desde que seja feita uma menção adequada da origem do documento e que sejam indicadas eventuais alterações.
+
+Para qualquer utilização ou reprodução de elementos que não sejam propriedade da União Europeia, pode ser necessário obter autorização diretamente junto dos respetivos titulares dos direitos.
+
+Print ISBN 978-92-76-57547-4 doi:10.2766/204453 NC-07-22-649-PT-C PDF ISBN 978-92-76-54204-9 doi:10.2766/07 NC-07-22-649-PT-N
+
+Agradecimentos
+
+As orientações foram elaboradas pela Comissão Europeia, com o apoio do grupo de peritos sobre inteligência artificial e dados na educação e formação, liderado por consultores associados à ECORYS. A Comissão gostaria de agradecer a:
+
+Agata Majchrowska Aleksander Tarkowski Ari Alamäki Deirdre Butler Duuk Baten Egon Van den Broek Guido Noto La Diega Hanni Muukkonen van der Meer Inge Molenaar Jill-Jênn Vie Josiah Kaplan Juan Pablo Giraldo Ospino Julian Estevez Keith Quille Lidija Kralj Lucilla Crosta Maksim Karliuk Maria Wirzberger Matthew Montebello Stephan Vincent-Lancrin Tapani Saarinen Tobias Rohl Viola Schiaffonati Vitor Hugo Mendes da Costa Carvalho Vladislav Slavov
+
+ORIENTAÇÕES ÉTICAS PARA EDUCADORES SOBRE A UTILIZAÇÃO DE INTELIGÊNCIA ARTIFICIAL (IA) 4
+
+E DE DADOS NO ENSINO E NA APRENDIZAGEM 5
+
+Índice
+
+Mensagem introdutória 6
+
+Contexto das presentes orientações 8
+
+Plano de Ação para a Educação Digital 8
+
+A inteligência artificial e a utilização de dados 10
+
+Política da UE em matéria de inteligência artificial e proposta de quadro regulamentar 12
+
+Ideias erradas sobre a IA 12
+
+Exemplos da utilização de IA e de dados na educação 14
+
+Considerações éticas e requisitos subjacentes às orientações éticas 18
+
+Considerações éticas 18
+
+Requisitos essenciais para uma IA de confiança 18
+
+Perguntas de orientação para os educadores 19
+
+Orientações para educadores e dirigentes escolares 22
+
+Utilização das perguntas de orientação 22
+
+Planeamento da utilização eficaz de IA e de dados na escola 26
+
+Sensibilização e envolvimento da comunidade 27
+
+Competências emergentes para a utilização ética da IA e dos dados 28
+
+Glossário de termos sobre IA e dados 32
+
+Informações complementares 38
+
+Prefácio
+
+Da maneira como nos mantemos informados à maneira como tomamos decisões, a inteligência artificial (IA) está a tornar-se omnipresente na nossa economia e na nossa sociedade. Naturalmente, chegou também às nossas escolas. A AI no domínio da educação já não pertence a um futuro distante. Já está a mudar a forma como as escolas, as universidades e os educadores trabalham, bem como a forma como os nossos filhos aprendem. Está a tornar os contextos educativos mais reativos, ajudando os professores a dar resposta às necessidades específicas de cada aluno. Está a tornar-se rapidamente um elemento central em matéria de tutoria personalizada e de avaliação. E está a mostrar cada vez mais o seu potencial para fornecer informações preciosas sobre o progresso dos alunos. O impacto da IA nos nossos sistemas de educação e formação é inegável e aumentará ainda mais no futuro.
+
+Os alunos e os educadores já beneficiam da IA na sua vida quotidiana, ainda que, em muitos casos, não tenham consciência da sua presença. É frequente os ambientes de aprendizagem em linha abrangerem vários continentes, muitas vezes sem que os utilizadores saibam exatamente como e onde os seus dados são utilizados. Tal coloca problemas éticos específicos aquando da utilização da IA e do tratamento de grandes quantidades de dados na educação. É evidente que temos de assegurar que os professores e educadores compreendem o potencial da IA e dos megadados no domínio da educação, estando simultaneamente conscientes dos riscos associados.
+
+É por esta razão que tenho o prazer de partilhar convosco as presentes Orientações Éticas para Educadores sobre a Utilização de IA e de Dados no Ensino e na Aprendizagem. As orientações ajudarão indubitavelmente os nossos professores e educadores a refletir sobre a forma como podem utilizar a IA e os dados nas suas práticas quotidianas e capacitá-los-ão para agir em conformidade.
+
+Agradeço o valioso contributo do grupo de peritos criado pela Comissão Europeia para preparar as presentes orientações. Este grupo reuniu um vasto leque de peritos: de profissionais a investigadores em matéria de IA, dados, ética e educação a representantes de várias organizações internacionais, como a UNICEF, a UNESCO e a OCDE.
+
+O grupo de peritos disponibilizou competências e conhecimentos especializados com base nas Orientações Éticas para uma IA de Confiança e na Lista de Avaliação para uma IA de Confiança (ALTAI),
+
+domínios que já ocupam um lugar de destaque na agenda política da UE. Centrando-se o seu trabalho tanto na ética da educação como na ética da IA e dos dados, o grupo teve igualmente em conta o quadro jurídico proposto para a IA (regulamento sobre a inteligência artificial), o Regulamento Geral sobre a Proteção de Dados (RGPD) e as propostas de um ato legislativo sobre dados e de uma declaração europeia sobre os direitos e princípios digitais.
+
+As presentes orientações devem ser utilizadas nas escolas de toda a Europa e nós iremos promovê-las ativamente através do Programa Erasmus+. Coletivamente ou individualmente, os professores e os dirigentes escolares terão agora uma base sólida para avançarem e expandirem a sua utilização destas tecnologias de uma forma atenta, segura e ética.
+
+Estas orientações, juntamente com a sua utilização no terreno, são fundamentais para apoiar os esforços em curso para concretizar o Espaço Europeu da Educação, apoiando simultaneamente o trabalho realizado pelos Estados-Membros da UE. As orientações fazem parte de um percurso mais longo, pois a UE está a negociar e a preparar um quadro regulamentar abrangente e eficaz para uma IA digna de confiança, que será aplicado em todos os setores da UE, incluindo a educação. Mas o nosso trabalho não termina aqui. À medida que avançamos, continuaremos a compreender melhor como aplicar estas tecnologias, permitindo que os educadores sejam ainda mais inclusivos e pragmáticos, especialmente nos ensinos básico e secundário.
+
+ORIENTAÇÕES ÉTICAS PARA EDUCADORES SOBRE A UTILIZAÇÃO DE INTELIGÊNCIA ARTIFICIAL (IA) 6
+
+Por conseguinte, convido todos os professores e educadores da Europa a tirarem partido destas orientações e a partilharem as suas opiniões sobre a sua aplicação prática, uma vez que tal apoiará os esforços que estamos a envidar no que diz respeito à transição digital na educação. Também beneficiaremos fortemente dos pontos de vista e da experiência dos nossos alunos, das suas famílias e de todas as partes interessadas no domínio da educação sobre a utilização e o impacto da IA no seu trabalho quotidiano e sobre a forma de a tornar mais benéfica, evitando simultaneamente riscos e efeitos negativos para os direitos humanos e os valores fundamentais da UE.
+
+O nosso trabalho conjunto em matéria de IA e dados no domínio da educação revela um compromisso comum em favor da comunidade educativa, dos nossos aprendentes, do seu desenvolvimento e do seu bem-estar. As presentes orientações constituem um ponto de partida importante. Cabe agora a todos nós promovê-las e pô-las em prática. Conto consigo.
+
+E DE DADOS NO ENSINO E NA APRENDIZAGEM 7
+
+Agradeço calorosamente aos peritos do grupo, que permitiram alcançar este resultado. As suas ideias e a sua dedicação concretizam- se nas páginas que se seguem. Obrigada\!
+
+Mariya Gabriel
+
+ORIENTAÇÕES 8ÉTICAS PARA EDUCADORES SOBRE A UTILIZAÇÃO DE INTELIGÊNCIA ARTIFICIAL (IA) Contexto das presentes orientações
+
+Plano Educação de Ação Digital para a O Plano de Ação para a Educação Digital (2021-2027) é a iniciativa política renovada da União Europeia (UE) para apoiar a adaptação sustentável e eficaz dos sistemas de educação e formação dos Estados-Membros da UE à era digital.
+
+O Plano de Ação para a Educação Digital:
+
+• oferece uma visão estratégica a longo prazo para uma educação digital europeia de elevada qualidade, inclusiva e acessível,
+
+• aborda os desafios e as oportunidades da pandemia de COVID-19, que conduziu a uma utilização sem precedentes da tecnologia para fins de educação e formação,
+
+• procura reforçar a cooperação a nível da UE em matéria de educação digital e sublinha a importância de trabalhar em conjunto em todos os setores para integrar a educação na era digital,
+
+• oferece oportunidades, incluindo a melhoria qualitativa e quantitativa do ensino no domínio das tecnologias digitais, o apoio à digitalização dos métodos e pedagogias de ensino e a disponibilização das infraestruturas necessárias para uma aprendizagem à distância inclusiva e resiliente.
+
+E DE DADOS NO ENSINO E NA APRENDIZAGEM 9
+
+O Plano para a Educação Digital apresenta duas prioridades estratégicas, cada uma das quais com uma série de ações para o período de 2021-2027:
+
+O Plano de Ação para a Educação Digital (2021-2027) tem duas prioridades estratégicas:
+
+Para promover o desenvolvimento de um ecossistema de educação digital altamente eficaz, precisamos de:
+
+Infraestruturas, conectividade e equipamento digital
+
+Eficácia no planeamento e no desenvolvimento de capacidades digitais, incluindo capacidades organizacionais eficazes e atualizadas
+
+Educadores e profissionais da educação e da formação capazes de dominar competências digitais com confiança
+
+Conteúdos de elevada qualidade, ferramentas intuitivas e plataformas seguras, respeitando a privacidade e as normas éticas.
+
+1 2
+
+2\. Reforçar as competências digitais para a era digital:
+
+e aptidões
+
+Apoiar a aquisição de competências e aptidões digitais básicas desde tenra idade:
+
+• Literacia digital, incluindo a gestão da sobrecarga de informação e o reconhecimento da desinformação
+
+• Educação computacional
+
+• Bom conhecimento e compreensão das tecnologias com utilização intensiva de dados, como a IA
+
+Promover as competências digitais avançadas: aumentar o número de especialistas digitais e de raparigas e mulheres em cursos e carreiras digitais
+
+No âmbito da Prioridade 1: Promover o desenvolvimento de um ecossistema de educação digital altamente eficaz, o Plano de Ação para a Educação Digital define um conjunto de ações destinadas a promover o desenvolvimento de um ecossistema de educação digital de elevado desempenho. Tal inclui uma ação específica para desenvolver orientações éticas sobre a utilização de IA e de dados na educação e na formação, a partilhar com educadores e dirigentes escolares.
+
+ORIENTAÇÕES 10 ÉTICAS PARA EDUCADORES SOBRE A UTILIZAÇÃO DE INTELIGÊNCIA ARTIFICIAL (IA) A inteligência artificial e a utilização de dados
+
+O que é a inteligência artificial?
+
+Em toda a Europa, alunos e educadores utilizam cada vez mais sistemas de inteligência artificial (IA), por vezes sem se aperceberem. Os motores de pesquisa, os assistentes inteligentes, os robôs de conversação, a tradução linguística, as aplicações de navegação, os jogos de vídeo em linha e muitas outras aplicações utilizam a inteligência artificial na nossa vida quotidiana. Os sistemas de IA baseiam-se em dados, que são recolhidos em diferentes modalidades (por exemplo, som, imagens, texto, publicações e cliques) e formam, em conjunto, os nossos rastos digitais.
+
+A IA tem um grande potencial para melhorar a educação e a formação de alunos, educadores e dirigentes escolares. Os sistemas de IA estão atualmente a ajudar alguns educadores a identificar necessidades de aprendizagem específicas, proporcionando aos alunos experiências de aprendizagem personalizadas e ajudando algumas escolas a tomar melhores decisões, para que possam utilizar mais eficazmente os recursos pedagógicos de que dispõem.
+
+À medida que os sistemas de IA continuam a evoluir e a utilização de dados aumenta, é da maior importância desenvolver uma melhor compreensão do seu impacto no mundo que nos rodeia, em especial na educação e na formação. Os educadores e os dirigentes escolares devem possuir, pelo menos, um conhecimento básico da utilização de IA e de dados, a fim de poderem interagir de forma positiva, crítica e ética com estas tecnologias e de as utilizar adequadamente para explorar todo o seu potencial.
+
+Segundo a definição proposta no projeto de regulamento sobre inteligência artificial, um sistema de inteligência artificial (sistema de IA) é um «programa informático desenvolvido com uma ou várias das técnicas e abordagens (enumeradas abaixo), capaz de, tendo em vista um determinado conjunto de objetivos definidos por seres humanos, criar resultados, tais como conteúdos, previsões, recomendações ou decisões, que influenciam os ambientes com os quais interage».
+
+As técnicas e abordagens de IA enumeradas são as seguintes:
+
+a) Abordagens de aprendizagem automática, incluindo
+
+aprendizagem supervisionada, não supervisionada e por reforço, utilizando uma grande variedade de métodos, designadamente aprendizagem profunda;
+
+b) Abordagens baseadas na lógica e no conhecimento,
+
+nomeadamente representação do conhecimento, programação (lógica) indutiva, bases de conhecimento, motores de inferência e de dedução, sistemas de raciocínio (simbólico) e sistemas periciais;
+
+c) Abordagens estatísticas, estimação de Bayes, métodos de
+
+pesquisa e otimização.
+
+Quando falamos de sistemas de IA, estamos a referir-nos a software em computadores ou máquinas programados para executar tarefas que normalmente exigem inteligência humana, por exemplo aprendizagem ou raciocínio. Através da utilização de dados, certos sistemas de IA podem ser «treinados» para fazer previsões, formular recomendações ou tomar decisões, por vezes, sem qualquer envolvimento humano.
+
+E DE DADOS NO ENSINO E NA APRENDIZAGEM 11
+
+O que significa a utilização de IA e de dados na educação?
+
+Normalmente, as escolas tratam quantidades substanciais de dados educativos, incluindo informações pessoais sobre os alunos, os pais, o pessoal, a direção e os fornecedores. Os dados recolhidos, utilizados e tratados nas escolas são frequentemente referidos como «dados educativos». Trata-se de dados registados nos sistemas de informação dos alunos como por exemplo, o aproveitamento escolar, os nomes dos pais, as classificações, bem como de microdados gerados quando são utilizadas ferramentas digitais. Quando os alunos interagem com dispositivos digitais, geram rastos digitais como cliques no rato, dados em páginas abertas, o momento da ocorrência de eventos de interação ou toques de teclado. Do mesmo modo, a utilização de sistemas de tutoria inteligentes (STI) nas salas de aula e a aprendizagem de matemática ou de línguas modernas produzem rastos de atividades de aprendizagem. Todos estes dados podem ser combinados para captar o comportamento em linha de cada aluno. Este tipo de dados de rastreio (rastos de atividades de utilização digital e de aprendizagem) é frequentemente utilizado para a análise da aprendizagem. Os dados dos sistemas de informação dos alunos podem também ser utilizados no planeamento de recursos e cursos, bem como para prever o abandono escolar e as necessidades de orientação.
+
+As escolas devem assegurar que os dados que tratam são armazenados de forma confidencial e segura e devem dispor de políticas e procedimentos adequados para a proteção e a utilização ética de todos os dados pessoais, em conformidade com o Regulamento Geral sobre a Proteção de Dados (RGPD).
+
+Por que razão precisamos destas orientações?
+
+A utilização de sistemas de IA pode potencialmente melhorar o ensino, a aprendizagem e a avaliação, proporcionar melhores resultados de aprendizagem e ajudar as escolas a funcionar de forma mais eficiente. No entanto, se essas mesmas aplicações de IA não forem adequadamente concebidas ou se forem utilizadas de forma descuidada, tal poderá ter consequências nefastas. Os educadores devem saber ou questionar se os sistemas de IA que utilizam são fiáveis, justos, seguros e de confiança e se a gestão dos dados educativos é segura, protege a privacidade das pessoas e é utilizada para o bem comum. O termo «IA ética» é utilizado para indicar o desenvolvimento, a implantação e a utilização de IA que assegure a conformidade com as normas éticas, os princípios éticos e os valores fundamentais conexos.
+
+Tendo em conta a grande quantidade de dados necessários para treinar os sistemas de IA, a natureza automatizada dos algoritmos e a escalabilidade das suas aplicações, a utilização de IA levanta questões importantes em termos de dados pessoais, proteção de dados e privacidade.
+
+As presentes Orientações Éticas sobre a Utilização de IA e de Dados no Ensino e na Aprendizagem visam ajudar os educadores a compreender o potencial que as aplicações de IA e a utilização de dados podem ter na educação e alertar para os possíveis riscos. Dessa forma, poderão interagir de forma positiva, crítica e ética com os sistemas de IA e explorar todo o seu potencial.
+
+ORIENTAÇÕES 12ÉTICAS PARA EDUCADORES SOBRE A UTILIZAÇÃO DE INTELIGÊNCIA ARTIFICIAL (IA) Política da UE em matéria de inteligência artificial e proposta de quadro regulamentar
+
+No âmbito da sua agenda digital, com base nas Orientações Éticas para uma IA de Confiança, apresentadas em 2019 pelo grupo de peritos de alto nível sobre a inteligência artificial (GPAN IA), a Comissão Europeia propôs em 2021 um quadro jurídico abrangente para a IA (regulamento sobre inteligência artificial), que estabelece requisitos obrigatórios para os sistemas de IA de «risco elevado» em vários domínios, incluindo a educação e a formação profissional. Com base na evolução regulamentar e política da UE em matéria de IA e de dados, que incluem o RGPD e a proposta de regulamento relativo a regras harmonizadas sobre o acesso equitativo aos dados e a sua utilização, as presentes orientações, tendo em conta o contexto específico da educação e da formação, proporcionam conhecimentos e orientações práticas aos educadores que se veem cada vez mais confrontados com a utilização de IA nas suas práticas de ensino.
+
+Para melhor compreender o contexto político da UE no que respeita a uma IA de confiança, consulte: a proposta de quadro regulamentar em matéria de inteligência artificial¹; o trabalho do GPAN IA, que inclui as Orientações Éticas para uma IA de Confiança e a Lista de Avaliação para uma IA de Confiança (ALTAI)²; bem como o trabalho da Comissão Europeia no domínio dos dados³. Ideias erradas sobre a IA
+
+Existem muitos pressupostos e preocupações em relação à IA e aos seus impactos a curto e a longo prazo nos nossos sistemas de ensino e na sociedade em geral. De seguida, são abordadas algumas das ideias erradas mais comuns sobre a utilização de IA e de dados no contexto da educação. A IA é demasiado difícil de compreender
+
+Muitas pessoas que não têm experiência ou formação na área informática sentem-se desencorajadas pelo jargão associado à IA e aos sistemas de dados. Mesmo aqueles que têm formação relevante podem ter dificuldade em compreender plenamente como funciona a IA, uma vez que se trata de um domínio amplo e complexo. Este é por vezes referido como o problema da «caixa negra», uma vez que é difícil compreender o funcionamento interno de um sistema de IA. A inteligência artificial não é algo específico, mas um conjunto de métodos e técnicas para construir um sistema de IA. Em vez de tentar compreender todo o funcionamento dos sistemas de IA, é mais importante que os educadores estejam cientes dos mecanismos básicos e das limitações dos sistemas de IA e da forma como podem ser utilizados para apoiar o ensino e a aprendizagem de forma segura e ética. As presentes orientações destinam-se a apresentar algumas perguntas básicas que devem ser colocadas quando se pondera a utilização de um sistema de IA e a proporcionar cenários de utilização fáceis de compreender do ponto de vista da educação, bem como um glossário para ajudar na terminologia utilizada para descrever esses sistemas e o que fazem.
+
+A IA não tem qualquer papel na educação
+
+A IA já está a mudar a forma como aprendemos, trabalhamos e vivemos, e a educação está a ser afetada por esta evolução. Todas as pessoas devem poder contribuir para o desenvolvimento da IA e também beneficiar dela. Ao tornar os princípios éticos um ponto central do debate sobre o papel da IA na educação, podemos abrir o caminho para que os sistemas e soluções de IA sejam desenvolvidos e utilizados de forma ética, fiável, justa e inclusiva. A IA não é inclusiva
+
+A IA pode resultar em novas formas de desigualdade ou discriminação e exacerbar as existentes. No entanto, se adequadamente concebida e utilizada, pode igualmente oferecer oportunidades para melhorar o acesso e a inclusão na vida quotidiana, no trabalho e na educação. Existe também um potencial significativo para a IA proporcionar recursos educativos aos jovens com deficiência e com necessidades especiais. Por exemplo, as soluções baseadas na IA, como a transcrição em tempo real, podem ajudar as pessoas com deficiência auditiva, ao passo que a descrição áudio pode tornar o acesso mais fácil e mais eficaz para as pessoas com baixos níveis de visão.
+
+1 Quadro regulamentar em matéria de inteligência artificial. https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai 2 Grupo de peritos de alto nível sobre a inteligência artificial. https://digital-strategy.ec.europa.eu/en/policies/expert-group-ai 3 Construir o futuro digital da Europa: Dados. https://digital-strategy.ec.europa.eu/en/policies/data
+
+E DE DADOS NO ENSINO E NA APRENDIZAGEM 13
+
+Não se pode confiar nos sistemas de IA
+
+À medida que se tornam mais poderosos, os sistemas de IA complementarão ou substituirão cada vez mais tarefas específicas desempenhadas por pessoas. Tal poderá levantar questões éticas e de confiança no que diz respeito à capacidade de tomar decisões justas utilizando a IA, bem como à proteção dos dados recolhidos e utilizados para apoiar essas decisões. A complexidade do domínio jurídico pode constituir um verdadeiro desafio para os educadores. No entanto, a proposta de regulamento sobre inteligência artificial ajudará a assegurar que determinados sistemas de IA classificados como de «risco elevado» (tendo em conta os riscos que podem representar para a saúde, a segurança e os direitos fundamentais das pessoas) são desenvolvidos por fornecedores de acordo com requisitos obrigatórios para atenuar esses riscos e garantir a sua fiabilidade. Por conseguinte, as autoridades educativas e as escolas devem poder verificar se os sistemas de IA cumprem o quadro regulamentar em matéria de IA e centrar-se na utilização ética da IA e dos dados para apoiar os educadores e os alunos no ensino, na aprendizagem e na avaliação, respeitando simultaneamente os regulamentos aplicáveis em matéria de proteção de dados.
+
+A IA comprometerá o papel do professor
+
+Muitos professores receiam que, à medida que a utilização e o impacto da inteligência artificial na educação se alarguem no futuro, estes sistemas venham a diminuir o papel dos professores ou até a substituí-los. Em vez de substituir os professores, a IA pode apoiar o seu trabalho, permitindo-lhes conceber experiências de aprendizagem que capacitam os alunos para serem criativos, pensarem, resolverem problemas da vida real, colaborarem de forma eficaz, bem como criar experiências de aprendizagem que os sistemas de IA por si só não conseguem. Além disso, a IA pode automatizar tarefas administrativas repetitivas, permitindo dedicar mais tempo ao ambiente de aprendizagem. Desta forma, é provável que o papel do professor seja reforçado e evolua com as capacidades que as novas inovações da IA na educação proporcionarão. No entanto, tal exige uma governação cuidadosa do desenvolvimento e da utilização de aplicações de IA e uma ênfase no apoio à intervenção dos professores.
+
+ORIENTAÇÕES 14ÉTICAS PARA EDUCADORES SOBRE A UTILIZAÇÃO DE INTELIGÊNCIA ARTIFICIAL (IA) Exemplos da utilização de IA e de dados na educação
+
+A utilização de sistemas de IA nas salas de aula em toda a Europa está a aumentar e a IA está a ser utilizada de diversas formas para apoiar práticas de ensino, aprendizagem e avaliação.
+
+A IA tem um grande potencial para melhorar as práticas de ensino e aprendizagem e ajudar as escolas a melhorar a forma como estão organizadas e como funcionam. No entanto, a investigação baseada em dados concretos sobre o impacto da IA na educação é ainda limitada, pelo que é importante manter uma atitude crítica e supervisionada.
+
+Por vezes, os sistemas de IA podem ser utilizados de diversas formas para apoiar o ensino ou facilitar a aprendizagem. Quando falamos dos tipos de sistemas de IA utilizados nos domínios do ensino, da aprendizagem, da avaliação e da administração escolar, é feita uma distinção comum entre sistemas de IA «orientados para o aluno», «orientados para o professor» e «orientados para o sistema».
+
+De seguida, apresentamos quatro casos de utilização classificados como:
+
+• ensino dos alunos — utilizar a IA para ensinar os alunos (orientado para o aluno),
+
+• apoio aos alunos — utilizar a IA para apoiar a aprendizagem dos alunos (orientado para o aluno),
+
+• apoio aos professores — utilizar a IA para apoiar o professor (orientado para o professor),
+
+• apoio aos sistemas — utilizar a IA para apoiar o diagnóstico ou planeamento a nível do sistema (orientado para o sistema).
+
+Os casos de utilização descritos abaixo fornecem algumas informações sobre a forma como os sistemas de IA estão a ser utilizados pelos educadores e alunos para apoiar o processo de ensino, aprendizagem e avaliação.
+
+ENSINO DOS ALUNOS Utilizar a IA para ensinar os alunos
+
+Sistema de tutoria inteligente
+
+O aluno segue uma sequência de tarefas passo a passo e recebe instruções ou feedback individualizados, sem necessitar da intervenção do professor.
+
+Sistemas de tutoria baseados no diálogo
+
+O aluno segue uma sequência de tarefas passo a passo através de conversação em linguagem natural. Os sistemas mais avançados conseguem adaptar-se automaticamente ao nível de envolvimento para manter o aluno motivado e focado na tarefa.
+
+Aplicações de aprendizagem de línguas
+
+As aplicações de aprendizagem baseadas na IA são utilizadas em contextos de educação formal e não formal. Apoiam a aprendizagem através do acesso a cursos de línguas e dicionários e fornecem feedback automático em tempo real sobre a pronúncia, a compreensão e a fluência.
+
+E DE DADOS NO ENSINO E NA APRENDIZAGEM 15
+
+APOIO AOS ALUNOS Utilizar a IA para apoiar a aprendizagem dos alunos
+
+Ambientes de aprendizagem exploratória
+
+São oferecidas aos alunos múltiplas representações que os ajudam a identificar as suas próprias vias para alcançar os objetivos de aprendizagem.
+
+Avaliação formativa escrita
+
+Os alunos recebem regularmente feedback automático sobre a sua escrita e os seus trabalhos.
+
+Aprendizagem colaborativa apoiada pela IA
+
+Os dados sobre o estilo de trabalho de cada aluno e o desempenho passado são utilizados para os dividir em grupos com os mesmos níveis de capacidade ou uma combinação adequada de capacidades e talentos. Os sistemas de IA fornecem contributos/sugestões sobre a forma como um grupo está a trabalhar em conjunto, monitorizando o nível de interação entre os membros do grupo.
+
+APOIO AOS PROFESSORES Utilizar a IA para apoiar o professor
+
+Avaliação sumativa escrita, classificação de trabalhos escritos
+
+A IA é utilizada para avaliar e classificar automaticamente os trabalhos escritos dos alunos. A IA e as técnicas de aprendizagem automática identificam características como a utilização das palavras, a gramática e a estrutura das frases para classificar e dar feedback.
+
+Monitorização de fóruns de alunos
+
+Palavras-chave em publicações em fóruns de alunos desencadeiam um feedback automático. A análise dos debates fornece informações sobre a atividade dos fóruns de alunos e podem destacar os alunos que possam necessitar de ajuda ou que não estejam a participar conforme previsto.
+
+Assistentes de ensino através de IA
+
+Os agentes de IA ou os robôs de conversação dão resposta a perguntas frequentes dos alunos com instruções e orientações simples. Ao longo do tempo, o sistema de IA é capaz de alargar o leque de respostas e opções fornecidas.
+
+Recomendação de recursos pedagógicos
+
+Os motores de recomendação através de IA são utilizados para recomendar atividades ou recursos de aprendizagem específicos com base nas preferências, progresso e necessidades de cada aluno.
+
+ORIENTAÇÕES 16
+
+ÉTICAS PARA EDUCADORES SOBRE A UTILIZAÇÃO DE INTELIGÊNCIA ARTIFICIAL (IA) APOIO AOS SISTEMAS Utilizar a IA para apoiar o diagnóstico ou planeamento a nível de sistemas
+
+Prospeção de dados educativos para a afetação de recursos
+
+As escolas recolhem dados sobre os alunos, que são analisados e utilizados para planear a melhor forma de afetar os recursos disponíveis a tarefas como a criação de agrupamentos de turmas, a atribuição de professores, a elaboração de horários e a identificação dos alunos que possam necessitar de apoio complementar à aprendizagem.
+
+Diagnóstico de dificuldades de aprendizagem
+
+Utilizando a análise da aprendizagem, as competências cognitivas, como o vocabulário, a audição, o raciocínio espacial, a resolução de problemas e a memória, são avaliadas e utilizadas para diagnosticar dificuldades de aprendizagem, incluindo problemas subjacentes que um professor pode não conseguir identificar, mas que podem ser detetados numa fase precoce através de sistemas de IA.
+
+Serviços de orientação
+
+Os serviços de orientação baseados na IA fornecem sugestões ou opções de forma contínua para criar percursos para a educação do futuro. Os utilizadores podem formar um perfil de competências que inclua os níveis de educação anteriores e incluir os seus próprios interesses. A partir destes dados, combinados com um catálogo de cursos atualizado ou com informações sobre oportunidades de estudo, podem ser elaboradas recomendações de estudo pertinentes utilizando o processamento de linguagem natural.
+
+E DE DADOS NO ENSINO E NA APRENDIZAGEM 17
+
+«As orientações éticas sobre a utilização de IA e de dados no ensino e na aprendizagem são um processo gradual de deliberação e aprendizagem contínuas.»
+
+Grupo de peritos em IA e dados na educação e formação
+
+ORIENTAÇÕES 18ÉTICAS PARA EDUCADORES SOBRE A UTILIZAÇÃO DE INTELIGÊNCIA ARTIFICIAL (IA) Considerações éticas e requisitos subjacentes às orientações éticas
+
+Considerações éticas
+
+Na elaboração das presentes orientações, foram identificadas quatro considerações fundamentais que estão na base da utilização ética da IA e dos dados no ensino, na aprendizagem e na avaliação. Trata-se da ação humana, da equidade, da humanidade e da escolha justificada.
+
+A ação humana está relacionada com a capacidade de um indivíduo para se tornar um membro competente da sociedade. Uma pessoa com ação pode determinar as suas escolhas de vida e ser responsável pelos seus atos. O termo «ação» apoia conceitos amplamente utilizados, como a autonomia, a autodeterminação e a responsabilidade.
+
+A equidade implica que todas as pessoas sejam tratadas de forma equitativa na organização social. São necessários processos claros para que todos os utilizadores tenham igual acesso às oportunidades. Estes incluem a equidade, a inclusão, a não discriminação e a distribuição equitativa de direitos e responsabilidades.
+
+A humanidade diz respeito à tomada em consideração das pessoas, da sua identidade, da integridade e da dignidade. Temos de ter em conta o bem-estar, a segurança, a coesão social, o contacto genuíno e o respeito que é necessário para uma ligação humana significativa. Esta ligação implica, por exemplo, que abordemos as pessoas com
+
+respeito pelo seu valor intrínseco e não como um objeto de dados ou um meio para atingir um fim. Está na essência da abordagem da IA centrada no ser humano.
+
+A escolha justificada diz respeito à utilização de conhecimentos, factos e dados para justificar escolhas coletivas necessárias ou adequadas por parte das várias partes interessadas no contexto escolar. Requer transparência e baseia-se em modelos de tomada de decisões participativos e colaborativos, bem como na explicabilidade.
+
+Estas considerações éticas são intrinsecamente valiosas e merecem ser prosseguidas na educação. Orientam os educadores e os dirigentes escolares nas suas decisões sobre a utilização dos sistemas de IA na educação. Os requisitos éticos essenciais a seguir introduzidos podem ajudar a garantir que os sistemas de IA utilizados na educação e na formação são fiáveis e dão resposta a preocupações pertinentes.
+
+Requisitos essenciais para uma IA de confiança
+
+O regulamento sobre inteligência artificial proposto pela Comissão estabelecerá requisitos juridicamente vinculativos para os sistemas de IA considerados de «risco elevado», tendo em conta a sua finalidade prevista . Este incluirá determinados sistemas de IA utilizados no domínio da educação e da formação profissional. Quando o regulamento sobre inteligência artificial se tornar aplicável, as instituições de ensino, enquanto utilizadores de sistemas de IA, poderão confiar na fiabilidade desses sistemas de IA de «risco elevado» com base na certificação assegurada pelo fornecedor, tendo simultaneamente de cumprir determinadas obrigações.
+
+Independentemente de os sistemas de IA serem abrangidos pelo âmbito de aplicação do quadro jurídico, as empresas que desenvolvem e fornecem sistemas de IA (fornecedores de sistemas) são incentivadas a executar e a aplicar requisitos éticos para uma IA de confiança nos seus processos de conceção e desenvolvimento. Ao mesmo tempo, é importante que as escolas e os educadores estejam cientes dos mesmos e sejam capazes de formular perguntas pertinentes, a fim de melhor refletir sobre os mesmos.
+
+Os requisitos que se seguem, que se baseiam nas orientações éticas para uma IA de confiança do GPAN IA, são, por conseguinte, recomendáveis para qualquer sistema de IA implantado e utilizado na educação. Abordam preocupações importantes, como os riscos de distorção ou de erro que afetam os resultados escolares:
+
+Ação e supervisão humanas, incluindo os direitos fundamentais, os direitos da criança, a ação humana e a supervisão humana.
+
+Transparência, incluindo a rastreabilidade, a explicabilidade e a comunicação.
+
+Diversidade, não discriminação e equidade, incluindo a acessibilidade, a conceção universal, a prevenção de enviesamentos injustos e a participação das partes interessadas, que permitem a sua utilização independentemente da idade, do género, das capacidades ou características, com especial destaque para os alunos com necessidades especiais.
+
+Bem-estar societal e ambiental, incluindo a sustentabilidade e o respeito do ambiente, o impacto social, a sociedade e a democracia.
+
+Privacidade e governação dos dados, incluindo o respeito da privacidade, a qualidade e a integridade dos dados e o acesso aos dados.
+
+4 Os requisitos propostos estão relacionados com a gestão dos riscos, os dados de treino e teste do sistema de IA e a governação dos dados, o fornecimento de documentação
+
+técnica, a manutenção de registos, a transparência e a prestação de informações aos utilizadores, a supervisão humana, a solidez, a exatidão e a cibersegurança.
+
+E DE DADOS NO ENSINO E NA APRENDIZAGEM 19
+
+Solidez técnica e segurança, incluindo a resiliência perante ataques, a proteção e a segurança geral, a exatidão, a fiabilidade e a reprodutibilidade.
+
+Responsabilização, incluindo a auditabilidade, a minimização e a comunicação dos impactos negativos, as soluções de compromisso e as vias de recurso.
+
+As considerações e os requisitos podem ajudar os educadores, os dirigentes escolares e os fornecedores de tecnologia a avaliar adequadamente o impacto, a abordar os potenciais riscos e a concretizar os benefícios de um sistema de IA implantado e utilizado na educação. Como tal, orientam o desenvolvimento, a implantação e a utilização de sistemas de IA de confiança.
+
+Perguntas de orientação para os educadores
+
+Ao considerar a utilização de um sistema de IA, embora possa não ser necessário compreender o funcionamento do sistema de IA, é importante que a escola ou o educador sejam capazes de formular algumas perguntas pertinentes e de estabelecer um diálogo construtivo com os fornecedores de sistemas de IA ou com os organismos públicos responsáveis (como as autoridades de fiscalização do mercado, o ministério da educação, as autoridades educativas regionais e locais e as autoridades escolares). As perguntas de orientação que se seguem baseiam-se nos requisitos essenciais para sistemas de IA de confiança e servem o objetivo de permitir um diálogo construtivo sobre a sua utilização ética na educação e na formação. Algumas delas estão mais centradas em questões práticas de execução e outras em considerações éticas.
+
+Embora as perguntas de orientação forneçam orientações e visem iniciar uma reflexão por parte dos educadores nas suas práticas profissionais, as mesmas não podem substituir uma avaliação jurídica ou ética abrangente. Esta última deve ser realizada com base na Lista de Avaliação para uma IA de Confiança (ALTAI), bem como no futuro regulamento sobre inteligência artificial. No entanto, as perguntas ajudarão os educadores a lidar melhor com uma tecnologia complexa e altamente inovadora e a promover a sensibilização.
+
+1 Ação e supervisão humanas
+
+• O papel do professor está claramente definido de modo a garantir que existe um professor informado sobre a matéria enquanto o sistema de IA está a ser utilizado? Como é que o sistema de IA afeta o papel didático do professor?
+
+• As decisões que afetam os alunos são tomadas com a intervenção dos professores e o professor está em condições de detetar anomalias ou possíveis discriminações?
+
+• Existem procedimentos para que os professores acompanhem e intervenham, por exemplo, em situações em que é necessária empatia quando lidam com alunos ou pais?
+
+• Existe um mecanismo que permita aos alunos recusar participar caso as preocupações não tenham sido devidamente tidas em conta?
+
+• Existem sistemas de acompanhamento para evitar o excesso de confiança ou o excesso de dependência face ao sistema de IA?
+
+• Os professores e os dirigentes escolares dispõem de toda a formação e informação necessárias para utilizar eficazmente o sistema e garantir que o mesmo é seguro e não causa danos, nem viola os direitos dos alunos?
+
+2 Transparência
+
+• Os professores e os dirigentes escolares estão cientes dos métodos e das funcionalidades de IA utilizados pelo sistema?
+
+• É possível identificar claramente os aspetos que a IA pode e não pode assumir no sistema?
+
+• Os professores e os dirigentes escolares compreendem como funcionam os algoritmos específicos de avaliação ou personalização no sistema de IA?
+
+• Os processos e resultados do sistema centram-se nos resultados de aprendizagem esperados para os alunos? Em que medida as previsões, avaliações e classificações do sistema de IA são fiáveis para explicar e avaliar a relevância da sua utilização?
+
+• As instruções e informações são acessíveis e apresentadas de forma clara, tanto para os professores como para os alunos?
+
+ORIENTAÇÕES ÉTICAS PARA EDUCADORES SOBRE A UTILIZAÇÃO DE INTELIGÊNCIA ARTIFICIAL (IA) 203 Diversidade, não discriminação e equidade
+
+• O sistema é acessível a todos da mesma forma, sem quaisquer obstáculos?
+
+• O sistema proporciona modos de interação adequados aos alunos com deficiência ou com necessidades educativas especiais? O sistema de IA foi concebido para tratar os alunos de forma respeitosa, adaptando-se às suas necessidades individuais?
+
+• A interface do utilizador é adequada e acessível para a idade dos alunos? A usabilidade e a experiência do utilizador foram testadas para o grupo etário visado?
+
+• Existem procedimentos para assegurar que a utilização de IA não conduz a discriminações ou comportamentos injustos para todos os utilizadores?
+
+• A documentação do sistema de IA ou o seu processo de treino fornece informações sobre potenciais distorções nos dados?
+
+• Existem procedimentos para detetar e lidar com distorções ou desigualdades que possam surgir?
+
+4 Bem-estar societal e ambiental
+
+• De que forma o sistema de IA afeta o bem-estar social e emocional dos alunos e dos professores?
+
+• O sistema de IA indica claramente que a sua interação social é simulada e que não tem capacidades de emoção ou empatia?
+
+• Os alunos ou os seus pais estão envolvidos na decisão de utilizar e apoiar o sistema de IA?
+
+• Os dados são utilizados para ajudar os professores e os dirigentes escolares a avaliar o bem-estar dos alunos? Em caso afirmativo, de que forma isso é monitorizado?
+
+• A utilização do sistema gera danos ou medo para os indivíduos ou para a sociedade?
+
+E DE DADOS NO ENSINO E NA APRENDIZAGEM 21
+
+5 Privacidade e governação dos dados
+
+• Existem mecanismos para garantir o anonimato dos dados sensíveis? Existem procedimentos para limitar o acesso aos dados apenas àqueles que deles necessitam?
+
+• O acesso aos dados dos alunos está protegido e armazenado num local seguro e é utilizado apenas para os fins para os quais os dados foram recolhidos?
+
+• Existe um mecanismo que permita aos professores e aos dirigentes escolares assinalar problemas relacionados com a privacidade ou a proteção de dados?
+
+• Os alunos e os professores são informados sobre o que acontece com os seus dados, como são utilizados e para que fins?
+
+• É possível personalizar a privacidade e as definições dos dados?
+
+• O sistema de IA cumpre o Regulamento Geral sobre a Proteção de Dados?
+
+6 Solidez técnica e segurança
+
+• Existe segurança suficiente para proteger contra violações de dados?
+
+• Existe uma estratégia para controlar e testar se o sistema de IA cumpre os objetivos, as finalidades e as aplicações previstas?
+
+• Existem mecanismos de supervisão adequados para a recolha, armazenamento, tratamento, minimização e utilização dos dados?
+
+• Estão disponíveis informações para garantir aos alunos e aos pais a solidez técnica e a segurança do sistema?
+
+7 Responsabilização
+
+• Quem é responsável pelo acompanhamento contínuo dos resultados produzidos pelo sistema de IA e como estão os resultados a ser utilizados para melhorar o ensino, a aprendizagem e a avaliação?
+
+• Como é avaliada a eficácia e o impacto do sistema de IA e de que forma essa avaliação tem em conta os valores fundamentais da educação?
+
+• Quem é responsável e responsabilizável pelas decisões finais tomadas relativamente à contratação pública e à implantação do sistema de IA?
+
+• Existe um acordo de nível de serviço que descreva claramente os serviços de apoio e manutenção e as medidas a adotar para resolver os problemas comunicados?
+
+ORIENTAÇÕES 22ÉTICAS PARA EDUCADORES SOBRE A UTILIZAÇÃO DE INTELIGÊNCIA ARTIFICIAL (IA) Orientações para educadores e dirigentes escolares
+
+A inteligência artificial pode desempenhar um papel fundamental na melhoria das práticas de ensino, aprendizagem e avaliação, beneficiando educadores e alunos. Seja a nível do sistema, da escola ou da sala de aula, é importante que seja dada especial atenção à utilização ética da IA e dos sistemas de dados. Tal deve ser feito de forma contínua e liderado pela direção da escola. Segue-se uma série de medidas básicas que os educadores e os dirigentes escolares podem adotar para analisar a forma como a IA e os dados estão a ser ou podem ser utilizados em toda a escola, de modo a que conduzam a melhores resultados para todos os alunos, tendo simultaneamente em conta as considerações éticas.
+
+Utilização das perguntas de orientação
+
+As perguntas de orientação podem ser utilizadas de diferentes formas aquando da análise de um sistema de IA, antes da sua instalação numa escola ou durante a sua utilização. As perguntas podem ser colocadas aos próprios educadores, aos responsáveis pela tomada de decisões ao nível da direção ou aos fornecedores de sistemas. As perguntas podem também servir de base ao debate com os alunos, os pais e a comunidade escolar em geral.
+
+Estes cenários escolares fornecem exemplos de como as perguntas de orientação podem contribuir para a forma como os sistemas de IA são utilizados de forma ética e responsável. Embora todas as perguntas de orientação possam ser consideradas para cada caso, são destacadas três perguntas como exemplos com base na sua relevância para a solução de IA proposta em resposta a um determinado objetivo. Nomeadamente, alguns destes cenários escolares passarão a estar sujeitos ao quadro regulamentar em matéria de IA e os respetivos sistemas de IA regulamentados estarão sujeitos a obrigações e requisitos obrigatórios.
+
+Utilizar tecnologias de aprendizagem adaptativa às capacidades de cada aluno
+
+Uma escola primária está a utilizar um sistema de tutoria inteligente para encaminhar automaticamente os alunos para recursos específicos adaptados às suas necessidades de aprendizagem. O sistema baseado na IA utiliza os dados dos alunos para adaptar os problemas aos níveis de conhecimento previstos dos alunos. Além de fornecer feedback constante ao aluno, o sistema fornece informações em tempo real sobre o seu progresso num painel do professor.
+
+As seguintes perguntas de orientação destacam domínios que requerem atenção:
+
+• Os processos e resultados do sistema centram-se nos resultados de aprendizagem esperados para os alunos? Em que medida as previsões, avaliações e classificações do sistema de IA são fiáveis para explicar e avaliar a relevância da sua utilização? Transparência
+
+• O sistema proporciona modos de interação adequados aos alunos com deficiência ou com necessidades educativas especiais? O sistema de IA foi concebido para tratar os alunos de forma respeitosa, adaptando-se às suas necessidades individuais? Diversidade, não discriminação e equidade
+
+• Existem sistemas de acompanhamento para evitar o excesso de confiança ou o excesso de dependência face ao sistema de IA? Ação e supervisão humanas
+
+E DE DADOS NO ENSINO E NA APRENDIZAGEM 23
+
+Utilizar painéis do aluno para orientar os alunos na sua aprendizagem
+
+Uma escola secundária está a ponderar a utilização de um painel do aluno personalizado em linha, que fornecerá feedback aos alunos e apoiará o desenvolvimento das suas competências de autorregulação. Em vez de se concentrarem no que o aluno aprendeu, as visualizações proporcionam ao aluno uma visão da forma como está a aprender.
+
+As seguintes perguntas de orientação destacam domínios que requerem atenção:
+
+• O sistema de IA indica claramente que a sua interação social é simulada e que não tem capacidades de emoção ou empatia? Bem-estar societal e ambiental
+
+• O acesso aos dados dos alunos está protegido e armazenado num local seguro e é utilizado apenas para os fins para os quais os dados foram recolhidos? Privacidade e governação dos dados
+
+• Existe um acordo de nível de serviço que descreva claramente os serviços de apoio e manutenção e as medidas a adotar para resolver os problemas comunicados? Responsabilização
+
+Prever intervenções individualizadas para necessidades especiais
+
+Uma escola está a estudar a forma como os sistemas de IA podem ajudar a reduzir os obstáculos que se colocam aos alunos com necessidades educativas especiais. A escola está atualmente a experimentar um sistema de IA para detetar as necessidades de apoio dos alunos numa fase precoce e prestar apoio pedagógico personalizado. Ao detetar padrões de características correspondentes a partir de medidas como o desempenho da aprendizagem, testes normalizados da capacidade de concentração ou da velocidade de leitura, o sistema sugere probabilidades para diagnósticos específicos e recomendações conexas sobre intervenções.
+
+As seguintes perguntas de orientação destacam domínios que requerem atenção:
+
+• Existem procedimentos para que os professores acompanhem e intervenham, por exemplo, em situações em que é necessária empatia quando lidam com alunos ou pais? Ação e supervisão humanas
+
+• Estão disponíveis informações para garantir aos alunos e aos pais a solidez técnica e a segurança do sistema? Solidez técnica e segurança
+
+• O papel do professor está claramente definido de modo a garantir que existe um professor informado sobre a matéria enquanto o sistema de IA está a ser utilizado? Como é que o sistema de IA afeta o papel didático do professor? Ação e supervisão humanas
+
+ORIENTAÇÕES 24ÉTICAS PARA EDUCADORES SOBRE A UTILIZAÇÃO DE INTELIGÊNCIA ARTIFICIAL (IA) Classificar trabalhos escritos através de ferramentas automatizadas
+
+Uma escola está a analisar a forma como os sistemas de IA podem apoiar a avaliação dos trabalhos escritos dos alunos. Um fornecedor recomendou um sistema automático de classificação de trabalhos escritos que utiliza grandes modelos de linguagem natural para avaliar vários aspetos do texto com elevada precisão. O sistema pode ser utilizado para verificar os trabalhos dos alunos, identificar automaticamente erros e atribuir classificações. O sistema também pode ser utilizado para gerar redações exemplificativas. Ao longo do tempo, o sistema pode treinar grandes redes neuronais artificiais com casos históricos que contêm vários tipos de erros de alunos para fornecer uma classificação ainda mais precisa. O sistema tem uma opção de deteção do plágio que pode ser utilizada para detetar automaticamente casos de plágio ou violação de direitos de autor em trabalhos escritos apresentados pelos alunos.
+
+As seguintes perguntas de orientação destacam domínios que requerem atenção:
+
+• Existem procedimentos para assegurar que a utilização de IA não conduz a discriminações ou comportamentos injustos para todos os utilizadores? Diversidade, não discriminação e equidade
+
+• Quem é responsável pelo acompanhamento contínuo dos resultados produzidos pelo sistema de IA e como os resultados estão a ser utilizados para melhorar o ensino, a aprendizagem e a avaliação? Responsabilização
+
+• Os professores e os dirigentes escolares compreendem como funcionam os algoritmos específicos de avaliação ou personalização no sistema de IA? Transparência
+
+E DE DADOS NO ENSINO E NA APRENDIZAGEM 25
+
+Gerir as matrículas dos alunos e o planeamento dos recursos
+
+Uma escola utiliza os dados recolhidos quando os alunos se matriculam para prever e organizar melhor o número de alunos que frequentarão a escola no ano seguinte. O sistema de IA também é utilizado para ajudar no planeamento prospetivo, na afetação de recursos, na distribuição das turmas e na orçamentação. Tal permitiu à escola ter em conta mais atributos dos alunos do que anteriormente, como por exemplo aumentar a paridade de género e a diversidade dos alunos. A escola está agora a ponderar a utilização das classificações anteriores e de outros parâmetros, como testes normalizados, para desenvolver as metas a atingir pelos seus alunos e para ajudar os educadores a prever o sucesso dos alunos em cada disciplina.
+
+As seguintes perguntas de orientação destacam domínios que requerem atenção:
+
+• Quem é responsável pelo acompanhamento contínuo dos resultados produzidos pelo sistema de IA e como os resultados estão a ser utilizados para melhorar o ensino, a aprendizagem e a avaliação? Responsabilização
+
+• Existem mecanismos para garantir o anonimato dos dados sensíveis? Existem procedimentos para limitar o acesso aos dados apenas àqueles que deles necessitam? Privacidade e governação dos dados
+
+• Como é avaliada a eficácia e o impacto do sistema de IA e de que forma essa avaliação tem em conta os valores fundamentais da educação? Responsabilização
+
+Utilizar robôs de conversação para ajudar os alunos e os pais a tratar das questões administrativas
+
+Uma escola utiliza um robô de conversação como assistente virtual no seu sítio Web para orientar os alunos e os pais em tarefas administrativas, como a inscrição em cursos, o pagamento de propinas ou o registo de questões de assistência técnica. O sistema também é utilizado para ajudar os alunos a encontrar oportunidades de aprendizagem, fornecer feedback sobre a pronúncia ou a compreensão. O assistente virtual também é utilizado para ajudar os alunos com necessidades educativas especiais a tratar das questões administrativas.
+
+As seguintes perguntas de orientação destacam domínios que requerem atenção:
+
+• O sistema de IA indica claramente que a sua interação social é simulada e que não tem capacidades de emoção ou empatia? Bem-estar societal e ambiental
+
+• Existe uma estratégia para controlar e testar se o sistema de IA cumpre os objetivos, as finalidades e as aplicações previstas? Solidez técnica e segurança
+
+• Existe um mecanismo que permita aos professores e aos dirigentes escolares assinalar problemas relacionados com a privacidade ou a proteção de dados? Privacidade e governação dos dados
+
+ORIENTAÇÕES 26 ÉTICAS PARA EDUCADORES SOBRE A UTILIZAÇÃO DE INTELIGÊNCIA ARTIFICIAL (IA) Planeamento da utilização eficaz de IA e de dados na escola
+
+Ao considerar a utilização de IA e de dados, é importante que a escola prepare e ponha em prática um processo colaborativo e reflexivo de análise interna da escola. Tal exige que os educadores descubram de que forma os sistemas de IA os podem ajudar no seu trabalho e na aprendizagem dos alunos. A previsão das consequências e do impacto da utilização de dados e de IA na educação pode ser muito difícil. Por conseguinte, é necessária uma abordagem gradual do desenvolvimento e da implantação destas tecnologias e da sua avaliação. A ideia é introduzir gradualmente estes instrumentos nos seus contextos e acompanhar permanentemente os efeitos societais que podem surgir, deixando em aberto a possibilidade de retroceder caso ocorram consequências não intencionais. A aplicação ética da IA no ensino requer uma intervenção ao nível do aluno, do educador, da direção da escola e institucional. Analisar os atuais sistemas de IA e a utilização de dados
+
+As perguntas apresentadas nas presentes orientações podem ser utilizadas como ponto de partida para investigar os sistemas de IA existentes, ou como base para o debate caso se pondere a utilização futura de IA e de dados numa escola. Ao proceder a uma análise, é útil enumerar os dados que estão a ser recolhidos pela escola e esclarecer qual o objetivo visado. As escolas devem ponderar se há informações menos específicas que possam ser recolhidas para alcançar o mesmo resultado. Devem também ter em conta o período de tempo durante o qual os dados serão necessários e a forma como a escola poderá conservá-los o menor tempo possível. O Regulamento Geral sobre a Proteção de Dados (RGPD) da União Europeia exige este tipo de análise. Implantar políticas e procedimentos
+
+Antes da implantação de um sistema de IA, é necessário estabelecer políticas e procedimentos ao nível da escola para estabelecer expectativas e fornecer orientações sobre a forma de lidar de modo coerente com os problemas quando estes surgem. Estas poderiam incluir medidas destinadas a:
+
+• garantir a contratação pública de uma IA de confiança e centrada no ser humano,
+
+• aplicar a supervisão humana,
+
+• assegurar que os dados de entrada são pertinentes para a finalidade prevista do sistema de IA,
+
+• prestar formação adequada ao pessoal,
+
+• controlar o funcionamento do sistema de IA e adotar medidas corretivas, e
+
+• cumprir as obrigações pertinentes do RGPD, incluindo a realização de uma avaliação de impacto sobre a proteção de dados.
+
+Tal proporcionará orientações sobre o que é adequado, bem como sobre comportamentos inadequados ou inaceitáveis, e ajudará a garantir que as pessoas são tratadas de forma justa e equitativa. É importante que as políticas e os procedimentos sejam comunicados aos educadores, alunos e pais, para que estes compreendam o que se espera deles.
+
+Realizar um projeto-piloto do sistema de IA
+
+Antes de introduzir novos sistemas de IA em toda a escola, pode ser útil testar o sistema com uma determinada coorte de alunos. É importante ter uma visão clara do que a escola pretende alcançar com a nova tecnologia, para que se possa tomar uma decisão informada com o envolvimento dos alunos e dos pais. São necessários critérios de avaliação específicos para que se possa fazer uma apreciação informada sobre a eficácia do sistema de IA em termos de melhoria dos resultados de aprendizagem, da relação custo-benefício e da utilização ética. Tal também salientará algumas das principais perguntas que poderão ter de ser colocadas ao fornecedor antes da aquisição do sistema. Colaborar com o fornecedor do sistema de IA
+
+É importante manter o contacto com o fornecedor do sistema de IA antes da sua implantação e ao longo de todo o ciclo de vida do sistema. Deve procurar-se documentação técnica clara e obter esclarecimentos sobre quaisquer aspetos que não sejam claros. Deve ser celebrado com o fornecedor um acordo de nível de serviço que estabeleça os serviços de apoio e manutenção e as medidas a adotar para resolver os problemas comunicados. Devem ser solicitadas garantias ao fornecedor em termos de cumprimento das obrigações legais aplicáveis. A escola deve também considerar a futura dependência do fornecedor se, por exemplo, pretender mudar de fornecedor no futuro ou mudar para um sistema de IA diferente. É igualmente importante que quaisquer medidas de supervisão humana identificadas pelo fornecedor sejam aplicadas pela escola enquanto o sistema de IA estiver a ser utilizado. Controlar o funcionamento do sistema de IA e avaliar os riscos
+
+A utilização do sistema de IA deve ser objeto de um acompanhamento contínuo para avaliar o impacto nas práticas de aprendizagem, ensino e avaliação. Ao nível das escolas, será importante decidir de que forma será organizado e realizado o acompanhamento, quem será responsável pelo acompanhamento e como os progressos serão determinados e comunicados. Os elementos de prova recolhidos, em resultado do acompanhamento contínuo, devem fundamentar e influenciar a futura utilização de sistemas de IA ou a decisão de não os utilizar em circunstâncias específicas.
+
+E DE DADOS NO ENSINO E NA APRENDIZAGEM 27
+
+Sensibilização e envolvimento da comunidade Debater com colegas
+
+A colaboração entre educadores contribui para a melhoria do trabalho da escola e para o sucesso dos alunos. Por norma, os educadores entreajudam-se e podem delegar tarefas que os ajudem a ser mais eficazes em termos coletivos. O trabalho colaborativo pode ajudar na tomada de decisões mais informadas e na garantia de uma abordagem mais coerente da utilização da IA e dos sistemas de dados em toda a escola. Colaborar com outras escolas
+
+A colaboração entre escolas é uma forma eficaz de partilhar experiências e boas práticas e de aprender como outras escolas implantaram sistemas de IA. Tal pode também ser útil para identificar e lidar com fornecedores fiáveis de IA e de sistemas de dados que cumpram os requisitos essenciais para uma IA de confiança. É importante que as escolas participem em projetos supervisionados e experiências organizadas a nível regional, nacional ou europeu através de iniciativas como o Erasmus+. Estas proporcionam oportunidades para os educadores e os dirigentes escolares colaborarem num processo de investigação aplicada e contribuírem para a futura utilização e desenvolvimento de IA e a utilização de dados nas escolas.
+
+Comunicar com os pais, os alunos e a comunidade escolar
+
+A participação dos pais e dos alunos nos debates e na tomada de decisões levará a uma melhor compreensão e confiança no que a escola pretende alcançar através da utilização de sistemas de IA. É necessário analisar cuidadosamente os dados que estão a ser recolhidos, o que está a ser feito com os dados, como e por que motivo estão a ser recolhidos e como são protegidos. Será importante partilhar estas explicações com os alunos e os pais e dar-lhes a oportunidade de transmitir o seu feedback e expressar eventuais preocupações. Os alunos, dependendo da sua idade, podem necessitar de abordagens diferentes, de modo a poderem participar na tomada de decisões informadas. Manter-se atualizado
+
+À medida que os sistemas de IA continuam a evoluir e a utilização de dados aumenta, é muito importante desenvolver uma melhor compreensão do seu impacto no mundo que nos rodeia, incluindo na educação e na formação. Os educadores terão de continuar a estar informados sobre as novas inovações e o desenvolvimento através da participação na aprendizagem profissional contínua e do envolvimento em comunidades de práticas. Os dirigentes escolares terão de proporcionar ao pessoal oportunidades para melhorar as suas competências e continuar a desenvolver competências para a utilização ética da IA e dos dados.
+
+ORIENTAÇÕES 28 ÉTICAS PARA EDUCADORES SOBRE A UTILIZAÇÃO DE INTELIGÊNCIA ARTIFICIAL (IA) Competências emergentes para a utilização ética da IA e dos dados
+
+Os educadores e os dirigentes escolares desempenham um papel central na adoção bem-sucedida dos sistemas de IA e na concretização dos potenciais benefícios dos dados digitais na educação. Por conseguinte, é importante que os professores e os dirigentes escolares conheçam e apreciem as oportunidades e os desafios da utilização de sistemas de IA e a forma como estes podem melhorar as práticas de ensino, aprendizagem e avaliação. Tal conduzirá ao desenvolvimento de novas competências digitais
+
+a considerar no contexto do Quadro Europeu de Competências Digitais para os Educadores (DigCompEdu), que proporciona um quadro geral de referência para apoiar o desenvolvimento de competências digitais específicas do educador na Europa. Seguem- se alguns indicadores potenciais das competências emergentes dos educadores e dirigentes escolares para a utilização ética da IA e dos dados no ensino e na aprendizagem.
+
+Área 1: Envolvimento profissional Utilizar tecnologias digitais para a comunicação, a colaboração e o desenvolvimento profissional
+
+Competência Potenciais indicadores
+
+É capaz de descrever de forma crítica os impactos positivos e negativos da utilização de IA e de dados na educação
+
+• Participa ativamente na aprendizagem profissional contínua sobre a IA, a análise da aprendizagem e a sua utilização ética.
+
+• É capaz de dar exemplos de sistemas de IA e descrever a sua relevância.
+
+• Sabe como é avaliado o impacto ético dos sistemas de IA na escola.
+
+• Sabe como lançar e promover estratégias em toda a escola e na comunidade em geral, que promovam a utilização ética e responsável da IA e dos dados.
+
+Compreender os princípios básicos da IA e da análise da aprendizagem
+
+• Está ciente de que os algoritmos de IA funcionam de formas que, em geral, não são visíveis ou facilmente compreendidas pelos utilizadores.
+
+• É capaz de interagir e dar feedback ao sistema de IA para influenciar o que o sistema recomenda a seguir.
+
+• Está ciente de que os sensores utilizados em muitas tecnologias e aplicações digitais geram grandes volumes de dados, incluindo dados pessoais, que podem ser utilizados para treinar um sistema de IA.
+
+• Está ciente das orientações éticas da UE em matéria de IA e dos instrumentos de autoavaliação.
+
+E DE DADOS NO ENSINO E NA APRENDIZAGEM 29
+
+Área 2: Recursos digitais Adquirir, criar e partilhar recursos digitais
+
+Competência Potenciais indicadores
+
+Governação dos dados
+
+• Conhece as várias formas de dados pessoais utilizados na educação e na formação.
+
+• Está ciente das responsabilidades em matéria de manutenção da segurança dos dados e da privacidade.
+
+• Sabe que o tratamento de dados pessoais está sujeito a regulamentos nacionais e da UE, incluindo o RGPD.
+
+• Sabe que o tratamento de dados pessoais não pode normalmente basear-se no consentimento do utilizador no ensino obrigatório.
+
+• Sabe quem tem acesso aos dados dos alunos, como é controlado o acesso e durante quanto tempo os dados são conservados.
+
+• Sabe que todos os cidadãos da UE têm o direito de não estar sujeitos a decisões totalmente automatizadas.
+
+• É capaz de dar exemplos de dados sensíveis, incluindo dados biométricos.
+
+• É capaz de ponderar os benefícios e os riscos antes de permitir o tratamento de dados pessoais por terceiros, especialmente quando utilizam sistemas de IA.
+
+Governação da IA
+
+• Sabe que os sistemas de IA estão sujeitos a regulamentos nacionais e da UE (nomeadamente o regulamento sobre inteligência artificial, a adotar).
+
+• É capaz de explicar a abordagem baseada no risco prevista no regulamento sobre inteligência artificial (a adotar).
+
+• Conhece os casos de utilização de IA de risco elevado na educação e os requisitos associados ao abrigo do regulamento sobre inteligência artificial (quando adotado).
+
+• Sabe como incorporar conteúdos digitais editados/manipulados com IA no seu trabalho e como devem ser atribuídos os créditos desse trabalho.
+
+• É capaz de explicar os princípios fundamentais da qualidade dos dados nos sistemas de IA.
+
+ORIENTAÇÕES 30
+
+ÉTICAS PARA EDUCADORES SOBRE A UTILIZAÇÃO DE INTELIGÊNCIA ARTIFICIAL (IA) Area 3: Teaching and Learning Managing and orchestrating the use of digital technologies in teaching and learning
+
+Competência Potenciais indicadores
+
+Modelos de aprendizagem
+
+• Sabe que os sistemas de IA refletem a compreensão, por parte do criador, do que é a aprendizagem e da forma como a aprendizagem pode ser avaliada; Consegue explicar os principais pressupostos pedagógicos subjacentes a um determinado sistema de aprendizagem digital.
+
+Objetivos da educação • Sabe como um determinado sistema digital aborda os diferentes objetivos
+
+sociais da educação (qualificação, socialização, subjetivação).
+
+Ação humana
+
+• É capaz de ter em conta o impacto do sistema de IA na autonomia dos professores, no desenvolvimento profissional e na inovação educativa.
+
+• Tem em conta as fontes de distorção inaceitável na IA baseada em dados.
+
+Equidade
+
+• Tem em conta os riscos relacionados com a dependência emocional e a autoimagem dos alunos quando utilizam sistemas de IA interativos e a análise da aprendizagem.
+
+Humanidade
+
+• É capaz de ter em conta o impacto da utilização de IA e de dados na comunidade estudantil.
+
+• Sente-se confiante em debater os aspetos éticos da IA e como estes influenciam a forma como a tecnologia é utilizada.
+
+Participa no desenvolvimento de práticas de aprendizagem que utilizam IA e dados
+
+• Consegue explicar de que forma os princípios e valores éticos são considerados e negociados na conceção e criação conjuntas de práticas de aprendizagem que utilizam IA e dados (associados à conceção da aprendizagem).
+
+Área 4: Avaliação Utilizar tecnologias e estratégias digitais para melhorar a avaliação
+
+Competência Potenciais indicadores
+
+Diferenças pessoais • Está ciente de que os alunos reagem de diversas formas ao
+
+feedback automático.
+
+Distorções algorítmicas • Têm em conta as fontes de distorção inaceitável nos sistemas de IA e a forma
+
+como podem ser atenuadas.
+
+Ênfase cognitiva
+
+• Está ciente de que os sistemas de IA avaliam os progressos dos alunos com base em modelos de conhecimento predefinidos específicos de cada domínio.
+
+• Está ciente de que a maioria dos sistemas de IA não avalia a colaboração, as competências sociais ou a criatividade.
+
+Novas formas de utilização indevida da tecnologia • Conhece formas comuns de manipular a avaliação baseada na IA.
+
+E DE DADOS NO ENSINO E NA APRENDIZAGEM 31
+
+Área 5: Capacitação dos alunos Utilizar tecnologias digitais para melhorar a inclusão, a personalização e a participação ativa dos alunos
+
+Competência Potenciais indicadores
+
+IA que responde às diversas necessidades de aprendizagem dos alunos
+
+• Conhece as diversas formas pelas quais os sistemas de aprendizagem personalizados podem adaptar o seu comportamento (conteúdo, percurso de aprendizagem, abordagem pedagógica).
+
+• É capaz de explicar de que forma um determinado sistema pode beneficiar todos os alunos, independentemente das suas diferenças cognitivas, culturais, económicas ou físicas.
+
+• Está ciente de que os sistemas de aprendizagem digital tratam diferentes grupos de alunos de forma diferente.
+
+• É capaz de ter em conta o impacto no desenvolvimento da autoeficiência, da autoimagem, da mentalidade e das competências de autorregulação cognitiva e afetiva dos alunos.
+
+Escolha justificada
+
+• Sabe que a utilização de IA e de dados pode beneficiar alguns alunos mais do que outros.
+
+• É capaz de explicar quais os elementos de prova utilizados para justificar a implantação de um determinado sistema de IA na sala de aula.
+
+• Reconhece a necessidade de acompanhar permanentemente os resultados da utilização de IA e de aprender com resultados inesperados.
+
+Área 6: Promoção das competências digitais dos alunos Capacitar os alunos para utilizarem de forma criativa e responsável as tecnologias digitais para a informação, a comunicação, a criação de conteúdos, o bem-estar e a resolução de problemas.
+
+Competência Potenciais indicadores
+
+Ética da IA e da análise da aprendizagem
+
+• É capaz de utilizar projetos e utilizações de IA para ajudar os alunos a aprender sobre a ética da utilização de IA e de dados na educação e na formação.
+
+ORIENTAÇÕES 32ÉTICAS PARA EDUCADORES SOBRE A UTILIZAÇÃO DE INTELIGÊNCIA ARTIFICIAL (IA) Glossário de termos sobre IA e dados
+
+As palavras associadas à utilização de IA e de dados podem parecer desconhecidas ou estranhas. Seguem-se os termos mais comuns associados à utilização de IA e de dados e uma explicação da forma como podem aplicar- se à educação.
+
+As explicações aqui fornecidas foram escritas para serem acessíveis à comunidade escolar e não devem ser consideradas definições técnicas completas. A lista de avaliação para uma inteligência artificial de confiança (ALTAI)⁵ e o glossário da Comissão sobre inteligência artificial centrada no ser humano⁶.
+
+Termo de IA O que significa Como pode aplicar-se à educação
+
+ALGORITMO
+
+Um processo ou um conjunto de regras a seguir nos cálculos ou noutras operações de resolução de problemas, especialmente por um computador.
+
+Os algoritmos de IA podem revelar padrões de desempenho dos alunos e ajudar os professores a otimizar as suas estratégias/metodologias de ensino para personalizar a aprendizagem e melhorar os resultados obtidos.
+
+REALIDADE AUMENTADA (RA)
+
+A RA é uma experiência interativa na qual ambientes e objetos do mundo real são complementados por modelos 3D gerados por computador e sequências animadas que são visualizadas como se estivessem num ambiente real. Os ambientes de RA podem utilizar técnicas de IA.
+
+A RA cria oportunidades para os professores ajudarem os alunos a compreender conceitos abstratos através da interação e experimentação com materiais virtuais. Este ambiente de aprendizagem interativo oferece oportunidades para implementar abordagens de aprendizagem práticas que aumentem a participação e melhorem a experiência de aprendizagem.
+
+AUTOMATIZAÇÃO
+
+O sistema informático desempenha uma função que normalmente requer a intervenção humana. Um sistema capaz de desempenhar tarefas sem necessidade de supervisão humana contínua é descrito como autónomo.
+
+As escolas e os professores podem utilizar software para executar tarefas repetitivas e morosas, como a elaboração de horários, a assiduidade e as matrículas. A automatização dessas tarefas pode permitir aos professores passar menos tempo em tarefas rotineiras e mais tempo com os seus alunos.
+
+5 ALTAI. https://digital-strategy.ec.europa.eu/en/library/assessment-list-trustworthy-artificial-intelligence-altai-self-assessment 6 Estevez-Almenzar, M., Fernández-Llorca, D., Gomez, E., Martinez-Plumed, F., Glossary of human-centred artificial intelligence (não traduzido para português), Serviço das Publi-
+
+cações da União Europeia, Luxemburgo, 2022.
+
+E DE DADOS NO ENSINO E NA APRENDIZAGEM 33
+
+Termo de IA O que significa Como pode aplicar-se à educação
+
+DISTORÇÃO
+
+Entende-se por distorção uma tendência parcial a favor ou contra uma pessoa, um objeto ou uma posição. As distorções podem surgir de muitas formas nos sistemas de IA. Por exemplo, nos sistemas de IA baseados em dados, como os produzidos por via da aprendizagem automática, as distorções na recolha de dados e na fase de treino podem levar a um sistema de IA que apresenta distorções. Na IA baseada na lógica, como os sistemas baseados em regras, podem surgir distorções devido à forma como um engenheiro do conhecimento entenda as regras aplicáveis num determinado contexto.
+
+Não estão necessariamente relacionadas com preconceitos humanos ou uma recolha de dados baseada no ser humano. Podem ser suscitados, por exemplo, pelos contextos limitados em que um sistema é utilizado, não havendo nesse caso oportunidades de generalização para outros contextos. A distorção pode ser boa ou má, intencional ou não intencional. Em alguns casos, a distorção pode causar resultados discriminatórios e/ou injustos, (ou seja, distorções injustas).
+
+Os pressupostos assumidos pelos algoritmos de IA podem amplificar as distorções existentes incorporadas nas atuais práticas educativas, ou seja, distorções relacionadas com o género, a raça, a cultura, a oportunidade ou o estatuto de deficiência.
+
+Também podem surgir distorções devido à aprendizagem em linha e à adaptação através da interação. Podem ainda surgir através da personalização, que visa apresentar aos utilizadores recomendações ou fluxos de informações adaptadas aos seus gostos.
+
+MEGADADOS
+
+Conjuntos de dados tão grandes que não podem ser recolhidos, armazenados e analisados utilizando aplicações tradicionais de tratamento de dados. Os megadados referem-se não só ao volume de dados, mas também à capacidade de pesquisar, agregar e cruzar grandes conjuntos de dados.
+
+Através da análise de megadados, os educadores podem identificar domínios nos quais os alunos têm dificuldade ou facilidade de aprendizagem, compreender as necessidades individuais dos alunos e desenvolver estratégias de aprendizagem personalizadas.
+
+ROBÔ DE CONVERSAÇÃO
+
+Um programa que comunica com as pessoas através de comandos de texto ou de voz de forma a imitar uma conversa entre seres humanos.
+
+Os robôs de conversação podem ser conselheiros virtuais para os alunos e, no processo, adaptam-se ao seu ritmo de aprendizagem, ajudando assim a personalizar a sua aprendizagem. As interações dos robôs com os alunos podem também ajudar a identificar as disciplinas nas quais os alunos necessitam de ajuda.
+
+PROSPEÇÃO DE DADOS
+
+A análise de um grande volume de dados para gerar modelos, correlações e tendências.
+
+Os sistemas baseados na prospeção de dados educativos podem utilizar a prospeção de dados, a aprendizagem automática e as estatísticas para compreender melhor os alunos e os contextos em que aprendem.
+
+CONJUNTO DE DADOS
+
+Um conjunto de pontos de dados relacionados, geralmente com uma ordem e etiquetas uniformes.
+
+Os conjuntos de dados na educação são fornecidos e utilizados sobretudo para apoiar nova investigação educativa e na partilha e aplicação da investigação existente.
+
+BASE DE DADOS
+
+Um ficheiro informático que contém um conjunto de obras, dados ou outros materiais independentes, dispostos de forma sistemática ou metódica e acessíveis individualmente por meios eletrónicos ou outros meios.
+
+Os sistemas de administração escolar contêm bases de dados de informações sobre os alunos, incluindo dados de perfis pessoais e de resultados de aprendizagem. Estes são, por vezes, sistemas interligados de gestão de horários, da avaliação e da aprendizagem.
+
+ORIENTAÇÕES 34 ÉTICAS PARA EDUCADORES SOBRE A UTILIZAÇÃO DE INTELIGÊNCIA ARTIFICIAL (IA) Termo de IA O que significa Como pode aplicar-se à educação
+
+APRENDIZAGEM PROFUNDA
+
+As técnicas de aprendizagem profunda fazem parte dos métodos de aprendizagem automática e baseiam-se em redes neuronais artificiais. São aplicadas em diferentes tarefas, por exemplo, para reconhecer objetos em imagens ou palavras na fala.
+
+Os sistemas de IA de aprendizagem profunda têm potencial para prever pequenos aspetos do desempenho educativo, que podem contribuir para o desenvolvimento de estratégias de aprendizagem personalizadas.
+
+INTERNET DAS COISAS (IdC)
+
+Uma rede de objetos físicos interligados (coisas) que estão incorporados com sensores, software e outras tecnologias, para que possam ligar-se e trocar dados com outros dispositivos e sistemas através da Internet.
+
+Os dispositivos ligados à IdC podem proporcionar aos alunos um melhor acesso a tudo, desde materiais didáticos a canais de comunicação, e proporcionar aos professores a capacidade de medir os progressos da aprendizagem dos alunos em tempo real.
+
+ANÁLISE DA APRENDIZAGEM
+
+Learning analytics involves the measurement, collection, analysis and reporting of data about learners and their contexts, for purposes of understanding and optimizing learning and the environments in which it occurs.
+
+Learning management systems record data on student interaction with course materials, their interaction with teachers and other peers, and how they perform on digital assessments. Schools can use analysis of this data to monitor student performance, predict overall performance and facilitate the provision of support through personalized feedback to each student.
+
+APRENDIZAGEM AUTOMÁTICA
+
+A capacidade de um sistema informático para aprender, extrair padrões e mudar em resposta a novos dados, sem intervenção humana.
+
+A aprendizagem automática é uma forma de aprendizagem personalizada que é utilizada para proporcionar a cada aluno uma experiência educativa individualizada. Os alunos são orientados através da sua própria aprendizagem, podem decidir o ritmo que desejam e tomar as suas próprias decisões sobre o que aprender com base em sugestões do sistema.
+
+TRADUÇÃO AUTOMÁTICA
+
+A tradução de dados de texto ou voz através de um algoritmo em tempo real e sem qualquer intervenção humana.
+
+As ferramentas de tradução automática são utilizadas no ensino de línguas para ajudar os alunos a melhorar a sua compreensão e pronúncia e podem permitir aos professores dedicar mais tempo ao conteúdo e aos aspetos comunicativos de uma língua.
+
+E DE DADOS NO ENSINO E NA APRENDIZAGEM 35
+
+Termo de IA O que significa Como pode aplicar-se à educação
+
+METADADOS
+
+Metadados são informações utilizadas para descrever, referenciar, contextualizar ou caracterizar um ficheiro de dados, como uma página Web, uma imagem, um vídeo, um documento ou um ficheiro. São dados que descrevem dados, mas não são dados em si mesmos.
+
+Através da utilização de metadados, os professores podem adquirir e avaliar mais facilmente os recursos de ensino e aprendizagem, para que disponham de mais opções para o material que escolhem para os seus alunos. Tal pode ajudar a orientar cada aluno para conteúdos adequados ao nível das suas capacidades ou grau de preparação.
+
+PROCESSAMENTO DE LINGUAGEM NATURAL (PLN)
+
+O processamento de linguagem natural é uma forma de IA que ajuda os computadores a ler e a responder, simulando a capacidade humana para compreender a linguagem quotidiana.
+
+O sistema de tutoria virtual pode utilizar o reconhecimento de voz para identificar problemas na capacidade de leitura de um aluno e pode fornecer feedback automático em tempo real sobre formas de melhorar, bem como ajudar a determinar o material de leitura que é mais adequado ao aluno.
+
+REDE NEURONAL
+
+Um sistema informático concebido como um conjunto de unidades e nós, inspirado nos neurónios neuronais biológicos dos animais, ligados de forma a transmitir sinais.
+
+Uma rede neuronal pode ser treinada para aprender uma nova competência ou capacidade utilizando o método de repetição da aprendizagem.
+
+RECONHECIMENTO ÓTICO DE CARATERES (ROC)
+
+OCR is the conversion of images of text (typed, handwritten, or printed) into machine-encoded text.
+
+Optical character recognition can help students with literacy difficulties by allowing them to listen to text rather than read it. It can also create a searchable digital document which enables students to look up the definition of a word more easily, or to bookmark different parts of the text.
+
+DADOS PESSOAIS
+
+Informações relativas a uma pessoa singular identificada ou identificável, direta ou indiretamente, nomeadamente por referência a um ou mais elementos específicos dessa pessoa.
+
+As escolas acumulam quantidades substanciais de informações pessoais sobre os alunos, os pais, o pessoal, a direção e os fornecedores. As escolas, enquanto responsáveis pelo tratamento de dados, são obrigadas a armazenar dados que tratam de forma confidencial e segura e devem dispor de políticas e procedimentos adequados para a proteção e a utilização adequada de todos os dados pessoais.
+
+ANÁLISE PREDITIVA
+
+A utilização de algoritmos estatísticos e de técnicas de aprendizagem automática para fazer previsões sobre o futuro utilizando dados atuais e históricos.
+
+A análise preditiva pode fornecer informações sobre os alunos que necessitam de apoio complementar, não só com base no seu desempenho atual e no seu histórico, mas também no seu desempenho futuro previsto.
+
+ROBÓTICA
+
+A robótica envolve a conceção, a construção e o funcionamento de robôs que podem ajudar e apoiar os seres humanos numa série de tarefas.
+
+A robótica e os simuladores educativos permitem aos alunos aprender de diversas formas nas disciplinas de ciência, tecnologia, engenharia e matemática (CTEM), com o objetivo de facilitar as competências e atitudes dos alunos para a análise e funcionamento dos robôs. Tais atividades podem incluir a conceção, programação, aplicação e experimentação com robôs.
+
+ORIENTAÇÕES 36 ÉTICAS PARA EDUCADORES SOBRE A UTILIZAÇÃO DE INTELIGÊNCIA ARTIFICIAL (IA) Termo de IA O que significa Como pode aplicar-se à educação
+
+APRENDIZAGEM SUPERVISIONADA
+
+Trata-se de um tipo de aprendizagem automática na qual são utilizados conjuntos de dados estruturados, com dados de entrada e etiquetas, para treinar e desenvolver um algoritmo.
+
+Os sistemas de aprendizagem supervisionada definem-se pela utilização de conjuntos de dados anotados para treinar algoritmos, a fim de classificar dados ou prever resultados com precisão. Podem ajudar os professores a identificar os alunos em risco e a orientar as intervenções. Podem também melhorar a eficiência do ensino, das avaliações e da classificação, ajudando a personalizar a aprendizagem.
+
+CONVERSÃO DE TEXTO PARA VOZ
+
+A conversão de texto para voz é a produção de voz sintetizada a partir de texto. A tecnologia é utilizada para comunicar com os utilizadores quando a leitura de um ecrã não é possível ou é inconveniente.
+
+A tecnologia de conversão de texto para voz permite que os alunos se concentrem no conteúdo e não na mecânica da leitura, o que resulta numa melhor compreensão do material, numa melhor memorização e numa maior confiança e motivação.
+
+DADOS DE RASTREIO
+
+Os dados de rastreio referem-se a registos de atividades, como cliques no rato, dados sobre páginas abertas, o momento da ocorrência de eventos de interação ou toques de teclado, realizados através de um sistema de informação em linha.
+
+Os dados de rastreio, conjugados com metadados e conjuntos de dados predefinidos, proporcionam uma grande variedade de informações contextuais sobre a eficácia da aprendizagem e o desempenho dos alunos, que, por sua vez, podem moldar estratégias de aprendizagem personalizadas.
+
+DADOS DE TREINO
+
+Os dados utilizados durante o processo de treino de um algoritmo de aprendizagem automática.
+
+Os algoritmos de aprendizagem automática aprendem com os dados. Estes algoritmos encontram relações, desenvolvem a compreensão e tomam decisões a partir dos dados de treino que lhes são fornecidos. Num contexto educativo, estes dados podem ser utilizados para tornar a aprendizagem mais eficiente, adaptável e personalizada, fornecendo análises pormenorizadas do aproveitamento passado e previsto no futuro.
+
+APRENDIZAGEM NÃO SUPERVISIONADA
+
+Trata-se de uma forma de treino na qual um algoritmo é programado para tirar conclusões a partir de conjuntos de dados que não contêm etiquetas. São estas inferências que o ajudam a aprender.
+
+A aprendizagem não supervisionada é levada a cabo para descobrir padrões ocultos e interessantes em dados não anotados. Estes padrões são úteis para a previsão do desempenho dos alunos, analisando uma série de informações contextuais, como a demografia, e a forma como estas se relacionam com o rendimento escolar geral.
+
+ASSISTENTE PESSOAL VIRTUAL (APV)
+
+Um assistente pessoal virtual é uma aplicação que compreende comandos de voz em linguagem natural e que realiza tarefas para o utilizador, como ditar e ler mensagens de texto ou correio eletrónico em voz alta, fazer agendamentos, realizar chamadas e definir alertas.
+
+Os assistentes pessoais virtuais podem permitir a interação com as tecnologias utilizando apenas a voz, poupando assim tempo ao proporcionar acesso imediato à informação. Os alunos podem aceder a horários, informações e recursos das turmas e comunicar com professores e colegas. Os APV são também utilizados pelos professores para preparar aulas, definir tarefas e fornecer feedback.
+
+REALIDADE VIRTUAL (RV)
+
+A realidade virtual é um cenário gerado por computador que simula uma experiência do mundo real, com a qual se pode interagir com a utilização de equipamento eletrónico especial, como auscultadores de RV ou luvas equipadas com sensores.
+
+Os alunos exploram e interagem com objetos gerados por computador num espaço 3D e veem tudo como se estivesse à sua frente, como o percurso de uma visita a uma galeria de arte ou a um monumento antigo.
+
+E DE DADOS NO ENSINO E NA APRENDIZAGEM 37
+
+ORIENTAÇÕES ÉTICAS PARA EDUCADORES SOBRE A UTILIZAÇÃO DE INTELIGÊNCIA ARTIFICIAL (IA) 38Informações complementares
+
+Será mais importante do que nunca acompanhar as tendências, tecnologias, aplicações e regulamentos em matéria de IA e de dados. Existe um conjunto crescente de recursos disponíveis que nos ajudam a estar a par das inovações e da investigação mais recente com relevância para os educadores. Seguem-se alguns pontos de partida selecionados:
+
+(Comissão Europeia, 2020). Uma estratégia europeia para os dados https://digital-strategy.ec.europa.eu/en/policies/data
+
+(Comissão Europeia, 2021). Plano de Ação para a Educação Digital (2021-2027) https://education.ec.europa.eu/pt-pt/focus-topics/digital-education/action-plan
+
+(Comissão Europeia, 2018). Manual da Legislação Europeia sobre Proteção de Dados https://op.europa.eu/pt/publication-detail/-/publication/5b0cfa83-63f3-11e8-ab9c-01aa75ed71a1
+
+Grupo de peritos de alto nível sobre a inteligência artificial (GPAN IA) (2020). Lista de Avaliação de uma Inteligência Artificial de Confiança (ALTAI)
+
+https://digital-strategy.ec.europa.eu/en/library/assessment-list-trustworthy-artificial-intelligence-altai-self-assessment
+
+Grupo independente de peritos de alto nível sobre a inteligência artificial (2019). Orientações Éticas para uma IA de Confiança https://op.europa.eu/pt/publication-detail/-/publication/d3988569-0434-11ea-8c1f-01aa75ed71a1
+
+JRC (2017). Quadro de Competências Digitais para os Educadores (DigCompEdu) https://publications.jrc.ec.europa.eu/repository/handle/JRC107466
+
+JRC (2022). DigComp 2.2: Quadro de Competências Digitais para os Cidadãos https://publications.jrc.ec.europa.eu/repository/handle/JRC128415
+
+JRC (2020). Emerging technologies and the teaching profession (As tecnologias emergentes e a profissão docente) https://publications.jrc.ec.europa.eu/repository/handle/JRC120183
+
+OECD (2021). Recomendação do Conselho sobre inteligência artificial https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0449
+
+UNESCO (2021). Recomendação sobre a ética da inteligência artificial https://unesdoc.unesco.org/ark:/48223/pf0000381137.locale=en
+
+UNESCO (2019). Artificial Intelligence in Education: Challenges and Opportunities for Sustainable Development (Inteligência artificial na educação: desafios e oportunidades para o desenvolvimento sustentável) https://unesdoc.unesco.org/ark:/48223/pf0000366994
+
+UNICEF (2021). Policy guidance on AI for children (Orientações políticas sobre IA para crianças) https://www.unicef.org/globalinsight/reports/policy-guidance-ai-children
+
+[\#6](#6)   
+[\#8](#8)   
+[\#8](#8)   
+[\#10](#10)   
+[\#12](#12)   
+[\#12](#12)   
+[\#14](#14)   
+[\#18](#18)   
+[\#18](#18)   
+[\#18](#18)   
+[\#19](#19)   
+[\#22](#22)   
+[\#22](#22)   
+[\#26](#26)   
+[\#27](#27)   
+[\#28](#28)   
+[\#32](#32)   
+[\#38](#38)   
+<https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai>   
+<https://digital-strategy.ec.europa.eu/en/policies/expert-group-ai>   
+<https://digital-strategy.ec.europa.eu/en/policies/data>   
+<https://digital-strategy.ec.europa.eu/en/library/assessment-list-trustworthy-artificial-intelligence-altai-self-assessment>   
+<https://digital-strategy.ec.europa.eu/en/policies/data>   
+<https://education.ec.europa.eu/pt-pt/focus-topics/digital-education/action-plan>   
+<https://op.europa.eu/pt/publication-detail/-/publication/5b0cfa83-63f3-11e8-ab9c-01aa75ed71a1>   
+<https://digital-strategy.ec.europa.eu/en/library/assessment-list-trustworthy-artificial-intelligence-altai-self-assessment>   
+<https://op.europa.eu/pt/publication-detail/-/publication/d3988569-0434-11ea-8c1f-01aa75ed71a1>   
+<https://publications.jrc.ec.europa.eu/repository/handle/JRC107466 >  
+<https://publications.jrc.ec.europa.eu/repository/handle/JRC128415>   
+<https://publications.jrc.ec.europa.eu/repository/handle/JRC120183>   
+<https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0449 >  
+<https://unesdoc.unesco.org/ark:/48223/pf0000381137.locale=en >  
+<https://unesdoc.unesco.org/ark:/48223/pf0000366994>   
+<https://www.unicef.org/globalinsight/reports/policy-guidance-ai-children>   
