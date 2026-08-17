@@ -42,8 +42,15 @@ Abre o PDF gerado e verifica CADA slide. Se algum transbordar em baixo: encurta 
 ## Passo 5 — Legenda
 Escreve `outputs/carrossel_NN_slug/legenda.md` com duas legendas (LinkedIn e TikTok/Instagram), registo humano, **máximo 3 hashtags** cada, sem hashtags com acentos.
 
+## Passo 5.5 — Guião de vídeo (HeyGen)
+Escreve `outputs/carrossel_NN_slug/guiao_video.md` — um guião curto para a Sandra gravar um vídeo no HeyGen (voz clonada), a partir do tema do carrossel. Regras:
+- **6 cenas** (Cena 1 a 6): gancho, 4 de conteúdo, fecho com chamada à ação (subscrever/seguir).
+- Português europeu falado, frases curtas, ~60-80s no total. Sem inventar dados.
+- Escreve "inteligência artificial" por extenso (soa melhor na voz); evita a sigla "IA" no texto falado.
+- No fim, uma nota para o HeyGen: usar as PNGs do carrossel como fundo de cada cena, com o avatar a narrar.
+
 ## Passo 6 — Entrega (página privada)
-Publica uma **página privada (Artifact)** com: as imagens do carrossel pela ordem, e a legenda LinkedIn e TikTok com botão de copiar. Guarda o URL no fim.
+Publica uma **página privada (Artifact)** com: as imagens do carrossel pela ordem, a legenda LinkedIn e TikTok com botão de copiar, e o **guião de vídeo (6 cenas) também com botão de copiar**. Guarda o URL no fim.
 > Se a publicação de Artifact não estiver disponível neste ambiente, deixa o PDF + PNGs + legenda no repositório (Passo 7) e reporta o URL do GitHub.
 
 ## Passo 7 — Fechar
