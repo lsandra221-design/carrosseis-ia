@@ -23,7 +23,7 @@ Estado: `[ ]` por fazer · `[x]` feito. Marcar `[x]` e fazer commit ao concluir.
 | 01 | Ter 01/09 | O que é o Quadro de Competências de IA da UNESCO | 1 | Educação | [x] |
 | 02 | Qui 03/09 | Professores não têm de programar, têm de orientar | 1 | Educação/RH | [x] |
 | 03 | Ter 08/09 | As 5 dimensões de competência em IA de um professor | 1 | Educação | [x] |
-| 04 | Qui 10/09 | 3 níveis: Adquirir, Aprofundar, Criar. Onde estás? | 1 | RH | [ ] |
+| 04 | Qui 10/09 | 3 níveis: Adquirir, Aprofundar, Criar. Onde estás? | 1 | RH | [x] |
 | 05 | Ter 15/09 | O que se espera que os ALUNOS saibam sobre IA | 2 | Educação | [ ] |
 | 06 | Qui 17/09 | Mentalidade centrada no humano: a IA ao serviço da pessoa | 1 | Função Pública | [ ] |
 | 07 | Ter 22/09 | 5 mitos sobre IA na sala de aula | 4 | Educação | [ ] |
