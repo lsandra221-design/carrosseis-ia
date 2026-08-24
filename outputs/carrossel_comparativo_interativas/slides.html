@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+:root{
+  --navy:#0f1a3d; --blue:#2563ff; --orange:#ff5a1f; --green:#1a9e4b; --purple:#6d28d9;
+  --gray:#6a7284; --line:#eaeef7; --card:#ffffff;
+  --cblue:#e6ecff; --corange:#ffe9df; --cgreen:#e2f4e9; --cpurple:#efe8fb; --cgray:#eef1f7;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:#333;font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
+.slide{position:relative;width:1080px;height:1080px;overflow:hidden;
+  background:linear-gradient(158deg,#fcfdff 0%,#f1f4fb 100%);
+  padding:44px 64px 60px;display:flex;flex-direction:column;align-items:center;
+  margin:0 auto 24px;text-align:center;}
+.dots{position:absolute;top:40px;right:44px;width:150px;height:96px;
+  background-image:radial-gradient(#d8deec 3.2px,transparent 3.2px);background-size:24px 24px;pointer-events:none;}
+.wave{position:absolute;left:-150px;bottom:-150px;width:440px;height:440px;border-radius:50%;
+  border:2px solid #e4e9f5;pointer-events:none;
+  box-shadow:0 0 0 44px rgba(228,233,245,.4),0 0 0 96px rgba(228,233,245,.22),0 0 0 150px rgba(228,233,245,.12);}
+.topbar{display:flex;align-items:center;justify-content:center;gap:18px;margin-bottom:20px;z-index:2;}
+.ham{color:var(--blue);font-size:34px;font-weight:800;line-height:1;}
+.pill{background:var(--blue);color:#fff;font-family:'Plus Jakarta Sans';font-weight:800;
+  border-radius:30px;padding:12px 30px;font-size:26px;letter-spacing:.06em;box-shadow:0 8px 20px rgba(37,99,255,.32);}
+.title{font-family:'Plus Jakarta Sans';font-weight:800;color:var(--navy);
+  font-size:74px;line-height:1.05;letter-spacing:-.02em;z-index:2;}
+.title.sm{font-size:62px;}
+.kw{color:var(--blue);} .kw-o{color:var(--orange);} .kw-g{color:var(--green);} .kw-p{color:var(--purple);}
+.sub{font-family:'Inter';font-weight:500;color:var(--gray);font-size:30px;line-height:1.4;margin-top:18px;max-width:900px;z-index:2;}
+.spacer{flex:1 1 auto;}
+.cols{display:flex;gap:26px;width:100%;z-index:2;}
+.cols.tight{flex:0 0 auto;}
+.card{background:var(--card);border-radius:28px;padding:30px 32px;width:100%;
+  box-shadow:0 18px 44px rgba(15,26,61,.08);text-align:left;z-index:2;}
+.cols>.card{flex:1;}
+.chead{display:flex;align-items:center;gap:18px;margin-bottom:18px;}
+.icobox{width:64px;height:64px;border-radius:18px;display:flex;align-items:center;justify-content:center;font-size:34px;flex:0 0 auto;}
+.ic-b{background:var(--cblue);} .ic-o{background:var(--corange);} .ic-g{background:var(--cgreen);} .ic-p{background:var(--cpurple);} .ic-n{background:var(--cgray);}
+.chead .ht{font-family:'Plus Jakarta Sans';font-weight:800;font-size:32px;color:var(--navy);line-height:1.1;}
+.chead .ht.b{color:var(--blue);} .chead .ht.o{color:var(--orange);} .chead .ht.g{color:var(--green);} .chead .ht.p{color:var(--purple);}
+.divider{border:0;border-top:1px solid var(--line);margin:0 0 14px;}
+.crow{display:flex;align-items:flex-start;gap:16px;padding:13px 0;border-bottom:1px solid var(--line);}
+.crow:last-child{border-bottom:0;}
+.dot{width:38px;height:38px;border-radius:50%;flex:0 0 auto;display:flex;align-items:center;justify-content:center;
+  color:#fff;font-weight:800;font-size:21px;font-family:'Plus Jakarta Sans';margin-top:2px;}
+.d-b{background:var(--blue);} .d-o{background:var(--orange);} .d-g{background:var(--green);} .d-p{background:var(--purple);}
+.crow .ct{font-size:28px;font-weight:700;color:var(--navy);line-height:1.28;}
+.crow .ct small{display:block;font-weight:500;font-size:23px;color:var(--gray);margin-top:3px;line-height:1.32;}
+.ctext{font-size:28px;line-height:1.42;color:#2c3552;font-weight:500;}
+.ctabar{width:100%;background:var(--blue);border-radius:24px;padding:26px 30px;z-index:2;
+  display:flex;align-items:center;gap:22px;box-shadow:0 16px 40px rgba(37,99,255,.32);}
+.ctabar .circ{width:64px;height:64px;border-radius:50%;background:#fff;color:var(--blue);
+  display:flex;align-items:center;justify-content:center;font-size:32px;font-weight:800;flex:0 0 auto;}
+.ctabar .tx{color:#fff;font-family:'Plus Jakarta Sans';font-weight:800;font-size:30px;line-height:1.2;text-align:left;}
+.note{width:100%;border-radius:22px;padding:24px 30px;z-index:2;display:flex;align-items:center;gap:20px;text-align:left;}
+.note.orange{background:#fff2ec;} .note.green{background:#e9f6ee;} .note.bluet{background:#eaf0ff;}
+.note .em{width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:30px;flex:0 0 auto;}
+.note.orange .em{background:#ffe0d3;} .note.green .em{background:#d5efdf;} .note.bluet .em{background:#d9e4ff;}
+.note .tx{font-family:'Plus Jakarta Sans';font-weight:700;font-size:28px;color:var(--navy);line-height:1.28;}
+.wm{position:absolute;right:44px;bottom:32px;font-size:23px;color:#9aa3b8;font-weight:600;z-index:3;}
+</style>
+</head>
+<body>
+
+<!-- s1 CAPA -->
+<div class="slide" id="s1">
+  <div class="dots"></div><div class="wave"></div>
+  <div class="topbar"><span class="ham">&#8801;</span><span class="pill">COMPARATIVO</span><span class="ham">&#8801;</span></div>
+  <div class="title">Que ferramenta <span class="kw-o">escolher</span>?</div>
+  <div class="sub">Mentimeter, Slido ou AhaSlides: decide em 1 minuto.</div>
+  <div class="spacer"></div>
+  <div class="tri">
+    <div class="it"><span class="em ic-b">📊</span><span class="lb">Compara</span></div>
+    <div class="it"><span class="em ic-o">🎯</span><span class="lb">Decide</span></div>
+    <div class="it"><span class="em ic-g">💶</span><span class="lb">Sem gastar de mais</span></div>
+  </div>
+  <div class="spacer"></div>
+  <div class="ctabar"><span class="circ">→</span><span class="tx">Desliza para decidir</span></div>
+  <div class="wm">@sandra.lourenco.ia</div>
+</div>
+
+<!-- s2 CONTEXTO -->
+<div class="slide" id="s2">
+  <div class="dots"></div><div class="wave"></div>
+  <div class="topbar"><span class="ham">&#8801;</span><span class="pill">01</span><span class="ham">&#8801;</span></div>
+  <div class="title sm">Parecidas, mas <span class="kw">diferentes</span></div>
+  <div class="sub">As três põem a audiência a responder ao vivo.</div>
+  <div class="spacer"></div>
+  <div class="cols tight">
+    <div class="card">
+      <div class="chead"><span class="icobox ic-b">🤝</span><span class="ht b">Em comum</span></div>
+      <hr class="divider">
+      <div class="ctext">Sondagens, quizzes e nuvens de palavras, por código.</div>
+    </div>
+    <div class="card">
+      <div class="chead"><span class="icobox ic-o">🔀</span><span class="ht o">O que muda</span></div>
+      <hr class="divider">
+      <div class="ctext">O foco, o preço e os limites do plano grátis.</div>
+    </div>
+  </div>
+  <div class="spacer"></div>
+  <div class="wm">@sandra.lourenco.ia</div>
+</div>
+
+<!-- s3 MENTIMETER -->
+<div class="slide" id="s3">
+  <div class="dots"></div><div class="wave"></div>
+  <div class="topbar"><span class="ham">&#8801;</span><span class="pill">02</span><span class="ham">&#8801;</span></div>
+  <div class="title sm">Para aulas: <span class="kw">Mentimeter</span></div>
+  <div class="sub">A referência nas salas de aula.</div>
+  <div class="spacer"></div>
+  <div class="card">
+    <div class="crow"><span class="dot d-b">✓</span><span class="ct">Melhor para: aulas e apresentações</span></div>
+    <div class="crow"><span class="dot d-o">★</span><span class="ct">Destaque: muitos tipos de pergunta, fácil</span></div>
+    <div class="crow"><span class="dot d-g">€</span><span class="ct">Grátis: perguntas ilimitadas, 50 participantes/mês</span></div>
+  </div>
+  <div class="spacer"></div>
+  <div class="wm">@sandra.lourenco.ia</div>
+</div>
+
+<!-- s4 SLIDO -->
+<div class="slide" id="s4">
+  <div class="dots"></div><div class="wave"></div>
+  <div class="topbar"><span class="ham">&#8801;</span><span class="pill">03</span><span class="ham">&#8801;</span></div>
+  <div class="title sm">Para Q&amp;A e eventos: <span class="kw-o">Slido</span></div>
+  <div class="sub">As perguntas da audiência, organizadas por votos.</div>
+  <div class="spacer"></div>
+  <div class="card">
+    <div class="crow"><span class="dot d-b">✓</span><span class="ct">Melhor para: Q&amp;A, reuniões e eventos</span></div>
+    <div class="crow"><span class="dot d-o">★</span><span class="ct">Destaque: integra Webex, Teams e Zoom (Cisco)</span></div>
+    <div class="crow"><span class="dot d-g">€</span><span class="ct">Grátis: 3 sondagens por evento, até 100 participantes</span></div>
+  </div>
+  <div class="spacer"></div>
+  <div class="wm">@sandra.lourenco.ia</div>
+</div>
+
+<!-- s5 AHASLIDES -->
+<div class="slide" id="s5">
+  <div class="dots"></div><div class="wave"></div>
+  <div class="topbar"><span class="ham">&#8801;</span><span class="pill">04</span><span class="ham">&#8801;</span></div>
+  <div class="title sm">Para formação: <span class="kw-g">AhaSlides</span></div>
+  <div class="sub">Versátil e mais barato, popular entre formadores.</div>
+  <div class="spacer"></div>
+  <div class="card">
+    <div class="crow"><span class="dot d-b">✓</span><span class="ct">Melhor para: formação e formadores</span></div>
+    <div class="crow"><span class="dot d-o">★</span><span class="ct">Destaque: bom preço, roda da sorte, quizzes</span></div>
+    <div class="crow"><span class="dot d-g">€</span><span class="ct">Grátis: até 50 participantes por evento</span></div>
+  </div>
+  <div class="spacer"></div>
+  <div class="wm">@sandra.lourenco.ia</div>
+</div>
+
+<!-- s6 LADO A LADO -->
+<div class="slide" id="s6">
+  <div class="dots"></div><div class="wave"></div>
+  <div class="topbar"><span class="ham">&#8801;</span><span class="pill">05</span><span class="ham">&#8801;</span></div>
+  <div class="title sm">Lado a <span class="kw-o">lado</span></div>
+  <div class="sub">O plano grátis num relance.</div>
+  <div class="spacer"></div>
+  <div class="card">
+    <div class="crow"><span class="dot d-b">M</span><span class="ct">Mentimeter<small>Aulas · grátis: 50 participantes por mês</small></span></div>
+    <div class="crow"><span class="dot d-o">S</span><span class="ct">Slido<small>Q&amp;A e eventos · grátis: até 100 por evento</small></span></div>
+    <div class="crow"><span class="dot d-g">A</span><span class="ct">AhaSlides<small>Formação · grátis: até 50 por evento</small></span></div>
+  </div>
+  <div class="spacer"></div>
+  <div class="wm">@sandra.lourenco.ia</div>
+</div>
+
+<!-- s7 COMO DECIDIR -->
+<div class="slide" id="s7">
+  <div class="dots"></div><div class="wave"></div>
+  <div class="topbar"><span class="ham">&#8801;</span><span class="pill">06</span><span class="ham">&#8801;</span></div>
+  <div class="title sm">Como <span class="kw">decidir</span></div>
+  <div class="sub">Escolhe pelo objetivo, na tua escola ou organização.</div>
+  <div class="spacer"></div>
+  <div class="card">
+    <div class="crow"><span class="dot d-b">1</span><span class="ct">Aulas frequentes? Mentimeter<small>Atenção ao limite de 50 participantes/mês.</small></span></div>
+    <div class="crow"><span class="dot d-o">2</span><span class="ct">Muitas perguntas da audiência? Slido</span></div>
+    <div class="crow"><span class="dot d-g">3</span><span class="ct">Formação com orçamento curto? AhaSlides</span></div>
+  </div>
+  <div class="spacer"></div>
+  <div class="wm">@sandra.lourenco.ia</div>
+</div>
+
+<!-- s8 FECHO -->
+<div class="slide" id="s8">
+  <div class="dots"></div><div class="wave"></div>
+  <div class="topbar"><span class="ham">&#8801;</span><span class="pill">07</span><span class="ham">&#8801;</span></div>
+  <div class="title sm">Guarda este <span class="kw-o">comparativo</span></div>
+  <div class="sub">Para quando precisares de decidir.</div>
+  <div class="spacer"></div>
+  <div class="card">
+    <div class="crow"><span class="dot d-b">→</span><span class="ct">Aulas: Mentimeter</span></div>
+    <div class="crow"><span class="dot d-o">→</span><span class="ct">Q&amp;A e eventos: Slido</span></div>
+    <div class="crow"><span class="dot d-g">→</span><span class="ct">Formação: AhaSlides</span></div>
+  </div>
+  <div class="spacer"></div>
+  <div class="ctabar"><span class="circ">🔖</span><span class="tx">Guardar · Partilhar · Seguir para mais</span></div>
+  <div class="wm">@sandra.lourenco.ia</div>
+</div>
+
+</body>
+</html>
