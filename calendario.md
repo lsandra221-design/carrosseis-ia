@@ -26,7 +26,7 @@ Estado: `[ ]` por fazer · `[x]` feito. Marcar `[x]` e fazer commit ao concluir.
 | 04 | Qui 10/09 | 3 níveis: Adquirir, Aprofundar, Criar. Onde estás? | 1 | RH | [x] |
 | 05 | Ter 15/09 | O que se espera que os ALUNOS saibam sobre IA | 2 | Educação | [x] |
 | 06 | Qui 17/09 | Mentalidade centrada no humano: a IA ao serviço da pessoa | 1 | Função Pública | [x] |
-| 07 | Ter 22/09 | 5 mitos sobre IA na sala de aula | 4 | Educação | [ ] |
+| 07 | Ter 22/09 | 5 mitos sobre IA na sala de aula | 4 | Educação | [x] |
 | 08 | Qui 24/09 | O que muda para a escola pública com a IA | 8 | Função Pública | [ ] |
 | 09 | Ter 29/09 | Literacia em IA: o que é, afinal? | 10 | Educação | [ ] |
 | 10 | Qui 01/10 | Dimensão 1 — Mentalidade centrada no humano | 1 | Educação | [ ] |
