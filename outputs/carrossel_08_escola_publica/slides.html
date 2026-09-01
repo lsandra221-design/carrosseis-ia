@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<!--
+  TEMPLATE VISUAL — Carrosséis Sandra Lourenço (@sandra.lourenco.ia)
+  Não alterar o CSS. Para cada carrossel novo:
+    1. Copiar este ficheiro para outputs/carrossel_NN/slides.html
+    2. Substituir SÓ o conteúdo dos <div class="slide"> pelo tema novo
+    3. Manter capa (s1) + fecho (último). Numerar as pílulas 01,02,...
+  COMPONENTES disponíveis (ver exemplos em baixo):
+    .topbar + .pill        -> badge central (CARROSSEL na capa; 01,02.. no resto)
+    .title / .title.sm     -> título centrado; palavra-chave em <span class="kw|kw-o|kw-g|kw-p">
+    .sub                   -> subtítulo
+    .tri                   -> faixa de 3 itens (icone + label)  [bom p/ capa]
+    .ctabar                -> barra azul de fecho (circulo + texto)
+    .note.orange|green|bluet -> barra de destaque com tinta suave
+    .cols > .card          -> 2 colunas (cada card: .chead com .icobox + .ht, <hr .divider>, .ctext)
+    .card > .crow          -> lista dentro de card (bolinha .dot .d-b|d-o|d-g|d-p + .ct com <small>)
+    .stats > .stat         -> 3 números grandes
+    .steps > .step + .arrow-> progressão em 3 passos
+  REGRAS PARA CABER (obrigatório):
+    - Título 1 linha sempre que possível; se 2 linhas, usar .title.sm
+    - Máx. 2 blocos por slide abaixo do título (ex.: card único, OU 2 colunas, OU lista+nota)
+    - Listas: itens curtos (1 linha; <small> opcional de 1 linha), 3-5 itens
+    - VER sempre o PDF depois de renderizar e corrigir se transbordar
+-->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+:root{
+  --navy:#0f1a3d; --blue:#2563ff; --orange:#ff5a1f; --green:#1a9e4b; --purple:#6d28d9;
+  --gray:#6a7284; --line:#eaeef7; --card:#ffffff;
+  --cblue:#e6ecff; --corange:#ffe9df; --cgreen:#e2f4e9; --cpurple:#efe8fb; --cgray:#eef1f7;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:#333;font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
+.slide{position:relative;width:1080px;height:1080px;overflow:hidden;
+  background:linear-gradient(158deg,#fcfdff 0%,#f1f4fb 100%);
+  padding:44px 64px 60px;display:flex;flex-direction:column;align-items:center;
+  margin:0 auto 24px;text-align:center;}
+.dots{position:absolute;top:40px;right:44px;width:150px;height:96px;
+  background-image:radial-gradient(#d8deec 3.2px,transparent 3.2px);background-size:24px 24px;pointer-events:none;}
+.wave{position:absolute;left:-150px;bottom:-150px;width:440px;height:440px;border-radius:50%;
+  border:2px solid #e4e9f5;pointer-events:none;
+  box-shadow:0 0 0 44px rgba(228,233,245,.4),0 0 0 96px rgba(228,233,245,.22),0 0 0 150px rgba(228,233,245,.12);}
+.topbar{display:flex;align-items:center;justify-content:center;gap:18px;margin-bottom:20px;z-index:2;}
+.ham{color:var(--blue);font-size:34px;font-weight:800;line-height:1;}
+.pill{background:var(--blue);color:#fff;font-family:'Plus Jakarta Sans','DejaVu Sans','Segoe UI',system-ui,sans-serif;font-weight:800;
+  border-radius:30px;padding:12px 30px;font-size:26px;letter-spacing:.06em;box-shadow:0 8px 20px rgba(37,99,255,.32);}
+.title{font-family:'Plus Jakarta Sans','DejaVu Sans','Segoe UI',system-ui,sans-serif;font-weight:800;color:var(--navy);
+  font-size:74px;line-height:1.05;letter-spacing:-.02em;z-index:2;}
+.title.sm{font-size:62px;}
+.kw{color:var(--blue);} .kw-o{color:var(--orange);} .kw-g{color:var(--green);} .kw-p{color:var(--purple);}
+.sub{font-family:'Inter';font-weight:500;color:var(--gray);font-size:30px;line-height:1.4;margin-top:18px;max-width:900px;z-index:2;}
+.spacer{flex:1 1 auto;}
+.cols{display:flex;gap:26px;width:100%;z-index:2;}
+.card{background:var(--card);border-radius:28px;padding:30px 32px;width:100%;
+  box-shadow:0 18px 44px rgba(15,26,61,.08);text-align:left;z-index:2;}
+.cols>.card{flex:1;}
+.chead{display:flex;align-items:center;gap:18px;margin-bottom:18px;}
+.icobox{width:64px;height:64px;border-radius:18px;display:flex;align-items:center;justify-content:center;font-size:34px;flex:0 0 auto;}
+.ic-b{background:var(--cblue);} .ic-o{background:var(--corange);} .ic-g{background:var(--cgreen);} .ic-p{background:var(--cpurple);} .ic-n{background:var(--cgray);}
+.chead .ht{font-family:'Plus Jakarta Sans','DejaVu Sans','Segoe UI',system-ui,sans-serif;font-weight:800;font-size:32px;color:var(--navy);line-height:1.1;}
+.chead .ht.b{color:var(--blue);} .chead .ht.o{color:var(--orange);} .chead .ht.g{color:var(--green);} .chead .ht.p{color:var(--purple);}
+.divider{border:0;border-top:1px solid var(--line);margin:0 0 14px;}
+.crow{display:flex;align-items:flex-start;gap:16px;padding:13px 0;border-bottom:1px solid var(--line);}
+.crow:last-child{border-bottom:0;}
+.dot{width:38px;height:38px;border-radius:50%;flex:0 0 auto;display:flex;align-items:center;justify-content:center;
+  color:#fff;font-weight:800;font-size:21px;font-family:'Plus Jakarta Sans','DejaVu Sans','Segoe UI',system-ui,sans-serif;margin-top:2px;}
+.d-b{background:var(--blue);} .d-o{background:var(--orange);} .d-g{background:var(--green);} .d-p{background:var(--purple);}
+.crow .ct{font-size:28px;font-weight:700;color:var(--navy);line-height:1.28;}
+.crow .ct small{display:block;font-weight:500;font-size:23px;color:var(--gray);margin-top:3px;line-height:1.32;}
+.ctext{font-size:28px;line-height:1.42;color:#2c3552;font-weight:500;}
+.ctabar{width:100%;background:var(--blue);border-radius:24px;padding:26px 30px;z-index:2;
+  display:flex;align-items:center;gap:22px;box-shadow:0 16px 40px rgba(37,99,255,.32);}
+.ctabar .circ{width:64px;height:64px;border-radius:50%;background:#fff;color:var(--blue);
+  display:flex;align-items:center;justify-content:center;font-size:32px;font-weight:800;flex:0 0 auto;}
+.ctabar .tx{color:#fff;font-family:'Plus Jakarta Sans','DejaVu Sans','Segoe UI',system-ui,sans-serif;font-weight:800;font-size:30px;line-height:1.2;text-align:left;}
+.note{width:100%;border-radius:22px;padding:24px 30px;z-index:2;display:flex;align-items:center;gap:20px;text-align:left;}
+.note.orange{background:#fff2ec;} .note.green{background:#e9f6ee;} .note.bluet{background:#eaf0ff;}
+.note .em{width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:30px;flex:0 0 auto;}
+.note.orange .em{background:#ffe0d3;} .note.green .em{background:#d5efdf;} .note.bluet .em{background:#d9e4ff;}
+.note .tx{font-family:'Plus Jakarta Sans','DejaVu Sans','Segoe UI',system-ui,sans-serif;font-weight:700;font-size:28px;color:var(--navy);line-height:1.28;}
+.tri{width:100%;background:var(--card);border-radius:24px;padding:24px 20px;display:flex;z-index:2;box-shadow:0 16px 40px rgba(15,26,61,.07);}
+.tri .it{flex:1;display:flex;align-items:center;justify-content:center;gap:14px;padding:0 10px;}
+.tri .it+.it{border-left:1px solid var(--line);}
+.tri .em{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;flex:0 0 auto;}
+.tri .lb{font-family:'Plus Jakarta Sans','DejaVu Sans','Segoe UI',system-ui,sans-serif;font-weight:800;font-size:25px;color:var(--navy);text-align:left;line-height:1.15;}
+.stats{display:flex;gap:24px;width:100%;z-index:2;}
+.stat{flex:1;background:var(--card);border-radius:26px;padding:38px 20px;box-shadow:0 18px 44px rgba(15,26,61,.08);text-align:center;}
+.stat .n{font-family:'Plus Jakarta Sans','DejaVu Sans','Segoe UI',system-ui,sans-serif;font-weight:800;font-size:96px;line-height:1;}
+.stat .t{font-size:25px;color:var(--gray);font-weight:600;margin-top:14px;line-height:1.3;}
+.steps{display:flex;align-items:center;gap:16px;width:100%;z-index:2;}
+.step{flex:1;background:var(--card);border-radius:24px;padding:32px 22px;box-shadow:0 16px 40px rgba(15,26,61,.07);text-align:center;}
+.step .k{font-family:'Plus Jakarta Sans','DejaVu Sans','Segoe UI',system-ui,sans-serif;font-weight:800;font-size:38px;}
+.step .d{font-size:24px;color:var(--gray);margin-top:12px;line-height:1.35;font-weight:500;}
+.arrow{font-size:40px;color:var(--blue);font-weight:800;flex:0 0 auto;}
+.wm{position:absolute;right:44px;bottom:32px;font-size:23px;color:#9aa3b8;font-weight:600;z-index:3;}
+</style>
+</head>
+<body>
+
+<div class="slide" id="s1">
+  <div class="dots"></div><div class="wave"></div>
+  <div class="topbar"><span class="ham">&#8801;</span><span class="pill">CARROSSEL</span><span class="ham">&#8801;</span></div>
+  <div class="title">O que muda para a escola <span class="kw-o">pública</span> com a IA</div>
+  <div class="sub">A UNESCO escreveu um guia para quem decide políticas de educação. Isto é o que interessa saber.</div>
+  <div class="spacer"></div>
+  <div class="tri">
+    <div class="it"><span class="em ic-b">🏫</span><span class="lb">Guia UNESCO</span></div>
+    <div class="it"><span class="em ic-o">⚖️</span><span class="lb">Riscos e ganhos</span></div>
+    <div class="it"><span class="em ic-g">🧑‍🏫</span><span class="lb">Escola pública</span></div>
+  </div>
+  <div class="spacer"></div>
+  <div class="ctabar"><span class="circ">→</span><span class="tx">Desliza para saber mais</span></div>
+  <div class="wm">@sandra.lourenco.ia</div>
+</div>
+
+<div class="slide" id="s2">
+  <div class="dots"></div><div class="wave"></div>
+  <div class="topbar"><span class="ham">&#8801;</span><span class="pill">01</span><span class="ham">&#8801;</span></div>
+  <div class="title sm">A gestão da escola <span class="kw">muda primeiro</span></div>
+  <div class="sub">Antes de chegar à sala de aula, a IA já entrou nos serviços.</div>
+  <div class="spacer"></div>
+  <div class="card">
+    <div class="crow"><span class="dot d-b">1</span><span class="ct">Admissões e horários<small>Os sistemas de gestão passam a apoiar inscrições e faltas.</small></span></div>
+    <div class="crow"><span class="dot d-o">2</span><span class="ct">Sinalizar alunos em risco<small>Análise de dados aponta quem pode abandonar a escola.</small></span></div>
+    <div class="crow"><span class="dot d-g">3</span><span class="ct">Decisões mais rápidas<small>Painéis dão a diretores dados atualizados para agir.</small></span></div>
+  </div>
+  <div class="spacer"></div>
+  <div class="wm">@sandra.lourenco.ia</div>
+</div>
+
+<div class="slide" id="s3">
+  <div class="dots"></div><div class="wave"></div>
+  <div class="topbar"><span class="ham">&#8801;</span><span class="pill">02</span><span class="ham">&#8801;</span></div>
+  <div class="title sm">Faltam professores, <span class="kw-o">não só</span> tecnologia</div>
+  <div class="sub">Até 2030 são precisos mais 68,8 milhões de professores no mundo.</div>
+  <div class="spacer"></div>
+  <div class="note orange"><span class="em">⚠️</span><span class="tx">A IA pode ajudar. Não é solução para este défice.</span></div>
+  <div class="card">
+    <div class="crow"><span class="dot d-b">1</span><span class="ct">Continua a ser um desafio político<small>Aumentar o acesso à escola é sobretudo uma questão social.</small></span></div>
+    <div class="crow"><span class="dot d-p">2</span><span class="ct">Substituir tem risco<small>Trocar professores por IA pode agravar o problema, não resolvê-lo.</small></span></div>
+  </div>
+  <div class="spacer"></div>
+  <div class="wm">@sandra.lourenco.ia</div>
+</div>
+
+<div class="slide" id="s4">
+  <div class="dots"></div><div class="wave"></div>
+  <div class="topbar"><span class="ham">&#8801;</span><span class="pill">03</span><span class="ham">&#8801;</span></div>
+  <div class="title sm">O risco de aumentar a <span class="kw-o">desigualdade</span></div>
+  <div class="sub">Sem política clara, a IA tende a repetir quem já tem vantagem.</div>
+  <div class="spacer"></div>
+  <div class="card">
+    <div class="crow"><span class="dot d-b">1</span><span class="ct">Poder concentrado em poucas empresas<small>Um pequeno grupo de tecnológicas domina dados e ferramentas.</small></span></div>
+    <div class="crow"><span class="dot d-o">2</span><span class="ct">Quem não tem acesso fica invisível<small>Sem dados desses alunos, os sistemas aprendem sem eles.</small></span></div>
+    <div class="crow"><span class="dot d-g">3</span><span class="ct">A escola pública decide o resultado<small>Só política ativa evita que a IA aprofunde as diferenças.</small></span></div>
+  </div>
+  <div class="spacer"></div>
+  <div class="wm">@sandra.lourenco.ia</div>
+</div>
+
+<div class="slide" id="s5">
+  <div class="dots"></div><div class="wave"></div>
+  <div class="topbar"><span class="ham">&#8801;</span><span class="pill">04</span><span class="ham">&#8801;</span></div>
+  <div class="title sm">Os dados dos alunos, <span class="kw">ainda</span> pouco protegidos</div>
+  <div class="sub">Fora da Europa, a maioria dos países não tem lei que chegue.</div>
+  <div class="spacer"></div>
+  <div class="stats">
+    <div class="stat"><div class="n" style="color:var(--orange);">&lt;30%</div><div class="t">dos países (fora da Europa) têm leis abrangentes de proteção de dados</div></div>
+  </div>
+  <div class="spacer"></div>
+  <div class="note bluet"><span class="em">🔒</span><span class="tx">Sem essas regras, é difícil saber quem acede aos dados dos alunos e para quê.</span></div>
+  <div class="wm">@sandra.lourenco.ia</div>
+</div>
+
+<div class="slide" id="s6">
+  <div class="dots"></div><div class="wave"></div>
+  <div class="topbar"><span class="ham">&#8801;</span><span class="pill">05</span><span class="ham">&#8801;</span></div>
+  <div class="title sm">Quando a <span class="kw-o">vigilância</span> vai longe demais</div>
+  <div class="sub">Um caso real mostra onde a linha pode ser ultrapassada.</div>
+  <div class="spacer"></div>
+  <div class="note orange"><span class="em">📹</span><span class="tx">Câmaras de IA em salas de aula analisavam as expressões dos alunos para medir atenção.</span></div>
+  <div class="card">
+    <div class="crow"><span class="dot d-o">1</span><span class="ct">Ansiedade nos alunos<small>Sentiram-se permanentemente observados.</small></span></div>
+    <div class="crow"><span class="dot d-g">2</span><span class="ct">Reguladores travaram a prática<small>Passou a exigir-se consentimento dos pais e dados encriptados.</small></span></div>
+  </div>
+  <div class="spacer"></div>
+  <div class="wm">@sandra.lourenco.ia</div>
+</div>
+
+<div class="slide" id="s7">
+  <div class="dots"></div><div class="wave"></div>
+  <div class="topbar"><span class="ham">&#8801;</span><span class="pill">06</span><span class="ham">&#8801;</span></div>
+  <div class="title sm">O professor <span class="kw-g">não desaparece</span></div>
+  <div class="sub">É a posição da UNESCO, no Consenso de Pequim.</div>
+  <div class="spacer"></div>
+  <div class="card">
+    <div class="crow"><span class="dot d-b">1</span><span class="ct">A relação humana fica no centro<small>Máquinas não substituem o professor.</small></span></div>
+    <div class="crow"><span class="dot d-g">2</span><span class="ct">O papel muda, sim<small>Menos transmissão de conteúdo, mais acompanhamento.</small></span></div>
+    <div class="crow"><span class="dot d-p">3</span><span class="ct">Exige formação<small>Professores precisam de capacitação para este novo contexto.</small></span></div>
+  </div>
+  <div class="spacer"></div>
+  <div class="wm">@sandra.lourenco.ia</div>
+</div>
+
+<div class="slide" id="s8">
+  <div class="dots"></div><div class="wave"></div>
+  <div class="topbar"><span class="ham">&#8801;</span><span class="pill">07</span><span class="ham">&#8801;</span></div>
+  <div class="title sm">O que a escola pública tem de <span class="kw">decidir</span></div>
+  <div class="sub">As recomendações da UNESCO para quem faz política educativa.</div>
+  <div class="spacer"></div>
+  <div class="card">
+    <div class="crow"><span class="dot d-b">1</span><span class="ct">Um plano director<small>Definir como a IA entra na gestão, no ensino e na avaliação.</small></span></div>
+    <div class="crow"><span class="dot d-o">2</span><span class="ct">Governação entre setores<small>Educação, tecnologia e proteção de dados a decidir em conjunto.</small></span></div>
+    <div class="crow"><span class="dot d-g">3</span><span class="ct">Testar antes de escalar<small>Pilotos e avaliação, sempre com provas antes de generalizar.</small></span></div>
+  </div>
+  <div class="spacer"></div>
+  <div class="wm">@sandra.lourenco.ia</div>
+</div>
+
+<div class="slide" id="s9">
+  <div class="dots"></div><div class="wave"></div>
+  <div class="topbar"><span class="ham">&#8801;</span><span class="pill">08</span><span class="ham">&#8801;</span></div>
+  <div class="title sm">Guarda <span class="kw-o">isto</span></div>
+  <div class="sub">O que muda para a escola pública, em resumo.</div>
+  <div class="spacer"></div>
+  <div class="card">
+    <div class="crow"><span class="dot d-b">1</span><span class="ct">A gestão da escola muda primeiro.</span></div>
+    <div class="crow"><span class="dot d-o">2</span><span class="ct">Faltam professores. A IA não resolve isso sozinha.</span></div>
+    <div class="crow"><span class="dot d-g">3</span><span class="ct">Sem política clara, a desigualdade pode crescer.</span></div>
+    <div class="crow"><span class="dot d-p">4</span><span class="ct">Os dados dos alunos ainda estão pouco protegidos.</span></div>
+    <div class="crow"><span class="dot d-b">5</span><span class="ct">O professor muda de papel. Não desaparece.</span></div>
+  </div>
+  <div class="spacer"></div>
+  <div class="note green"><span class="em">🎯</span><span class="tx">A IA na escola pública é decisão política, não só tecnológica.</span></div>
+  <div class="ctabar" style="margin-top:16px;"><span class="circ">🔖</span><span class="tx">Guardar · Partilhar · Seguir para mais</span></div>
+  <div class="wm">@sandra.lourenco.ia</div>
+</div>
+
+</body>
+</html>
