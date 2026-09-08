@@ -29,7 +29,7 @@ Estado: `[ ]` por fazer · `[x]` feito. Marcar `[x]` e fazer commit ao concluir.
 | 07 | Ter 22/09 | 5 mitos sobre IA na sala de aula | 4 | Educação | [x] |
 | 08 | Qui 24/09 | O que muda para a escola pública com a IA | 8 | Função Pública | [x] |
 | 09 | Ter 29/09 | Literacia em IA: o que é, afinal? | 10 | Educação | [x] |
-| 10 | Qui 01/10 | Dimensão 1 — Mentalidade centrada no humano | 1 | Educação | [ ] |
+| 10 | Qui 01/10 | Dimensão 1 — Mentalidade centrada no humano | 1 | Educação | [x] |
 | 11 | Ter 06/10 | Dimensão 2 — Ética da IA para quem ensina | 5 | Função Pública | [ ] |
 | 12 | Qui 08/10 | Dimensão 3 — Fundamentos e aplicações de IA | 1 | Educação | [ ] |
 | 13 | Ter 13/10 | Dimensão 4 — Pedagogia com IA | 1 | Educação | [ ] |
