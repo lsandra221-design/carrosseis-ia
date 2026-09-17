@@ -32,7 +32,7 @@ Estado: `[ ]` por fazer · `[x]` feito. Marcar `[x]` e fazer commit ao concluir.
 | 10 | Qui 01/10 | Dimensão 1 — Mentalidade centrada no humano | 1 | Educação | [x] |
 | 11 | Ter 06/10 | Dimensão 2 — Ética da IA para quem ensina | 5 | Função Pública | [x] |
 | 12 | Qui 08/10 | Dimensão 3 — Fundamentos e aplicações de IA | 1 | Educação | [x] |
-| 13 | Ter 13/10 | Dimensão 4 — Pedagogia com IA | 1 | Educação | [ ] |
+| 13 | Ter 13/10 | Dimensão 4 — Pedagogia com IA | 1 | Educação | [x] |
 | 14 | Qui 15/10 | Dimensão 5 — IA para o desenvolvimento profissional | 1 | RH | [ ] |
 | 15 | Ter 20/10 | Como avaliar o meu nível de competência em IA | 1 | RH | [ ] |
 | 16 | Qui 22/10 | Usar IA vs dominar IA | 10 | RH | [ ] |
