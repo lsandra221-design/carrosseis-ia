@@ -1,0 +1,248 @@
+<title>Desenvolvimento profissional com IA</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+:root{
+  --navy:#0f1a3d; --blue:#2563ff; --orange:#ff5a1f; --green:#1a9e4b;
+  --bg:#f3f5fb; --card:#ffffff; --line:#e5e9f4; --gray:#5b6478;
+  --pill-fg:#ffffff; --shadow:0 14px 34px rgba(15,26,61,.08);
+  --code-bg:#eef1fb;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --navy:#eef1fb; --blue:#5b8dff; --orange:#ff8552; --green:#3fc472;
+    --bg:#0d1226; --card:#161d38; --line:#2a3358; --gray:#a3acc9;
+    --shadow:0 14px 34px rgba(0,0,0,.35);
+    --code-bg:#1d2646;
+  }
+}
+:root[data-theme="dark"]{
+  --navy:#eef1fb; --blue:#5b8dff; --orange:#ff8552; --green:#3fc472;
+  --bg:#0d1226; --card:#161d38; --line:#2a3358; --gray:#a3acc9;
+  --shadow:0 14px 34px rgba(0,0,0,.35);
+  --code-bg:#1d2646;
+}
+
+*{box-sizing:border-box;}
+body{
+  margin:0; background:var(--bg); color:var(--navy);
+  font-family:'Inter',system-ui,sans-serif;
+  padding:32px 20px calc(56px + env(safe-area-inset-bottom,0px));
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:760px;margin:0 auto;}
+
+.head{
+  display:flex; align-items:center; gap:16px; flex-wrap:wrap;
+  margin-bottom:28px;
+}
+.pill{
+  background:var(--blue); color:var(--pill-fg); font-family:'Plus Jakarta Sans',sans-serif;
+  font-weight:800; font-size:13px; letter-spacing:.08em; padding:8px 16px;
+  border-radius:20px; flex:0 0 auto;
+}
+.head h1{
+  font-family:'Plus Jakarta Sans',sans-serif; font-weight:800; font-size:clamp(26px,5vw,34px);
+  margin:0; text-wrap:balance; flex:1 1 260px;
+}
+.head h1 span{color:var(--orange);}
+.sub{
+  color:var(--gray); font-size:15px; margin:-16px 0 32px; line-height:1.5;
+}
+
+.section-label{
+  font-family:'Plus Jakarta Sans',sans-serif; font-weight:800; font-size:13px;
+  letter-spacing:.08em; text-transform:uppercase; color:var(--blue);
+  margin:0 0 14px; display:flex; align-items:center; gap:10px;
+}
+.section-label::after{content:"";flex:1;height:1px;background:var(--line);}
+
+.gallery{
+  display:flex; gap:14px; overflow-x:auto; padding-bottom:10px; margin-bottom:40px;
+  scroll-snap-type:x proximity;
+}
+.gallery::-webkit-scrollbar{height:8px;}
+.gallery::-webkit-scrollbar-thumb{background:var(--line);border-radius:8px;}
+.slide-card{
+  flex:0 0 auto; width:190px; scroll-snap-align:start;
+  background:var(--card); border-radius:16px; box-shadow:var(--shadow);
+  overflow:hidden; border:1px solid var(--line);
+}
+.slide-card img{display:block; width:100%; aspect-ratio:1/1; object-fit:cover;}
+.slide-card .n{
+  font-family:'Plus Jakarta Sans',sans-serif; font-weight:800; font-size:12px;
+  color:var(--gray); padding:8px 12px; letter-spacing:.04em;
+}
+
+.cap-grid{
+  display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-bottom:40px;
+}
+@media (max-width:620px){ .cap-grid{grid-template-columns:1fr;} }
+
+.card{
+  background:var(--card); border:1px solid var(--line); border-radius:18px;
+  padding:22px 22px 20px; box-shadow:var(--shadow); display:flex; flex-direction:column;
+}
+.card h2{
+  font-family:'Plus Jakarta Sans',sans-serif; font-size:16px; font-weight:800;
+  margin:0 0 12px; display:flex; align-items:center; justify-content:space-between; gap:10px;
+}
+.card .body-text{
+  font-size:14.5px; line-height:1.62; color:var(--navy); white-space:pre-wrap;
+  flex:1; margin-bottom:14px;
+}
+.tags{color:var(--blue); font-weight:600;}
+
+.copy-btn{
+  align-self:flex-start; font-family:'Plus Jakarta Sans',sans-serif; font-weight:700;
+  font-size:13px; color:#fff; background:var(--blue); border:none; border-radius:10px;
+  padding:9px 16px; cursor:pointer; display:inline-flex; align-items:center; gap:7px;
+  transition:background .15s ease, transform .1s ease;
+}
+.copy-btn:hover{background:var(--navy);}
+.copy-btn:active{transform:scale(.97);}
+.copy-btn.done{background:var(--green);}
+.copy-btn:focus-visible{outline:2px solid var(--orange); outline-offset:2px;}
+
+.script-card{margin-bottom:40px;}
+.scene{
+  display:flex; gap:14px; padding:14px 0; border-bottom:1px solid var(--line);
+}
+.scene:last-of-type{border-bottom:none;}
+.scene .badge{
+  flex:0 0 auto; width:30px; height:30px; border-radius:50%; background:var(--code-bg);
+  color:var(--blue); font-family:'Plus Jakarta Sans',sans-serif; font-weight:800; font-size:13px;
+  display:flex; align-items:center; justify-content:center;
+}
+.scene .stext{font-size:14.5px; line-height:1.55;}
+.scene .stext b{font-family:'Plus Jakarta Sans',sans-serif; display:block; margin-bottom:3px; font-size:13px; color:var(--orange); letter-spacing:.02em;}
+.script-note{
+  margin-top:14px; font-size:13px; color:var(--gray); background:var(--code-bg);
+  border-radius:10px; padding:12px 14px; line-height:1.5;
+}
+
+footer{
+  text-align:center; color:var(--gray); font-size:13px; line-height:1.6; margin-top:8px;
+}
+footer b{color:var(--navy);}
+</style>
+
+<div class="wrap">
+  <div class="head">
+    <span class="pill">CARROSSEL 14</span>
+    <h1>Desenvolvimento profissional com <span>IA</span></h1>
+  </div>
+  <p class="sub">Dimensão 5 do quadro da UNESCO para professores · fonte: 01_professores_competencias.txt · 8 slides, prontos para publicar.</p>
+
+  <p class="section-label">Slides, por ordem</p>
+  <div class="gallery" id="gallery">
+    <!-- slides injected -->
+  </div>
+
+  <p class="section-label">Legendas</p>
+  <div class="cap-grid">
+    <div class="card">
+      <h2>LinkedIn</h2>
+      <div class="body-text" id="cap-linkedin"></div>
+      <button class="copy-btn" data-target="cap-linkedin">Copiar legenda</button>
+    </div>
+    <div class="card">
+      <h2>TikTok / Instagram</h2>
+      <div class="body-text" id="cap-tiktok"></div>
+      <button class="copy-btn" data-target="cap-tiktok">Copiar legenda</button>
+    </div>
+  </div>
+
+  <p class="section-label">Guião de vídeo (HeyGen)</p>
+  <div class="card script-card">
+    <h2>6 cenas · ~60-80s <button class="copy-btn" data-target="script-full" id="script-copy-btn">Copiar guião</button></h2>
+    <div id="scenes"></div>
+    <div class="script-note" id="script-note"></div>
+  </div>
+
+  <footer>
+    Página privada de revisão — as imagens e o texto não foram publicados.<br>
+    <b>A publicação final é sempre feita pela Sandra.</b>
+  </footer>
+</div>
+
+<div style="display:none">
+  <div id="script-full"></div>
+</div>
+
+<script>
+(function(){
+  const SLIDES = 8;
+  const gallery = document.getElementById('gallery');
+  for(let i=1;i<=SLIDES;i++){
+    const div = document.createElement('div');
+    div.className = 'slide-card';
+    div.innerHTML = '<img src="carrossel_14_s'+i+'.png" alt="Slide '+i+' do carrossel" loading="lazy">'
+      + '<div class="n">SLIDE '+String(i).padStart(2,'0')+' / '+SLIDES+'</div>';
+    gallery.appendChild(div);
+  }
+
+  const CAPTIONS = {
+    linkedin: `A quinta e última dimensão do quadro da UNESCO para professores chama-se IA para o desenvolvimento profissional. Fecha o ciclo das cinco dimensões, mas talvez seja a mais pessoal de todas.
+
+É sobre usar a IA para continuar a aprender, ao longo de toda a carreira. Explorar ferramentas para reforçar práticas reflexivas, avaliar as próprias necessidades de aprendizagem e personalizar o percurso profissional. E participar em comunidades onde professores partilham recursos e aprendem uns com os outros.
+
+Também aqui há progressão. No primeiro nível, o professor autoavalia-se e explora ferramentas para aprender. No segundo, participa em comunidades profissionais e usa dados para acompanhar o próprio percurso, sempre com atenção aos riscos éticos. No nível mais avançado, cria ferramentas de IA em conjunto com colegas e ajuda a garantir que todos têm acesso, incluindo quem tem deficiência ou necessidades específicas.
+
+Do autodiagnóstico à mentoria, passando pelos dados sobre o próprio percurso, até às ferramentas construídas em conjunto: a IA pode entrar em quase todo o processo de aprender a ensinar melhor.
+
+Mas não substitui a formação contínua do professor. Apoia-a. E o objetivo final é sempre o mesmo: tornar-se um agente de mudança.
+
+#InteligenciaArtificial #Professores #Educacao`,
+    tiktok: `A quinta e última dimensão da UNESCO para professores é sobre desenvolvimento profissional.
+
+É usar a IA para continuar a aprender, ao longo de toda a carreira. Autoavaliação, comunidades de prática, ferramentas criadas em conjunto.
+
+A IA não substitui a tua formação contínua. Mas pode apoiar a autoavaliação e a colaboração.
+
+Desliza e guarda os três níveis.
+
+#InteligenciaArtificial #Professores #Educacao`
+  };
+  document.getElementById('cap-linkedin').textContent = CAPTIONS.linkedin;
+  document.getElementById('cap-tiktok').textContent = CAPTIONS.tiktok;
+
+  const SCENES = [
+    ['Cena 1 — Gancho', 'Já pensaste em usar a inteligência artificial para continuares a aprender ao longo da tua carreira? É essa a quinta e última dimensão do quadro da UNESCO para professores.'],
+    ['Cena 2 — O que cobre esta dimensão', 'Chama-se inteligência artificial para o desenvolvimento profissional. É sobre explorar ferramentas para reforçar práticas reflexivas, avaliar as tuas necessidades de aprendizagem e participar em comunidades onde professores partilham recursos.'],
+    ['Cena 3 — Os três níveis', 'Também aqui há progressão. No primeiro nível, autoavalias-te e exploras ferramentas para aprender. No segundo, participas em comunidades profissionais e usas dados para acompanhar o teu percurso. No nível mais avançado, crias ferramentas de inteligência artificial em conjunto com colegas e ajudas a garantir que todos têm acesso.'],
+    ['Cena 4 — Onde entra no teu percurso', 'A inteligência artificial pode entrar em quase todo o processo de aprender a ensinar melhor. Na autoavaliação, para identificares lacunas. Na mentoria, para encontrares pares. Nos dados, para rastreares o teu desenvolvimento. E nas ferramentas criadas em conjunto, ao serviço da tua instituição.'],
+    ['Cena 5 — Síntese', 'Mas a inteligência artificial não substitui a tua formação contínua. Apoia a tua autoavaliação e a tua colaboração com outros professores. O objetivo final é sempre o mesmo: tornares-te um agente de mudança.'],
+    ['Cena 6 — Fecho e chamada à ação', 'Guarda este carrossel se trabalhas em educação. Segue para mais conteúdos sobre inteligência artificial na escola.']
+  ];
+  const scenesEl = document.getElementById('scenes');
+  SCENES.forEach((s,i)=>{
+    const row = document.createElement('div');
+    row.className = 'scene';
+    row.innerHTML = '<div class="badge">'+(i+1)+'</div><div class="stext"><b>'+s[0]+'</b>'+s[1]+'</div>';
+    scenesEl.appendChild(row);
+  });
+  const fullScript = SCENES.map(s => s[0]+'\\n'+s[1]).join('\\n\\n');
+  document.getElementById('script-full').textContent = fullScript;
+  document.getElementById('script-note').textContent = 'Nota para o HeyGen: usar os PNGs do carrossel (carrossel_14_s1.png a carrossel_14_s8.png) como fundo de cada cena, pela ordem, com o avatar a narrar por cima.';
+
+  document.querySelectorAll('.copy-btn').forEach(btn=>{
+    btn.addEventListener('click', async ()=>{
+      const target = document.getElementById(btn.dataset.target);
+      const text = target.textContent;
+      try{
+        await navigator.clipboard.writeText(text);
+      }catch(e){
+        const ta = document.createElement('textarea');
+        ta.value = text; document.body.appendChild(ta); ta.select();
+        try{ document.execCommand('copy'); }catch(e2){}
+        document.body.removeChild(ta);
+      }
+      const original = btn.textContent;
+      btn.textContent = 'Copiado ✓';
+      btn.classList.add('done');
+      setTimeout(()=>{ btn.textContent = original; btn.classList.remove('done'); }, 1800);
+    });
+  });
+})();
+</script>
