@@ -35,7 +35,7 @@ Estado: `[ ]` por fazer · `[x]` feito. Marcar `[x]` e fazer commit ao concluir.
 | 13 | Ter 13/10 | Dimensão 4 — Pedagogia com IA | 1 | Educação | [x] |
 | 14 | Qui 15/10 | Dimensão 5 — IA para o desenvolvimento profissional | 1 | RH | [x] |
 | 15 | Ter 20/10 | Como avaliar o meu nível de competência em IA | 1 | RH | [x] |
-| 16 | Qui 22/10 | Usar IA vs dominar IA | 10 | RH | [ ] |
+| 16 | Qui 22/10 | Usar IA vs dominar IA | 10 | RH | [x] |
 | 17 | Ter 27/10 | Competências dos alunos: pensamento crítico primeiro | 2 | Educação | [ ] |
 | 18 | Qui 29/10 | IA e equidade: quem fica para trás? | 8 | Função Pública | [ ] |
 | 19 | Ter 03/11 | Guia UNESCO de IA generativa: as regras | 3 | Educação | [ ] |

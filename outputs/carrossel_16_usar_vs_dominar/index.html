@@ -1,0 +1,160 @@
+<title>Carrossel 16 — Usar vs Dominar</title>
+<style>
+/* layout: header + horizontal-scroll slide strip + two-column caption/script cards below */
+:root{
+  --bg:#f4f6fb; --surface:#ffffff; --border:#e4e9f5; --text:#0f1a3d; --muted:#5b6478;
+  --navy:#0f1a3d; --blue:#2563ff; --orange:#ff5a1f; --green:#1a9e4b;
+  --blue-tint:#e6ecff; --orange-tint:#ffe9df;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0c1024; --surface:#141a35; --border:#242c52; --text:#eef1fb; --muted:#9aa3c4;
+    --navy:#eef1fb; --blue:#6d8bff; --orange:#ff8a5c; --green:#3fce7d;
+    --blue-tint:#1c2450; --orange-tint:#3a2216;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0c1024; --surface:#141a35; --border:#242c52; --text:#eef1fb; --muted:#9aa3c4;
+  --navy:#eef1fb; --blue:#6d8bff; --orange:#ff8a5c; --green:#3fce7d;
+  --blue-tint:#1c2450; --orange-tint:#3a2216;
+  color-scheme:dark;
+}
+*{box-sizing:border-box;}
+body{background:var(--bg);color:var(--text);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;margin:0;padding-inline:20px;padding-block:32px;}
+.wrap{max-width:1040px;margin:0 auto;}
+header{margin-bottom:28px;}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;background:var(--blue-tint);color:var(--blue);font-weight:700;font-size:13px;letter-spacing:.04em;text-transform:uppercase;padding:6px 14px;border-radius:20px;}
+h1{font-family:'Plus Jakarta Sans','Inter',sans-serif;font-weight:800;font-size:clamp(26px,4vw,36px);margin:14px 0 6px;letter-spacing:-.01em;}
+.lede{color:var(--muted);font-size:16px;line-height:1.5;max-width:640px;}
+.meta{display:flex;gap:18px;flex-wrap:wrap;margin-top:16px;font-size:14px;color:var(--muted);}
+.meta b{color:var(--text);}
+h2{font-family:'Plus Jakarta Sans','Inter',sans-serif;font-weight:800;font-size:19px;margin:36px 0 14px;display:flex;align-items:center;gap:10px;}
+h2 .n{background:var(--blue);color:#fff;width:26px;height:26px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:13px;flex:0 0 auto;}
+.slides{display:flex;gap:14px;overflow-x:auto;padding-bottom:10px;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;}
+.slides img{scroll-snap-align:start;width:240px;flex:0 0 auto;border-radius:14px;border:1px solid var(--border);box-shadow:0 8px 24px rgba(15,26,61,.08);}
+.slides::-webkit-scrollbar{height:8px;}
+.slides::-webkit-scrollbar-thumb{background:var(--border);border-radius:8px;}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+@media (max-width:720px){.grid2{grid-template-columns:1fr;}}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:20px 22px;position:relative;}
+.card h3{font-family:'Plus Jakarta Sans','Inter',sans-serif;font-size:15px;font-weight:800;margin:0 0 12px;color:var(--blue);text-transform:uppercase;letter-spacing:.04em;}
+.card pre{white-space:pre-wrap;font-family:inherit;font-size:14.5px;line-height:1.6;margin:0;color:var(--text);}
+.copybtn{position:absolute;top:16px;right:16px;background:var(--blue);color:#fff;border:none;border-radius:8px;padding:7px 14px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit;}
+.copybtn:active{transform:scale(.97);}
+.copybtn.copied{background:var(--green);}
+.scene{border-bottom:1px solid var(--border);padding:10px 0;}
+.scene:last-of-type{border-bottom:none;}
+.scene b{color:var(--orange);}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--border);color:var(--muted);font-size:13px;}
+a.pdf{color:var(--blue);font-weight:700;text-decoration:none;}
+</style>
+
+<div class="wrap">
+<header>
+  <span class="eyebrow">Carrossel 16 · Pronto a publicar</span>
+  <h1>Usar IA vs Dominar IA</h1>
+  <p class="lede">8 slides + legendas (LinkedIn e TikTok/Instagram) + guião de vídeo para o HeyGen. Fonte: quadro AILit (OCDE / Comissão Europeia).</p>
+  <div class="meta">
+    <span><b>Tema:</b> RH</span>
+    <span><b>Slides:</b> 8</span>
+    <span><a class="pdf" href="carrossel_16.pdf">Descarregar PDF</a></span>
+  </div>
+</header>
+
+<h2><span class="n">1</span> Slides</h2>
+<div class="slides">
+  <img src="carrossel_16_s1.png" alt="Slide 1 — Capa">
+  <img src="carrossel_16_s2.png" alt="Slide 2">
+  <img src="carrossel_16_s3.png" alt="Slide 3">
+  <img src="carrossel_16_s4.png" alt="Slide 4">
+  <img src="carrossel_16_s5.png" alt="Slide 5">
+  <img src="carrossel_16_s6.png" alt="Slide 6">
+  <img src="carrossel_16_s7.png" alt="Slide 7">
+  <img src="carrossel_16_s8.png" alt="Slide 8 — Fecho">
+</div>
+
+<h2><span class="n">2</span> Legendas</h2>
+<div class="grid2">
+  <div class="card">
+    <h3>LinkedIn</h3>
+    <button class="copybtn" data-target="cap-linkedin">Copiar</button>
+    <pre id="cap-linkedin">"Já uso IA todos os dias." Ouço isto muitas vezes. E é verdade. Mas usar não é o mesmo que dominar.
+
+Um quadro da OCDE e da Comissão Europeia, feito para o ensino básico e secundário, descreve quatro domínios para lidar com inteligência artificial: reconhecer e usar, criar, gerir e desenhar.
+
+Os dois primeiros são sobre usar. Reconheces a IA no que fazes, avalias se a resposta está certa, testas e ajustas até o resultado servir.
+
+Os dois últimos são sobre dominar. Decides se a IA é mesmo precisa para a tarefa. Divides o trabalho com critério, entre o que fica para a IA e o que fica para ti. Defines regras de uso para uma equipa. Explicas como o sistema funciona, sem lhe atribuir intenções humanas.
+
+A diferença não está na ferramenta que usas. Está no controlo que tens sobre ela.
+
+A maioria das pessoas fica nos dois primeiros domínios. E está bem, para começar. Mas se queres tirar mais partido da IA, no trabalho ou na equipa que lideras, o passo seguinte é claro: passar de usar para gerir e desenhar.
+
+Não precisas de dominar tudo de uma vez. Precisas de saber em que domínio estás a crescer.
+
+#InteligenciaArtificial #RecursosHumanos #Lideranca</pre>
+  </div>
+  <div class="card">
+    <h3>TikTok / Instagram</h3>
+    <button class="copybtn" data-target="cap-tiktok">Copiar</button>
+    <pre id="cap-tiktok">"Já uso IA todos os dias." Mas usar não é dominar.
+
+Há 4 domínios: reconhecer e usar, criar, gerir, desenhar.
+
+Os dois primeiros usam a IA. Os dois últimos dominam-na: decides se é precisa, divides o trabalho, defines regras.
+
+A diferença não é a ferramenta. É o controlo que tens sobre ela.
+
+Desliza e vê em que domínio estás.
+
+#InteligenciaArtificial #RecursosHumanos #Lideranca</pre>
+  </div>
+</div>
+
+<h2><span class="n">3</span> Guião de vídeo (HeyGen)</h2>
+<div class="card">
+  <h3>6 cenas</h3>
+  <button class="copybtn" data-target="script-video">Copiar</button>
+  <pre id="script-video"><span class="scene"><b>Cena 1 — Gancho</b>
+Usas inteligência artificial todos os dias. Mas será que a dominas? Há uma diferença grande entre as duas coisas.</span>
+<span class="scene"><b>Cena 2</b>
+Um quadro da OCDE e da Comissão Europeia descreve quatro domínios para lidar com inteligência artificial: reconhecer e usar, criar, gerir e desenhar.</span>
+<span class="scene"><b>Cena 3</b>
+Nos dois primeiros domínios, usas a inteligência artificial. Reconheces onde ela está, avalias se a resposta está certa, testas e ajustas até o resultado servir.</span>
+<span class="scene"><b>Cena 4</b>
+Nos dois últimos, dominas a inteligência artificial. Decides se ela é mesmo precisa para a tarefa. Divides o trabalho com critério. Defines regras de uso para uma equipa.</span>
+<span class="scene"><b>Cena 5</b>
+A diferença não está na ferramenta que usas. Está no controlo que tens sobre ela.</span>
+<span class="scene"><b>Cena 6 — Fecho</b>
+Não precisas de dominar tudo de uma vez. Precisas de saber em que domínio estás a crescer. Segue-me para mais conteúdos sobre inteligência artificial.</span></pre>
+  <p style="color:var(--muted);font-size:13.5px;margin:14px 0 0;">Nota para o HeyGen: usar as PNGs do carrossel (s1 a s8) como fundo de cada cena, pela ordem, com o avatar a narrar por cima.</p>
+</div>
+
+<footer>Página privada de entrega · gerada para revisão interna. A publicação nas redes é sempre feita pela Sandra.</footer>
+</div>
+
+<script>
+document.querySelectorAll('.copybtn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var target = document.getElementById(btn.dataset.target);
+    var text = target.innerText;
+    function done(){
+      var original = btn.textContent;
+      btn.textContent = 'Copiado';
+      btn.classList.add('copied');
+      setTimeout(function(){ btn.textContent = original; btn.classList.remove('copied'); }, 1600);
+    }
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(done).catch(function(){
+        var range = document.createRange();
+        range.selectNodeContents(target);
+        var sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(range);
+        done();
+      });
+    }
+  });
+});
+</script>
