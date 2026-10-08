@@ -1,0 +1,248 @@
+<title>Carrossel 19 — Regras da IA Generativa</title>
+<style>
+/* layout: header + numbered slide strip + three copyable text cards (LinkedIn, TikTok, guiao video) */
+:root{
+  --bg:#f4f5f9; --surface:#ffffff; --border:#e5e9f2;
+  --ink:#0f1a3d; --ink-soft:#5b6478; --ink-faint:#8a92a6;
+  --navy:#0f1a3d; --blue:#2563ff; --orange:#ff5a1f; --green:#1a9e4b;
+  --blue-tint:#eaf0ff; --orange-tint:#fff2ec; --green-tint:#e9f6ee;
+  --chip-bg:#eef1f7; --code-bg:#f7f8fb;
+  --shadow: 0 18px 44px rgba(15,26,61,.07);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0b0f1d; --surface:#121829; --border:#242c42;
+    --ink:#f2f4fa; --ink-soft:#aab1c5; --ink-faint:#747d94;
+    --blue-tint:#172243; --orange-tint:#2a1c15; --green-tint:#142a1d;
+    --chip-bg:#1a2238; --code-bg:#0f1527;
+    --shadow: 0 18px 44px rgba(0,0,0,.35);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0b0f1d; --surface:#121829; --border:#242c42;
+  --ink:#f2f4fa; --ink-soft:#aab1c5; --ink-faint:#747d94;
+  --blue-tint:#172243; --orange-tint:#2a1c15; --green-tint:#142a1d;
+  --chip-bg:#1a2238; --code-bg:#0f1527;
+  --shadow: 0 18px 44px rgba(0,0,0,.35);
+  color-scheme: dark;
+}
+
+*{box-sizing:border-box;}
+body{
+  background:var(--bg); color:var(--ink);
+  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  padding-inline:20px; padding-block:40px;
+  display:flex; justify-content:center;
+}
+.page{width:100%; max-width:980px; display:flex; flex-direction:column; gap:40px;}
+
+/* header */
+header{display:flex; flex-direction:column; gap:10px;}
+.eyebrow{
+  display:inline-flex; align-items:center; gap:8px; width:fit-content;
+  background:var(--blue-tint); color:var(--blue); font-weight:700; font-size:13px;
+  letter-spacing:.04em; text-transform:uppercase; padding:6px 14px; border-radius:20px;
+  font-family:'Plus Jakarta Sans',sans-serif;
+}
+h1{
+  font-family:'Plus Jakarta Sans',sans-serif; font-weight:800; font-size:clamp(26px,4vw,38px);
+  line-height:1.15; margin:0; text-wrap:balance; letter-spacing:-.01em;
+}
+.meta{display:flex; flex-wrap:wrap; gap:10px; margin-top:4px;}
+.meta span{
+  font-size:13px; color:var(--ink-soft); background:var(--chip-bg); border-radius:8px;
+  padding:5px 11px; font-weight:600;
+}
+.lead{color:var(--ink-soft); font-size:15.5px; line-height:1.6; max-width:640px;}
+
+/* section titles */
+.section-head{display:flex; align-items:baseline; justify-content:space-between; gap:12px; flex-wrap:wrap;}
+.section-head h2{font-family:'Plus Jakarta Sans',sans-serif; font-size:18px; font-weight:800; margin:0;}
+.section-head .count{font-size:13px; color:var(--ink-faint); font-weight:600;}
+
+/* slide strip */
+.slides{
+  display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:14px;
+}
+.slide-card{
+  background:var(--surface); border:1px solid var(--border); border-radius:16px; overflow:hidden;
+  box-shadow:var(--shadow); display:flex; flex-direction:column;
+}
+.slide-card img{display:block; width:100%; aspect-ratio:1/1; object-fit:cover; background:var(--chip-bg);}
+.slide-num{
+  display:flex; align-items:center; gap:6px; padding:8px 10px; font-size:12px; font-weight:700;
+  color:var(--ink-soft); font-family:'Plus Jakarta Sans',sans-serif;
+}
+.slide-num .dot{width:7px; height:7px; border-radius:50%; background:var(--blue);}
+.slide-card:first-child .slide-num .dot{background:var(--orange);}
+.slide-card:last-child .slide-num .dot{background:var(--green);}
+
+/* copy cards */
+.copy-card{
+  background:var(--surface); border:1px solid var(--border); border-radius:20px; box-shadow:var(--shadow);
+  padding:24px 26px; display:flex; flex-direction:column; gap:14px;
+}
+.copy-card .top-row{display:flex; align-items:center; justify-content:space-between; gap:12px;}
+.copy-card .label{
+  display:flex; align-items:center; gap:10px; font-family:'Plus Jakarta Sans',sans-serif;
+  font-weight:800; font-size:15px;
+}
+.badge{
+  width:30px; height:30px; border-radius:9px; display:flex; align-items:center; justify-content:center;
+  font-size:15px; flex:0 0 auto;
+}
+.badge.li{background:var(--blue-tint);}
+.badge.tt{background:var(--orange-tint);}
+.badge.vid{background:var(--green-tint);}
+
+.copy-btn{
+  display:flex; align-items:center; gap:7px; border:1px solid var(--border); background:var(--code-bg);
+  color:var(--ink); font-weight:700; font-size:13px; border-radius:10px; padding:8px 14px; cursor:pointer;
+  font-family:'Inter',sans-serif; transition:background .15s ease, transform .1s ease;
+}
+.copy-btn:hover{background:var(--chip-bg);}
+.copy-btn:active{transform:scale(.97);}
+.copy-btn.copied{background:var(--green-tint); color:var(--green); border-color:transparent;}
+
+.copy-text{
+  white-space:pre-wrap; font-size:14.5px; line-height:1.65; color:var(--ink-soft);
+  font-family:'Inter',sans-serif;
+}
+.copy-text strong{color:var(--ink); font-weight:700;}
+.copy-text .scene-tag{
+  display:block; color:var(--ink); font-weight:800; font-family:'Plus Jakarta Sans',sans-serif;
+  font-size:13px; text-transform:uppercase; letter-spacing:.03em; margin-top:16px; margin-bottom:4px;
+}
+.copy-text .scene-tag:first-child{margin-top:0;}
+.hashtags{color:var(--blue); font-weight:600;}
+
+footer{
+  text-align:center; color:var(--ink-faint); font-size:12.5px; padding-top:10px; border-top:1px solid var(--border);
+}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Inter:wght@400;500;600;700&display=swap">
+
+<div class="page">
+
+  <header>
+    <span class="eyebrow">Carrossel 19 · pronto para publicar</span>
+    <h1>Guia UNESCO: as regras da IA generativa</h1>
+    <div class="meta">
+      <span>Tema Sandra: Educação</span>
+      <span>Fonte: Guia UNESCO 2023 (IAGen)</span>
+      <span>9 slides</span>
+    </div>
+    <p class="lead">Carrossel sobre quem tem de cumprir regras no uso da inteligência artificial generativa na educação: governos, fornecedores de ferramentas, escolas e quem as usa no dia a dia.</p>
+  </header>
+
+  <section>
+    <div class="section-head">
+      <h2>Slides, pela ordem</h2>
+      <span class="count">9 imagens</span>
+    </div>
+    <div class="slides" style="margin-top:14px;">
+      <div class="slide-card"><img src="carrossel_19_s1.png" alt="Slide 1 — capa"><div class="slide-num"><span class="dot"></span>01 · Capa</div></div>
+      <div class="slide-card"><img src="carrossel_19_s2.png" alt="Slide 2"><div class="slide-num"><span class="dot"></span>02</div></div>
+      <div class="slide-card"><img src="carrossel_19_s3.png" alt="Slide 3"><div class="slide-num"><span class="dot"></span>03</div></div>
+      <div class="slide-card"><img src="carrossel_19_s4.png" alt="Slide 4"><div class="slide-num"><span class="dot"></span>04</div></div>
+      <div class="slide-card"><img src="carrossel_19_s5.png" alt="Slide 5"><div class="slide-num"><span class="dot"></span>05</div></div>
+      <div class="slide-card"><img src="carrossel_19_s6.png" alt="Slide 6"><div class="slide-num"><span class="dot"></span>06</div></div>
+      <div class="slide-card"><img src="carrossel_19_s7.png" alt="Slide 7"><div class="slide-num"><span class="dot"></span>07</div></div>
+      <div class="slide-card"><img src="carrossel_19_s8.png" alt="Slide 8"><div class="slide-num"><span class="dot"></span>08</div></div>
+      <div class="slide-card"><img src="carrossel_19_s9.png" alt="Slide 9 — fecho"><div class="slide-num"><span class="dot"></span>09 · Fecho</div></div>
+    </div>
+  </section>
+
+  <section style="display:flex; flex-direction:column; gap:18px;">
+    <div class="section-head"><h2>Legendas e guião</h2><span class="count">copiar e colar</span></div>
+
+    <div class="copy-card">
+      <div class="top-row">
+        <div class="label"><span class="badge li">💼</span>LinkedIn</div>
+        <button class="copy-btn" data-copy-target="cap-linkedin">📋 Copiar</button>
+      </div>
+      <div class="copy-text" id="cap-linkedin">Em 2023, só um país no mundo tinha regras específicas para a IA generativa. A UNESCO decidiu dar um ponto de partida a todos os outros.
+
+O Guia divide as responsabilidades por quatro grupos. Os governos têm de coordenar, avaliar riscos e proteger dados. Quem cria as ferramentas, como o ChatGPT, tem de garantir dados fiáveis e conteúdo sem discriminação. As escolas têm de auditar e validar antes de adotar. E professores, alunos e investigadores também têm regras: conhecer os termos, usar com ética, denunciar o que é ilegal.
+
+Um detalhe que me ficou: 137 de 194 países já têm leis gerais de proteção de dados. Mas quase nenhum tem regras pensadas especificamente para a IA generativa.
+
+No centro de tudo está uma ideia simples. A IA deve estar ao serviço do desenvolvimento humano. Nunca o contrário.
+
+Vem do "Guia para a IA generativa na educação e na pesquisa", da UNESCO.
+
+<span class="hashtags">#InteligenciaArtificial #Educacao #Regulacao</span></div>
+    </div>
+
+    <div class="copy-card">
+      <div class="top-row">
+        <div class="label"><span class="badge tt">🎵</span>TikTok / Instagram</div>
+        <button class="copy-btn" data-copy-target="cap-tiktok">📋 Copiar</button>
+      </div>
+      <div class="copy-text" id="cap-tiktok">Sabes quem tem de cumprir regras quando se fala de IA generativa na escola? Mais gente do que imaginas.
+
+Governos, quem cria as ferramentas, escolas, professores e alunos. Todos têm responsabilidades, segundo a UNESCO.
+
+Até 2023, só a China tinha regras específicas. O resto do mundo ainda está a apanhar o comboio.
+
+A ideia central é simples: a tecnologia ao serviço das pessoas, nunca o contrário.
+
+Desliza e vê as 9 regras.
+
+<span class="hashtags">#InteligenciaArtificial #Educacao #Escola</span></div>
+    </div>
+
+    <div class="copy-card">
+      <div class="top-row">
+        <div class="label"><span class="badge vid">🎬</span>Guião de vídeo (HeyGen) · 6 cenas</div>
+        <button class="copy-btn" data-copy-target="cap-video">📋 Copiar</button>
+      </div>
+      <div class="copy-text" id="cap-video"><span class="scene-tag">Cena 1 — Gancho</span>Sabias que, em 2023, só um país do mundo tinha regras específicas para a inteligência artificial generativa? A UNESCO decidiu mudar isso.
+<span class="scene-tag">Cena 2 — Conteúdo (quatro grupos)</span>O guia da UNESCO divide as responsabilidades por quatro grupos. Governos, quem cria as ferramentas, escolas, e professores, alunos e investigadores. Cada um tem o seu papel.
+<span class="scene-tag">Cena 3 — Conteúdo (governos e fornecedores)</span>Os governos têm de coordenar, avaliar riscos e proteger dados. Quem cria ferramentas como o ChatGPT tem de garantir dados fiáveis e evitar conteúdo discriminatório.
+<span class="scene-tag">Cena 4 — Conteúdo (escolas e utilizadores)</span>As escolas têm de auditar e validar antes de adotar qualquer ferramenta. E quem usa, professores e alunos, também tem regras: conhecer os termos, usar com ética, denunciar o que é ilegal.
+<span class="scene-tag">Cena 5 — Conteúdo (o dado que marca)</span>Cento e trinta e sete em cento e noventa e quatro países já têm leis gerais de proteção de dados. Mas quase nenhum tem regras pensadas especificamente para a inteligência artificial generativa.
+<span class="scene-tag">Cena 6 — Fecho e chamada à ação</span>No centro de tudo está uma ideia simples: a inteligência artificial deve estar ao serviço das pessoas, nunca o contrário. Guarda este carrossel e segue para mais conteúdos sobre inteligência artificial na educação.
+
+Nota para o HeyGen: usar os PNGs do carrossel (carrossel_19_s1.png a carrossel_19_s9.png) como fundo de cada cena, pela ordem, com o avatar a narrar por cima.</div>
+    </div>
+  </section>
+
+  <footer>Página privada gerada automaticamente · carrosseis-ia · a publicação final é sempre feita pela Sandra</footer>
+</div>
+
+<script>
+(function(){
+  document.querySelectorAll('.copy-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var target = document.getElementById(btn.getAttribute('data-copy-target'));
+      if(!target) return;
+      var text = target.innerText;
+      function done(){
+        var original = btn.innerHTML;
+        btn.innerHTML = '✓ Copiado';
+        btn.classList.add('copied');
+        setTimeout(function(){ btn.innerHTML = original; btn.classList.remove('copied'); }, 1800);
+      }
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(done).catch(function(){
+          selectFallback(target); done();
+        });
+      } else {
+        selectFallback(target); done();
+      }
+    });
+  });
+  function selectFallback(el){
+    try{
+      var range = document.createRange();
+      range.selectNodeContents(el);
+      var sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+    }catch(e){}
+  }
+})();
+</script>
