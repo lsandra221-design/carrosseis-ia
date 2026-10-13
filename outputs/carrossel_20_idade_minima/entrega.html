@@ -1,0 +1,243 @@
+<title>Carrossel 20 — Idade Mínima IA</title>
+<style>
+/* layout: header + numbered slide strip + three copyable text cards (LinkedIn, TikTok, guiao video) */
+:root{
+  --bg:#f4f5f9; --surface:#ffffff; --border:#e5e9f2;
+  --ink:#0f1a3d; --ink-soft:#5b6478; --ink-faint:#8a92a6;
+  --navy:#0f1a3d; --blue:#2563ff; --orange:#ff5a1f; --green:#1a9e4b;
+  --blue-tint:#eaf0ff; --orange-tint:#fff2ec; --green-tint:#e9f6ee;
+  --chip-bg:#eef1f7; --code-bg:#f7f8fb;
+  --shadow: 0 18px 44px rgba(15,26,61,.07);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0b0f1d; --surface:#121829; --border:#242c42;
+    --ink:#f2f4fa; --ink-soft:#aab1c5; --ink-faint:#747d94;
+    --blue-tint:#172243; --orange-tint:#2a1c15; --green-tint:#142a1d;
+    --chip-bg:#1a2238; --code-bg:#0f1527;
+    --shadow: 0 18px 44px rgba(0,0,0,.35);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0b0f1d; --surface:#121829; --border:#242c42;
+  --ink:#f2f4fa; --ink-soft:#aab1c5; --ink-faint:#747d94;
+  --blue-tint:#172243; --orange-tint:#2a1c15; --green-tint:#142a1d;
+  --chip-bg:#1a2238; --code-bg:#0f1527;
+  --shadow: 0 18px 44px rgba(0,0,0,.35);
+  color-scheme: dark;
+}
+
+*{box-sizing:border-box;}
+body{
+  background:var(--bg); color:var(--ink);
+  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  padding-inline:20px; padding-block:40px;
+  display:flex; justify-content:center;
+}
+.page{width:100%; max-width:980px; display:flex; flex-direction:column; gap:40px;}
+
+header{display:flex; flex-direction:column; gap:10px;}
+.eyebrow{
+  display:inline-flex; align-items:center; gap:8px; width:fit-content;
+  background:var(--blue-tint); color:var(--blue); font-weight:700; font-size:13px;
+  letter-spacing:.04em; text-transform:uppercase; padding:6px 14px; border-radius:20px;
+  font-family:'Plus Jakarta Sans',sans-serif;
+}
+h1{
+  font-family:'Plus Jakarta Sans',sans-serif; font-weight:800; font-size:clamp(26px,4vw,38px);
+  line-height:1.15; margin:0; text-wrap:balance; letter-spacing:-.01em;
+}
+.meta{display:flex; flex-wrap:wrap; gap:10px; margin-top:4px;}
+.meta span{
+  font-size:13px; color:var(--ink-soft); background:var(--chip-bg); border-radius:8px;
+  padding:5px 11px; font-weight:600;
+}
+.lead{color:var(--ink-soft); font-size:15.5px; line-height:1.6; max-width:640px;}
+
+.section-head{display:flex; align-items:baseline; justify-content:space-between; gap:12px; flex-wrap:wrap;}
+.section-head h2{font-family:'Plus Jakarta Sans',sans-serif; font-size:18px; font-weight:800; margin:0;}
+.section-head .count{font-size:13px; color:var(--ink-faint); font-weight:600;}
+
+.slides{
+  display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:14px;
+}
+.slide-card{
+  background:var(--surface); border:1px solid var(--border); border-radius:16px; overflow:hidden;
+  box-shadow:var(--shadow); display:flex; flex-direction:column;
+}
+.slide-card img{display:block; width:100%; aspect-ratio:1/1; object-fit:cover; background:var(--chip-bg);}
+.slide-num{
+  display:flex; align-items:center; gap:6px; padding:8px 10px; font-size:12px; font-weight:700;
+  color:var(--ink-soft); font-family:'Plus Jakarta Sans',sans-serif;
+}
+.slide-num .dot{width:7px; height:7px; border-radius:50%; background:var(--blue);}
+.slide-card:first-child .slide-num .dot{background:var(--orange);}
+.slide-card:last-child .slide-num .dot{background:var(--green);}
+
+.copy-card{
+  background:var(--surface); border:1px solid var(--border); border-radius:20px; box-shadow:var(--shadow);
+  padding:24px 26px; display:flex; flex-direction:column; gap:14px;
+}
+.copy-card .top-row{display:flex; align-items:center; justify-content:space-between; gap:12px;}
+.copy-card .label{
+  display:flex; align-items:center; gap:10px; font-family:'Plus Jakarta Sans',sans-serif;
+  font-weight:800; font-size:15px;
+}
+.badge{
+  width:30px; height:30px; border-radius:9px; display:flex; align-items:center; justify-content:center;
+  font-size:15px; flex:0 0 auto;
+}
+.badge.li{background:var(--blue-tint);}
+.badge.tt{background:var(--orange-tint);}
+.badge.vid{background:var(--green-tint);}
+
+.copy-btn{
+  display:flex; align-items:center; gap:7px; border:1px solid var(--border); background:var(--code-bg);
+  color:var(--ink); font-weight:700; font-size:13px; border-radius:10px; padding:8px 14px; cursor:pointer;
+  font-family:'Inter',sans-serif; transition:background .15s ease, transform .1s ease;
+}
+.copy-btn:hover{background:var(--chip-bg);}
+.copy-btn:active{transform:scale(.97);}
+.copy-btn.copied{background:var(--green-tint); color:var(--green); border-color:transparent;}
+
+.copy-text{
+  white-space:pre-wrap; font-size:14.5px; line-height:1.65; color:var(--ink-soft);
+  font-family:'Inter',sans-serif;
+}
+.copy-text strong{color:var(--ink); font-weight:700;}
+.copy-text .scene-tag{
+  display:block; color:var(--ink); font-weight:800; font-family:'Plus Jakarta Sans',sans-serif;
+  font-size:13px; text-transform:uppercase; letter-spacing:.03em; margin-top:16px; margin-bottom:4px;
+}
+.copy-text .scene-tag:first-child{margin-top:0;}
+.hashtags{color:var(--blue); font-weight:600;}
+
+footer{
+  text-align:center; color:var(--ink-faint); font-size:12.5px; padding-top:10px; border-top:1px solid var(--border);
+}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Inter:wght@400;500;600;700&display=swap">
+
+<div class="page">
+
+  <header>
+    <span class="eyebrow">Carrossel 20 · pronto para publicar</span>
+    <h1>A idade mínima para usar IA generativa</h1>
+    <div class="meta">
+      <span>Tema Sandra: Educação</span>
+      <span>Fonte: Guia UNESCO 2023 (IAGen)</span>
+      <span>8 slides</span>
+    </div>
+    <p class="lead">Carrossel sobre a idade mínima recomendada para crianças e adolescentes falarem sozinhos com IA generativa: o que já exigem os termos de uso, o que propõe a UNESCO e o que isto muda para quem trabalha em educação.</p>
+  </header>
+
+  <section>
+    <div class="section-head">
+      <h2>Slides, pela ordem</h2>
+      <span class="count">8 imagens</span>
+    </div>
+    <div class="slides" style="margin-top:14px;">
+      <div class="slide-card"><img src="carrossel_20_s1.png" alt="Slide 1 — capa"><div class="slide-num"><span class="dot"></span>01 · Capa</div></div>
+      <div class="slide-card"><img src="carrossel_20_s2.png" alt="Slide 2"><div class="slide-num"><span class="dot"></span>02</div></div>
+      <div class="slide-card"><img src="carrossel_20_s3.png" alt="Slide 3"><div class="slide-num"><span class="dot"></span>03</div></div>
+      <div class="slide-card"><img src="carrossel_20_s4.png" alt="Slide 4"><div class="slide-num"><span class="dot"></span>04</div></div>
+      <div class="slide-card"><img src="carrossel_20_s5.png" alt="Slide 5"><div class="slide-num"><span class="dot"></span>05</div></div>
+      <div class="slide-card"><img src="carrossel_20_s6.png" alt="Slide 6"><div class="slide-num"><span class="dot"></span>06</div></div>
+      <div class="slide-card"><img src="carrossel_20_s7.png" alt="Slide 7"><div class="slide-num"><span class="dot"></span>07</div></div>
+      <div class="slide-card"><img src="carrossel_20_s8.png" alt="Slide 8 — fecho"><div class="slide-num"><span class="dot"></span>08 · Fecho</div></div>
+    </div>
+  </section>
+
+  <section style="display:flex; flex-direction:column; gap:18px;">
+    <div class="section-head"><h2>Legendas e guião</h2><span class="count">copiar e colar</span></div>
+
+    <div class="copy-card">
+      <div class="top-row">
+        <div class="label"><span class="badge li">💼</span>LinkedIn</div>
+        <button class="copy-btn" data-copy-target="cap-linkedin">📋 Copiar</button>
+      </div>
+      <div class="copy-text" id="cap-linkedin">Qual é a idade mínima para falar sozinho com um chatbot de IA generativa? A pergunta já tem resposta parcial, mas quase ninguém a aplicou ainda.
+
+Hoje, os termos do ChatGPT exigem 13 anos. Menores de 18 precisam de autorização dos pais. Mas esta regra vem de uma lei norte-americana de 1998, pensada muito antes das redes sociais e da IA generativa existirem. Na União Europeia, o RGPD já pede 16 anos para usar redes sociais sem autorização dos pais.
+
+A UNESCO entrou nesta conversa com uma recomendação: o limite mínimo deve ser de 13 anos para conversas independentes com IA generativa. Mas deixa claro que cabe a cada país decidir, com debate público. E avisa: dizer a idade não é verificar a idade. Essa responsabilidade devia ser dos fornecedores. Acompanhar os filhos continua a ser dos pais.
+
+Para quem trabalha em escolas, a pergunta é prática: antes de levar qualquer ferramenta para a sala de aula, vale confirmar a idade mínima exigida e explicar aos alunos porque ela existe.
+
+Vem do "Guia para a IA generativa na educação e na pesquisa", da UNESCO.
+
+<span class="hashtags">#InteligenciaArtificial #Educacao #ProtecaoInfantil</span></div>
+    </div>
+
+    <div class="copy-card">
+      <div class="top-row">
+        <div class="label"><span class="badge tt">🎵</span>TikTok / Instagram</div>
+        <button class="copy-btn" data-copy-target="cap-tiktok">📋 Copiar</button>
+      </div>
+      <div class="copy-text" id="cap-tiktok">Sabes qual é a idade mínima para usar IA generativa sozinho? A resposta pode surpreender-te.
+
+O ChatGPT já exige 13 anos, com autorização dos pais até aos 18. Mas essa regra vem de uma lei de 1998, de antes das redes sociais existirem.
+
+A UNESCO diz que o mínimo deve ser 13 anos, mas que cada país tem de decidir e regulamentar isto. E avisa: escrever a idade não chega, é preciso verificar a sério.
+
+Se trabalhas com crianças ou adolescentes, vale a pena saber isto antes de levares uma ferramenta de IA para a sala de aula.
+
+Desliza e vê os números.
+
+<span class="hashtags">#InteligenciaArtificial #Educacao #Escola</span></div>
+    </div>
+
+    <div class="copy-card">
+      <div class="top-row">
+        <div class="label"><span class="badge vid">🎬</span>Guião de vídeo (HeyGen) · 6 cenas</div>
+        <button class="copy-btn" data-copy-target="cap-video">📋 Copiar</button>
+      </div>
+      <div class="copy-text" id="cap-video"><span class="scene-tag">Cena 1 — Gancho</span>Sabes qual é a idade mínima para falar sozinho com um chatbot de inteligência artificial generativa? A resposta ainda está a ser definida, país a país.
+<span class="scene-tag">Cena 2 — Conteúdo (as regras de hoje)</span>Hoje, os termos do ChatGPT exigem pelo menos treze anos. Quem tem menos de dezoito precisa de autorização dos pais ou do responsável legal.
+<span class="scene-tag">Cena 3 — Conteúdo (de onde vem a regra)</span>Esta regra vem de uma lei dos Estados Unidos, de mil novecentos e noventa e oito. Foi pensada antes das redes sociais e muito antes da inteligência artificial generativa existirem.
+<span class="scene-tag">Cena 4 — Conteúdo (o que diz a UNESCO)</span>A UNESCO recomenda um mínimo de treze anos para conversas independentes com inteligência artificial generativa. Mas deixa a decisão final a cada país, com debate público.
+<span class="scene-tag">Cena 5 — Conteúdo (quem verifica)</span>E avisa uma coisa importante: dizer a idade não é verificar a idade. Essa responsabilidade devia ser dos fornecedores das ferramentas. Acompanhar continua a ser papel dos pais.
+<span class="scene-tag">Cena 6 — Fecho e chamada à ação</span>Antes de levares uma ferramenta de inteligência artificial para a sala de aula, confirma a idade mínima exigida. Guarda este carrossel e segue para mais conteúdos sobre inteligência artificial na educação.
+
+Nota para o HeyGen: usar os PNGs do carrossel (carrossel_20_s1.png a carrossel_20_s8.png) como fundo de cada cena, pela ordem, com o avatar a narrar por cima.</div>
+    </div>
+  </section>
+
+  <footer>Página privada gerada automaticamente · carrosseis-ia · a publicação final é sempre feita pela Sandra</footer>
+</div>
+
+<script>
+(function(){
+  document.querySelectorAll('.copy-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var target = document.getElementById(btn.getAttribute('data-copy-target'));
+      if(!target) return;
+      var text = target.innerText;
+      function done(){
+        var original = btn.innerHTML;
+        btn.innerHTML = '✓ Copiado';
+        btn.classList.add('copied');
+        setTimeout(function(){ btn.innerHTML = original; btn.classList.remove('copied'); }, 1800);
+      }
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(done).catch(function(){
+          selectFallback(target); done();
+        });
+      } else {
+        selectFallback(target); done();
+      }
+    });
+  });
+  function selectFallback(el){
+    try{
+      var range = document.createRange();
+      range.selectNodeContents(el);
+      var sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+    }catch(e){}
+  }
+})();
+</script>
