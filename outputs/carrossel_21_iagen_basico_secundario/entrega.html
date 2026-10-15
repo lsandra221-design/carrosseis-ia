@@ -1,0 +1,276 @@
+<title>Carrossel 21 — 4 usos de IA</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* layout: header + numbered slide strip + three copyable text cards (LinkedIn, TikTok, guiao video) */
+:root{
+  --bg:#f4f5f9; --surface:#ffffff; --border:#e5e9f2;
+  --ink:#0f1a3d; --ink-soft:#5b6478; --ink-faint:#8a92a6;
+  --navy:#0f1a3d; --blue:#2563ff; --orange:#ff5a1f; --green:#1a9e4b;
+  --blue-tint:#eaf0ff; --orange-tint:#fff2ec; --green-tint:#e9f6ee;
+  --chip-bg:#eef1f7; --code-bg:#f7f8fb;
+  --shadow: 0 18px 44px rgba(15,26,61,.07);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0b0f1d; --surface:#121829; --border:#242c42;
+    --ink:#f2f4fa; --ink-soft:#aab1c5; --ink-faint:#747d94;
+    --blue-tint:#172243; --orange-tint:#2a1c15; --green-tint:#142a1d;
+    --chip-bg:#1a2238; --code-bg:#0f1527;
+    --shadow: 0 18px 44px rgba(0,0,0,.35);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0b0f1d; --surface:#121829; --border:#242c42;
+  --ink:#f2f4fa; --ink-soft:#aab1c5; --ink-faint:#747d94;
+  --blue-tint:#172243; --orange-tint:#2a1c15; --green-tint:#142a1d;
+  --chip-bg:#1a2238; --code-bg:#0f1527;
+  --shadow: 0 18px 44px rgba(0,0,0,.35);
+  color-scheme: dark;
+}
+
+*{box-sizing:border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+body{
+  background:var(--bg); color:var(--ink);
+  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  padding-block:40px;
+  padding-left:max(20px, env(safe-area-inset-left, 0px));
+  padding-right:max(20px, env(safe-area-inset-right, 0px));
+  display:flex; justify-content:center;
+}
+.page{width:100%; max-width:980px; display:flex; flex-direction:column; gap:40px;}
+
+header{display:flex; flex-direction:column; gap:10px;}
+.eyebrow{
+  display:inline-flex; align-items:center; gap:8px; width:fit-content;
+  background:var(--blue-tint); color:var(--blue); font-weight:700; font-size:13px;
+  letter-spacing:.04em; text-transform:uppercase; padding:6px 14px; border-radius:20px;
+  font-family:'Plus Jakarta Sans',sans-serif;
+}
+h1{
+  font-family:'Plus Jakarta Sans',sans-serif; font-weight:800; font-size:clamp(26px,4vw,38px);
+  line-height:1.15; margin:0; text-wrap:balance; letter-spacing:-.01em;
+}
+.meta{display:flex; flex-wrap:wrap; gap:10px; margin-top:4px;}
+.meta span{
+  font-size:13px; color:var(--ink-soft); background:var(--chip-bg); border-radius:8px;
+  padding:5px 11px; font-weight:600;
+}
+.lead{color:var(--ink-soft); font-size:15.5px; line-height:1.6; max-width:640px;}
+
+.section-head{display:flex; align-items:baseline; justify-content:space-between; gap:12px; flex-wrap:wrap;}
+.section-head h2{font-family:'Plus Jakarta Sans',sans-serif; font-size:18px; font-weight:800; margin:0;}
+.section-head .count{font-size:13px; color:var(--ink-faint); font-weight:600;}
+
+.slides{
+  display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:14px;
+}
+.slide-card{
+  background:var(--surface); border:1px solid var(--border); border-radius:16px; overflow:hidden;
+  box-shadow:var(--shadow); display:flex; flex-direction:column; min-width:0;
+}
+.slide-card img{display:block; width:100%; max-width:100%; aspect-ratio:1/1; object-fit:cover; background:var(--chip-bg);}
+.slide-num{
+  display:flex; align-items:center; gap:6px; padding:8px 10px; font-size:12px; font-weight:700;
+  color:var(--ink-soft); font-family:'Plus Jakarta Sans',sans-serif;
+}
+.slide-num .dot{width:7px; height:7px; border-radius:50%; background:var(--blue); flex:0 0 auto;}
+.slide-card:first-child .slide-num .dot{background:var(--orange);}
+.slide-card:last-child .slide-num .dot{background:var(--green);}
+
+.copy-card{
+  background:var(--surface); border:1px solid var(--border); border-radius:20px; box-shadow:var(--shadow);
+  padding:24px; display:flex; flex-direction:column; gap:16px; min-width:0;
+}
+.copy-card .chead{display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;}
+.copy-card .chead .tag{
+  display:inline-flex; align-items:center; gap:8px; font-family:'Plus Jakarta Sans',sans-serif;
+  font-weight:800; font-size:15px; color:var(--ink);
+}
+.copy-card .chead .tag .sw{width:10px; height:10px; border-radius:3px;}
+.copy-card.linkedin .sw{background:var(--blue);}
+.copy-card.tiktok .sw{background:var(--orange);}
+.copy-card.guiao .sw{background:var(--green);}
+
+.copy-btn{
+  display:inline-flex; align-items:center; gap:8px; border:1px solid var(--border);
+  background:var(--chip-bg); color:var(--ink); font-weight:700; font-size:13px;
+  font-family:'Plus Jakarta Sans',sans-serif; padding:8px 14px; border-radius:10px;
+  cursor:pointer; transition:background .15s ease, transform .1s ease;
+}
+.copy-btn:hover{background:var(--border);}
+.copy-btn:active{transform:scale(.97);}
+.copy-btn.done{background:var(--green-tint); color:var(--green); border-color:transparent;}
+.copy-btn svg{width:14px; height:14px; flex:0 0 auto;}
+
+.copy-body{
+  white-space:pre-wrap; font-size:14.5px; line-height:1.65; color:var(--ink-soft);
+  background:var(--code-bg); border:1px solid var(--border); border-radius:14px;
+  padding:18px; max-height:360px; overflow-y:auto;
+}
+.copy-body strong{color:var(--ink); font-weight:700;}
+
+footer{
+  text-align:center; color:var(--ink-faint); font-size:12.5px; padding-top:8px;
+  border-top:1px solid var(--border);
+}
+
+@media (max-width:520px){
+  .slides{grid-template-columns:repeat(auto-fill,minmax(120px,1fr));}
+  .copy-card{padding:18px;}
+}
+</style>
+
+<div class="page">
+  <header>
+    <span class="eyebrow">Carrossel 21 · Entrega privada</span>
+    <h1>4 usos reais da IA generativa no secundário</h1>
+    <div class="meta">
+      <span>Ter 10/11</span>
+      <span>Tema: Educação</span>
+      <span>Fonte: JRC — IA generativa no básico e secundário (UE)</span>
+    </div>
+    <p class="lead">8 slides prontos, legendas para LinkedIn e TikTok/Instagram, e guião de vídeo para o HeyGen. Tudo com botão de copiar — pronto para publicares quando quiseres.</p>
+  </header>
+
+  <section>
+    <div class="section-head">
+      <h2>Slides</h2>
+      <span class="count">8 imagens · ordem de publicação</span>
+    </div>
+    <div class="slides" style="margin-top:14px;">
+      <div class="slide-card"><img src="carrossel_21_s1.png" alt="Slide 1 — Capa"><div class="slide-num"><span class="dot"></span>1 · Capa</div></div>
+      <div class="slide-card"><img src="carrossel_21_s2.png" alt="Slide 2 — Uso 1"><div class="slide-num"><span class="dot"></span>2 · Uso 1</div></div>
+      <div class="slide-card"><img src="carrossel_21_s3.png" alt="Slide 3 — Uso 2"><div class="slide-num"><span class="dot"></span>3 · Uso 2</div></div>
+      <div class="slide-card"><img src="carrossel_21_s4.png" alt="Slide 4 — Uso 3"><div class="slide-num"><span class="dot"></span>4 · Uso 3</div></div>
+      <div class="slide-card"><img src="carrossel_21_s5.png" alt="Slide 5 — Uso 4"><div class="slide-num"><span class="dot"></span>5 · Uso 4</div></div>
+      <div class="slide-card"><img src="carrossel_21_s6.png" alt="Slide 6 — O estudo"><div class="slide-num"><span class="dot"></span>6 · O estudo</div></div>
+      <div class="slide-card"><img src="carrossel_21_s7.png" alt="Slide 7 — Cuidados"><div class="slide-num"><span class="dot"></span>7 · Cuidados</div></div>
+      <div class="slide-card"><img src="carrossel_21_s8.png" alt="Slide 8 — Fecho"><div class="slide-num"><span class="dot"></span>8 · Fecho</div></div>
+    </div>
+  </section>
+
+  <section style="display:flex; flex-direction:column; gap:18px;">
+    <div class="section-head"><h2>Legendas e guião</h2><span class="count">3 textos · prontos a colar</span></div>
+
+    <div class="copy-card linkedin">
+      <div class="chead">
+        <span class="tag"><span class="sw"></span>LinkedIn</span>
+        <button class="copy-btn" data-target="txt-linkedin">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="12" height="12" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+          Copiar
+        </button>
+      </div>
+      <div class="copy-body" id="txt-linkedin">Quando se fala em IA generativa nas escolas, a conversa salta logo para os riscos. Faz sentido. Mas há um estudo recente da Comissão Europeia que mostra o outro lado: o que professores e alunos já estão mesmo a fazer com estas ferramentas, no dia a dia.
+
+O Joint Research Centre ouviu 121 pessoas em cinco países da UE (Finlândia, Alemanha, Irlanda, Luxemburgo e Espanha): professores, alunos, diretores escolares e decisores políticos. E os usos que foram surgindo repetem-se de país para país.
+
+Primeiro, personalizar a aprendizagem. Na Irlanda, um professor criou uma ferramenta para ajudar um aluno difícil de motivar a começar a escrever. Em Espanha, trocar um poema clássico por uma letra de rap, se for isso que prende a atenção.
+
+Segundo, planear aulas mais depressa. No Luxemburgo, professores sentiram um alívio real na carga de trabalho administrativo.
+
+Terceiro, apoiar a avaliação. Um professor de História, na Irlanda, dita notas de viva voz e usa a IA para as organizar em feedback construtivo para os alunos.
+
+Quarto, adaptar-se a cada disciplina. Em STEM, ajuda a formular problemas de código e a visualizar conceitos abstratos. Nas Humanidades, ajuda a destravar quem bloqueia perante a folha em branco.
+
+Nada disto substitui o professor. O próprio estudo é claro: a verificação humana continua obrigatória, o pensamento crítico dos alunos não pode ser delegado, e a relação entre colegas pode sofrer se o uso for excessivo.
+
+Fonte: "Generative Artificial Intelligence in Secondary Education", Joint Research Centre (Comissão Europeia), 2025.
+
+#InteligenciaArtificial #Educacao #Professores</div>
+    </div>
+
+    <div class="copy-card tiktok">
+      <div class="chead">
+        <span class="tag"><span class="sw"></span>TikTok / Instagram</span>
+        <button class="copy-btn" data-target="txt-tiktok">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="12" height="12" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+          Copiar
+        </button>
+      </div>
+      <div class="copy-body" id="txt-tiktok">Sabes o que professores e alunos de 5 países europeus já estão mesmo a fazer com IA generativa nas escolas?
+
+Um estudo da Comissão Europeia ouviu 121 pessoas e encontrou 4 usos que se repetem:
+
+Personalizar a aprendizagem. Planear aulas mais depressa. Apoiar a avaliação e o feedback. E adaptar-se a cada disciplina, de forma diferente em STEM e nas Humanidades.
+
+Mas atenção: nada disto substitui o professor. A IA ajuda. A decisão continua a ser humana.
+
+Desliza e guarda os 4 usos.
+
+#InteligenciaArtificial #Educacao #Professores</div>
+    </div>
+
+    <div class="copy-card guiao">
+      <div class="chead">
+        <span class="tag"><span class="sw"></span>Guião de vídeo (HeyGen)</span>
+        <button class="copy-btn" data-target="txt-guiao">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="12" height="12" rx="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+          Copiar
+        </button>
+      </div>
+      <div class="copy-body" id="txt-guiao"><strong>Cena 1 — Gancho</strong>
+Sabes o que professores e alunos de cinco países europeus já estão mesmo a fazer com inteligência artificial generativa nas escolas?
+
+<strong>Cena 2 — Conteúdo (personalizar)</strong>
+Um estudo da Comissão Europeia ouviu cento e vinte e uma pessoas em cinco países. O primeiro uso que encontraram foi personalizar a aprendizagem. Na Irlanda, um professor criou uma ferramenta só para motivar um aluno difícil de envolver.
+
+<strong>Cena 3 — Conteúdo (planear)</strong>
+O segundo uso é planear aulas mais depressa. No Luxemburgo, os professores sentiram um alívio real na carga de trabalho administrativo.
+
+<strong>Cena 4 — Conteúdo (avaliar)</strong>
+O terceiro uso é apoiar a avaliação. Na Irlanda, um professor de História dita notas em voz alta e usa a inteligência artificial para as organizar em feedback para os alunos.
+
+<strong>Cena 5 — Conteúdo (adaptar e cuidado)</strong>
+O quarto uso é adaptar-se a cada disciplina, de forma diferente em ciências e em humanidades. Mas atenção: nada disto substitui o professor. A verificação humana continua obrigatória.
+
+<strong>Cena 6 — Fecho e chamada à ação</strong>
+Guarda este carrossel com os quatro usos e segue para mais conteúdos sobre inteligência artificial na educação.
+
+— — —
+Nota para o HeyGen: usar os PNGs do carrossel (carrossel_21_s1.png a carrossel_21_s8.png) como fundo de cada cena, pela ordem, com o avatar a narrar por cima.</div>
+    </div>
+  </section>
+
+  <footer>Página privada — só visível para quem tem o link. Gerado a partir do repositório carrosseis-ia.</footer>
+</div>
+
+<script>
+(function(){
+  function plainText(el){
+    return el.innerText;
+  }
+  document.querySelectorAll('.copy-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var target = document.getElementById(btn.getAttribute('data-target'));
+      if(!target) return;
+      var text = plainText(target);
+      function done(){
+        var original = btn.innerHTML;
+        btn.classList.add('done');
+        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"></path></svg> Copiado';
+        setTimeout(function(){ btn.classList.remove('done'); btn.innerHTML = original; }, 1800);
+      }
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(done).catch(function(){ fallbackCopy(target, done); });
+      } else {
+        fallbackCopy(target, done);
+      }
+    });
+  });
+  function fallbackCopy(target, done){
+    try{
+      var range = document.createRange();
+      range.selectNodeContents(target);
+      var sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+      document.execCommand('copy');
+      sel.removeAllRanges();
+      done();
+    }catch(e){}
+  }
+})();
+</script>

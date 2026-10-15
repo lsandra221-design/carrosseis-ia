@@ -40,7 +40,7 @@ Estado: `[ ]` por fazer · `[x]` feito. Marcar `[x]` e fazer commit ao concluir.
 | 18 | Qui 29/10 | IA e equidade: quem fica para trás? | 8 | Função Pública | [x] |
 | 19 | Ter 03/11 | Guia UNESCO de IA generativa: as regras | 3 | Educação | [x] |
 | 20 | Qui 05/11 | Idade mínima para IA generativa na escola | 3 | Educação | [x] |
-| 21 | Ter 10/11 | IA generativa no básico e secundário: 4 usos | 4 | Educação | [ ] |
+| 21 | Ter 10/11 | IA generativa no básico e secundário: 4 usos | 4 | Educação | [x] |
 | 22 | Qui 12/11 | 7 perguntas éticas antes de usar IA com alunos | 5 | Função Pública | [ ] |
 | 23 | Ter 17/11 | Proteção de dados dos alunos: o mínimo a garantir | 5 | Função Pública | [ ] |
 | 24 | Qui 19/11 | A Recomendação da UNESCO sobre Ética da IA | 7 | Função Pública | [ ] |
