@@ -1,0 +1,226 @@
+<title>Carrossel 22 — Entrega</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* layout: faixa de topo com metadados, grelha de slides em scroll horizontal, cartões de legenda/guião empilhados abaixo */
+:root{
+  --bg:#f4f6fb; --surface:#ffffff; --surface-2:#eef1f8; --line:#dde3f0;
+  --ink:#0f1a3d; --ink-soft:#4b5570; --muted:#6a7284;
+  --blue:#2563ff; --orange:#ff5a1f; --green:#1a9e4b;
+  --blue-tint:#e6ecff; --orange-tint:#ffe9df; --green-tint:#e2f4e9;
+  --radius:20px;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0c1222; --surface:#141b30; --surface-2:#1a2238; --line:#262f49;
+    --ink:#eef1fb; --ink-soft:#c3c9dd; --muted:#8e97b5;
+    --blue:#6d8fff; --orange:#ff8a5c; --green:#4fd988;
+    --blue-tint:#1b2440; --orange-tint:#2c2030; --green-tint:#17301f;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0c1222; --surface:#141b30; --surface-2:#1a2238; --line:#262f49;
+  --ink:#eef1fb; --ink-soft:#c3c9dd; --muted:#8e97b5;
+  --blue:#6d8fff; --orange:#ff8a5c; --green:#4fd988;
+  --blue-tint:#1b2440; --orange-tint:#2c2030; --green-tint:#17301f;
+  color-scheme: dark;
+}
+*{box-sizing:border-box;}
+body{
+  background:var(--bg); color:var(--ink);
+  font-family:'Inter',system-ui,sans-serif;
+  margin:0; padding-left:max(16px, env(safe-area-inset-left,0px)); padding-right:max(16px, env(safe-area-inset-right,0px));
+}
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+.wrap{max-width:760px; margin:0 auto; padding-block:28px 60px;}
+h1,h2,h3{font-family:'Plus Jakarta Sans','Segoe UI',system-ui,sans-serif; letter-spacing:-.01em; margin:0;}
+.eyebrow{font-size:13px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--blue);}
+header.top{margin-bottom:28px;}
+header.top h1{font-size:28px; font-weight:800; color:var(--ink); margin-top:6px; text-wrap:balance;}
+.meta{display:flex; flex-wrap:wrap; gap:10px; margin-top:14px;}
+.chip{font-size:13px; font-weight:600; color:var(--ink-soft); background:var(--surface-2); border:1px solid var(--line); border-radius:999px; padding:7px 14px;}
+.sub{color:var(--muted); font-size:15px; line-height:1.5; margin-top:10px; max-width:58ch;}
+
+section{margin-top:34px;}
+section > h2{font-size:19px; font-weight:800; color:var(--ink); margin-bottom:4px;}
+section > .hint{color:var(--muted); font-size:14px; margin-bottom:14px;}
+
+.strip{display:flex; gap:12px; overflow-x:auto; padding:4px 2px 12px; scroll-snap-type:x proximity; -webkit-overflow-scrolling:touch;}
+.strip img{
+  height:300px; width:300px; flex:0 0 auto; border-radius:14px; object-fit:cover;
+  box-shadow:0 10px 24px rgba(15,26,61,.14); scroll-snap-align:start; border:1px solid var(--line);
+  background:var(--surface);
+}
+.strip .num{position:relative;}
+.strip .tag{position:absolute; top:10px; left:10px; background:rgba(15,26,61,.72); color:#fff; font-size:12px; font-weight:700; padding:3px 9px; border-radius:999px; font-family:'Plus Jakarta Sans',sans-serif;}
+
+.card{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:22px 22px 20px; box-shadow:0 14px 34px rgba(15,26,61,.06);}
+.card + .card{margin-top:16px;}
+.card-head{display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:14px;}
+.card-head h3{font-size:16px; font-weight:800; color:var(--ink);}
+.badge{font-size:12px; font-weight:700; color:var(--blue); background:var(--blue-tint); padding:4px 10px; border-radius:8px;}
+.badge.o{color:var(--orange); background:var(--orange-tint);}
+.badge.g{color:var(--green); background:var(--green-tint);}
+
+.copy-btn{
+  display:inline-flex; align-items:center; gap:7px; font-family:'Inter',sans-serif; font-weight:600; font-size:13px;
+  color:#fff; background:var(--blue); border:none; border-radius:10px; padding:8px 13px; cursor:pointer;
+  transition:transform .12s ease, opacity .12s ease;
+}
+.copy-btn:hover{opacity:.92;}
+.copy-btn:active{transform:scale(.96);}
+.copy-btn.done{background:var(--green);}
+
+.caption-text{color:var(--ink-soft); font-size:15px; line-height:1.6; white-space:pre-wrap;}
+.caption-text strong{color:var(--ink);}
+.hashtags{margin-top:12px; font-size:14px; color:var(--blue); font-weight:600;}
+
+.scene{padding:12px 0; border-bottom:1px solid var(--line);}
+.scene:last-of-type{border-bottom:0; padding-bottom:0;}
+.scene .k{font-size:12px; font-weight:800; letter-spacing:.04em; text-transform:uppercase; color:var(--orange); margin-bottom:4px;}
+.scene .t{color:var(--ink-soft); font-size:15px; line-height:1.55;}
+.note{margin-top:14px; font-size:13px; color:var(--muted); background:var(--surface-2); border-radius:12px; padding:12px 14px; line-height:1.5;}
+
+footer{margin-top:40px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; line-height:1.6;}
+footer b{color:var(--ink-soft);}
+
+@media (max-width:480px){
+  .strip img{height:230px; width:230px;}
+  header.top h1{font-size:23px;}
+}
+</style>
+
+<div class="wrap">
+
+  <header class="top">
+    <div class="eyebrow">Carrossel 22 · pronto a publicar</div>
+    <h1>7 perguntas éticas antes de usar IA com alunos</h1>
+    <div class="meta">
+      <span class="chip">Qui 12/11</span>
+      <span class="chip">Função Pública</span>
+      <span class="chip">Fonte: Orientações Éticas, Comissão Europeia (2022)</span>
+      <span class="chip">8 slides</span>
+    </div>
+    <p class="sub">Esta página é só tua: as imagens pela ordem, as duas legendas e o guião de vídeo, cada um com botão de copiar. A publicação é sempre feita por ti.</p>
+  </header>
+
+  <section>
+    <h2>Slides, pela ordem</h2>
+    <div class="hint">Desliza para ver os 8. Guarda-os na mesma ordem para o carrossel.</div>
+    <div class="strip">
+      <div class="num"><img src="carrossel_22_s1.png" alt="Slide 1 — capa"><span class="tag">1 · capa</span></div>
+      <div class="num"><img src="carrossel_22_s2.png" alt="Slide 2"><span class="tag">2</span></div>
+      <div class="num"><img src="carrossel_22_s3.png" alt="Slide 3"><span class="tag">3</span></div>
+      <div class="num"><img src="carrossel_22_s4.png" alt="Slide 4"><span class="tag">4</span></div>
+      <div class="num"><img src="carrossel_22_s5.png" alt="Slide 5"><span class="tag">5</span></div>
+      <div class="num"><img src="carrossel_22_s6.png" alt="Slide 6"><span class="tag">6</span></div>
+      <div class="num"><img src="carrossel_22_s7.png" alt="Slide 7"><span class="tag">7</span></div>
+      <div class="num"><img src="carrossel_22_s8.png" alt="Slide 8 — fecho"><span class="tag">8 · fecho</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Legendas</h2>
+    <div class="hint">Máximo 3 hashtags, sem acentos.</div>
+
+    <div class="card">
+      <div class="card-head">
+        <h3><span class="badge">LinkedIn</span></h3>
+        <button class="copy-btn" data-copy="cap-linkedin">Copiar</button>
+      </div>
+      <div class="caption-text" id="cap-linkedin">Uma escola quer experimentar uma ferramenta de IA. Antes de decidir, nem sempre é preciso perceber o algoritmo por dentro. Mas é preciso saber que perguntas fazer.
+
+As Orientações Éticas para Educadores sobre IA e Dados, publicadas pela Comissão Europeia, propõem sete áreas de atenção, com perguntas concretas para cada uma.
+
+Três delas, sobre quem decide: o professor continua a poder intervir? Percebemos como o sistema chega aos resultados? O sistema é acessível a todos os alunos, incluindo os que têm necessidades educativas especiais?
+
+Outras três, sobre dados e segurança: que impacto tem no bem-estar dos alunos? Os dados estão protegidos e usados só para o fim a que se destinam? O sistema foi testado antes de entrar na escola?
+
+E uma última, talvez a mais esquecida: se o sistema falhar, quem responde?
+
+O documento dá dois exemplos reais. Uma escola primária com um sistema de tutoria que encaminha cada aluno para os recursos certos. Uma escola secundária a testar um painel que mostra, não as notas, mas a forma como o aluno está a aprender. Em ambos os casos, as mesmas perguntas voltam a ser úteis.
+
+Estas perguntas não substituem uma avaliação jurídica ou ética completa. Mas ajudam a começar a conversa certa, com quem decide, com quem vende a tecnologia, e com os próprios alunos e famílias.
+
+Fonte: "Orientações Éticas para Educadores sobre a Utilização de Inteligência Artificial e de Dados no Ensino e na Aprendizagem", Comissão Europeia, 2022.
+
+#InteligenciaArtificial #Educacao #Etica</div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <h3><span class="badge o">TikTok / Instagram</span></h3>
+        <button class="copy-btn" data-copy="cap-tiktok">Copiar</button>
+      </div>
+      <div class="caption-text" id="cap-tiktok">Antes de uma escola usar IA com os alunos, há sete perguntas que valem mesmo a pena fazer.
+
+Quem continua a decidir? O professor consegue perceber como o sistema chega aos resultados? É acessível a todos os alunos?
+
+Os dados estão protegidos? O sistema foi testado? E se algo correr mal, quem responde?
+
+Não é preciso perceber o algoritmo. É preciso saber a quem fazer estas perguntas: aos colegas, à direção, ao fornecedor, aos alunos e às famílias.
+
+Guarda este carrossel antes da próxima decisão sobre IA na tua escola.
+
+#InteligenciaArtificial #Educacao #Etica</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Guião de vídeo (HeyGen)</h2>
+    <div class="hint">6 cenas, ~60-80s. Avatar com voz clonada sobre os PNGs do carrossel.</div>
+    <div class="card">
+      <div class="card-head">
+        <h3><span class="badge g">6 cenas</span></h3>
+        <button class="copy-btn" data-copy="guiao">Copiar guião</button>
+      </div>
+      <div id="guiao">
+        <div class="scene"><div class="k">Cena 1 — Gancho</div><div class="t">Antes de uma escola usar inteligência artificial com os alunos, há sete perguntas que vale mesmo a pena fazer.</div></div>
+        <div class="scene"><div class="k">Cena 2 — Quem decide</div><div class="t">A primeira é simples: o professor continua a poder intervir? A decisão final sobre o aluno não pode ser só da máquina.</div></div>
+        <div class="scene"><div class="k">Cena 3 — Transparência e inclusão</div><div class="t">Depois: percebemos como o sistema chega aos resultados? E o sistema é acessível a todos os alunos, também aos que têm necessidades educativas especiais?</div></div>
+        <div class="scene"><div class="k">Cena 4 — Dados e segurança</div><div class="t">Há ainda as perguntas sobre dados: estão bem protegidos? E o sistema foi testado antes de ser usado? Segurança não se presume, verifica-se.</div></div>
+        <div class="scene"><div class="k">Cena 5 — Responsabilização</div><div class="t">E a sétima pergunta, talvez a mais esquecida: se o sistema falhar, quem responde? Tem de haver sempre alguém identificável.</div></div>
+        <div class="scene"><div class="k">Cena 6 — Fecho e chamada à ação</div><div class="t">Estas perguntas não substituem uma avaliação jurídica completa. Mas são um bom ponto de partida. Guarda este carrossel e segue para mais conteúdos sobre inteligência artificial na educação.</div></div>
+      </div>
+      <div class="note">Nota para o HeyGen: usar os PNGs do carrossel (carrossel_22_s1.png a carrossel_22_s8.png) como fundo de cada cena, pela ordem, com o avatar a narrar por cima.</div>
+    </div>
+  </section>
+
+  <footer>
+    <b>Carrossel 22</b> · outputs/carrossel_22_perguntas_eticas/ · gerado automaticamente a partir de calendario.md.<br>
+    Nada foi publicado em nenhuma rede social. A publicação final é sempre tua.
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  function fallbackCopy(text){
+    var ta=document.createElement('textarea');
+    ta.value=text; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.focus(); ta.select();
+    try{ document.execCommand('copy'); }catch(e){}
+    document.body.removeChild(ta);
+  }
+  document.querySelectorAll('.copy-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var id=btn.getAttribute('data-copy');
+      var el=document.getElementById(id);
+      var text=el.innerText;
+      var done=function(){
+        var original=btn.textContent;
+        btn.textContent='Copiado';
+        btn.classList.add('done');
+        setTimeout(function(){ btn.textContent=original; btn.classList.remove('done'); }, 1600);
+      };
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(done).catch(function(){ fallbackCopy(text); done(); });
+      } else {
+        fallbackCopy(text); done();
+      }
+    });
+  });
+})();
+</script>
