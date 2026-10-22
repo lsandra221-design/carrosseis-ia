@@ -42,7 +42,7 @@ Estado: `[ ]` por fazer · `[x]` feito. Marcar `[x]` e fazer commit ao concluir.
 | 20 | Qui 05/11 | Idade mínima para IA generativa na escola | 3 | Educação | [x] |
 | 21 | Ter 10/11 | IA generativa no básico e secundário: 4 usos | 4 | Educação | [x] |
 | 22 | Qui 12/11 | 7 perguntas éticas antes de usar IA com alunos | 5 | Função Pública | [x] |
-| 23 | Ter 17/11 | Proteção de dados dos alunos: o mínimo a garantir | 5 | Função Pública | [ ] |
+| 23 | Ter 17/11 | Proteção de dados dos alunos: o mínimo a garantir | 5 | Função Pública | [x] |
 | 24 | Qui 19/11 | A Recomendação da UNESCO sobre Ética da IA | 7 | Função Pública | [ ] |
 | 25 | Ter 24/11 | Quem é responsável quando a IA erra na avaliação? | 7 | Função Pública | [ ] |
 | 26 | Qui 26/11 | Como falar de IA com encarregados de educação | 4 | Educação | [ ] |
