@@ -1,0 +1,253 @@
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>Carrossel 24 — Ética da IA</title>
+<style>
+/* layout: slide strip up top, then two-column legend/copy blocks below, stacking on phone */
+:root{
+  --navy:#0f1a3d; --blue:#2563ff; --orange:#ff5a1f; --green:#1a9e4b;
+  --bg:#f1f4fb; --surface:#ffffff; --surface-2:#f6f8fd; --line:#e4e9f5;
+  --text:#101633; --text-dim:#5a6382; --accent:#2563ff;
+  --font-display:'Plus Jakarta Sans','Segoe UI',system-ui,sans-serif;
+  --font-body:'Inter','Segoe UI',system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0b0f22; --surface:#141a35; --surface-2:#10152b; --line:#262f52;
+    --text:#eef1fb; --text-dim:#99a2c4; --accent:#6d8bff; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0b0f22; --surface:#141a35; --surface-2:#10152b; --line:#262f52;
+  --text:#eef1fb; --text-dim:#99a2c4; --accent:#6d8bff; color-scheme:dark;
+}
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+*{box-sizing:border-box;}
+body{
+  background:var(--bg); color:var(--text); font-family:var(--font-body);
+  margin:0; padding-left:max(16px, env(safe-area-inset-left,0px)); padding-right:max(16px, env(safe-area-inset-right,0px));
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:980px; margin:0 auto; padding-block:36px 64px;}
+header.top{margin-bottom:28px;}
+.eyebrow{font-family:var(--font-display); font-weight:800; font-size:13px; letter-spacing:.12em; text-transform:uppercase; color:var(--accent);}
+h1{font-family:var(--font-display); font-weight:800; font-size:clamp(26px,4vw,38px); line-height:1.12; margin:8px 0 10px; text-wrap:balance;}
+.lede{color:var(--text-dim); font-size:16px; line-height:1.55; max-width:62ch; margin:0;}
+.meta{display:flex; flex-wrap:wrap; gap:10px; margin-top:18px;}
+.chip{background:var(--surface-2); border:1px solid var(--line); border-radius:999px; padding:7px 14px; font-size:13px; font-weight:600; color:var(--text-dim);}
+
+section{margin-top:44px;}
+h2{font-family:var(--font-display); font-weight:800; font-size:20px; margin:0 0 4px;}
+.sec-sub{color:var(--text-dim); font-size:14px; margin:0 0 18px;}
+
+.strip{
+  display:grid; grid-template-columns:repeat(4,1fr); gap:14px;
+}
+@media (max-width:720px){ .strip{grid-template-columns:repeat(2,1fr);} }
+.card-img{
+  background:var(--surface); border:1px solid var(--line); border-radius:16px; overflow:hidden;
+  box-shadow:0 10px 26px rgba(15,26,61,.07); position:relative;
+}
+.card-img img{display:block; width:100%; height:auto;}
+.card-img .n{
+  position:absolute; top:10px; left:10px; background:var(--navy); color:#fff; font-family:var(--font-display);
+  font-weight:800; font-size:12px; border-radius:999px; padding:4px 10px; letter-spacing:.04em;
+}
+
+.panel{
+  background:var(--surface); border:1px solid var(--line); border-radius:20px; padding:24px 26px;
+  box-shadow:0 14px 34px rgba(15,26,61,.06);
+}
+.panel + .panel{margin-top:16px;}
+.panel-head{display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:14px;}
+.panel-head h3{font-family:var(--font-display); font-weight:800; font-size:16px; margin:0;}
+.copy-btn{
+  display:inline-flex; align-items:center; gap:7px; background:var(--accent); color:#fff; border:none;
+  border-radius:10px; padding:9px 14px; font-family:var(--font-body); font-weight:700; font-size:13px;
+  cursor:pointer; flex:0 0 auto; transition:opacity .15s ease;
+}
+.copy-btn:hover{opacity:.88;}
+.copy-btn.done{background:var(--green);}
+.copy-btn svg{width:14px; height:14px; flex:0 0 auto;}
+.body-text{
+  white-space:pre-wrap; font-size:15px; line-height:1.65; color:var(--text); margin:0;
+  font-family:var(--font-body);
+}
+.body-text strong{color:var(--accent);}
+
+.two-col{display:grid; grid-template-columns:1fr 1fr; gap:16px;}
+@media (max-width:720px){ .two-col{grid-template-columns:1fr;} }
+
+.scene{border-bottom:1px solid var(--line); padding:12px 0;}
+.scene:last-child{border-bottom:none; padding-bottom:0;}
+.scene .k{font-family:var(--font-display); font-weight:800; font-size:13px; color:var(--orange); text-transform:uppercase; letter-spacing:.04em; margin-bottom:4px;}
+.scene p{margin:0; font-size:15px; line-height:1.55;}
+.note{margin-top:14px; font-size:13px; color:var(--text-dim); border-top:1px dashed var(--line); padding-top:14px;}
+
+footer.pagefoot{margin-top:56px; padding-top:20px; border-top:1px solid var(--line); color:var(--text-dim); font-size:12px;}
+</style>
+
+<div class="wrap">
+
+  <header class="top">
+    <div class="eyebrow">Carrossel 24 · Função Pública</div>
+    <h1>A Recomendação da UNESCO sobre Ética da IA</h1>
+    <p class="lede">Oito slides prontos a publicar, com as legendas de LinkedIn e TikTok/Instagram e o guião de vídeo para o HeyGen. Fonte: "Recomendação sobre a Ética da Inteligência Artificial", UNESCO (2021).</p>
+    <div class="meta">
+      <span class="chip">8 slides</span>
+      <span class="chip">1080×1080</span>
+      <span class="chip">PDF + PNG no repositório</span>
+    </div>
+  </header>
+
+  <section>
+    <h2>Slides, por ordem</h2>
+    <p class="sec-sub">Toca numa imagem para a veres em tamanho completo.</p>
+    <div class="strip">
+      <a class="card-img" href="carrossel_24_s1.png" target="_blank" rel="noopener"><span class="n">1 · Capa</span><img src="carrossel_24_s1.png" alt="Slide 1 — capa"></a>
+      <a class="card-img" href="carrossel_24_s2.png" target="_blank" rel="noopener"><span class="n">2</span><img src="carrossel_24_s2.png" alt="Slide 2"></a>
+      <a class="card-img" href="carrossel_24_s3.png" target="_blank" rel="noopener"><span class="n">3</span><img src="carrossel_24_s3.png" alt="Slide 3"></a>
+      <a class="card-img" href="carrossel_24_s4.png" target="_blank" rel="noopener"><span class="n">4</span><img src="carrossel_24_s4.png" alt="Slide 4"></a>
+      <a class="card-img" href="carrossel_24_s5.png" target="_blank" rel="noopener"><span class="n">5</span><img src="carrossel_24_s5.png" alt="Slide 5"></a>
+      <a class="card-img" href="carrossel_24_s6.png" target="_blank" rel="noopener"><span class="n">6</span><img src="carrossel_24_s6.png" alt="Slide 6"></a>
+      <a class="card-img" href="carrossel_24_s7.png" target="_blank" rel="noopener"><span class="n">7</span><img src="carrossel_24_s7.png" alt="Slide 7"></a>
+      <a class="card-img" href="carrossel_24_s8.png" target="_blank" rel="noopener"><span class="n">8 · Fecho</span><img src="carrossel_24_s8.png" alt="Slide 8 — fecho"></a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Legendas</h2>
+    <p class="sec-sub">Prontas a colar. Máximo 3 hashtags, sem acentos.</p>
+    <div class="two-col">
+      <div class="panel">
+        <div class="panel-head">
+          <h3>LinkedIn</h3>
+          <button class="copy-btn" data-copy-target="cap-linkedin">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Copiar
+          </button>
+        </div>
+        <p class="body-text" id="cap-linkedin">Em novembro de 2021, a Conferência Geral da UNESCO aprovou a Recomendação sobre a Ética da Inteligência Artificial. É um instrumento normativo mundial, pensado para orientar leis e políticas sobre IA em todos os países.
+
+A aplicação é voluntária. Mas o documento assenta em quatro valores centrais: direitos humanos e dignidade humana, prosperidade ambiental e dos ecossistemas, diversidade e inclusão, e sociedades pacíficas, justas e interconectadas.
+
+A partir daí, define dez princípios. Entre eles, dois que valem a pena destacar para quem trabalha na função pública.
+
+O primeiro é a supervisão humana. As pessoas podem recorrer a sistemas de IA para ajudar a decidir, mas a Recomendação é clara: decisões de vida ou morte não devem ser transferidas para esses sistemas. A responsabilidade final continua a ser humana.
+
+O segundo é a transparência. Quando uma decisão tomada com base em IA afeta os direitos de alguém, essa pessoa deve ser informada. Tem o direito de pedir uma explicação e de levar o caso a alguém que reveja a decisão.
+
+Para quem decide adotar IA num serviço público, a Recomendação pede três compromissos concretos: uma avaliação de impacto ético antes de qualquer sistema entrar em uso, mecanismos de reparação para corrigir danos, e transparência ativa sempre que a IA está envolvida.
+
+Fonte: "Recomendação sobre a Ética da Inteligência Artificial", UNESCO, aprovada em 23 de novembro de 2021.
+
+#InteligenciaArtificial #FuncaoPublica #EticaIA</p>
+      </div>
+
+      <div class="panel">
+        <div class="panel-head">
+          <h3>TikTok / Instagram</h3>
+          <button class="copy-btn" data-copy-target="cap-tiktok">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Copiar
+          </button>
+        </div>
+        <p class="body-text" id="cap-tiktok">Em 2021, a UNESCO aprovou o primeiro grande documento mundial sobre ética da inteligência artificial.
+
+Não é uma lei. É uma orientação que todos os países foram convidados a seguir.
+
+E diz uma coisa muito clara: decisões de vida ou morte nunca podem ser transferidas para um sistema de IA. A responsabilidade final é sempre humana.
+
+Diz também que, se uma decisão de IA te afeta, tens direito a uma explicação. E a pedir que alguém a reveja.
+
+Antes de qualquer serviço público usar IA, a Recomendação pede avaliação de impacto, mecanismos para corrigir erros e transparência.
+
+Guarda este carrossel para a próxima vez que ouvires falar em ética da IA.
+
+#InteligenciaArtificial #FuncaoPublica #EticaIA</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Guião de vídeo (HeyGen)</h2>
+    <p class="sec-sub">6 cenas, ~60-80 segundos. Fundo: PNGs do carrossel pela ordem, avatar a narrar por cima.</p>
+    <div class="panel">
+      <div class="panel-head">
+        <h3>Guião completo</h3>
+        <button class="copy-btn" data-copy-target="video-script">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          Copiar
+        </button>
+      </div>
+
+      <div id="video-script">
+        <div class="scene">
+          <div class="k">Cena 1 — Gancho</div>
+          <p>Em 2021, a UNESCO aprovou o primeiro grande documento mundial sobre ética da inteligência artificial.</p>
+        </div>
+        <div class="scene">
+          <div class="k">Cena 2 — O que é</div>
+          <p>Não é uma lei. É uma orientação que todos os países foram convidados a seguir, para pensarem as suas próprias leis e políticas sobre inteligência artificial.</p>
+        </div>
+        <div class="scene">
+          <div class="k">Cena 3 — Supervisão humana</div>
+          <p>Um dos pontos mais importantes: decisões de vida ou morte nunca podem ser transferidas para um sistema de inteligência artificial. A responsabilidade final é sempre humana.</p>
+        </div>
+        <div class="scene">
+          <div class="k">Cena 4 — Direito a explicação</div>
+          <p>Também diz isto: se uma decisão tomada com inteligência artificial te afeta, tens direito a ser informado, a pedir uma explicação, e a pedir que alguém reveja essa decisão.</p>
+        </div>
+        <div class="scene">
+          <div class="k">Cena 5 — Função pública</div>
+          <p>Para quem trabalha na função pública, a Recomendação pede três coisas antes de adotar inteligência artificial: avaliar o impacto ético, ter mecanismos para corrigir erros, e ser sempre transparente.</p>
+        </div>
+        <div class="scene">
+          <div class="k">Cena 6 — Fecho e chamada à ação</div>
+          <p>Guarda este carrossel para a próxima vez que ouvires falar em ética da inteligência artificial. E segue para mais conteúdos sobre inteligência artificial na função pública.</p>
+        </div>
+      </div>
+      <div class="note">Nota para o HeyGen: usar os PNGs carrossel_24_s1.png a carrossel_24_s8.png como fundo de cada cena, pela ordem, com o avatar a narrar por cima.</div>
+    </div>
+  </section>
+
+  <footer class="pagefoot">Carrossel 24 · Gerado a partir de fontes/07_recomendacao_etica_unesco.txt · Página privada, só visível a quem tem o link.</footer>
+</div>
+
+<script>
+(function(){
+  function textOf(el){
+    if (el.id === 'video-script') {
+      var scenes = el.querySelectorAll('.scene');
+      return Array.prototype.map.call(scenes, function(s){
+        var k = s.querySelector('.k').textContent.trim();
+        var p = s.querySelector('p').textContent.trim();
+        return k + '\n' + p;
+      }).join('\n\n');
+    }
+    return el.textContent;
+  }
+  document.querySelectorAll('.copy-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var target = document.getElementById(btn.getAttribute('data-copy-target'));
+      if(!target) return;
+      var text = textOf(target);
+      function done(){
+        var original = btn.innerHTML;
+        btn.classList.add('done');
+        btn.innerHTML = 'Copiado!';
+        setTimeout(function(){ btn.classList.remove('done'); btn.innerHTML = original; }, 1600);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done).catch(function(){
+          var r = document.createRange(); r.selectNodeContents(target);
+          var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
+          done();
+        });
+      } else {
+        var r = document.createRange(); r.selectNodeContents(target);
+        var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
+        done();
+      }
+    });
+  });
+})();
+</script>
