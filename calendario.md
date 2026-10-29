@@ -44,7 +44,7 @@ Estado: `[ ]` por fazer · `[x]` feito. Marcar `[x]` e fazer commit ao concluir.
 | 22 | Qui 12/11 | 7 perguntas éticas antes de usar IA com alunos | 5 | Função Pública | [x] |
 | 23 | Ter 17/11 | Proteção de dados dos alunos: o mínimo a garantir | 5 | Função Pública | [x] |
 | 24 | Qui 19/11 | A Recomendação da UNESCO sobre Ética da IA | 7 | Função Pública | [x] |
-| 25 | Ter 24/11 | Quem é responsável quando a IA erra na avaliação? | 7 | Função Pública | [ ] |
+| 25 | Ter 24/11 | Quem é responsável quando a IA erra na avaliação? | 7 | Função Pública | [x] |
 | 26 | Qui 26/11 | Como falar de IA com encarregados de educação | 4 | Educação | [ ] |
 | 27 | Ter 01/12 | O que dizem os dados da OCDE 2026 | 12 | Dados | [ ] |
 | 28 | Qui 03/12 | 3 dados do relatório JRC que mudam a conversa | 11 | Dados | [ ] |
