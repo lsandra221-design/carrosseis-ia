@@ -46,7 +46,7 @@ Estado: `[ ]` por fazer · `[x]` feito. Marcar `[x]` e fazer commit ao concluir.
 | 24 | Qui 19/11 | A Recomendação da UNESCO sobre Ética da IA | 7 | Função Pública | [x] |
 | 25 | Ter 24/11 | Quem é responsável quando a IA erra na avaliação? | 7 | Função Pública | [x] |
 | 26 | Qui 26/11 | Como falar de IA com encarregados de educação | 4 | Educação | [x] |
-| 27 | Ter 01/12 | O que dizem os dados da OCDE 2026 | 12 | Dados | [ ] |
+| 27 | Ter 01/12 | O que dizem os dados da OCDE 2026 | 12 | Dados | [x] |
 | 28 | Qui 03/12 | 3 dados do relatório JRC que mudam a conversa | 11 | Dados | [ ] |
 | 29 | Ter 08/12 | Países que já formam professores em IA | 12 | Função Pública/Dados | [ ] |
 | 30 | Qui 10/12 | O que aprendi a ler 12 documentos sobre IA na educação | 1 | Educação | [ ] |
