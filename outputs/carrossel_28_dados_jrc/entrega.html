@@ -1,0 +1,214 @@
+<title>Carrossel 28 — 3 dados do JRC</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+/* layout: header + horizontal-scroll slide strip + tabbed legenda panel + scene list for the video script */
+:root{
+  --bg:#f4f5fa; --surface:#ffffff; --surface-2:#eceff7; --fg:#0f1a3d; --muted:#5b6376;
+  --accent:#2563ff; --accent-2:#ff5a1f; --line:#e2e6f1; --radius:18px;
+  --shadow:0 10px 30px rgba(15,26,61,.08);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0d1120; --surface:#151a2c; --surface-2:#1b2136; --fg:#eef0f8; --muted:#9aa3c0;
+    --accent:#6e8bff; --accent-2:#ff8a54; --line:#262d45; --shadow:0 10px 30px rgba(0,0,0,.45);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0d1120; --surface:#151a2c; --surface-2:#1b2136; --fg:#eef0f8; --muted:#9aa3c0;
+  --accent:#6e8bff; --accent-2:#ff8a54; --line:#262d45; --shadow:0 10px 30px rgba(0,0,0,.45);
+  color-scheme: dark;
+}
+*{box-sizing:border-box;}
+body{
+  background:var(--bg); color:var(--fg); margin:0;
+  font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  padding-left:max(16px, env(safe-area-inset-left,0px));
+  padding-right:max(16px, env(safe-area-inset-right,0px));
+}
+.wrap{max-width:980px;margin:0 auto;padding-block:40px 64px;}
+header{margin-bottom:28px;}
+.eyebrow{
+  font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);
+  display:flex;align-items:center;gap:8px;margin-bottom:10px;
+}
+.eyebrow::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--accent-2);}
+h1{
+  font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:clamp(28px,4vw,40px);
+  line-height:1.1;margin:0 0 10px;letter-spacing:-.01em;text-wrap:balance;
+}
+.meta{color:var(--muted);font-size:15px;line-height:1.5;max-width:65ch;}
+.meta b{color:var(--fg);}
+
+section{margin-top:40px;}
+h2{
+  font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:20px;margin:0 0 16px;
+  display:flex;align-items:center;gap:10px;
+}
+h2 .num{
+  width:28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;
+  display:flex;align-items:center;justify-content:center;font-size:14px;flex:0 0 auto;
+}
+
+.slides{
+  display:flex;gap:14px;overflow-x:auto;padding:4px 4px 14px;scroll-snap-type:x proximity;
+  -webkit-overflow-scrolling:touch;
+}
+.slides img{
+  width:230px;min-width:230px;height:230px;object-fit:cover;border-radius:14px;
+  box-shadow:var(--shadow);scroll-snap-align:start;background:var(--surface-2);
+  border:1px solid var(--line);
+}
+.slides::-webkit-scrollbar{height:8px;}
+.slides::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px;}
+
+.panel{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:24px;box-shadow:var(--shadow);
+}
+.tabs{display:flex;gap:8px;margin-bottom:16px;}
+.tab{
+  font-family:'Inter';font-weight:600;font-size:14px;padding:9px 18px;border-radius:999px;
+  border:1px solid var(--line);background:var(--surface-2);color:var(--muted);cursor:pointer;
+}
+.tab[aria-selected="true"]{background:var(--accent);color:#fff;border-color:var(--accent);}
+.copytext{
+  white-space:pre-wrap;font-size:15px;line-height:1.6;color:var(--fg);margin:0 0 18px;
+  max-height:360px;overflow-y:auto;padding-right:4px;
+}
+.copybtn{
+  font-family:'Inter';font-weight:700;font-size:14px;border:none;border-radius:10px;
+  background:var(--accent);color:#fff;padding:11px 18px;cursor:pointer;display:inline-flex;
+  align-items:center;gap:8px;
+}
+.copybtn:active{transform:translateY(1px);}
+.copybtn.done{background:#1a9e4b;}
+
+.scene{border-top:1px solid var(--line);padding:14px 0;}
+.scene:first-of-type{border-top:none;padding-top:0;}
+.scene b{display:block;color:var(--accent-2);font-size:13px;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px;}
+.scene p{margin:0;font-size:15px;line-height:1.55;}
+.note{color:var(--muted);font-size:13px;margin-top:16px;padding-top:14px;border-top:1px dashed var(--line);}
+
+footer{margin-top:48px;color:var(--muted);font-size:13px;text-align:center;}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Carrossel 28 · Pronto a publicar</div>
+    <h1>3 dados do relatório JRC que mudam a conversa</h1>
+    <p class="meta">Tema Sandra: <b>Dados</b> · Fonte: <b>Generative AI Outlook Report, JRC / Comissão Europeia 2025</b> (fontes/11_jrc_relatorio.txt) · 8 slides, 1080×1080px.</p>
+  </header>
+
+  <section>
+    <h2><span class="num">1</span>Slides, pela ordem</h2>
+    <div class="slides" id="slideStrip">
+      <img src="images/carrossel_28_s1.png" alt="Slide 1 — capa">
+      <img src="images/carrossel_28_s2.png" alt="Slide 2">
+      <img src="images/carrossel_28_s3.png" alt="Slide 3">
+      <img src="images/carrossel_28_s4.png" alt="Slide 4">
+      <img src="images/carrossel_28_s5.png" alt="Slide 5">
+      <img src="images/carrossel_28_s6.png" alt="Slide 6">
+      <img src="images/carrossel_28_s7.png" alt="Slide 7">
+      <img src="images/carrossel_28_s8.png" alt="Slide 8 — fecho">
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">2</span>Legenda</h2>
+    <div class="panel">
+      <div class="tabs" role="tablist">
+        <button class="tab" role="tab" aria-selected="true" data-tab="linkedin">LinkedIn</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="tiktok">TikTok / Instagram</button>
+      </div>
+      <p class="copytext" id="text-linkedin">A União Europeia representa só 7% dos players globais de inteligência artificial generativa. A China tem 60%. Os Estados Unidos, 12%.
+
+E nas patentes o fosso é ainda maior: a UE detém apenas 2% das patentes mundiais, contra 80% da China. Isto apesar de a atividade de IA europeia ter crescido 32% ao ano entre 2019 e 2021.
+
+A UE investiga bem. É o segundo lugar do mundo em publicações científicas sobre IA generativa, logo a seguir à China. Mas essa investigação quase não se transforma em produto nem em patente.
+
+Há um terceiro dado que me fez parar a leitura. O relatório do JRC (Joint Research Centre, a Comissão Europeia) mapeou mais de 100 profissões, cruzando as capacidades que a inteligência artificial já domina com as tarefas de cada trabalho. A conclusão: a IA tem mais impacto em quem ensina do que em quem faz limpeza.
+
+Parece contraintuitivo, mas faz sentido. A investigação em IA concentra-se sobretudo em compreender e explicar, exatamente o que um professor faz todos os dias. Há muito menos estudo sobre tarefas motoras, como limpar ou transportar objetos.
+
+Isto não é sobre substituir quem ensina. É sobre perceber, com dados, onde a inteligência artificial já toca o trabalho docente, e preparar-se para isso antes de ser apanhado de surpresa.
+
+#InteligenciaArtificial #Educacao #Dados</p>
+      <p class="copytext" id="text-tiktok" hidden>A UE é só 7% dos players mundiais de inteligência artificial generativa. E nas patentes, ainda pior: 2%.
+
+Mas o dado que mais me surpreendeu foi outro: segundo o relatório do JRC, a IA impacta mais os professores do que as pessoas de limpeza.
+
+Desliza para perceberes porquê, e o que isto significa para quem ensina.
+
+#InteligenciaArtificial #Educacao #Dados</p>
+      <button class="copybtn" id="copyLegenda" type="button">Copiar legenda</button>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">3</span>Guião de vídeo (HeyGen, 6 cenas)</h2>
+    <div class="panel">
+      <div class="scene"><b>Cena 1 — Gancho</b><p>A União Europeia pensa muito bem sobre inteligência artificial. Mas transforma muito pouco isso em produto. Hoje trago três dados que mudam esta conversa.</p></div>
+      <div class="scene"><b>Cena 2 — Conteúdo</b><p>A União Europeia representa só sete por cento dos players globais de inteligência artificial generativa. A China tem sessenta por cento. Os Estados Unidos, doze.</p></div>
+      <div class="scene"><b>Cena 3 — Conteúdo</b><p>Nas patentes, o fosso é maior ainda. A União Europeia detém apenas dois por cento das patentes mundiais, mesmo depois de a atividade europeia ter crescido trinta e dois por cento ao ano entre 2019 e 2021.</p></div>
+      <div class="scene"><b>Cena 4 — Conteúdo</b><p>E aqui está o paradoxo. A União Europeia é o segundo lugar do mundo em publicações científicas sobre inteligência artificial generativa. Pensa bem. Só não transforma essas ideias em produtos.</p></div>
+      <div class="scene"><b>Cena 5 — Conteúdo</b><p>O terceiro dado é o que mais me surpreendeu. Segundo o relatório do JRC, a inteligência artificial toca mais o trabalho de quem ensina do que o de quem faz limpeza. Porquê? Porque a investigação em inteligência artificial foca-se em compreender e explicar, exatamente o que um professor faz na sala de aula.</p></div>
+      <div class="scene"><b>Cena 6 — Fecho e chamada à ação</b><p>Estes três dados mudam a conversa. Se trabalhas em educação, vale a pena perceberes onde a inteligência artificial já toca o teu trabalho. Subscreve e segue para mais dados como este.</p></div>
+      <div class="note">Nota para o HeyGen: usar as PNGs do carrossel (s1 a s8) como fundo de cada cena, pela ordem, com o avatar a narrar por cima.</div>
+      <button class="copybtn" id="copyGuiao" type="button" style="margin-top:16px;">Copiar guião</button>
+    </div>
+  </section>
+
+  <footer>Carrossel 28 de 32 · @sandra.lourenco.ia · Publicação final sempre feita pela Sandra.</footer>
+</div>
+
+<script>
+(function(){
+  var tabs = document.querySelectorAll('.tab');
+  var panels = {linkedin: document.getElementById('text-linkedin'), tiktok: document.getElementById('text-tiktok')};
+  tabs.forEach(function(t){
+    t.addEventListener('click', function(){
+      tabs.forEach(function(o){o.setAttribute('aria-selected', o===t ? 'true':'false');});
+      Object.keys(panels).forEach(function(k){panels[k].hidden = (k !== t.dataset.tab);});
+    });
+  });
+
+  function wireCopy(btnId, sourceGetter){
+    var btn = document.getElementById(btnId);
+    btn.addEventListener('click', function(){
+      var text = sourceGetter();
+      var done = function(){
+        var original = btn.textContent;
+        btn.textContent = 'Copiado ✓';
+        btn.classList.add('done');
+        setTimeout(function(){ btn.textContent = original; btn.classList.remove('done'); }, 1800);
+      };
+      try{
+        navigator.clipboard.writeText(text).then(done).catch(function(){ fallbackCopy(text, done); });
+      }catch(e){ fallbackCopy(text, done); }
+    });
+  }
+  function fallbackCopy(text, done){
+    try{
+      var ta = document.createElement('textarea');
+      ta.value = text; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.focus(); ta.select();
+      document.execCommand('copy'); document.body.removeChild(ta);
+      done();
+    }catch(e){}
+  }
+
+  wireCopy('copyLegenda', function(){
+    var active = document.querySelector('.tab[aria-selected="true"]').dataset.tab;
+    return panels[active].textContent;
+  });
+  wireCopy('copyGuiao', function(){
+    return Array.from(document.querySelectorAll('.scene')).map(function(s){
+      return s.querySelector('b').textContent + '\n' + s.querySelector('p').textContent;
+    }).join('\n\n') + '\n\nNota para o HeyGen: usar as PNGs do carrossel (s1 a s8) como fundo de cada cena, pela ordem, com o avatar a narrar por cima.';
+  });
+})();
+</script>

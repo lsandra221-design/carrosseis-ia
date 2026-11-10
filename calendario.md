@@ -47,7 +47,7 @@ Estado: `[ ]` por fazer · `[x]` feito. Marcar `[x]` e fazer commit ao concluir.
 | 25 | Ter 24/11 | Quem é responsável quando a IA erra na avaliação? | 7 | Função Pública | [x] |
 | 26 | Qui 26/11 | Como falar de IA com encarregados de educação | 4 | Educação | [x] |
 | 27 | Ter 01/12 | O que dizem os dados da OCDE 2026 | 12 | Dados | [x] |
-| 28 | Qui 03/12 | 3 dados do relatório JRC que mudam a conversa | 11 | Dados | [ ] |
+| 28 | Qui 03/12 | 3 dados do relatório JRC que mudam a conversa | 11 | Dados | [x] |
 | 29 | Ter 08/12 | Países que já formam professores em IA | 12 | Função Pública/Dados | [ ] |
 | 30 | Qui 10/12 | O que aprendi a ler 12 documentos sobre IA na educação | 1 | Educação | [ ] |
 | 31 | Ter 15/12 | Plano pessoal de 90 dias para subir de nível em IA | 1 | RH | [ ] |
