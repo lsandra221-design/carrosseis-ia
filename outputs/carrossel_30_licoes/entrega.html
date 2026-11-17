@@ -1,0 +1,201 @@
+<title>Carrossel 30 — Lições</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+:root{
+  --bg:#f4f5f9; --surface:#ffffff; --ink:#0f1a3d; --muted:#6a7284;
+  --line:#e3e7f2; --blue:#2563ff; --orange:#ff5a1f; --green:#1a9e4b;
+  --blue-soft:#eaf0ff;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0c1224; --surface:#141b33; --ink:#eef1f8; --muted:#9aa3c0;
+    --line:#242d4e; --blue:#5b8bff; --orange:#ff7a44; --green:#3ec971;
+    --blue-soft:#1a2448; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0c1224; --surface:#141b33; --ink:#eef1f8; --muted:#9aa3c0;
+  --line:#242d4e; --blue:#5b8bff; --orange:#ff7a44; --green:#3ec971;
+  --blue-soft:#1a2448; color-scheme:dark;
+}
+*{box-sizing:border-box;}
+body{
+  background:var(--bg); color:var(--ink);
+  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  padding-left:max(16px, env(safe-area-inset-left,0px));
+  padding-right:max(16px, env(safe-area-inset-right,0px));
+  padding-block:32px 60px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Inter:wght@400;500;600;700&display=swap');
+.wrap{max-width:860px;margin:0 auto;}
+.eyebrow{font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--blue);margin-bottom:10px;}
+h1{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:clamp(26px,5vw,38px);line-height:1.15;margin:0 0 10px;letter-spacing:-.01em;}
+.sub{color:var(--muted);font-size:16px;line-height:1.5;margin:0 0 32px;max-width:60ch;}
+h2{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:19px;margin:0 0 14px;display:flex;align-items:center;gap:10px;}
+.tag{display:inline-flex;align-items:center;justify-content:center;background:var(--blue-soft);color:var(--blue);font-size:12px;font-weight:700;border-radius:999px;padding:4px 11px;}
+section{margin-bottom:40px;}
+.grid{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:12px;
+}
+@media (max-width:640px){ .grid{grid-template-columns:repeat(2,1fr);} }
+.grid figure{margin:0;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:var(--surface);position:relative;}
+.grid img{display:block;width:100%;height:auto;cursor:zoom-in;}
+.grid figcaption{position:absolute;top:8px;left:8px;background:rgba(15,26,61,.72);color:#fff;font-size:11px;font-weight:700;padding:3px 9px;border-radius:999px;}
+.card{
+  background:var(--surface);border:1px solid var(--line);border-radius:18px;
+  padding:22px 22px 18px;position:relative;
+}
+.card + .card{margin-top:16px;}
+.card pre{
+  white-space:pre-wrap;word-wrap:break-word;font-family:inherit;font-size:14.5px;
+  line-height:1.6;color:var(--ink);margin:0;max-height:unset;
+}
+.card .label{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:10px;}
+.copybtn{
+  position:absolute;top:16px;right:16px;border:1px solid var(--line);background:var(--bg);
+  color:var(--ink);font-size:13px;font-weight:600;padding:7px 13px;border-radius:9px;cursor:pointer;
+  display:inline-flex;align-items:center;gap:6px;transition:background .15s;
+}
+.copybtn:hover{background:var(--blue-soft);color:var(--blue);}
+.copybtn.copied{background:var(--green);color:#fff;border-color:var(--green);}
+.scene{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--line);}
+.scene:last-of-type{border-bottom:none;}
+.scene .n{flex:0 0 auto;width:26px;height:26px;border-radius:50%;background:var(--orange);color:#fff;font-weight:800;font-size:13px;display:flex;align-items:center;justify-content:center;}
+.scene .t{font-size:14.5px;line-height:1.55;}
+.scene .t b{display:block;font-size:12.5px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);font-weight:700;margin-bottom:3px;}
+.note{
+  background:var(--blue-soft);color:var(--ink);border-radius:12px;padding:14px 16px;
+  font-size:13.5px;line-height:1.5;margin-top:4px;
+}
+footer{text-align:center;color:var(--muted);font-size:13px;margin-top:48px;}
+.lightbox{
+  position:fixed;inset:0;background:rgba(5,8,20,.86);display:none;
+  align-items:center;justify-content:center;z-index:50;padding:24px;
+  padding-left:max(24px, env(safe-area-inset-left,0px));
+  padding-right:max(24px, env(safe-area-inset-right,0px));
+}
+.lightbox.open{display:flex;}
+.lightbox img{max-width:100%;max-height:90vh;border-radius:12px;}
+</style>
+
+<div class="wrap">
+  <div class="eyebrow">Carrossel 30 · Educação</div>
+  <h1>O que aprendi a ler 12 documentos sobre IA</h1>
+  <p class="sub">8 slides prontos, legendas para LinkedIn e TikTok/Instagram, e o guião de vídeo para o HeyGen. Tudo com botão de copiar — pronto a publicar.</p>
+
+  <section>
+    <h2>Slides <span class="tag">8 imagens</span></h2>
+    <div class="grid" id="gallery">
+      <figure><figcaption>1</figcaption><img src="carrossel_30_s1.png" alt="Slide 1"></figure>
+      <figure><figcaption>2</figcaption><img src="carrossel_30_s2.png" alt="Slide 2"></figure>
+      <figure><figcaption>3</figcaption><img src="carrossel_30_s3.png" alt="Slide 3"></figure>
+      <figure><figcaption>4</figcaption><img src="carrossel_30_s4.png" alt="Slide 4"></figure>
+      <figure><figcaption>5</figcaption><img src="carrossel_30_s5.png" alt="Slide 5"></figure>
+      <figure><figcaption>6</figcaption><img src="carrossel_30_s6.png" alt="Slide 6"></figure>
+      <figure><figcaption>7</figcaption><img src="carrossel_30_s7.png" alt="Slide 7"></figure>
+      <figure><figcaption>8</figcaption><img src="carrossel_30_s8.png" alt="Slide 8"></figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>Legendas</h2>
+    <div class="card">
+      <div class="label">LinkedIn</div>
+      <button class="copybtn" data-target="cap-linkedin">Copiar</button>
+      <pre id="cap-linkedin">Passei os últimos três meses a ler doze documentos sobre inteligência artificial na educação. Relatórios da UNESCO, da OCDE, do JRC, guias, orientações éticas. Ficou um fio comum.
+
+Em 2022, quase ninguém tinha um plano para isto. Só sete países tinham desenvolvido um referencial de competências em IA para professores. A maioria ficou sem orientação formal, à espera que alguém escrevesse as regras.
+
+Reparei também que a estrutura se repete: cinco dimensões, três níveis de progressão, quinze competências. Não é um conjunto de regras soltas, é um percurso.
+
+E a relação na sala de aula mudou de forma. Já não é só professor e aluno. Passou a ser professor, inteligência artificial e aluno. Isso pede um papel diferente de quem ensina, não só ferramentas novas.
+
+A primeira competência de todas não é técnica. É a mentalidade centrada no ser humano. Só depois vêm a ética, os fundamentos e a pedagogia.
+
+E talvez a ideia mais simples de todas: aprender a usar uma ferramenta leva uma tarde. Decidir quando não a usar leva muito mais tempo. É aí que está o verdadeiro trabalho do professor.
+
+#InteligenciaArtificial #Educacao #FuncaoPublica</pre>
+    </div>
+    <div class="card">
+      <div class="label">TikTok / Instagram</div>
+      <button class="copybtn" data-target="cap-tiktok">Copiar</button>
+      <pre id="cap-tiktok">Li 12 documentos sobre inteligência artificial na educação. Relatórios da UNESCO, da OCDE, do JRC.
+
+Em 2022, só sete países tinham um plano para isto. Hoje há uma estrutura clara: 5 dimensões, 3 níveis, 15 competências.
+
+Desliza para veres o que mudou mesmo na forma como vejo isto.
+
+#InteligenciaArtificial #Educacao #UNESCO</pre>
+    </div>
+  </section>
+
+  <section>
+    <h2>Guião de vídeo <span class="tag">HeyGen · 6 cenas</span></h2>
+    <div class="card">
+      <button class="copybtn" data-target="video-script">Copiar</button>
+      <div id="video-script-view">
+        <div class="scene"><span class="n">1</span><span class="t"><b>Gancho</b>Passei os últimos três meses a ler doze documentos sobre inteligência artificial na educação. E ficou um fio comum em quase todos.</span></div>
+        <div class="scene"><span class="n">2</span><span class="t"><b>Conteúdo</b>Em 2022, quase ninguém tinha um plano para isto. Só sete países tinham um referencial de competências em inteligência artificial para professores.</span></div>
+        <div class="scene"><span class="n">3</span><span class="t"><b>Conteúdo</b>A estrutura repete-se nos documentos: cinco dimensões, três níveis de progressão, quinze competências. Não são regras soltas, é um percurso.</span></div>
+        <div class="scene"><span class="n">4</span><span class="t"><b>Conteúdo</b>E a relação na sala de aula mudou de forma. Já não é só professor e aluno. Passou a ser professor, inteligência artificial e aluno.</span></div>
+        <div class="scene"><span class="n">5</span><span class="t"><b>Conteúdo</b>A primeira competência de todas não é técnica. É a mentalidade centrada no ser humano. A técnica vem depois.</span></div>
+        <div class="scene"><span class="n">6</span><span class="t"><b>Fecho e chamada à ação</b>Aprender a usar uma ferramenta leva uma tarde. Decidir quando não a usar leva muito mais tempo. Se queres saber mais sobre inteligência artificial na educação, subscreve e segue para mais conteúdos como este.</span></div>
+      </div>
+      <div class="note">Nota para o HeyGen: usar as PNGs do carrossel (slides 1 a 8) como fundo de cada cena, pela ordem, com o avatar a narrar por cima.</div>
+      <pre id="video-script" hidden>Cena 1 — Gancho
+Passei os últimos três meses a ler doze documentos sobre inteligência artificial na educação. E ficou um fio comum em quase todos.
+
+Cena 2 — Conteúdo
+Em 2022, quase ninguém tinha um plano para isto. Só sete países tinham um referencial de competências em inteligência artificial para professores.
+
+Cena 3 — Conteúdo
+A estrutura repete-se nos documentos: cinco dimensões, três níveis de progressão, quinze competências. Não são regras soltas, é um percurso.
+
+Cena 4 — Conteúdo
+E a relação na sala de aula mudou de forma. Já não é só professor e aluno. Passou a ser professor, inteligência artificial e aluno.
+
+Cena 5 — Conteúdo
+A primeira competência de todas não é técnica. É a mentalidade centrada no ser humano. A técnica vem depois.
+
+Cena 6 — Fecho e chamada à ação
+Aprender a usar uma ferramenta leva uma tarde. Decidir quando não a usar leva muito mais tempo. Se queres saber mais sobre inteligência artificial na educação, subscreve e segue para mais conteúdos como este.
+
+Nota para o HeyGen: usar as PNGs do carrossel (slides 1 a 8) como fundo de cada cena, pela ordem, com o avatar a narrar por cima.</pre>
+    </div>
+  </section>
+
+  <footer>@sandra.lourenco.ia · página privada · a publicação é sempre feita pela Sandra</footer>
+</div>
+
+<div class="lightbox" id="lightbox"><img id="lightbox-img" src="" alt=""></div>
+
+<script>
+document.querySelectorAll('.copybtn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var el = document.getElementById(btn.dataset.target);
+    var text = el.textContent;
+    function done(){
+      var old = btn.textContent;
+      btn.textContent = 'Copiado';
+      btn.classList.add('copied');
+      setTimeout(function(){ btn.textContent = old; btn.classList.remove('copied'); }, 1600);
+    }
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(done).catch(function(){
+        var r = document.createRange(); r.selectNode(el);
+        window.getSelection().removeAllRanges(); window.getSelection().addRange(r);
+        done();
+      });
+    }
+  });
+});
+var lb = document.getElementById('lightbox');
+var lbImg = document.getElementById('lightbox-img');
+document.querySelectorAll('#gallery img').forEach(function(img){
+  img.addEventListener('click', function(){
+    lbImg.src = img.src;
+    lb.classList.add('open');
+  });
+});
+lb.addEventListener('click', function(){ lb.classList.remove('open'); lbImg.src=''; });
+</script>
